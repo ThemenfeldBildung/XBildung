@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Art der Bildungseinrichtung</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Art der Bildungseinrichtung</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>XBildung</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2021-04-26</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:aenderungZurVorversion>.</xoev-cl-3:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>ArtDerBildungseinrichtung-Codes</ShortName>
+      <LongName>Art der Bildungseinrichtung</LongName>
+      <Version>0.4</Version>
+      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderbildungseinrichtung</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderbildungseinrichtung_0.4</CanonicalVersionUri>
+      <Agency>
+         <LongName>XBildung</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code Name</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="required">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Code Value Deutsch</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="mapping-ISCED" Use="optional">
+         <ShortName>mapping-ISCED</ShortName>
+         <LongName>Mapping Europass Assessment Type</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-3:empfohleneCodeSpalte/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Berufsakademie</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Berufsakademie</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Fachakademie</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fachakademie</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Fachschule(tertiaer)</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fachschule(tertiaer)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Gymnasium</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Gymnasium</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Hochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Hochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Kunsthochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Kunsthochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Musikhochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Musikhochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Realschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Realschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Sporthochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Sporthochschule</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDerBildungseinrichtung/Universitaet</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Universität</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue/>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

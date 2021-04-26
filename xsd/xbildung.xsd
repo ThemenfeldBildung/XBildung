@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xbildung.de/def/xbildung/0.4/xsd"
+           version="0.4"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+   <xs:include schemaLocation="xbildung-basisdatentypen.xsd"/>
+   <xs:include schemaLocation="xbildung-baukasten.xsd"/>
+</xs:schema>
