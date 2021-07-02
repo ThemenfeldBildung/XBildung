@@ -4,20 +4,20 @@
              xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
    <Annotation>
       <Description>
-         <xoev-cl-3:nameKurz>Art des Nachweises</xoev-cl-3:nameKurz>
-         <xoev-cl-3:beschreibung-codeliste>Art des Nachweises</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:nameKurz>Art der Trägerschaft</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Art der Trägerschaft</xoev-cl-3:beschreibung-codeliste>
          <xoev-cl-3:herausgebernameKurz>XBildung</xoev-cl-3:herausgebernameKurz>
-         <xoev-cl-3:datumGueltigkeitAb>2021-04-26</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:datumGueltigkeitAb>2020-04-26</xoev-cl-3:datumGueltigkeitAb>
          <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
          <xoev-cl-3:aenderungZurVorversion>.</xoev-cl-3:aenderungZurVorversion>
       </Description>
    </Annotation>
    <Identification>
-      <ShortName>ArtDesNachweises-Codes</ShortName>
-      <LongName>Art des Nachweises</LongName>
-      <Version>0.4</Version>
-      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdesnachweises</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesnachweises_0.4</CanonicalVersionUri>
+      <ShortName>ArtderTraegerschaft-Codes</ShortName>
+      <LongName>Art der Trägerschaft</LongName>
+      <Version>0.6</Version>
+      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft_0.6</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -46,50 +46,50 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/Abschlusszeugnis</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/1</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Abschlusszeugnis</SimpleValue>
+            <SimpleValue>Bund</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/Sportabzeichen</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/2</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Sportabzeichen</SimpleValue>
+            <SimpleValue>Land</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/Teilnahmebescheinigung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/3</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Teilnahmebescheinigung</SimpleValue>
+            <SimpleValue>Kommune</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/Urkunde</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/4</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Urkunde</SimpleValue>
+            <SimpleValue>Privat</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/Zwischenzeugnis</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/5</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Zwischenzeugnis</SimpleValue>
+            <SimpleValue>Kirchlich</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.4/code/ArtDesNachweises/sonstigerNachweis</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerTraegerschaft/6</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>sonstiger Nachweis</SimpleValue>
+            <SimpleValue>Sonstige</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

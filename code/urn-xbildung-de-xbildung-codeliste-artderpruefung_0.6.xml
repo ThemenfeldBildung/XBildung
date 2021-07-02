@@ -7,7 +7,7 @@
          <xoev-cl-3:nameKurz>Art der Prüfung</xoev-cl-3:nameKurz>
          <xoev-cl-3:beschreibung-codeliste>Art der Prüfung</xoev-cl-3:beschreibung-codeliste>
          <xoev-cl-3:herausgebernameKurz>XBildung</xoev-cl-3:herausgebernameKurz>
-         <xoev-cl-3:datumGueltigkeitAb>2021-04-26</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:datumGueltigkeitAb>2021-06-01</xoev-cl-3:datumGueltigkeitAb>
          <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
          <xoev-cl-3:aenderungZurVorversion>.</xoev-cl-3:aenderungZurVorversion>
       </Description>
@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>ArtderPruefung-Codes</ShortName>
       <LongName>Art der Prüfung</LongName>
-      <Version>0.4</Version>
+      <Version>0.6</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderpruefung</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderpruefung_0.4</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderpruefung_0.6</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -56,7 +56,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/besondereLernleistung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/besondereLernleistung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>besondere Lernleistung</SimpleValue>
@@ -70,7 +70,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/fortlaufendeBewertung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/fortlaufendeBewertung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>fortlaufende Bewertung</SimpleValue>
@@ -84,7 +84,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/kuenstlerischeEignungspruefung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/kuenstlerischeEignungspruefung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>künstlerische Eignungsprüfung</SimpleValue>
@@ -98,7 +98,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/muendlichePruefung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/muendlichePruefung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>mündliche Prüfung</SimpleValue>
@@ -112,7 +112,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/praktischePruefung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/praktischePruefung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>praktische Prüfung</SimpleValue>
@@ -126,7 +126,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/schriftlicheHausarbeit</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/schriftlicheHausarbeit</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>schriftliche Hausarbeit</SimpleValue>
@@ -140,7 +140,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDerPruefung/schriftlichePruefung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDerPruefung/schriftlichePruefung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>schriftliche Prüfung</SimpleValue>

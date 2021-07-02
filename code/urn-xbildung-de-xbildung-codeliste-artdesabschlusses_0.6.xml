@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>ArtdesAbschlusses-Codes</ShortName>
       <LongName>Art des Abschlusses</LongName>
-      <Version>0.4</Version>
+      <Version>0.6</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses_0.4</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses_0.6</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -51,7 +51,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Abitur</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Abitur</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Abitur</SimpleValue>
@@ -62,7 +62,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Bachelor</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Bachelor</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Bachelor</SimpleValue>
@@ -73,7 +73,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Diplom</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Diplom</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Diplom</SimpleValue>
@@ -84,7 +84,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Diplom(FH)</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Diplom(FH)</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Diplom (FH)</SimpleValue>
@@ -95,7 +95,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Master</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Master</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Master</SimpleValue>
@@ -106,7 +106,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Promotion</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Promotion</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Promotion</SimpleValue>
@@ -117,7 +117,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.4/code/ArtDesAbschlusses/Sekundarschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.6/code/ArtDesAbschlusses/Sekundarschulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Sekundarschulabschluss</SimpleValue>

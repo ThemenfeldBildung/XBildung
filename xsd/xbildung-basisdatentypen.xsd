@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xbd="http://xbildung.de/def/xbildung/0.4/xsd"
+           xmlns:xbd="http://xbildung.de/def/xbildung/0.6/xsd"
            xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
-           targetNamespace="http://xbildung.de/def/xbildung/0.4/xsd"
-           version="0.4"
+           targetNamespace="http://xbildung.de/def/xbildung/0.6/xsd"
+           version="0.6"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
    <xs:annotation>
@@ -16,9 +16,9 @@
             <beschreibung>XBildung</beschreibung>
          </standard>
          <versionStandard>
-            <version>0.4</version>
+            <version>0.6</version>
             <versionXOEVProfil>1.7.2</versionXOEVProfil>
-            <versionXOEVHandbuch>2.2</versionXOEVHandbuch>
+            <versionXOEVHandbuch>2.3.1</versionXOEVHandbuch>
             <versionXGenerator>3.0.1</versionXGenerator>
             <versionModellierungswerkzeug>19.0 SP 3</versionModellierungswerkzeug>
             <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
