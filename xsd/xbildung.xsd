@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://xbildung.de/def/xbildung/0.6/xsd"
-           version="0.6"
+           targetNamespace="http://xbildung.de/def/xbildung/0.7/xsd"
+           version="0.7"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
    <xs:include schemaLocation="xbildung-basisdatentypen.xsd"/>

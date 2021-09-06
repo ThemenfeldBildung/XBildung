@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Sorgeberechtigte</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Verhältnis der Sorgeberechtigten zum Lernenden</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>XBildung</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2021-09-06</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.1</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:aenderungZurVorversion>.</xoev-cl-3:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>Sorgeberechtigte-Codes</ShortName>
+      <LongName>Sorgeberechtigte</LongName>
+      <Version>0.7</Version>
+      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:sorgeberechtigte</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:sorgeberechtigte_0.7</CanonicalVersionUri>
+      <Agency>
+         <LongName>XBildung</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code Name</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="optional">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Sorgeberechtigte</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-3:empfohleneCodeSpalte/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/sorgeberechtigte/1</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Mutter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/sorgeberechtigte/2</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Vater</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/sorgeberechtigte/3</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Sonstige Sorgeberechtigte</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

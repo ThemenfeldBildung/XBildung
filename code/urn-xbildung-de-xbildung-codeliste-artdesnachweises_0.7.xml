@@ -15,9 +15,9 @@
    <Identification>
       <ShortName>ArtDesNachweises-Codes</ShortName>
       <LongName>Art des Nachweises</LongName>
-      <Version>0.6</Version>
+      <Version>0.7</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdesnachweises</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesnachweises_0.6</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesnachweises_0.7</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -30,7 +30,7 @@
       </Column>
       <Column Id="description-de-DE" Use="optional">
          <ShortName>description-de-DE</ShortName>
-         <LongName>Code Value Deutsch</LongName>
+         <LongName>Nachweis</LongName>
          <Data Type="string"/>
       </Column>
       <Key Id="codeKey">
@@ -46,47 +46,47 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/Abschlusszeugnis</SimpleValue>
+            <SimpleValue/>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Abschlusszeugnis</SimpleValue>
+            <SimpleValue/>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/Sportabzeichen</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.7/code/ArtDesNachweises/DiplomaSupplement</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Sportabzeichen</SimpleValue>
+            <SimpleValue>Diploma Supplement</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/Teilnahmebescheinigung</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.7/code/ArtDesNachweises/Hochschulabschlusszeugnis</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Teilnahmebescheinigung</SimpleValue>
+            <SimpleValue>Hochschulabschlusszeugnis</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/Urkunde</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.7/code/ArtDesNachweises/Leistungsuebersicht</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Urkunde</SimpleValue>
+            <SimpleValue>Leistungsübersicht</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/Zwischenzeugnis</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.7/code/ArtDesNachweises/NachweisgemaeßSDG-VO</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Zwischenzeugnis</SimpleValue>
+            <SimpleValue>Nachweis gemäß SDG-VO</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.6/code/ArtDesNachweises/sonstigerNachweis</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.7/code/ArtDesNachweises/sonstigerNachweis</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>sonstiger Nachweis</SimpleValue>

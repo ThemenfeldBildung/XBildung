@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
+   <Annotation>
+      <Description>
+         <xoev-cl-3:nameKurz>Art des Abschlusses</xoev-cl-3:nameKurz>
+         <xoev-cl-3:beschreibung-codeliste>Art des Abschlusses</xoev-cl-3:beschreibung-codeliste>
+         <xoev-cl-3:herausgebernameKurz>XBildung</xoev-cl-3:herausgebernameKurz>
+         <xoev-cl-3:datumGueltigkeitAb>2020-04-26</xoev-cl-3:datumGueltigkeitAb>
+         <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-3:aenderungZurVorversion>.</xoev-cl-3:aenderungZurVorversion>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>ArtdesAbschlusses-Codes</ShortName>
+      <LongName>Art des Abschlusses</LongName>
+      <Version>0.7</Version>
+      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses_0.7</CanonicalVersionUri>
+      <Agency>
+         <LongName>XBildung</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Code Name</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="description-de-DE" Use="optional">
+         <ShortName>description-de-DE</ShortName>
+         <LongName>Abschluss</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="mapping-ISCED" Use="optional">
+         <ShortName>mapping-ISCED</ShortName>
+         <LongName>UNESCO ISCED 2011-L</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-3:empfohleneCodeSpalte/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Abitur</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Allgemeine Hochschulreife</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 344</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/AllgemeineFachhochschulreife</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Allgemeine Fachhochschulreife</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 344</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Bachelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Bachelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 645</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Diplom</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Diplom</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 746</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Diplom(FH)</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Diplom (FH)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 645</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Fachabitur</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Fachgebundene Hochschulreife</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 344</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Fachschulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Meister- Technikerausbildung oder gleichwertiger Fachschulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 655</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Hauptschulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Erster allgemeinbildender Schulabschluss nach 9 Jahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 244</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Lehre</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Lehre/Berufsausbildung im dualen System</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 454</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Master</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Master</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 746</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/MittlererAbschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Realschulabschluss und vergleichbare Schulabschlüsse nach 10 Jahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 244</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Primarschulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Primarschulabschluss (Grundschule)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 100</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/Promotion</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Promotion</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 844</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/xbildung/0.7/code/ArtDesAbschlusses/QualifizierenderHauptschulabschlus</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Qualifizierende Hauptschulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED">
+            <SimpleValue>ISCED 244</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
