@@ -8,7 +8,7 @@
 XBildung ist ein Vorhaben zu Schaffung und Wahrung von Interoperabilität im Rahmen der Umsetzung des Onlinezugangsgesetzes (OZG), der Verordnung zur Errichtung eines einheitlichen digitalen Zugangstores (SDG) sowie weiteren bereits verabschiedeten oder geplanten Verordnungen mit Wirkung auf das Bildungswesen in Deutschland. XBildung bildet einen organisatorischen lebenslagen übergreifenden Rahmen.
 
 
-# Veröffentlichte Artefakte von XBildung
+# Veröffentlichte Artefakte von XBildung 
 
 XBildung besteht aus verschiedenen Artefakten, welche einem URI-Konzept folgend versioniert in diesem Repository erreichbar sind. 
 
