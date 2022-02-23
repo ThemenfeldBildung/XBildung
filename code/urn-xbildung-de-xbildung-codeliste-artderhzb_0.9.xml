@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
    <Annotation>
       <Description>
-         <xoev-cl-3:nameKurz>Art der HZB</xoev-cl-3:nameKurz>
-         <xoev-cl-3:beschreibung-codeliste>Diese Codeliste enthält mögliche Ausprägungen der Art einer Hochschulzugangsberechtigung.</xoev-cl-3:beschreibung-codeliste>
-         <xoev-cl-3:herausgebernameKurz>XBildung.de</xoev-cl-3:herausgebernameKurz>
-         <xoev-cl-3:datumGueltigkeitAb>2021-06-01</xoev-cl-3:datumGueltigkeitAb>
-         <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-4:shortName>Art der HZB</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen der Art einer Hochschulzugangsberechtigung.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>XBildung.de</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2021-06-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
       </Description>
    </Annotation>
    <Identification>
       <ShortName>ArtDerHZB-Codes</ShortName>
       <LongName>Art der Hochschulzugangsberechtigung</LongName>
-      <Version>0.8</Version>
+      <Version>0.9</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderhzb</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderhzb_0.8</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderhzb_0.9</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -40,7 +40,7 @@
       <Key Id="codeKey">
          <Annotation>
             <AppInfo>
-               <xoev-cl-3:empfohleneCodeSpalte/>
+               <xoev-cl-4:recommendedKeyColumn/>
             </AppInfo>
          </Annotation>
          <ShortName>codeKey</ShortName>
@@ -50,7 +50,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/03</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/03</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Gymnasium</SimpleValue>
@@ -61,7 +61,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/06</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/06</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Gesamtschule</SimpleValue>
@@ -72,7 +72,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/17</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/17</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Erwerb der HZB an einer deutschen  Schule im Ausland</SimpleValue>
@@ -83,7 +83,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/18</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/18</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachgymnasium</SimpleValue>
@@ -94,7 +94,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/21</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/21</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Berufsoberschule, Fachakademie</SimpleValue>
@@ -105,7 +105,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/27</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/27</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Abendgymnasium/Kolleg</SimpleValue>
@@ -116,7 +116,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/28</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/28</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachoberschule</SimpleValue>
@@ -127,7 +127,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/31</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/31</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Studienkolleg</SimpleValue>
@@ -138,10 +138,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/33</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/33</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
-            <SimpleValue>Begabten&amp;/Eignungsprüfung</SimpleValue>
+            <SimpleValue>Begabten-&amp;/Eignungsprüfung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-2">
             <SimpleValue>aHR</SimpleValue>
@@ -149,7 +149,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/34</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/34</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Beruflich Qualifizierte</SimpleValue>
@@ -160,7 +160,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/37</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/37</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstige Studienberechtigung</SimpleValue>
@@ -171,7 +171,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/39</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/39</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstiger Erwerb der HZB im Ausland</SimpleValue>
@@ -182,7 +182,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/43</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/43</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachgymnasium</SimpleValue>
@@ -193,7 +193,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/44</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/44</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Berufsoberschule, Fachakademie</SimpleValue>
@@ -204,7 +204,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/47</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/47</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Erwerb der HZB an einer deutschen  Schule im Ausland</SimpleValue>
@@ -215,7 +215,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/48</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/48</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachoberschule</SimpleValue>
@@ -226,7 +226,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/51</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/51</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Studienkolleg</SimpleValue>
@@ -237,10 +237,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/52</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/52</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
-            <SimpleValue>Begabten&amp;/Eignungsprüfung</SimpleValue>
+            <SimpleValue>Begabten-&amp;/Eignungsprüfung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-2">
             <SimpleValue>fgHR</SimpleValue>
@@ -248,7 +248,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/53</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/53</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Beruflich Qualifizierte</SimpleValue>
@@ -259,7 +259,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/55</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/55</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstige Studienberechtigung</SimpleValue>
@@ -270,7 +270,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/59</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/59</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstiger Erwerb der HZB im Ausland</SimpleValue>
@@ -281,7 +281,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/60</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/60</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Gymnasium</SimpleValue>
@@ -292,7 +292,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/62</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/62</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Gesamtschule</SimpleValue>
@@ -303,7 +303,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/64</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/64</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachgymnasium</SimpleValue>
@@ -314,7 +314,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/65</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/65</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Berufsoberschule, Fachakademie</SimpleValue>
@@ -325,7 +325,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/66</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/66</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachoberschule</SimpleValue>
@@ -336,7 +336,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/67</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/67</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Erwerb der HZB an einer deutschen  Schule im Ausland</SimpleValue>
@@ -347,7 +347,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/70</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/70</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Abendgymnasium/Kolleg</SimpleValue>
@@ -358,7 +358,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/71</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/71</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Beruflich Qualifizierte</SimpleValue>
@@ -369,7 +369,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/72</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/72</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Berufsfachschule</SimpleValue>
@@ -380,7 +380,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/73</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/73</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Fachschule</SimpleValue>
@@ -391,7 +391,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/76</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/76</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Studienkolleg</SimpleValue>
@@ -402,10 +402,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/77</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/77</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
-            <SimpleValue>Begabten&amp;/Eignungsprüfung</SimpleValue>
+            <SimpleValue>Begabten-&amp;/Eignungsprüfung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-2">
             <SimpleValue>FHR</SimpleValue>
@@ -413,7 +413,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/78</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/78</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstige Studienberechtigung</SimpleValue>
@@ -424,7 +424,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerHZB/79</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHZB/79</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE-1">
             <SimpleValue>Sonstiger Erwerb der HZB im Ausland</SimpleValue>

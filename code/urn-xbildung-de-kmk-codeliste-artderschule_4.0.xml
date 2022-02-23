@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xmlns:xoev-cl-3="http://xoev.de/schemata/genericode/3">
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
    <Annotation>
       <Description>
-         <xoev-cl-3:nameKurz>Art der Bildungseinrichtung (Schulen)</xoev-cl-3:nameKurz>
-         <xoev-cl-3:beschreibung-codeliste>Diese Codeliste enthält mögliche Ausprägungen der Art einer Schule gemäß Kultusministerkonferenz vom 15.12.2011.</xoev-cl-3:beschreibung-codeliste>
-         <xoev-cl-3:herausgebernameKurz>XBildung.de</xoev-cl-3:herausgebernameKurz>
-         <xoev-cl-3:datumGueltigkeitAb>2021-06-01</xoev-cl-3:datumGueltigkeitAb>
-         <xoev-cl-3:versionCodelistenHandbuch>1.0</xoev-cl-3:versionCodelistenHandbuch>
+         <xoev-cl-4:shortName>Art der Schule</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen von Schularten nach dem Kerndatensatz (KDS) 4.0 der Kultusministerkonferenz (KMK).</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>KMK</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2021-06-01</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
       </Description>
    </Annotation>
    <Identification>
       <ShortName>ArtDerSchule-Codes</ShortName>
-      <LongName>Art der Bildungseinrichtung (Schulen)</LongName>
-      <Version>0.8</Version>
-      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderschule</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderschule_0.8</CanonicalVersionUri>
+      <LongName>Art der Schule</LongName>
+      <Version>4.0</Version>
+      <CanonicalUri>urn:xbildung-de:kmk:codeliste:artderschule</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:kmk:codeliste:artderschule_4.0</CanonicalVersionUri>
       <Agency>
-         <LongName>XBildung</LongName>
+         <LongName>Kultusministerkonferenz</LongName>
       </Agency>
    </Identification>
    <ColumnSet>
@@ -35,7 +35,7 @@
       <Key Id="codeKey">
          <Annotation>
             <AppInfo>
-               <xoev-cl-3:empfohleneCodeSpalte/>
+               <xoev-cl-4:recommendedKeyColumn/>
             </AppInfo>
          </Annotation>
          <ShortName>codeKey</ShortName>
@@ -45,7 +45,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/010</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/010</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Vorklasse</SimpleValue>
@@ -53,7 +53,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/020</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/020</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Vorklasse an Förderschule</SimpleValue>
@@ -61,7 +61,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/030</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/030</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schulkindergarten</SimpleValue>
@@ -69,7 +69,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/040</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/040</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schulkindergarten an Förderschule</SimpleValue>
@@ -77,7 +77,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/050</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/050</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Grundschule (1 - 4)</SimpleValue>
@@ -85,7 +85,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/060</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/060</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schulartunabhängige Orientierungsstufe</SimpleValue>
@@ -93,7 +93,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/070</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/070</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Hauptschule</SimpleValue>
@@ -101,7 +101,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/080</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/080</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schule mit mehreren Bildungsgängen</SimpleValue>
@@ -109,7 +109,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/090</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/090</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Realschule</SimpleValue>
@@ -117,7 +117,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/100</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/100</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Gymnasium</SimpleValue>
@@ -125,7 +125,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/110</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/110</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Integrierte Gesamtschule</SimpleValue>
@@ -133,7 +133,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/120</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/120</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Freie Waldorfschule</SimpleValue>
@@ -141,7 +141,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/130</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/130</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Förderschule (Sonderschule)</SimpleValue>
@@ -149,7 +149,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/140</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/140</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Abendhauptschule</SimpleValue>
@@ -157,7 +157,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/150</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/150</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Abendrealschule</SimpleValue>
@@ -165,7 +165,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/160</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/160</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Abendgymnasium</SimpleValue>
@@ -173,7 +173,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/170</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/170</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Kolleg</SimpleValue>
@@ -181,7 +181,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/180</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/180</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Teilzeit-Berufsschule</SimpleValue>
@@ -189,7 +189,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/190</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/190</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Berufsvorbereitungsjahr</SimpleValue>
@@ -197,7 +197,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/200</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/200</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Berufsgrundbildungsjahr in Vollzeitform</SimpleValue>
@@ -205,7 +205,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/210</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/210</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Berufsaufbauschule</SimpleValue>
@@ -213,7 +213,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/220</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/220</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Berufsfachschule</SimpleValue>
@@ -221,7 +221,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/230</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/230</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Berufsoberschule/Technische Oberschule</SimpleValue>
@@ -229,7 +229,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/240</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/240</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachgymnasium</SimpleValue>
@@ -237,7 +237,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/250</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/250</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachoberschule</SimpleValue>
@@ -245,7 +245,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/260</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/260</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachschule</SimpleValue>
@@ -253,7 +253,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/270</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/270</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachakademie/Berufsakademie</SimpleValue>
@@ -261,7 +261,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.8/code/ArtDerSchule/280</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/280</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schule des Gesundheitswesens</SimpleValue>

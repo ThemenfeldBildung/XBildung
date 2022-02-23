@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xbd="http://xbildung.de/def/xbildung/0.8/xsd"
+           xmlns:xbd="http://xbildung.de/def/xbildung/0.9/xsd"
            xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
-           targetNamespace="http://xbildung.de/def/xbildung/0.8/xsd"
-           version="0.8"
+           targetNamespace="http://xbildung.de/def/xbildung/0.9/xsd"
+           version="0.9"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
    <xs:annotation>
@@ -16,9 +16,9 @@
             <beschreibung>XBildung</beschreibung>
          </standard>
          <versionStandard>
-            <version>0.8</version>
-            <versionXOEVProfil>1.7.2</versionXOEVProfil>
-            <versionXOEVHandbuch>2.3.1</versionXOEVHandbuch>
+            <version>0.9</version>
+            <versionXOEVProfil>2.0.0</versionXOEVProfil>
+            <versionXOEVHandbuch>2.4</versionXOEVHandbuch>
             <versionXGenerator>3.0.1</versionXGenerator>
             <versionModellierungswerkzeug>19.0 SP 3</versionModellierungswerkzeug>
             <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
@@ -31,11 +31,11 @@
               namespace="http://www.w3.org/XML/1998/namespace"/>
    <xs:complexType name="String.Localized">
       <xs:annotation>
-         <xs:documentation>Erweiterung eines String-Datentyps um das Attribut xml:lang</xs:documentation>
+         <xs:documentation>Erweiterung eines String-Datentyps um das Attribut xml:lang (optional)</xs:documentation>
       </xs:annotation>
       <xs:simpleContent>
          <xs:extension base="xs:string">
-            <xs:attribute ref="xml:lang" use="required"/>
+            <xs:attribute ref="xml:lang" use="optional"/>
          </xs:extension>
       </xs:simpleContent>
    </xs:complexType>

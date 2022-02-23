@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron"
             xmlns:xs="http://www.w3.org/2001/XMLSchema"
-            queryBinding="xslt2">
-   <sch:ns prefix="dinspec91379"
-           uri="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"/>
-   <sch:ns prefix="eup" uri="http://data.europa.eu/snb"/>
-   <sch:ns prefix="gml" uri="http://www.opengis.net/gml/3.2"/>
-   <sch:ns prefix="xbd" uri="http://xbildung.de/def/xbildung/0.8/xsd"/>
+            queryBinding="xslt2">   
+   <sch:ns prefix="xbd" uri="http://xbildung.de/def/xbildung/0.9/xsd"/>
    <sch:ns prefix="xiaa" uri="http://www.osci.de/xinneres/auslandsanschrift/3"/>
    <sch:ns prefix="xian" uri="http://www.osci.de/xinneres/allgemeinername/2"/>
    <sch:ns prefix="xiaz" uri="http://www.osci.de/xinneres/azrnummer/1"/>
