@@ -14,9 +14,9 @@
    <Identification>
       <ShortName>Kursstatus-Codes</ShortName>
       <LongName>Kursstatus</LongName>
-      <Version>0.9</Version>
+      <Version>0.91</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:kursstatus</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:kursstatus_0.9</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:kursstatus_0.91</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -50,7 +50,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/Kursstatus/befreit</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/Kursstatus/befreit</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>befreit</SimpleValue>
@@ -61,7 +61,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/Kursstatus/bestanden</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/Kursstatus/bestanden</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>bestanden</SimpleValue>
@@ -72,7 +72,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/Kursstatus/erfolgreichteilgenommen</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/Kursstatus/erfolgreichteilgenommen</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>erfolgreich teilgenommen</SimpleValue>
@@ -83,7 +83,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/Kursstatus/nichtbestanden</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/Kursstatus/nichtbestanden</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>nicht bestanden</SimpleValue>

@@ -14,9 +14,9 @@
    <Identification>
       <ShortName>ArtdesAbschlusses-Codes</ShortName>
       <LongName>Art des Abschlusses</LongName>
-      <Version>0.9</Version>
+      <Version>0.91</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses_0.9</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdesabschlusses_0.91</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -50,7 +50,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Abitur</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Abitur</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Allgemeine Hochschulreife</SimpleValue>
@@ -61,7 +61,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/AllgemeineFachhochschulreife</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/AllgemeineFachhochschulreife</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Allgemeine Fachhochschulreife</SimpleValue>
@@ -72,7 +72,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Bachelor</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Bachelor</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Bachelor</SimpleValue>
@@ -83,7 +83,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Diplom</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Diplom</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Diplom</SimpleValue>
@@ -94,7 +94,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Diplom(FH)</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Diplom(FH)</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Diplom (FH)</SimpleValue>
@@ -105,7 +105,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Fachabitur</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Fachabitur</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachgebundene Hochschulreife</SimpleValue>
@@ -116,7 +116,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Fachschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Fachschulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Meister- Technikerausbildung oder gleichwertiger Fachschulabschluss</SimpleValue>
@@ -127,7 +127,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Hauptschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Hauptschulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Erster allgemeinbildender Schulabschluss nach 9 Jahren</SimpleValue>
@@ -138,7 +138,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Lehre</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Lehre</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Lehre/Berufsausbildung im dualen System</SimpleValue>
@@ -149,7 +149,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Master</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Master</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Master</SimpleValue>
@@ -160,7 +160,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/MittlererAbschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/MittlererAbschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Realschulabschluss und vergleichbare Schulabschlüsse nach 10 Jahren</SimpleValue>
@@ -171,7 +171,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Primarschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Primarschulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Primarschulabschluss (Grundschule)</SimpleValue>
@@ -182,7 +182,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/Promotion</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/Promotion</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Promotion</SimpleValue>
@@ -193,7 +193,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/0.9/code/ArtDesAbschlusses/QualifizierenderHauptschulabschlus</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDesAbschlusses/QualifizierenderHauptschulabschlus</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Qualifizierende Hauptschulabschluss</SimpleValue>

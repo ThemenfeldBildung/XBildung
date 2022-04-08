@@ -4,19 +4,19 @@
              xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4">
    <Annotation>
       <Description>
-         <xoev-cl-4:shortName>Art der Hochschule</xoev-cl-4:shortName>
-         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen der Art einer Hochschule.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:shortName>Art der Trägerschaft</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung.</xoev-cl-4:codelistDescription>
          <xoev-cl-4:agencyShortName>XBildung.de</xoev-cl-4:agencyShortName>
-         <xoev-cl-4:validFrom>2021-06-22</xoev-cl-4:validFrom>
+         <xoev-cl-4:validFrom>2020-04-26</xoev-cl-4:validFrom>
          <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
       </Description>
    </Annotation>
    <Identification>
-      <ShortName>ArtDerHochschule-Codes</ShortName>
-      <LongName>Art der Hochschule</LongName>
-      <Version>0.9</Version>
-      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderhochschule</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderhochschule_0.9</CanonicalVersionUri>
+      <ShortName>ArtderTraegerschaft-Codes</ShortName>
+      <LongName>Art der Trägerschaft</LongName>
+      <Version>0.91</Version>
+      <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft</CanonicalUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft_0.91</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -27,9 +27,9 @@
          <LongName>Code Name</LongName>
          <Data Type="string"/>
       </Column>
-      <Column Id="description-de-DE" Use="required">
+      <Column Id="description-de-DE" Use="optional">
          <ShortName>description-de-DE</ShortName>
-         <LongName>Hochschule</LongName>
+         <LongName>Trägerschaft</LongName>
          <Data Type="string"/>
       </Column>
       <Key Id="codeKey">
@@ -45,50 +45,50 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/1</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/1</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Universität</SimpleValue>
+            <SimpleValue>Bund</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/2</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/2</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Verwaltungsfachhochschule</SimpleValue>
+            <SimpleValue>Land</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/3</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/3</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Pädagogische Hochschule</SimpleValue>
+            <SimpleValue>Kommune</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/4</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/4</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Theologische Hochschule</SimpleValue>
+            <SimpleValue>Privat</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/5</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/5</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Kunsthochschule</SimpleValue>
+            <SimpleValue>Kirchlich</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.9/code/ArtDerHochschule/6</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xbildung/0.91/code/ArtDerTraegerschaft/6</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Fachhochschule</SimpleValue>
+            <SimpleValue>Sonstige</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
