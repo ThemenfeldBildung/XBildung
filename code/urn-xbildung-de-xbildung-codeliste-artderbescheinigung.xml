@@ -14,9 +14,9 @@
    <Identification>
       <ShortName>ArtDerBescheinigung-Codes</ShortName>
       <LongName>Art der Bescheinigung</LongName>
-      <Version>0.91</Version>
+      <Version>0.92</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderbescheinigung</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderbescheinigung_0.91</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderbescheinigung_0.92</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -50,7 +50,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/ArtDerBescheinigung/AndereBescheinigung</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.92/code/ArtDerBescheinigung/AndereBescheinigung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Andere Bescheinigung</SimpleValue>
@@ -59,7 +59,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/ArtDerBescheinigung/Exmatrikulationsbescheinigung</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.92/code/ArtDerBescheinigung/Exmatrikulationsbescheinigung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Bescheid über die erfolgte Exmatrikulation des Studierenden</SimpleValue>
@@ -70,7 +70,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/ArtDerBescheinigung/ImmatrikulationsbescheinigungBAfoeGP9</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.92/code/ArtDerBescheinigung/ImmatrikulationsbescheinigungBAfoeGP9</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Immatrikulationsbescheinigung nach BAföG §9</SimpleValue>
@@ -79,7 +79,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xbildung/0.91/code/ArtDerBescheinigung/Rentenbescheinigung</SimpleValue>
+            <SimpleValue>http://www.xbildung.de/def/xbildung/0.92/code/ArtDerBescheinigung/Rentenbescheinigung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Bescheinigung über den Studienverlauf für die Deutsche Rentenversicherung</SimpleValue>
