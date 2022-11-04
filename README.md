@@ -1,11 +1,13 @@
 # XBildung
 
-![Logo und Federfuehrer](http://www.xbildung.de/images/logo_und_federfuehrer.png)
+![Logo und Federfuehrer](https://xbildung.de/events/images/logo_und_federfuehrer.png)
 
 
 # Was ist XBildung?
 
 XBildung ist ein Vorhaben zu Schaffung und Wahrung von Interoperabilität im Rahmen der Umsetzung des Onlinezugangsgesetzes (OZG), der Verordnung zur Errichtung eines einheitlichen digitalen Zugangstores (SDG) sowie weiteren bereits verabschiedeten oder geplanten Verordnungen mit Wirkung auf das Bildungswesen in Deutschland. XBildung bildet einen organisatorischen lebenslagen übergreifenden Rahmen.
+
+Weitere Informationen erhalten Sie unter [https://xbildung.de/web/](https://xbildung.de/web/).
 
 
 # Veröffentlichte Artefakte von XBildung
