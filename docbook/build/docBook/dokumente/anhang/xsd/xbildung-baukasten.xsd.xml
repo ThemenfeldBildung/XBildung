@@ -24,11 +24,11 @@
          </row>
          <row>
             <entry>Version</entry>
-            <entry>0.93</entry>
+            <entry>0.94</entry>
          </row>
          <row>
             <entry>Namensraum</entry>
-            <entry>http://xbildung.de/def/xbildung/0.93/xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/0.94/xsd</entry>
          </row>
          <row>
             <entry>Präfix</entry>
@@ -36,7 +36,7 @@
          </row>
          <row>
             <entry>SchemaLocation</entry>
-            <entry>http://xbildung.de/def/xbildung/0.93/xsd/xbildung-baukasten.xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/0.94/xsd/xbildung-baukasten.xsd</entry>
          </row>
          <row>
             <entry>Inkludierte XSDs</entry>
@@ -56,16 +56,10 @@
                      <para>din-91379-datatypes.xsd (dinspec91379 : urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03)</para>
                   </listitem>
                   <listitem>
+                     <para>din-norm-91379-datatypes.xsd (din91379 : urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08)</para>
+                  </listitem>
+                  <listitem>
                      <para>latinchars.xsd (xoev-lc : http://xoev.de/latinchars/1_1/datatypes)</para>
-                  </listitem>
-                  <listitem>
-                     <para>xinneres-auslandsanschrift.xsd (xiaa : http://www.osci.de/xinneres/auslandsanschrift/3)</para>
-                  </listitem>
-                  <listitem>
-                     <para>xinneres-codes-gemeindeverzeichnis.xsd (xicgvz : http://www.osci.de/xinneres/codes/gemeindeverzeichnis/2)</para>
-                  </listitem>
-                  <listitem>
-                     <para>xinneres-meldeanschrift.xsd (xima : http://www.osci.de/xinneres/meldeanschrift/3)</para>
                   </listitem>
                   <listitem>
                      <para>xoev-code.xsd (xoev-code : http://xoev.de/schemata/code/1_0)</para>

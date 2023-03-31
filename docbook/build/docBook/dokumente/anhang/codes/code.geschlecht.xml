@@ -26,6 +26,7 @@
 
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht</link></para>
 
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
 <listitem><para><emphasis role="bold">männlich</emphasis> : m</para></listitem>

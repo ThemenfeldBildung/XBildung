@@ -6,7 +6,6 @@
          status="&specstatus;"
          revision="&xrecent;">
    <title xmlns:xlink="http://www.w3.org/1999/xlink">Übersicht über die Code-Datentypen</title>
-   <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderhochschule.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderpruefung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderschule.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artdertraegerschaft.xml"/>

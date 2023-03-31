@@ -15,28 +15,9 @@
    <title xmlns:xlink="http://www.w3.org/1999/xlink">Eingebundene externe Modelle</title>
    <para xmlns:xlink="http://www.w3.org/1999/xlink">Folgende externe Modelle werden in dieser Spezifikation verwendet und sind auf den XÖV-Webseiten (siehe <link xlink:href="http://www.xoev.de/de/produkte">http://www.xoev.de/de/produkte</link>) oder im XRepository (siehe <link xlink:href="http://www.xrepository.de">http://www.xrepository.de</link>) veröffentlicht:</para>
    <section xmlns:xlink="http://www.w3.org/1999/xlink"
-            xml:id="externe.modelle.XInneres">
-      <title>XInneres</title>
-      <para>XInneres-Basismodul; Version 8</para>
-      <para>Bezugsort: <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:kosit:standard:xinneres.basismodul_8">
-         https://www.xrepository.de/details/urn:xoev-de:kosit:standard:xinneres.basismodul_8 </link></para>
-      <para>Folgende Datentypen aus dem externen Modell werden in dieser Spezifikation verwendet:</para>
-      <itemizedlist>
-         <listitem>
-            <para>Auslandsanschrift</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift</para>
-         </listitem>
-         <listitem>
-            <para>Code.GemeindeVZ.AmtlicherGemeindeschluessel</para>
-         </listitem>
-      </itemizedlist>
-   </section>
-   <section xmlns:xlink="http://www.w3.org/1999/xlink"
             xml:id="externe.modelle.XOEV_Bibliothek">
       <title>XOEV-Bibliothek</title>
-      <para>XOEV-Bibliothek; Fassung 2021-12-15</para>
+      <para>XOEV-Bibliothek; Fassung 2022-12-15</para>
       <para>Bezugsort: <link xlink:href="http://www.xoev.de/de/bibliothek">
          http://www.xoev.de/de/bibliothek </link></para>
       <para>Folgende Datentypen aus dem externen Modell werden in dieser Spezifikation verwendet:</para>

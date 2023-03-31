@@ -36,9 +36,9 @@
 </para>
 <para>If an authority code is needed for a language without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic.</para>
 
-<para>Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
-
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri​=http://publications.europa.eu/​resource/​dataset/language</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
 
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
@@ -59,7 +59,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>20210929-0</entry>
+               <entry>20220928-0</entry>
             </row>
          </tbody>
       </tgroup>

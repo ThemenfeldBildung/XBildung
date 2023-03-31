@@ -24,9 +24,11 @@
                <entry>-beschreibung</entry>
                <entry><para>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: <link xlink:href="http://uis.unesco.org/en/isced-mappings" xmlns:xlink="http://www.w3.org/1999/xlink">http://uis.unesco.org/en/isced-mappings</link></para>
 
-<para>ISCED 2011 definiert neun Ebenen (Level 0 bis 8) für die Angabe des Bildungsniveaus. Der zu verwendende Schlüssel ist die einstellige Ziffer des Levels.</para>
+<para>ISCED 2011 definiert neun Ebenen (Level 0 bis 8) für die Angabe des Bildungsniveaus.</para>
 
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.datenportal.bmbf.de/portal/de/G293.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.datenportal.bmbf.de/​portal/de/G293.html</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die einstellige Ziffer des Levels.</para>
 
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">

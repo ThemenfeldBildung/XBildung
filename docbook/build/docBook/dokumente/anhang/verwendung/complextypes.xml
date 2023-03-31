@@ -32,16 +32,7 @@
             <para>Anschrift</para>
          </listitem>
          <listitem>
-            <para>Auslandsanschrift.Anschriftzone</para>
-         </listitem>
-         <listitem>
-            <para>Auslandsanschrift.Druckbild</para>
-         </listitem>
-         <listitem>
             <para>Benotung</para>
-         </listitem>
-         <listitem>
-            <para>Code.ArtDerHochschule</para>
          </listitem>
          <listitem>
             <para>Code.ArtDerPruefung</para>
@@ -104,39 +95,6 @@
             <para>Kurs</para>
          </listitem>
          <listitem>
-            <para>Meldeanschrift</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Hausnummer</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.HausnummerBuchstabeZusatzziffer</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Postleitzahl</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Stockwerkswohnungsnummer</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Strasse</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.TeilnummerDerHausnummer</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Wohnort</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.WohnortFruehererGemeindename</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Wohnungsinhaber</para>
-         </listitem>
-         <listitem>
-            <para>Meldeanschrift.Zusatzangaben</para>
-         </listitem>
-         <listitem>
             <para>NameNatuerlichePerson</para>
          </listitem>
          <listitem>
@@ -159,15 +117,6 @@
          </listitem>
          <listitem>
             <para>VerwaltungspolitischeKodierung</para>
-         </listitem>
-         <listitem>
-            <para>ZeileAufschrift</para>
-         </listitem>
-         <listitem>
-            <para>ZeileAufschrift.Inhalt</para>
-         </listitem>
-         <listitem>
-            <para>ZeileAufschrift.Zeilennummer</para>
          </listitem>
          <listitem>
             <para>Zeitraum</para>

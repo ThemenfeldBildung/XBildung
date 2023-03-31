@@ -42,12 +42,6 @@
                         <!ENTITY element.datentyp.ref.anschrift.verwaltungspolitischekodierung 'Element <emphasis role="codebf">verwaltungspolitischeKodierung</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
                         <!ENTITY element.ref.anschrift.zusatz '<emphasis role="codebf">zusatz</emphasis>'>
                         <!ENTITY element.datentyp.ref.anschrift.zusatz 'Element <emphasis role="codebf">zusatz</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.auslandsanschrift.anschriftzone.zeile.anschrift '<emphasis role="codebf">zeile.anschrift</emphasis>'>
-                        <!ENTITY element.datentyp.ref.auslandsanschrift.anschriftzone.zeile.anschrift 'Element <emphasis role="codebf">zeile.anschrift</emphasis> in Datentyp <emphasis role="codebf">Auslandsanschrift.Anschriftzone</emphasis>'>
-                        <!ENTITY element.ref.auslandsanschrift.druckbild.anschriftzone '<emphasis role="codebf">anschriftzone</emphasis>'>
-                        <!ENTITY element.datentyp.ref.auslandsanschrift.druckbild.anschriftzone 'Element <emphasis role="codebf">anschriftzone</emphasis> in Datentyp <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis>'>
-                        <!ENTITY element.ref.auslandsanschrift.druckbild.staat '<emphasis role="codebf">staat</emphasis>'>
-                        <!ENTITY element.datentyp.ref.auslandsanschrift.druckbild.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemanote 'Element <emphasis role="codebf">bewertungsschemaNote</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemapunkte '<emphasis role="codebf">bewertungsschemaPunkte</emphasis>'>
@@ -108,28 +102,6 @@
                         <!ENTITY element.datentyp.ref.kurs.schwerpunkt 'Element <emphasis role="codebf">schwerpunkt</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
                         <!ENTITY element.ref.kurs.status '<emphasis role="codebf">status</emphasis>'>
                         <!ENTITY element.datentyp.ref.kurs.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.gemeindeschluessel '<emphasis role="codebf">gemeindeschluessel</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.gemeindeschluessel 'Element <emphasis role="codebf">gemeindeschluessel</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.hausnummer '<emphasis role="codebf">hausnummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.hausnummer 'Element <emphasis role="codebf">hausnummer</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.hausnummerbuchstabezusatzziffer '<emphasis role="codebf">hausnummerBuchstabeZusatzziffer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.hausnummerbuchstabezusatzziffer 'Element <emphasis role="codebf">hausnummerBuchstabeZusatzziffer</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.postleitzahl '<emphasis role="codebf">postleitzahl</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.postleitzahl 'Element <emphasis role="codebf">postleitzahl</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.stockwerkswohnungsnummer '<emphasis role="codebf">stockwerkswohnungsnummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.stockwerkswohnungsnummer 'Element <emphasis role="codebf">stockwerkswohnungsnummer</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.strasse '<emphasis role="codebf">strasse</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.strasse 'Element <emphasis role="codebf">strasse</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.teilnummerderhausnummer '<emphasis role="codebf">teilnummerDerHausnummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.teilnummerderhausnummer 'Element <emphasis role="codebf">teilnummerDerHausnummer</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.wohnort '<emphasis role="codebf">wohnort</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.wohnort 'Element <emphasis role="codebf">wohnort</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.wohnortfrueherergemeindename '<emphasis role="codebf">wohnortFruehererGemeindename</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.wohnortfrueherergemeindename 'Element <emphasis role="codebf">wohnortFruehererGemeindename</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.wohnungsinhaber '<emphasis role="codebf">wohnungsinhaber</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.wohnungsinhaber 'Element <emphasis role="codebf">wohnungsinhaber</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
-                        <!ENTITY element.ref.meldeanschrift.zusatzangaben '<emphasis role="codebf">zusatzangaben</emphasis>'>
-                        <!ENTITY element.datentyp.ref.meldeanschrift.zusatzangaben 'Element <emphasis role="codebf">zusatzangaben</emphasis> in Datentyp <emphasis role="codebf">Meldeanschrift</emphasis>'>
                         <!ENTITY element.ref.namenatuerlicheperson.alternativerepraesentation '<emphasis role="codebf">alternativeRepraesentation</emphasis>'>
                         <!ENTITY element.datentyp.ref.namenatuerlicheperson.alternativerepraesentation 'Element <emphasis role="codebf">alternativeRepraesentation</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
                         <!ENTITY element.ref.namenatuerlicheperson.anrede '<emphasis role="codebf">anrede</emphasis>'>
@@ -200,10 +172,6 @@
                         <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.nation 'Element <emphasis role="codebf">nation</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
                         <!ENTITY element.ref.verwaltungspolitischekodierung.regionalschluessel '<emphasis role="codebf">regionalschluessel</emphasis>'>
                         <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.regionalschluessel 'Element <emphasis role="codebf">regionalschluessel</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.zeileaufschrift.inhalt '<emphasis role="codebf">inhalt</emphasis>'>
-                        <!ENTITY element.datentyp.ref.zeileaufschrift.inhalt 'Element <emphasis role="codebf">inhalt</emphasis> in Datentyp <emphasis role="codebf">ZeileAufschrift</emphasis>'>
-                        <!ENTITY element.ref.zeileaufschrift.zeilennummer '<emphasis role="codebf">zeilennummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.zeileaufschrift.zeilennummer 'Element <emphasis role="codebf">zeilennummer</emphasis> in Datentyp <emphasis role="codebf">ZeileAufschrift</emphasis>'>
                         <!ENTITY element.ref.zeitraum.beginn '<emphasis role="codebf">beginn</emphasis>'>
                         <!ENTITY element.datentyp.ref.zeitraum.beginn 'Element <emphasis role="codebf">beginn</emphasis> in Datentyp <emphasis role="codebf">Zeitraum</emphasis>'>
                         <!ENTITY element.ref.zeitraum.ende '<emphasis role="codebf">ende</emphasis>'>

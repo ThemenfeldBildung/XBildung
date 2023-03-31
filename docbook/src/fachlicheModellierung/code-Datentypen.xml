@@ -11,9 +11,8 @@
     <para>Im Basismodul XBildung werden Code-Datentypen spezifiziert, die in mindestens zwei verschiedenen Fachmodulen (z.B. XHochschule und XSchule) verwendet werden. Code-Datentypen, die nur in einem einzigen Fachmodul zur Anwendung kommen, werden in dem entsprechenden Fachmodul spezifiziert.</para>
     
     <include href="../../build/docBook/dokumente/anhang/codes/code-uebersichtstabelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artderhochschule.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artderschule.xml" xmlns="http://www.w3.org/2001/XInclude" />
     <include href="../../build/docBook/dokumente/anhang/codes/code.artderpruefung.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/anhang/codes/code.artderschule.xml" xmlns="http://www.w3.org/2001/XInclude" />
     <include href="../../build/docBook/dokumente/anhang/codes/code.artdesschulabschlusses.xml" xmlns="http://www.w3.org/2001/XInclude" />
     <include href="../../build/docBook/dokumente/anhang/codes/code.artdertraegerschaft.xml" xmlns="http://www.w3.org/2001/XInclude" />
     <include href="../../build/docBook/dokumente/anhang/codes/code.bewertungsschema.xml" xmlns="http://www.w3.org/2001/XInclude" />

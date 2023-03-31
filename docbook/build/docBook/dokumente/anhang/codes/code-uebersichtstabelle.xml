@@ -37,9 +37,9 @@
    <para>Die Namen der Code-Datentypen und der Codelisten stellen Links zu den jeweiligen Detail-Abschnitten dar.</para>
    <informaltable version="5" xml:lang="de" xml:id="code-uebersichtstabelle">
       <tgroup cols="4">
-         <colspec colnum="1" colname="code" colwidth="74mm"/>
-         <colspec colnum="2" colname="codeliste" colwidth="65mm"/>
-         <colspec colnum="3" colname="version" colwidth="14mm"/>
+         <colspec colnum="1" colname="code" colwidth="64mm"/>
+         <colspec colnum="2" colname="codeliste" colwidth="55mm"/>
+         <colspec colnum="3" colname="version" colwidth="34mm"/>
          <colspec colnum="4" colname="nutzung" colwidth="7mm"/>
          <thead>
             <row>
@@ -52,24 +52,13 @@
          <tbody>
             <row>
                <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerHochschule">Code.ArtDerHochschule</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderhochschule.ArtDerHochschule-Codes">Art der Hochschule</link>
-               </entry>
-               <entry align="left">0.93</entry>
-               <entry align="left">1</entry>
-            </row>
-            <row>
-               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                </entry>
                <entry align="left">
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                </entry>
-               <entry align="left">0.93</entry>
+               <entry align="left">0.94</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -92,7 +81,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                </entry>
-               <entry align="left">0.93</entry>
+               <entry align="left">0.94</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -104,7 +93,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                </entry>
-               <entry align="left">0.93</entry>
+               <entry align="left">0.94</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -115,7 +104,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                </entry>
-               <entry align="left">0.93</entry>
+               <entry align="left">0.94</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -126,7 +115,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.coe-int.codeliste.languagereference.LanguageLevel-Codes">CEFR / GER</link>
                </entry>
-               <entry align="left">1.0</entry>
+               <entry align="left">20230118-0</entry>
                <entry align="left">2</entry>
             </row>
             <row>
@@ -192,7 +181,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
                </entry>
-               <entry align="left">0.93</entry>
+               <entry align="left">0.94</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -203,7 +192,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language Authority Table</link>
                </entry>
-               <entry align="left">20210929-0</entry>
+               <entry align="left">20220928-0</entry>
                <entry align="left">2</entry>
             </row>
          </tbody>

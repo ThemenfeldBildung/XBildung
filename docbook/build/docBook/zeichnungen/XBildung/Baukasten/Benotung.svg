@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="508.22187499999995"
+     width="450.86249999999995"
      height="766">
    <defs>
       <style type="text/css">
@@ -39,7 +39,7 @@
                         } 
                     </style>
    </defs>
-   <rect width="498.22187499999995"
+   <rect width="440.86249999999995"
          height="756"
          stroke-dasharray="3,3"
          rx="1"
@@ -126,14 +126,14 @@
          <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
          <g transform="translate(149.19062499999998,0)">
             <g transform="translate(55,0)">
-               <rect width="204.03125" height="18" class="element-upper"/>
-               <rect width="204.03125" height="18" y="18" class="element-lower"/>
+               <rect width="93.109375" height="18" class="element-upper"/>
+               <rect width="93.109375" height="18" y="18" class="element-lower"/>
                <text font-size="12" x="3.6" y="12" font-weight="bold">schemaURI</text>
-               <line x1="0" y1="18" x2="204.03125" y2="18"/>
+               <line x1="0" y1="18" x2="93.109375" y2="18"/>
                <text font-size="12" fill="grey" x="3.6" y="30">type</text>
                <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
-               <text font-size="12" x="35.353125" y="30">xbd:Code.Bewertungsschema</text>
-               <g transform="translate(204.03125,0)"/>
+               <text font-size="12" x="35.353125" y="30">xs:anyURI</text>
+               <g transform="translate(93.109375,0)"/>
             </g>
             <line x1="33"
                   y1="18"
@@ -324,14 +324,14 @@
          <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
          <g transform="translate(163.19062499999998,0)">
             <g transform="translate(55,0)">
-               <rect width="204.03125" height="18" class="element-upper"/>
-               <rect width="204.03125" height="18" y="18" class="element-lower"/>
+               <rect width="93.109375" height="18" class="element-upper"/>
+               <rect width="93.109375" height="18" y="18" class="element-lower"/>
                <text font-size="12" x="3.6" y="12" font-weight="bold">schemaURI</text>
-               <line x1="0" y1="18" x2="204.03125" y2="18"/>
+               <line x1="0" y1="18" x2="93.109375" y2="18"/>
                <text font-size="12" fill="grey" x="3.6" y="30">type</text>
                <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
-               <text font-size="12" x="35.353125" y="30">xbd:Code.Bewertungsschema</text>
-               <g transform="translate(204.03125,0)"/>
+               <text font-size="12" x="35.353125" y="30">xs:anyURI</text>
+               <g transform="translate(93.109375,0)"/>
             </g>
             <line x1="33"
                   y1="18"

@@ -22,7 +22,12 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry>Diese Codeliste enthält mögliche Ausprägungen von Schularten nach dem Kerndatensatz (KDS) 4.0 der Kultusministerkonferenz (KMK).</entry>
+               <entry><para>
+Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK).
+</para>
+<para>
+Quelle: <link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
+</para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>

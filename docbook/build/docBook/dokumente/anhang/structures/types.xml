@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kosit:types xmlns:kosit="http://www.xoev.de/de/kosit-zubehoer/2_0_0"
+<kosit:types xmlns:kosit="http://www.xoev.de/de/kosit-zubehoer/3_0_0"
              xmlns="http://docbook.org/ns/docbook"
              xmlns:xlink="http://www.w3.org/1999/xlink">
-   <kosit:type name="AZRNummer" prefix="xiaz"/>
    <kosit:type name="Abschlussarbeit"
                id="XBildung.Baukasten.Abschlussarbeit"
                prefix="xbd">
@@ -44,10 +43,6 @@
       <kosit:property name="namensart/name"/>
       <kosit:property name="namensart/@listURI"/>
       <kosit:property name="namensart/@listVersionID"/>
-      <kosit:property name="nichtVorhanden"/>
-   </kosit:type>
-   <kosit:type name="AllgemeinerName" prefix="xian">
-      <kosit:property name="name"/>
       <kosit:property name="nichtVorhanden"/>
    </kosit:type>
    <kosit:type name="AlternativeRepraesentation"
@@ -111,137 +106,41 @@
       <kosit:property name="verwaltungspolitischeKodierung/nation/staat/@listVersionID"/>
       <kosit:property name="zusatz"/>
    </kosit:type>
-   <kosit:type name="Auslandsanschrift.Anschriftzone"
-               id="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Anschriftzone"
-               prefix="xbd">
-      <kosit:property name="zeile.anschrift"/>
-      <kosit:property name="zeile.anschrift/inhalt"/>
-      <kosit:property name="zeile.anschrift/zeilennummer"/>
-   </kosit:type>
-   <kosit:type name="Auslandsanschrift.Anschriftzone" prefix="xiaa">
-      <kosit:property name="zeile.anschrift"/>
-      <kosit:property name="zeile.anschrift/inhalt"/>
-      <kosit:property name="zeile.anschrift/zeilennummer"/>
-   </kosit:type>
-   <kosit:type name="Auslandsanschrift.Druckbild"
-               id="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild"
-               prefix="xbd">
-      <kosit:property name="anschriftzone"/>
-      <kosit:property name="anschriftzone/zeile.anschrift"/>
-      <kosit:property name="anschriftzone/zeile.anschrift/inhalt"/>
-      <kosit:property name="anschriftzone/zeile.anschrift/zeilennummer"/>
-      <kosit:property name="staat"/>
-      <kosit:property name="staat/code"/>
-      <kosit:property name="staat/name"/>
-      <kosit:property name="staat/@listURI"/>
-      <kosit:property name="staat/@listVersionID"/>
-   </kosit:type>
-   <kosit:type name="Auslandsanschrift.Druckbild" prefix="xiaa">
-      <kosit:property name="anschriftzone"/>
-      <kosit:property name="anschriftzone/zeile.anschrift"/>
-      <kosit:property name="anschriftzone/zeile.anschrift/inhalt"/>
-      <kosit:property name="anschriftzone/zeile.anschrift/zeilennummer"/>
-      <kosit:property name="staat"/>
-      <kosit:property name="staat/code"/>
-      <kosit:property name="staat/name"/>
-      <kosit:property name="staat/@listURI"/>
-      <kosit:property name="staat/@listVersionID"/>
-   </kosit:type>
-   <kosit:type name="Behoerde" prefix="xibehoerde">
-      <kosit:property name="anschrift"/>
-      <kosit:property name="anschrift/postfach"/>
-      <kosit:property name="anschrift/postfach/postleitzahl"/>
-      <kosit:property name="anschrift/postfach/wohnort"/>
-      <kosit:property name="anschrift/postfach/postfach"/>
-      <kosit:property name="anschrift/gebaeude"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="anschrift/gebaeude/strasse"/>
-      <kosit:property name="anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="anschrift/gebaeude/wohnort"/>
-      <kosit:property name="anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="behoerdenkennung"/>
-      <kosit:property name="behoerdenkennung/praefix"/>
-      <kosit:property name="behoerdenkennung/praefix/code"/>
-      <kosit:property name="behoerdenkennung/praefix/name"/>
-      <kosit:property name="behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="behoerdenkennung/kennung"/>
-      <kosit:property name="behoerdenkennung/kennung/code"/>
-      <kosit:property name="behoerdenkennung/kennung/name"/>
-      <kosit:property name="behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="behoerdenname"/>
+   <kosit:type name="BehoerdeType" prefix="bn-beh">
       <kosit:property name="erreichbarkeit"/>
       <kosit:property name="erreichbarkeit/kanal"/>
-      <kosit:property name="erreichbarkeit/kanal/code"/>
-      <kosit:property name="erreichbarkeit/kanal/name"/>
-      <kosit:property name="erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="erreichbarkeit/kanal/@listVersionID"/>
       <kosit:property name="erreichbarkeit/kennung"/>
       <kosit:property name="erreichbarkeit/zusatz"/>
-   </kosit:type>
-   <kosit:type name="Behoerde.Erreichbar" prefix="xibehoerde">
-      <kosit:property name="anschrift"/>
-      <kosit:property name="anschrift/postfach"/>
-      <kosit:property name="anschrift/postfach/postleitzahl"/>
-      <kosit:property name="anschrift/postfach/wohnort"/>
-      <kosit:property name="anschrift/postfach/postfach"/>
-      <kosit:property name="anschrift/gebaeude"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="anschrift/gebaeude/strasse"/>
-      <kosit:property name="anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="anschrift/gebaeude/wohnort"/>
-      <kosit:property name="anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="behoerdenkennung"/>
-      <kosit:property name="behoerdenkennung/praefix"/>
-      <kosit:property name="behoerdenkennung/praefix/code"/>
-      <kosit:property name="behoerdenkennung/praefix/name"/>
-      <kosit:property name="behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="behoerdenkennung/kennung"/>
-      <kosit:property name="behoerdenkennung/kennung/code"/>
-      <kosit:property name="behoerdenkennung/kennung/name"/>
-      <kosit:property name="behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="behoerdenname"/>
-      <kosit:property name="erreichbarkeit"/>
-      <kosit:property name="erreichbarkeit/kanal"/>
-      <kosit:property name="erreichbarkeit/kanal/code"/>
-      <kosit:property name="erreichbarkeit/kanal/name"/>
-      <kosit:property name="erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="erreichbarkeit/kennung"/>
-      <kosit:property name="erreichbarkeit/zusatz"/>
-   </kosit:type>
-   <kosit:type name="Behoerdenkennung" prefix="xibehoerde">
       <kosit:property name="kennung"/>
-      <kosit:property name="kennung/code"/>
-      <kosit:property name="kennung/name"/>
-      <kosit:property name="kennung/@listURI"/>
-      <kosit:property name="kennung/@listVersionID"/>
-      <kosit:property name="praefix"/>
-      <kosit:property name="praefix/code"/>
-      <kosit:property name="praefix/name"/>
-      <kosit:property name="praefix/@listURI"/>
-      <kosit:property name="praefix/@listVersionID"/>
+      <kosit:property name="name"/>
+      <kosit:property name="verzeichnisdienst"/>
+   </kosit:type>
+   <kosit:type name="BehoerdeType" prefix="bn-beh">
+      <kosit:property name="erreichbarkeit"/>
+      <kosit:property name="erreichbarkeit/kanal"/>
+      <kosit:property name="erreichbarkeit/kennung"/>
+      <kosit:property name="erreichbarkeit/zusatz"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="name"/>
+      <kosit:property name="verzeichnisdienst"/>
+   </kosit:type>
+   <kosit:type name="BehoerdeType" prefix="bn-uq-g2g">
+      <kosit:property name="erreichbarkeit"/>
+      <kosit:property name="erreichbarkeit/kanal"/>
+      <kosit:property name="erreichbarkeit/kennung"/>
+      <kosit:property name="erreichbarkeit/zusatz"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="name"/>
+      <kosit:property name="verzeichnisdienst"/>
+   </kosit:type>
+   <kosit:type name="BehoerdeType" prefix="bn-uq-g2g">
+      <kosit:property name="erreichbarkeit"/>
+      <kosit:property name="erreichbarkeit/kanal"/>
+      <kosit:property name="erreichbarkeit/kennung"/>
+      <kosit:property name="erreichbarkeit/zusatz"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="name"/>
+      <kosit:property name="verzeichnisdienst"/>
    </kosit:type>
    <kosit:type name="Benotung" id="XBildung.Baukasten.Benotung" prefix="xbd">
       <kosit:property name="bewertungsschemaNote"/>
@@ -271,9 +170,6 @@
       <kosit:property name="code"/>
       <kosit:property name="name"/>
    </kosit:type>
-   <kosit:type name="Code.ArtDerHochschule"
-               id="XBildung.Baukasten.Codes.Code.ArtDerHochschule"
-               prefix="xbd"/>
    <kosit:type name="Code.ArtDerPruefung"
                id="XBildung.Baukasten.Codes.Code.ArtDerPruefung"
                prefix="xbd"/>
@@ -286,12 +182,6 @@
    <kosit:type name="Code.ArtDesSchulabschlusses"
                id="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses"
                prefix="xbd"/>
-   <kosit:type name="Code.Behoerdenkennung" prefix="xibehoerde">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
    <kosit:type name="Code.Bewertungsschema"
                id="XBildung.Baukasten.Codes.Code.Bewertungsschema"
                prefix="xbd"/>
@@ -301,38 +191,9 @@
    <kosit:type name="Code.CountryCodes"
                id="XBildung.Baukasten.Codes.Code.CountryCodes"
                prefix="xbd"/>
-   <kosit:type name="Code.DVDV.Behoerdenschluessel" prefix="xibehoerde">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
    <kosit:type name="Code.Erreichbarkeit"
                id="XBildung.Baukasten.Codes.Code.Erreichbarkeit"
                prefix="xbd"/>
-   <kosit:type name="Code.Erreichbarkeit" prefix="xikomm">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
-   <kosit:type name="Code.Fehlercode.Spezifisch" prefix="xirts">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
-   <kosit:type name="Code.Fehlercode.XInneres" prefix="xirts">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-   </kosit:type>
-   <kosit:type name="Code.GemeindeVZ.AmtlicherGemeindeschluessel" prefix="xicgvz">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
    <kosit:type name="Code.Geschlecht"
                id="XBildung.Baukasten.Codes.Code.Geschlecht"
                prefix="xbd"/>
@@ -342,41 +203,20 @@
    <kosit:type name="Code.ISCEDF2013"
                id="XBildung.Baukasten.Codes.Code.ISCEDF2013"
                prefix="xbd"/>
+   <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-kom"/>
+   <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-kom"/>
+   <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-uq-g2g"/>
+   <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-uq-g2g"/>
    <kosit:type name="Code.Kursstatus"
                id="XBildung.Baukasten.Codes.Code.Kursstatus"
                prefix="xbd"/>
    <kosit:type name="Code.Language"
                id="XBildung.Baukasten.Codes.Code.Language"
                prefix="xbd"/>
-   <kosit:type name="Code.Nachrichtentyp" prefix="xint">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
-   <kosit:type name="Code.Nachrichtentyp.Typ4" prefix="xink">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
-   <kosit:type name="Code.Praefix" prefix="xibehoerde">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
-   <kosit:type name="Code.QuittungsrelevanterSachverhalt" prefix="xiqu">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-   </kosit:type>
-   <kosit:type name="Code.Zielstaat" prefix="xiaa">
-      <kosit:property name="@listURI"/>
-      <kosit:property name="@listVersionID"/>
-      <kosit:property name="code"/>
-      <kosit:property name="name"/>
-   </kosit:type>
+   <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-beh"/>
+   <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-beh"/>
+   <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-uq-g2g"/>
+   <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-uq-g2g"/>
    <kosit:type name="Dokument" id="XBildung.Baukasten.Dokument" prefix="xbd">
       <kosit:property name="ausstellung"/>
       <kosit:property name="ausstellung/datum"/>
@@ -425,12 +265,7 @@
       <kosit:property name="gueltigkeit/zusatz"/>
       <kosit:property name="id"/>
    </kosit:type>
-   <kosit:type name="Identifikation.Ereignis" prefix="xink">
-      <kosit:property name="ereignis.zeichen"/>
-      <kosit:property name="ereignis.zeitpunkt"/>
-   </kosit:type>
-   <kosit:type name="Identifikation.Ereignis.Zeichen" prefix="xink"/>
-   <kosit:type name="Identifikation.Nachricht" prefix="xink">
+   <kosit:type name="Identifikation.NachrichtType" prefix="bn-g2g">
       <kosit:property name="erstellungszeitpunkt"/>
       <kosit:property name="nachrichtenUUID"/>
       <kosit:property name="nachrichtentyp"/>
@@ -439,7 +274,7 @@
       <kosit:property name="nachrichtentyp/@listURI"/>
       <kosit:property name="nachrichtentyp/@listVersionID"/>
    </kosit:type>
-   <kosit:type name="Identifikation.Nachricht.Typ4" prefix="xink">
+   <kosit:type name="Identifikation.NachrichtType" prefix="bn-g2g">
       <kosit:property name="erstellungszeitpunkt"/>
       <kosit:property name="nachrichtenUUID"/>
       <kosit:property name="nachrichtentyp"/>
@@ -448,7 +283,7 @@
       <kosit:property name="nachrichtentyp/@listURI"/>
       <kosit:property name="nachrichtentyp/@listVersionID"/>
    </kosit:type>
-   <kosit:type name="Identifikation.Nachricht.XInneres" prefix="xint">
+   <kosit:type name="Identifikation.NachrichtType" prefix="bn-uq-g2g">
       <kosit:property name="erstellungszeitpunkt"/>
       <kosit:property name="nachrichtenUUID"/>
       <kosit:property name="nachrichtentyp"/>
@@ -457,8 +292,15 @@
       <kosit:property name="nachrichtentyp/@listURI"/>
       <kosit:property name="nachrichtentyp/@listVersionID"/>
    </kosit:type>
-   <kosit:type name="Jahr" prefix="xida"/>
-   <kosit:type name="JahrMonat" prefix="xida"/>
+   <kosit:type name="Identifikation.NachrichtType" prefix="bn-uq-g2g">
+      <kosit:property name="erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenUUID"/>
+      <kosit:property name="nachrichtentyp"/>
+      <kosit:property name="nachrichtentyp/code"/>
+      <kosit:property name="nachrichtentyp/name"/>
+      <kosit:property name="nachrichtentyp/@listURI"/>
+      <kosit:property name="nachrichtentyp/@listVersionID"/>
+   </kosit:type>
    <kosit:type name="Kommunikation"
                id="XBildung.Baukasten.Kommunikation"
                prefix="xbd">
@@ -467,12 +309,23 @@
       <kosit:property name="kennung"/>
       <kosit:property name="zusatz"/>
    </kosit:type>
-   <kosit:type name="Kommunikation" prefix="xikomm">
+   <kosit:type name="KommunikationType" prefix="bn-kom">
       <kosit:property name="kanal"/>
-      <kosit:property name="kanal/code"/>
-      <kosit:property name="kanal/name"/>
-      <kosit:property name="kanal/@listURI"/>
-      <kosit:property name="kanal/@listVersionID"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="zusatz"/>
+   </kosit:type>
+   <kosit:type name="KommunikationType" prefix="bn-kom">
+      <kosit:property name="kanal"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="zusatz"/>
+   </kosit:type>
+   <kosit:type name="KommunikationType" prefix="bn-uq-g2g">
+      <kosit:property name="kanal"/>
+      <kosit:property name="kennung"/>
+      <kosit:property name="zusatz"/>
+   </kosit:type>
+   <kosit:type name="KommunikationType" prefix="bn-uq-g2g">
+      <kosit:property name="kanal"/>
       <kosit:property name="kennung"/>
       <kosit:property name="zusatz"/>
    </kosit:type>
@@ -514,615 +367,139 @@
       <kosit:property name="schwerpunkt/@lang"/>
       <kosit:property name="status"/>
    </kosit:type>
-   <kosit:type name="Lichtbild" prefix="xilb">
-      <kosit:property name="@mimeType"/>
-   </kosit:type>
-   <kosit:type name="Meldeanschrift"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift"
-               prefix="xbd">
-      <kosit:property name="gemeindeschluessel"/>
-      <kosit:property name="gemeindeschluessel/code"/>
-      <kosit:property name="gemeindeschluessel/name"/>
-      <kosit:property name="gemeindeschluessel/@listURI"/>
-      <kosit:property name="gemeindeschluessel/@listVersionID"/>
-      <kosit:property name="hausnummer"/>
-      <kosit:property name="hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="postleitzahl"/>
-      <kosit:property name="stockwerkswohnungsnummer"/>
-      <kosit:property name="strasse"/>
-      <kosit:property name="teilnummerDerHausnummer"/>
-      <kosit:property name="wohnort"/>
-      <kosit:property name="wohnortFruehererGemeindename"/>
-      <kosit:property name="wohnungsinhaber"/>
-      <kosit:property name="zusatzangaben"/>
-   </kosit:type>
-   <kosit:type name="Meldeanschrift" prefix="xima">
-      <kosit:property name="gemeindeschluessel"/>
-      <kosit:property name="gemeindeschluessel/code"/>
-      <kosit:property name="gemeindeschluessel/name"/>
-      <kosit:property name="gemeindeschluessel/@listURI"/>
-      <kosit:property name="gemeindeschluessel/@listVersionID"/>
-      <kosit:property name="hausnummer"/>
-      <kosit:property name="hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="postleitzahl"/>
-      <kosit:property name="stockwerkswohnungsnummer"/>
-      <kosit:property name="strasse"/>
-      <kosit:property name="teilnummerDerHausnummer"/>
-      <kosit:property name="wohnort"/>
-      <kosit:property name="wohnortFruehererGemeindename"/>
-      <kosit:property name="wohnungsinhaber"/>
-      <kosit:property name="zusatzangaben"/>
-   </kosit:type>
-   <kosit:type name="Meldeanschrift.Hausnummer"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Hausnummer"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Hausnummer" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.HausnummerBuchstabeZusatzziffer"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.HausnummerBuchstabeZusatzziffer"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.HausnummerBuchstabeZusatzziffer" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Postleitzahl"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Postleitzahl"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Postleitzahl" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Stockwerkswohnungsnummer"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Stockwerkswohnungsnummer"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Stockwerkswohnungsnummer" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Strasse"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Strasse"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Strasse" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.TeilnummerDerHausnummer"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.TeilnummerDerHausnummer"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.TeilnummerDerHausnummer" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Wohnort"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnort"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Wohnort" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.WohnortFruehererGemeindename"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.WohnortFruehererGemeindename"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.WohnortFruehererGemeindename" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Wohnungsinhaber"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnungsinhaber"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Wohnungsinhaber" prefix="xima"/>
-   <kosit:type name="Meldeanschrift.Zusatzangaben"
-               id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Zusatzangaben"
-               prefix="xbd"/>
-   <kosit:type name="Meldeanschrift.Zusatzangaben" prefix="xima"/>
-   <kosit:type name="Nachricht.G2G" prefix="xink">
+   <kosit:type name="Nachricht.G2GType" prefix="bn-g2g">
+      <kosit:property name="nachrichtenkopf.g2g"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/zusatz"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/zusatz"/>
       <kosit:property name="@produkt"/>
       <kosit:property name="@produkthersteller"/>
       <kosit:property name="@produktversion"/>
       <kosit:property name="@standard"/>
       <kosit:property name="@test"/>
       <kosit:property name="@version"/>
-      <kosit:property name="nachrichtenkopf"/>
-      <kosit:property name="nachrichtenkopf/autor"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/leser"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/code"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/name"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/erstellungszeitpunkt"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtenUUID"/>
    </kosit:type>
-   <kosit:type name="Nachricht.G2G.QuittungVonSachverhalten" prefix="xiqu">
+   <kosit:type name="Nachricht.G2GType" prefix="bn-g2g">
+      <kosit:property name="nachrichtenkopf.g2g"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/zusatz"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/zusatz"/>
       <kosit:property name="@produkt"/>
       <kosit:property name="@produkthersteller"/>
       <kosit:property name="@produktversion"/>
       <kosit:property name="@standard"/>
       <kosit:property name="@test"/>
       <kosit:property name="@version"/>
-      <kosit:property name="nachrichtenkopf"/>
-      <kosit:property name="nachrichtenkopf/autor"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/leser"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtenUUID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/code"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/name"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/erstellungszeitpunkt"/>
    </kosit:type>
-   <kosit:type name="Nachricht.G2G.Rueckweisung" prefix="xirts">
+   <kosit:type name="Nachricht.G2GType" prefix="bn-uq-g2g">
       <kosit:property name="@produkt"/>
       <kosit:property name="@produkthersteller"/>
       <kosit:property name="@produktversion"/>
       <kosit:property name="@standard"/>
       <kosit:property name="@test"/>
       <kosit:property name="@version"/>
-      <kosit:property name="nachrichtenkopf"/>
-      <kosit:property name="nachrichtenkopf/autor"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/leser"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtenUUID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/code"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/name"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/zusatz"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/zusatz"/>
    </kosit:type>
-   <kosit:type name="Nachricht.G2G.Weiterleitung" prefix="xiwl">
+   <kosit:type name="Nachricht.G2GType" prefix="bn-uq-g2g">
       <kosit:property name="@produkt"/>
       <kosit:property name="@produkthersteller"/>
       <kosit:property name="@produktversion"/>
       <kosit:property name="@standard"/>
       <kosit:property name="@test"/>
       <kosit:property name="@version"/>
-      <kosit:property name="nachrichtenkopf"/>
-      <kosit:property name="nachrichtenkopf/autor"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/autor/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/leser"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenname"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/kennung"/>
-      <kosit:property name="nachrichtenkopf/leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/postfach/postfach"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="nachrichtenkopf/leser/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtenUUID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/code"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/name"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="nachrichtenkopf/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="nachrichtenkopf.g2g/identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/leser/erreichbarkeit/zusatz"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/verzeichnisdienst"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/name"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kanal"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/kennung"/>
+      <kosit:property name="nachrichtenkopf.g2g/autor/erreichbarkeit/zusatz"/>
    </kosit:type>
-   <kosit:type name="Nachrichtenkopf.G2G" prefix="xink">
-      <kosit:property name="autor"/>
-      <kosit:property name="autor/behoerdenname"/>
-      <kosit:property name="autor/behoerdenkennung"/>
-      <kosit:property name="autor/behoerdenkennung/praefix"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="autor/behoerdenkennung/kennung"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="autor/erreichbarkeit"/>
-      <kosit:property name="autor/erreichbarkeit/kanal"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="autor/erreichbarkeit/kennung"/>
-      <kosit:property name="autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="autor/anschrift"/>
-      <kosit:property name="autor/anschrift/postfach"/>
-      <kosit:property name="autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="autor/anschrift/postfach/postfach"/>
-      <kosit:property name="autor/anschrift/gebaeude"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="autor/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="identifikation.nachricht"/>
-      <kosit:property name="identifikation.nachricht/nachrichtentyp"/>
-      <kosit:property name="identifikation.nachricht/nachrichtentyp/code"/>
-      <kosit:property name="identifikation.nachricht/nachrichtentyp/name"/>
-      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="identifikation.nachricht/erstellungszeitpunkt"/>
-      <kosit:property name="identifikation.nachricht/nachrichtenUUID"/>
-      <kosit:property name="leser"/>
-      <kosit:property name="leser/behoerdenname"/>
-      <kosit:property name="leser/behoerdenkennung"/>
-      <kosit:property name="leser/behoerdenkennung/praefix"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="leser/behoerdenkennung/kennung"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="leser/erreichbarkeit"/>
-      <kosit:property name="leser/erreichbarkeit/kanal"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="leser/erreichbarkeit/kennung"/>
-      <kosit:property name="leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="leser/anschrift"/>
-      <kosit:property name="leser/anschrift/postfach"/>
-      <kosit:property name="leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="leser/anschrift/postfach/postfach"/>
-      <kosit:property name="leser/anschrift/gebaeude"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="leser/anschrift/gebaeude/zusatzangaben"/>
-   </kosit:type>
-   <kosit:type name="Nachrichtenkopf.G2G.XInneres" prefix="xint">
-      <kosit:property name="autor"/>
-      <kosit:property name="autor/behoerdenname"/>
-      <kosit:property name="autor/behoerdenkennung"/>
-      <kosit:property name="autor/behoerdenkennung/praefix"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/code"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/name"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="autor/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="autor/behoerdenkennung/kennung"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/code"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/name"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="autor/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="autor/erreichbarkeit"/>
-      <kosit:property name="autor/erreichbarkeit/kanal"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/code"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/name"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="autor/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="autor/erreichbarkeit/kennung"/>
-      <kosit:property name="autor/erreichbarkeit/zusatz"/>
-      <kosit:property name="autor/anschrift"/>
-      <kosit:property name="autor/anschrift/postfach"/>
-      <kosit:property name="autor/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="autor/anschrift/postfach/wohnort"/>
-      <kosit:property name="autor/anschrift/postfach/postfach"/>
-      <kosit:property name="autor/anschrift/gebaeude"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="autor/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="autor/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/strasse"/>
-      <kosit:property name="autor/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="autor/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="autor/anschrift/gebaeude/zusatzangaben"/>
+   <kosit:type name="Nachrichtenkopf.G2GType" prefix="bn-g2g">
       <kosit:property name="identifikation.nachricht"/>
       <kosit:property name="identifikation.nachricht/nachrichtenUUID"/>
       <kosit:property name="identifikation.nachricht/nachrichtentyp"/>
@@ -1132,46 +509,99 @@
       <kosit:property name="identifikation.nachricht/nachrichtentyp/@listVersionID"/>
       <kosit:property name="identifikation.nachricht/erstellungszeitpunkt"/>
       <kosit:property name="leser"/>
-      <kosit:property name="leser/behoerdenname"/>
-      <kosit:property name="leser/behoerdenkennung"/>
-      <kosit:property name="leser/behoerdenkennung/praefix"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/code"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/name"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="leser/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="leser/behoerdenkennung/kennung"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/code"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/name"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="leser/behoerdenkennung/kennung/@listVersionID"/>
+      <kosit:property name="leser/verzeichnisdienst"/>
+      <kosit:property name="leser/kennung"/>
+      <kosit:property name="leser/name"/>
       <kosit:property name="leser/erreichbarkeit"/>
       <kosit:property name="leser/erreichbarkeit/kanal"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/code"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/name"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="leser/erreichbarkeit/kanal/@listVersionID"/>
       <kosit:property name="leser/erreichbarkeit/kennung"/>
       <kosit:property name="leser/erreichbarkeit/zusatz"/>
-      <kosit:property name="leser/anschrift"/>
-      <kosit:property name="leser/anschrift/postfach"/>
-      <kosit:property name="leser/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="leser/anschrift/postfach/wohnort"/>
-      <kosit:property name="leser/anschrift/postfach/postfach"/>
-      <kosit:property name="leser/anschrift/gebaeude"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="leser/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="leser/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/strasse"/>
-      <kosit:property name="leser/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="leser/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="leser/anschrift/gebaeude/zusatzangaben"/>
+      <kosit:property name="autor"/>
+      <kosit:property name="autor/verzeichnisdienst"/>
+      <kosit:property name="autor/kennung"/>
+      <kosit:property name="autor/name"/>
+      <kosit:property name="autor/erreichbarkeit"/>
+      <kosit:property name="autor/erreichbarkeit/kanal"/>
+      <kosit:property name="autor/erreichbarkeit/kennung"/>
+      <kosit:property name="autor/erreichbarkeit/zusatz"/>
+   </kosit:type>
+   <kosit:type name="Nachrichtenkopf.G2GType" prefix="bn-g2g">
+      <kosit:property name="identifikation.nachricht"/>
+      <kosit:property name="identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="leser"/>
+      <kosit:property name="leser/verzeichnisdienst"/>
+      <kosit:property name="leser/kennung"/>
+      <kosit:property name="leser/name"/>
+      <kosit:property name="leser/erreichbarkeit"/>
+      <kosit:property name="leser/erreichbarkeit/kanal"/>
+      <kosit:property name="leser/erreichbarkeit/kennung"/>
+      <kosit:property name="leser/erreichbarkeit/zusatz"/>
+      <kosit:property name="autor"/>
+      <kosit:property name="autor/verzeichnisdienst"/>
+      <kosit:property name="autor/kennung"/>
+      <kosit:property name="autor/name"/>
+      <kosit:property name="autor/erreichbarkeit"/>
+      <kosit:property name="autor/erreichbarkeit/kanal"/>
+      <kosit:property name="autor/erreichbarkeit/kennung"/>
+      <kosit:property name="autor/erreichbarkeit/zusatz"/>
+   </kosit:type>
+   <kosit:type name="Nachrichtenkopf.G2GType" prefix="bn-uq-g2g">
+      <kosit:property name="autor"/>
+      <kosit:property name="autor/verzeichnisdienst"/>
+      <kosit:property name="autor/kennung"/>
+      <kosit:property name="autor/name"/>
+      <kosit:property name="autor/erreichbarkeit"/>
+      <kosit:property name="autor/erreichbarkeit/kanal"/>
+      <kosit:property name="autor/erreichbarkeit/kennung"/>
+      <kosit:property name="autor/erreichbarkeit/zusatz"/>
+      <kosit:property name="identifikation.nachricht"/>
+      <kosit:property name="identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="leser"/>
+      <kosit:property name="leser/verzeichnisdienst"/>
+      <kosit:property name="leser/kennung"/>
+      <kosit:property name="leser/name"/>
+      <kosit:property name="leser/erreichbarkeit"/>
+      <kosit:property name="leser/erreichbarkeit/kanal"/>
+      <kosit:property name="leser/erreichbarkeit/kennung"/>
+      <kosit:property name="leser/erreichbarkeit/zusatz"/>
+   </kosit:type>
+   <kosit:type name="Nachrichtenkopf.G2GType" prefix="bn-uq-g2g">
+      <kosit:property name="autor"/>
+      <kosit:property name="autor/verzeichnisdienst"/>
+      <kosit:property name="autor/kennung"/>
+      <kosit:property name="autor/name"/>
+      <kosit:property name="autor/erreichbarkeit"/>
+      <kosit:property name="autor/erreichbarkeit/kanal"/>
+      <kosit:property name="autor/erreichbarkeit/kennung"/>
+      <kosit:property name="autor/erreichbarkeit/zusatz"/>
+      <kosit:property name="identifikation.nachricht"/>
+      <kosit:property name="identifikation.nachricht/nachrichtenUUID"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/code"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/name"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listURI"/>
+      <kosit:property name="identifikation.nachricht/nachrichtentyp/@listVersionID"/>
+      <kosit:property name="identifikation.nachricht/erstellungszeitpunkt"/>
+      <kosit:property name="leser"/>
+      <kosit:property name="leser/verzeichnisdienst"/>
+      <kosit:property name="leser/kennung"/>
+      <kosit:property name="leser/name"/>
+      <kosit:property name="leser/erreichbarkeit"/>
+      <kosit:property name="leser/erreichbarkeit/kanal"/>
+      <kosit:property name="leser/erreichbarkeit/kennung"/>
+      <kosit:property name="leser/erreichbarkeit/zusatz"/>
    </kosit:type>
    <kosit:type name="NameNatuerlichePerson"
                id="XBildung.Baukasten.NameNatuerlichePerson"
@@ -1270,21 +700,58 @@
                id="XBildung.Baukasten.NatuerlichePerson"
                prefix="xbd">
       <kosit:property name="anschrift"/>
+      <kosit:property name="anschrift/staat"/>
+      <kosit:property name="anschrift/staat/staat"/>
+      <kosit:property name="anschrift/staat/staat/code"/>
+      <kosit:property name="anschrift/staat/staat/name"/>
+      <kosit:property name="anschrift/staat/staat/@listURI"/>
+      <kosit:property name="anschrift/staat/staat/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listVersionID"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/code"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/name"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listURI"/>
+      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listVersionID"/>
+      <kosit:property name="anschrift/id"/>
       <kosit:property name="anschrift/strasse"/>
       <kosit:property name="anschrift/hausnummer"/>
-      <kosit:property name="anschrift/teilnummerDerHausnummer"/>
-      <kosit:property name="anschrift/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="anschrift/stockwerkswohnungsnummer"/>
-      <kosit:property name="anschrift/wohnungsinhaber"/>
+      <kosit:property name="anschrift/postfach"/>
       <kosit:property name="anschrift/postleitzahl"/>
-      <kosit:property name="anschrift/wohnort"/>
-      <kosit:property name="anschrift/gemeindeschluessel"/>
-      <kosit:property name="anschrift/gemeindeschluessel/code"/>
-      <kosit:property name="anschrift/gemeindeschluessel/name"/>
-      <kosit:property name="anschrift/gemeindeschluessel/@listURI"/>
-      <kosit:property name="anschrift/gemeindeschluessel/@listVersionID"/>
-      <kosit:property name="anschrift/wohnortFruehererGemeindename"/>
-      <kosit:property name="anschrift/zusatzangaben"/>
+      <kosit:property name="anschrift/ort"/>
+      <kosit:property name="anschrift/ortsteil"/>
+      <kosit:property name="anschrift/ortFruehererGemeindename"/>
+      <kosit:property name="anschrift/zusatz"/>
+      <kosit:property name="anschrift/typ"/>
+      <kosit:property name="anschrift/typ/code"/>
+      <kosit:property name="anschrift/typ/name"/>
+      <kosit:property name="anschrift/typ/@listURI"/>
+      <kosit:property name="anschrift/typ/@listVersionID"/>
       <kosit:property name="geburt"/>
       <kosit:property name="geburt/datum"/>
       <kosit:property name="geburt/geburtsort"/>
@@ -1476,292 +943,6 @@
       <kosit:property name="name/gueltigkeit/zusatz"/>
       <kosit:property name="unterorganisation"/>
    </kosit:type>
-   <kosit:type name="PostalischeInlandsanschrift" prefix="xipa">
-      <kosit:property name="gebaeude"/>
-      <kosit:property name="gebaeude/hausnummern.bis"/>
-      <kosit:property name="gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="gebaeude/hausnummer"/>
-      <kosit:property name="gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="gebaeude/postleitzahl"/>
-      <kosit:property name="gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="gebaeude/strasse"/>
-      <kosit:property name="gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="gebaeude/wohnort"/>
-      <kosit:property name="gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="gebaeude/wohnungsinhaber"/>
-      <kosit:property name="gebaeude/zusatzangaben"/>
-      <kosit:property name="postfach"/>
-      <kosit:property name="postfach/postleitzahl"/>
-      <kosit:property name="postfach/wohnort"/>
-      <kosit:property name="postfach/postfach"/>
-   </kosit:type>
-   <kosit:type name="PostalischeInlandsanschrift.Basis" prefix="xipa">
-      <kosit:property name="hausnummer"/>
-      <kosit:property name="hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="postleitzahl"/>
-      <kosit:property name="stockwerkswohnungsnummer"/>
-      <kosit:property name="strasse"/>
-      <kosit:property name="teilnummerDerHausnummer"/>
-      <kosit:property name="wohnort"/>
-      <kosit:property name="wohnortFruehererGemeindename"/>
-      <kosit:property name="wohnungsinhaber"/>
-      <kosit:property name="zusatzangaben"/>
-   </kosit:type>
-   <kosit:type name="PostalischeInlandsanschrift.Gebaeudeanschrift" prefix="xipa">
-      <kosit:property name="hausnummer"/>
-      <kosit:property name="hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="hausnummern.bis"/>
-      <kosit:property name="hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="postleitzahl"/>
-      <kosit:property name="stockwerkswohnungsnummer"/>
-      <kosit:property name="strasse"/>
-      <kosit:property name="teilnummerDerHausnummer"/>
-      <kosit:property name="wohnort"/>
-      <kosit:property name="wohnortFruehererGemeindename"/>
-      <kosit:property name="wohnungsinhaber"/>
-      <kosit:property name="zusatzangaben"/>
-   </kosit:type>
-   <kosit:type name="PostalischeInlandsanschrift.Postfachanschrift" prefix="xipa">
-      <kosit:property name="postfach"/>
-      <kosit:property name="postleitzahl"/>
-      <kosit:property name="wohnort"/>
-   </kosit:type>
-   <kosit:type name="Quittung" prefix="xiqu">
-      <kosit:property name="sachverhalt"/>
-      <kosit:property name="sachverhalt/code"/>
-      <kosit:property name="sachverhalt/@listURI"/>
-      <kosit:property name="sachverhalt/@listVersionID"/>
-      <kosit:property name="ursprungsereignis"/>
-      <kosit:property name="ursprungsereignis/ereignis.zeitpunkt"/>
-      <kosit:property name="ursprungsereignis/ereignis.zeichen"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.Einzelfall" prefix="xirts">
-      <kosit:property name="grund"/>
-      <kosit:property name="grund/grund"/>
-      <kosit:property name="grund/grund/code"/>
-      <kosit:property name="grund/grund/@listURI"/>
-      <kosit:property name="grund/grund/@listVersionID"/>
-      <kosit:property name="grund/grundSpezifisch"/>
-      <kosit:property name="grund/grundSpezifisch/fehlercode"/>
-      <kosit:property name="grund/grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="grund/grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="grund/grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="grund/grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="grund/grundSpezifisch/fehlerbeschreibung"/>
-      <kosit:property name="identifikation.ereignis"/>
-      <kosit:property name="identifikation.ereignis/ereignis.zeitpunkt"/>
-      <kosit:property name="identifikation.ereignis/ereignis.zeichen"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.GrundSpezifisch" prefix="xirts">
-      <kosit:property name="fehlerbeschreibung"/>
-      <kosit:property name="fehlercode"/>
-      <kosit:property name="fehlercode/code"/>
-      <kosit:property name="fehlercode/name"/>
-      <kosit:property name="fehlercode/@listURI"/>
-      <kosit:property name="fehlercode/@listVersionID"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.RueckweisendeStelle" prefix="xirts">
-      <kosit:property name="anschrift"/>
-      <kosit:property name="anschrift/postfach"/>
-      <kosit:property name="anschrift/postfach/postleitzahl"/>
-      <kosit:property name="anschrift/postfach/wohnort"/>
-      <kosit:property name="anschrift/postfach/postfach"/>
-      <kosit:property name="anschrift/gebaeude"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="anschrift/gebaeude/strasse"/>
-      <kosit:property name="anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="anschrift/gebaeude/wohnort"/>
-      <kosit:property name="anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="erreichbarkeit"/>
-      <kosit:property name="erreichbarkeit/kanal"/>
-      <kosit:property name="erreichbarkeit/kanal/code"/>
-      <kosit:property name="erreichbarkeit/kanal/name"/>
-      <kosit:property name="erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="erreichbarkeit/kennung"/>
-      <kosit:property name="erreichbarkeit/zusatz"/>
-      <kosit:property name="pruefinstanz"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.Rueckweisungsgrund" prefix="xirts">
-      <kosit:property name="grund"/>
-      <kosit:property name="grund/code"/>
-      <kosit:property name="grund/@listURI"/>
-      <kosit:property name="grund/@listVersionID"/>
-      <kosit:property name="grundSpezifisch"/>
-      <kosit:property name="grundSpezifisch/fehlercode"/>
-      <kosit:property name="grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="grundSpezifisch/fehlerbeschreibung"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.Template" prefix="xirts">
-      <kosit:property name="idNachricht"/>
-      <kosit:property name="idNachricht/nachrichtentyp"/>
-      <kosit:property name="idNachricht/nachrichtentyp/code"/>
-      <kosit:property name="idNachricht/nachrichtentyp/name"/>
-      <kosit:property name="idNachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="idNachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="idNachricht/erstellungszeitpunkt"/>
-      <kosit:property name="idNachricht/nachrichtenUUID"/>
-      <kosit:property name="nachricht"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis/ereignis.zeitpunkt"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis/ereignis.zeichen"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/code"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/@listURI"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/@listVersionID"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlerbeschreibung"/>
-      <kosit:property name="rueckweisendeStelle"/>
-      <kosit:property name="rueckweisendeStelle/pruefinstanz"/>
-      <kosit:property name="rueckweisendeStelle/anschrift"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/wohnort"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/postfach"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/strasse"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/code"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/name"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kennung"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/zusatz"/>
-      <kosit:property name="rueckweisungsgrund"/>
-      <kosit:property name="rueckweisungsgrund/grund"/>
-      <kosit:property name="rueckweisungsgrund/grund/code"/>
-      <kosit:property name="rueckweisungsgrund/grund/@listURI"/>
-      <kosit:property name="rueckweisungsgrund/grund/@listVersionID"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlerbeschreibung"/>
-      <kosit:property name="transportinformationen"/>
-      <kosit:property name="transportinformationen/nachrichtenId"/>
-      <kosit:property name="transportinformationen/betreff"/>
-      <kosit:property name="transportinformationen/sendezeitpunkt"/>
-      <kosit:property name="transportinformationen/ergaenzendeHinweise"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.Template.Asynchron" prefix="xirts">
-      <kosit:property name="idNachricht"/>
-      <kosit:property name="idNachricht/nachrichtenUUID"/>
-      <kosit:property name="idNachricht/erstellungszeitpunkt"/>
-      <kosit:property name="idNachricht/nachrichtentyp"/>
-      <kosit:property name="idNachricht/nachrichtentyp/code"/>
-      <kosit:property name="idNachricht/nachrichtentyp/name"/>
-      <kosit:property name="idNachricht/nachrichtentyp/@listURI"/>
-      <kosit:property name="idNachricht/nachrichtentyp/@listVersionID"/>
-      <kosit:property name="nachricht"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis/ereignis.zeitpunkt"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/identifikation.ereignis/ereignis.zeichen"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/code"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/@listURI"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grund/@listVersionID"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="nichtVerarbeitbarerEinzelfall/grund/grundSpezifisch/fehlerbeschreibung"/>
-      <kosit:property name="rueckweisendeStelle"/>
-      <kosit:property name="rueckweisendeStelle/pruefinstanz"/>
-      <kosit:property name="rueckweisendeStelle/anschrift"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/wohnort"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/postfach/postfach"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/strasse"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="rueckweisendeStelle/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/code"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/name"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/kennung"/>
-      <kosit:property name="rueckweisendeStelle/erreichbarkeit/zusatz"/>
-      <kosit:property name="rueckweisungsgrund"/>
-      <kosit:property name="rueckweisungsgrund/grund"/>
-      <kosit:property name="rueckweisungsgrund/grund/code"/>
-      <kosit:property name="rueckweisungsgrund/grund/@listURI"/>
-      <kosit:property name="rueckweisungsgrund/grund/@listVersionID"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/code"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/name"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/@listURI"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlercode/@listVersionID"/>
-      <kosit:property name="rueckweisungsgrund/grundSpezifisch/fehlerbeschreibung"/>
-      <kosit:property name="transportinformationen"/>
-      <kosit:property name="transportinformationen/nachrichtenId"/>
-      <kosit:property name="transportinformationen/betreff"/>
-      <kosit:property name="transportinformationen/sendezeitpunkt"/>
-      <kosit:property name="transportinformationen/ergaenzendeHinweise"/>
-   </kosit:type>
-   <kosit:type name="Rueckweisung.Transportinformationen" prefix="xirts">
-      <kosit:property name="betreff"/>
-      <kosit:property name="ergaenzendeHinweise"/>
-      <kosit:property name="nachrichtenId"/>
-      <kosit:property name="sendezeitpunkt"/>
-   </kosit:type>
    <kosit:type name="Sprache" id="XBildung.Baukasten.Sprache" prefix="xbd">
       <kosit:property name="sprache"/>
       <kosit:property name="zusatz"/>
@@ -1779,24 +960,10 @@
                prefix="xbd">
       <kosit:property name="@lang"/>
    </kosit:type>
-   <kosit:type name="Tagesdatum" prefix="xida"/>
-   <kosit:type name="TagesdatumMitUnbekannt" prefix="xida">
-      <kosit:property name="datum"/>
-      <kosit:property name="unbekannt"/>
-   </kosit:type>
-   <kosit:type name="TeilbekanntesDatum" prefix="xida">
-      <kosit:property name="jahr"/>
-      <kosit:property name="jahrMonat"/>
-      <kosit:property name="jahrMonatTag"/>
-   </kosit:type>
-   <kosit:type name="TeilbekanntesDatumMitUnbekannt" prefix="xida">
-      <kosit:property name="teilbekanntesDatum"/>
-      <kosit:property name="teilbekanntesDatum/jahrMonatTag"/>
-      <kosit:property name="teilbekanntesDatum/jahrMonat"/>
-      <kosit:property name="teilbekanntesDatum/jahr"/>
-      <kosit:property name="unbekannt"/>
-   </kosit:type>
-   <kosit:type name="UUID" prefix="xink"/>
+   <kosit:type name="UUID" prefix="bn-g2g"/>
+   <kosit:type name="UUID" prefix="bn-g2g"/>
+   <kosit:type name="UUID" prefix="bn-uq-g2g"/>
+   <kosit:type name="UUID" prefix="bn-uq-g2g"/>
    <kosit:type name="VerwaltungspolitischeKodierung"
                id="XBildung.Baukasten.VerwaltungspolitischeKodierung"
                prefix="xbd">
@@ -1832,76 +999,19 @@
       <kosit:property name="regionalschluessel/@listURI"/>
       <kosit:property name="regionalschluessel/@listVersionID"/>
    </kosit:type>
-   <kosit:type name="WeiterleitendeStelle" prefix="xiwl">
-      <kosit:property name="stelle"/>
-      <kosit:property name="stelle/behoerdenname"/>
-      <kosit:property name="stelle/behoerdenkennung"/>
-      <kosit:property name="stelle/behoerdenkennung/praefix"/>
-      <kosit:property name="stelle/behoerdenkennung/praefix/code"/>
-      <kosit:property name="stelle/behoerdenkennung/praefix/name"/>
-      <kosit:property name="stelle/behoerdenkennung/praefix/@listURI"/>
-      <kosit:property name="stelle/behoerdenkennung/praefix/@listVersionID"/>
-      <kosit:property name="stelle/behoerdenkennung/kennung"/>
-      <kosit:property name="stelle/behoerdenkennung/kennung/code"/>
-      <kosit:property name="stelle/behoerdenkennung/kennung/name"/>
-      <kosit:property name="stelle/behoerdenkennung/kennung/@listURI"/>
-      <kosit:property name="stelle/behoerdenkennung/kennung/@listVersionID"/>
-      <kosit:property name="stelle/erreichbarkeit"/>
-      <kosit:property name="stelle/erreichbarkeit/kanal"/>
-      <kosit:property name="stelle/erreichbarkeit/kanal/code"/>
-      <kosit:property name="stelle/erreichbarkeit/kanal/name"/>
-      <kosit:property name="stelle/erreichbarkeit/kanal/@listURI"/>
-      <kosit:property name="stelle/erreichbarkeit/kanal/@listVersionID"/>
-      <kosit:property name="stelle/erreichbarkeit/kennung"/>
-      <kosit:property name="stelle/erreichbarkeit/zusatz"/>
-      <kosit:property name="stelle/anschrift"/>
-      <kosit:property name="stelle/anschrift/postfach"/>
-      <kosit:property name="stelle/anschrift/postfach/postleitzahl"/>
-      <kosit:property name="stelle/anschrift/postfach/wohnort"/>
-      <kosit:property name="stelle/anschrift/postfach/postfach"/>
-      <kosit:property name="stelle/anschrift/gebaeude"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummern.bis"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummern.bis/hausnummer.bis"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummern.bis/hausnummerbuchstabezusatzziffer.bis"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummern.bis/teilnummerderhausnummer.bis"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummer"/>
-      <kosit:property name="stelle/anschrift/gebaeude/hausnummerBuchstabeZusatzziffer"/>
-      <kosit:property name="stelle/anschrift/gebaeude/postleitzahl"/>
-      <kosit:property name="stelle/anschrift/gebaeude/stockwerkswohnungsnummer"/>
-      <kosit:property name="stelle/anschrift/gebaeude/strasse"/>
-      <kosit:property name="stelle/anschrift/gebaeude/teilnummerDerHausnummer"/>
-      <kosit:property name="stelle/anschrift/gebaeude/wohnort"/>
-      <kosit:property name="stelle/anschrift/gebaeude/wohnortFruehererGemeindename"/>
-      <kosit:property name="stelle/anschrift/gebaeude/wohnungsinhaber"/>
-      <kosit:property name="stelle/anschrift/gebaeude/zusatzangaben"/>
-      <kosit:property name="zeitpunkt"/>
-   </kosit:type>
-   <kosit:type name="ZeileAufschrift"
-               id="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift"
-               prefix="xbd">
-      <kosit:property name="inhalt"/>
-      <kosit:property name="zeilennummer"/>
-   </kosit:type>
-   <kosit:type name="ZeileAufschrift" prefix="xiaa">
-      <kosit:property name="inhalt"/>
-      <kosit:property name="zeilennummer"/>
-   </kosit:type>
-   <kosit:type name="ZeileAufschrift.Inhalt"
-               id="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Inhalt"
-               prefix="xbd"/>
-   <kosit:type name="ZeileAufschrift.Inhalt" prefix="xiaa"/>
-   <kosit:type name="ZeileAufschrift.Zeilennummer"
-               id="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Zeilennummer"
-               prefix="xbd"/>
-   <kosit:type name="ZeileAufschrift.Zeilennummer" prefix="xiaa"/>
    <kosit:type name="Zeitraum" id="XBildung.Baukasten.Zeitraum" prefix="xbd">
       <kosit:property name="beginn"/>
       <kosit:property name="ende"/>
       <kosit:property name="zusatz"/>
    </kosit:type>
    <kosit:type name="datatypeA" prefix="dinspec91379"/>
+   <kosit:type name="datatypeA" prefix="din91379"/>
    <kosit:type name="datatypeB" prefix="dinspec91379"/>
+   <kosit:type name="datatypeB" prefix="din91379"/>
    <kosit:type name="datatypeC" prefix="dinspec91379"/>
+   <kosit:type name="datatypeC" prefix="din91379"/>
    <kosit:type name="datatypeD" prefix="dinspec91379"/>
+   <kosit:type name="datatypeD" prefix="din91379"/>
    <kosit:type name="datatypeE" prefix="dinspec91379"/>
+   <kosit:type name="datatypeE" prefix="din91379"/>
 </kosit:types>

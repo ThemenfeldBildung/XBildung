@@ -8,7 +8,8 @@
          xml:id="XBildung.Baukasten.VerwaltungspolitischeKodierung">
    <title>VerwaltungspolitischeKodierung</title>
    <subtitle>Typ: <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>
-   </subtitle><para>Die Komponente "VerwaltungspolitischeKodierung" beinhaltet Information, die eine verwaltungspolitisch eindeutige Zuordnung ermöglichen.</para> <figure xml:id="figure.XBildung.Baukasten.VerwaltungspolitischeKodierung">
+   </subtitle><para>Die Komponente "VerwaltungspolitischeKodierung" beinhaltet Informationen, die eine verwaltungspolitisch eindeutige Zuordnung ermöglichen.</para> 
+<para>Sofern nicht anderes angegeben wird, sollten die vom Statistischen Bundesamt im <link xlink:href="https://www.xrepository.de/suche/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel" xmlns:xlink="http://www.w3.org/1999/xlink">XRepository</link> veröffentlichten Codelisten verwendet werden. (Suchen Sie nach: urn:de:bund:destatis:bevoelkerungsstatistik:schluessel)</para><figure xml:id="figure.XBildung.Baukasten.VerwaltungspolitischeKodierung">
       <title>VerwaltungspolitischeKodierung</title>
       <mediaobject>
          <imageobject>

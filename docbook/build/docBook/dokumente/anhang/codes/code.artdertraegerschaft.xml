@@ -22,7 +22,9 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung.</entry>
+               <entry><para>
+Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung. Sie basiert auf dem Dokument "<link xlink:href="https://www.statistik-nord.de/fileadmin/Dokumente/Erhebungen/Hochschulstatistiken/8_DeutschlandStipendium/Schluesselverzeichnis_Deutschlandstipendium_WS2022.xlsx">Schlüsselverzeichnisse, Datensatzbeschreibungen und Definitionenkatalog für die Statistik zum Deutschlandstipendium</link>", ergänzt um den Wert "Kreis".
+</para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
@@ -36,7 +38,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>0.93</entry>
+               <entry>0.94</entry>
             </row>
          </tbody>
       </tgroup>

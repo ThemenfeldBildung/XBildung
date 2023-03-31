@@ -95,18 +95,16 @@ Mit der Vollendung seiner Geburt wird ein Mensch rechtsfähig und damit zu einer
                   <emphasis role="bold">anschrift</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Meldeanschrift</emphasis>
+                  <emphasis role="codebf">Anschrift</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..n</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift"
-                        role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Anschrift" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift"
-                        role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Anschrift" role="Seitenzahl"/>
                </entry>
             </row>
             <row>

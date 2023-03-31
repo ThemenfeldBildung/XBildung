@@ -17,7 +17,11 @@ XBildung besteht aus verschiedenen Artefakten, welche einem URI-Konzept folgend 
 * Die eingebundenen Codelisten im Ordner [/code](https://github.com/OZG-TFBildung/XBildung/tree/main/code)
 * Die XSD-Schemata im Ordner [/xsd](https://github.com/OZG-TFBildung/XBildung/tree/main/xsd)
 * Die Darstellung der Spezifikation als PDF im Ordner [/spec](https://github.com/OZG-TFBildung/XBildung/tree/main/spec)
+* Die XML-Dateien, aus denen die PDF-Spezifikation erstellt wird, im DocBook-Format im Ordner [/docbook](https://github.com/OZG-TFBildung/XBildung/tree/main/docbook)
 * Die Schematron-Regeln im Ordner [/sch](https://github.com/OZG-TFBildung/XBildung/tree/main/sch)
+
+Durch die Veröffentlichung auf GitHub soll es zudem erleichtert werden, zwei Versionen miteinander zu vergleichen.
+
 
 # Das Beteiligungsverfahren
 

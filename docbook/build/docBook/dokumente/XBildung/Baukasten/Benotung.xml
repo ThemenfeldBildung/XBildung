@@ -128,24 +128,18 @@
                   <emphasis role="bold">schemaURI</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code.Bewertungsschema</emphasis>
+                  <emphasis role="codebf">xs:anyURI</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema"
-                        role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema"
-                        role="Seitenzahl"/>
-               </entry>
+               <entry/>
+               <entry/>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
                <entry namest="indent1" nameend="page"><para>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
-<para>XBildung stellt eine Reihe von schemaURIs zur Verfügung.</para></entry>
+<para>XBildung stellt in der Codeliste <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link> (Seite <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes" role="Seitenzahl"/>) eine Reihe von schemaURIs zur Verfügung.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -262,24 +256,18 @@
                   <emphasis role="bold">schemaURI</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code.Bewertungsschema</emphasis>
+                  <emphasis role="codebf">xs:anyURI</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema"
-                        role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema"
-                        role="Seitenzahl"/>
-               </entry>
+               <entry/>
+               <entry/>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
                <entry namest="indent1" nameend="page"><para>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
-<para>XBildung stellt eine Reihe von schemaURIs zur Verfügung.</para></entry>
+<para>XBildung stellt in der Codeliste <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link> (Seite <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes" role="Seitenzahl"/>) eine Reihe von schemaURIs zur Verfügung.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>

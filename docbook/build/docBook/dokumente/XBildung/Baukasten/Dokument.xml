@@ -64,7 +64,7 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>eindeutige Identifikation eines Dokuments im Bildungswesen</para></entry>
+               <entry namest="indent0" nameend="page"><para>Eindeutige Identifikation eines Dokuments im Bildungswesen.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -85,7 +85,7 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Voller Titel des Dokuments</para></entry>
+               <entry namest="indent0" nameend="page"><para>Vollständiger Titel des Dokuments.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -93,13 +93,13 @@
                </entry>
                <entry/>
                <entry>
-                  <emphasis role="bold">0..1</emphasis>
+                  <emphasis role="bold">0..n</emphasis>
                </entry>
                <entry/>
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Angaben zur Ausstellung des Dokuments</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zur Ausstellung des Dokuments. In manchen Dokumenten gibt es parallel zum Datum der Ausstellung auch ein Datum des Erwerbs.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -179,8 +179,8 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Sprachkennzeichnung des Dokuments. Bitte nutzen Sie Eintragungen nach "BCP47" </para>
-<para> https://tools.ietf.org/html/bcp47 zur Kennzeichnung der Sprache(n) in der die Bescheinigung ausgestellt ist. Damit sind Eintragungen wie de-AT, fr-CA möglich.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Sprachkennzeichnung des Dokuments. Bitte nutzen Sie Eintragungen nach "BCP47":</para>
+<para>https://tools.ietf.org/html/bcp47 zur Kennzeichnung der Sprache(n) in der das Dokument ausgestellt ist. Damit sind Eintragungen wie de-AT, fr-CA möglich.</para></entry>
             </row>
          </tbody>
       </tgroup>

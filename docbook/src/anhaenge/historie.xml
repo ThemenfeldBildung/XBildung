@@ -11,11 +11,37 @@
     </info>
     <para>In der Versionshistorie werden die Änderungen der aktuellen Version zur Vorversion der
         Spezifikation dargestellt. Es werden die Änderungen der letzten zwei Versionen aufgeführt.</para>
-    <section xml:id="spezifikation.anhang.versionshistorie093">
+    <section xml:id="spezifikation.anhang.versionshistorie094">
         <info>
             <title>Version &version;</title>
         </info>
         <para>Veröffentlichungsdatum: &fassung;</para>
+        <para>Veränderungen zur vorherigen Version: Schwerpunkte waren die Vereinheitlichung der Anschrift, die Anpassung der Codelisten-Beschreibungen und die Überführung auf XÖV 3.0. Im Detail: </para>
+        <itemizedlist>
+            <listitem><para>XBD-221: Meldeanschrift, Anschriftzone in der Auslandsanschrift, Datentyp für das Druckbild einer Auslandsanschrift und Codeliste amtlicher Gemeindeschluessel löschen</para></listitem>
+            <listitem><para>XBD-226: "xbd:Anschrift" einheitlich für alle Anschriften verwenden</para></listitem>
+            <listitem><para>XBD-124: XInneres aus dem Kapitel "Eingebundene externe Modelle" entfernen</para></listitem>
+            
+            <listitem><para>XBD-240: XBildung auf XÖV 3.0 überführen</para></listitem>
+            <listitem><para>XBD-220: XÖV-Bibliothek in der aktuellen Version einbinden, dabei datatypeC von DIN Spec 91379 auf DIN Norm 91379 umstellen</para></listitem>
+            
+            <listitem><para>XBD-151: Kardinalität der Eigenschaft "ausstellung" in "xbd:Dokument" auf 0..n ändern</para></listitem>
+            
+            <listitem><para>XBD-242: Beschreibung der Klasse "xbd:Identifikation" und ihrer Eigenschaften anpassen und erweitern</para></listitem>
+            
+            <listitem><para>XBD-245: Metadaten aller Codelisten vereinheitlichen, dabei Quelle/Herkunft angeben, Beispiele angeben, Code-Spalte benennen</para></listitem>
+            <listitem><para>XBD-224: Beschreibung der Codeliste "CEFR / GER" um Beispiele der globalen Level ergänzen</para></listitem>
+            <listitem><para>XBD-228: Codeliste "Art der Hochschule" entfernen</para></listitem>
+            <listitem><para>XBD-200: Codelisten für die Eigenschaften der Klasse "xbd:VerwaltungspolitischeKodierung" empfehlen</para></listitem>
+            <listitem><para>XBD-234: Codeliste "Bewertungsschemata" um Einträge für Schulnoten und Noten im Studium ergänzen</para></listitem>
+            <listitem><para>XBD-236: In "xbd:Benotung.bewertungsschemaNote" den Typ der Eigenschaft "schemaURI" von "xbd:Code.Bewertungsschema" auf "xs:anyURI" ändern</para></listitem>
+        </itemizedlist>
+    </section>
+    <section xml:id="spezifikation.anhang.versionshistorie093">
+        <info>
+            <title>Version 0.93</title>
+        </info>
+        <para>Veröffentlichungsdatum: 4. November 2022</para>
         <para>Veränderungen zur vorherigen Version: Struktur des Dokumentes überarbeitet, Errata sowie folgende Änderungen: </para>
         <itemizedlist>
             <listitem><para>XBD-223: Notenschemata für Abitur (000_280_840) ergänzen</para></listitem>
@@ -37,39 +63,5 @@
             <listitem><para>XBD-85: Reihenfolge der Elemente von Anschrift ändern</para></listitem>
             <listitem><para>XBD-60: Falsche Verwendung von skos:hasTopConcept, fehlende skos:ConceptScheme(s) korrigieren</para></listitem>
         </itemizedlist>
-    </section>
-    <section xml:id="spezifikation.anhang.versionshistorie092">
-        <info>
-            <title>Version 0.92</title>
-        </info>
-        <para>Veröffentlichungsdatum: 21. Juli 2022</para>
-        <para>Veränderungen zur vorherigen Version: Struktur des Dokumentes überarbeitet, Errata sowie folgende Änderungen: </para>
-        <orderedlist continuation="restarts" inheritnum="ignore">
-            <listitem>
-                <para>
-                    <emphasis role="bold">Allgemein:</emphasis>
-                </para>
-                <para>XBD-185: ISCED-F 2013 in Kurs aufgenommen</para>
-                <para>XBD-172: Verweise auf Notenschemata für Abiturnoten erstellt und gehostet</para>
-                <para>XBD-169: Kapitel I.2 Bildungsjourney überarbeitet</para>
-                <para>XBD-163: Angabe Schwerpunkt in Kurs ermöglicht</para>
-                <para>XBD-161: Klasse Abschluss um artDesSchulabschlusses erweitert, Typ artDesAbschlusses geändert</para>
-                <para>XBD-155: Überarbeitung der Klasse Benotung: erweitert um Angaben zum "passing, maximum und minimum Grade"</para>
-                <para>XBD-153: Beschreibung Rufname von XÖV-Bibliothek übernommen</para>
-                <para>XBD-148: Headerkommentare in RDF-Dateien überarbeitet</para>
-                <para>XBD-25: Kernkomponente Kommunikation verfügbar gemacht</para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis role="bold"><link linkend="schluesseltabellen.uebersicht">Codelisten</link></emphasis></para>
-                <para>XBD-192: Common European Reference Framework CEFR - als Typ 2 PublicationsOffice Liste angelegt</para>
-                <para>XBD-174: ISCED-F 2013 als Publications Office Taxonomie (Typ 2) eingebunden</para>
-                <para>XBD-168: ArtDerTraegerschaft neu nummeriert und um "Kreis" ergänzt</para>
-                <para>XBD-161: ArtDesAbschlusses: Titel, Werte und Beschreibung angepasst</para>
-                <para>XBD-137: NDRs für Codewerten bei kursstatus angewendet</para>
-                <para>XBD-6: Codeliste ArtDerHochschulzugangsberechtigung entfernt</para>
-            </listitem>
-        </orderedlist>
-
     </section>
 </appendix>

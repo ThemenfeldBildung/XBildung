@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xbd="http://xbildung.de/def/xbildung/0.93/xsd"
+           xmlns:xbd="http://xbildung.de/def/xbildung/0.94/xsd"
+           xmlns:din91379="urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08"
            xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
-           xmlns:xiaa="http://www.osci.de/xinneres/auslandsanschrift/3"
-           xmlns:xicgvz="http://www.osci.de/xinneres/codes/gemeindeverzeichnis/2"
-           xmlns:xima="http://www.osci.de/xinneres/meldeanschrift/3"
            xmlns:xoev-code="http://xoev.de/schemata/code/1_0"
            xmlns:xoev-lc="http://xoev.de/latinchars/1_1/datatypes"
-           targetNamespace="http://xbildung.de/def/xbildung/0.93/xsd"
-           version="0.93"
+           targetNamespace="http://xbildung.de/def/xbildung/0.94/xsd"
+           version="0.94"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
    <xs:annotation>
@@ -21,8 +19,8 @@
             <beschreibung>XBildung</beschreibung>
          </standard>
          <versionStandard>
-            <version>0.93</version>
-            <versionXOEVProfil>2.0.0</versionXOEVProfil>
+            <version>0.94</version>
+            <versionXOEVProfil>3.0.0</versionXOEVProfil>
             <versionXOEVHandbuch>2.4</versionXOEVHandbuch>
             <versionXGenerator>3.0.1</versionXGenerator>
             <versionModellierungswerkzeug>19.0 SP 3</versionModellierungswerkzeug>
@@ -31,18 +29,14 @@
       </xs:appinfo>
    </xs:annotation>
    <xs:include schemaLocation="xbildung-basisdatentypen.xsd"/>
-   <xs:import schemaLocation="http://www.osci.de/xinneres/auslandsanschrift/3/xinneres-auslandsanschrift.xsd"
-              namespace="http://www.osci.de/xinneres/auslandsanschrift/3"/>
-   <xs:import schemaLocation="http://www.osci.de/xinneres/codes/gemeindeverzeichnis/2/xinneres-codes-gemeindeverzeichnis.xsd"
-              namespace="http://www.osci.de/xinneres/codes/gemeindeverzeichnis/2"/>
-   <xs:import schemaLocation="http://www.osci.de/xinneres/meldeanschrift/3/xinneres-meldeanschrift.xsd"
-              namespace="http://www.osci.de/xinneres/meldeanschrift/3"/>
    <xs:import schemaLocation="http://xoev.de/DIN-SPEC-91379/2019-03/datatypes/din-91379-datatypes.xsd"
               namespace="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"/>
    <xs:import schemaLocation="http://xoev.de/latinchars/1_1/datatypes/latinchars.xsd"
               namespace="http://xoev.de/latinchars/1_1/datatypes"/>
    <xs:import schemaLocation="http://xoev.de/schemata/code/1_0/xoev-code.xsd"
               namespace="http://xoev.de/schemata/code/1_0"/>
+   <xs:import schemaLocation="https://xoev.de/schemata/din/91379/2022-08/din-norm-91379-datatypes.xsd"
+              namespace="urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08"/>
    <xs:complexType name="Abschlussarbeit">
       <xs:annotation>
          <xs:documentation>Allgemeine Eigenschaften einer Abschlussarbeit, die zu einem Bildungsabschluss führte.</xs:documentation>
@@ -73,7 +67,7 @@
          <xs:documentation>Der AllgemeineName dient der Darstellung von Vor- und Nachnamen und fasst deren gemeinsame Eigenschaften zusammen.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
-         <xs:element name="name" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="name" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Die Komponente "name" ist der eigentliche Familien- oder Vorname als Zeichenkette. Nachnamen, z.B. mit Adelstiteln bzw. ausländische Nachnamen werden als ein Name übermittelt und nicht in verschiedene Bestandteile aufgeteilt.</xs:documentation>
             </xs:annotation>
@@ -108,12 +102,12 @@
                <xs:documentation>Die Komponente "repraesentation" enthält die alternative Repräsentation von Inhalten, die originär an anderer Stelle und in anderer Form übermittelt werden und der festgelegten Konvention folgt. Als Datentyp wird Binary (BASE64) gewählt, damit jeder beliebige Inhalt (so z. B. auch XML) in jeder beliebigen Codierung übermittelt werden kann.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="algorithmus" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="algorithmus" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Die Komponente "algorithmus" enthält den Algorithmus, der (möglichst in formaler Notation) genau beschreibt wie die alternative Repräsentation erzeugt wird. Beispiel: Analog der Vorgehensweise bei XML Signature, wo über URIs die Hashalgorithmen benannt werden, in Form von URLs oder URIs.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="hinweis" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="hinweis" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Die Komponente "hinweis" enthält einen zusätzlichen Hinweis des Senders über die von ihm intendierte Umgehensweise mit der alternativen Repräsentation.</xs:documentation>
             </xs:annotation>
@@ -194,47 +188,6 @@
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:complexType name="Auslandsanschrift.Anschriftzone">
-      <xs:annotation>
-         <xs:appinfo>
-            <title>Anschriftzone in der Auslandsanschrift</title>
-         </xs:appinfo>
-         <xs:documentation>Dieser Datentyp enthält die für die Zustellung im Ausland erforderlichen Angaben zur Anschriftzone, außer der Angabe des Staates. Diese Angaben beinhalten alle zur Adressierung erforderlichen Angaben inkl. des Namens der Person und bestehen aus bis zu fünf Zeilen. Diese Zeilen sind beginnend mit der Nummer 4 lückenlos zu durchzunummerieren.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-         <xs:element name="zeile.anschrift"
-                     minOccurs="2"
-                     maxOccurs="5"
-                     type="xbd:ZeileAufschrift">
-            <xs:annotation>
-               <xs:documentation>Hier sind pro Zeile der Anschriftzone jeweils der eigentliche Inhalt und die Zeilennummer zu übermitteln.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:complexType name="Auslandsanschrift.Druckbild">
-      <xs:annotation>
-         <xs:appinfo>
-            <title>Datentyp für das Druckbild einer Auslandsanschrift</title>
-            <implementationHint>Sofern dieser Datentyp verwendet wird, um Inhalte des DSMeld-Blattes 1233 zu übermitteln, gelten die strengeren Regelungen aus dem DSMeld.</implementationHint>
-         </xs:appinfo>
-         <xs:documentation>Dieser Datentyp repräsentiert das Druckbild einer Anschrift im Ausland, indem die Anschriftzone eines Brieffensters gemäß DIN 5008 abgebildet wird. Die Anschriftzone setzt sich aus einem Schlüsselwert für den Zielstaat und bis zu fünf weiteren Zeilen für die übrigen Adressierungsangaben zusammen. Angaben zur Vermerkzone können mit diesem Datentypen nicht abgebildet werden. Die ersten fünf Zeilen werden mit den Angaben zur Anschrift im Ausland gefüllt. Leerzeilen sind dabei nicht zulässig. Entsprechend DIN 5008 sind die Zeilen beginnend mit der Nummer 4 lückenlos durchzunummerieren und Zeilennummern nicht mehrfach zu verwenden. Der Ortsname in der Anschrift sollte in Großbuchstaben und in der Sprache des Zielstaates erfasst und übermittelt werden. Für die Erstellung des Druckbildes ist der übermittelte Schlüsselwert des Zielstaates in eine für die Zustellung geeignete Klartextform - d. h. in Großbuchstaben und in die deutsche Sprache - zu überführen.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-         <xs:element name="staat" type="xoev-code:Code">
-            <xs:annotation>
-               <xs:documentation>Hier ist Staatenschlüssel des Zielstaats aus der aktuell gültigen Staats- und Gebietssystematik des Statistischen Bundesamtes zu übermitteln. Da mit dem Datentyp Auslandsanschrift.Druckbild nur Auslandsanschriften übermittelt werden dürfen, ist die Verwendung des Schlüssels 000 (Deutschland) nicht zulässig.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="anschriftzone"
-                     minOccurs="0"
-                     type="xbd:Auslandsanschrift.Anschriftzone">
-            <xs:annotation>
-               <xs:documentation>Hier sind zeilenweise die für die Zustellung erforderlichen Angaben zur Anschriftzone zu übermitteln.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
    <xs:complexType name="Benotung">
       <xs:annotation>
          <xs:documentation>Der Datentyp Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, etc.</xs:documentation>
@@ -264,9 +217,9 @@
             </xs:annotation>
             <xs:complexType>
                <xs:sequence>
-                  <xs:element name="schemaURI" minOccurs="0" type="xbd:Code.Bewertungsschema">
+                  <xs:element name="schemaURI" minOccurs="0" type="xs:anyURI">
                      <xs:annotation>
-                        <xs:documentation>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme). XBildung stellt eine Reihe von schemaURIs zur Verfügung.</xs:documentation>
+                        <xs:documentation>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme). XBildung stellt in der Codeliste Bewertungsschema (Seite ) eine Reihe von schemaURIs zur Verfügung.</xs:documentation>
                      </xs:annotation>
                   </xs:element>
                   <xs:element name="beschreibung"
@@ -309,9 +262,9 @@
             </xs:annotation>
             <xs:complexType>
                <xs:sequence>
-                  <xs:element name="schemaURI" minOccurs="0" type="xbd:Code.Bewertungsschema">
+                  <xs:element name="schemaURI" minOccurs="0" type="xs:anyURI">
                      <xs:annotation>
-                        <xs:documentation>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme). XBildung stellt eine Reihe von schemaURIs zur Verfügung.</xs:documentation>
+                        <xs:documentation>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme). XBildung stellt in der Codeliste Bewertungsschema (Seite ) eine Reihe von schemaURIs zur Verfügung.</xs:documentation>
                      </xs:annotation>
                   </xs:element>
                   <xs:element name="beschreibung"
@@ -350,59 +303,6 @@
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:complexType name="Code.ArtDerHochschule">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Art der Hochschule</nameLang>
-               <nameKurz>Art der Hochschule</nameKurz>
-               <nameTechnisch>ArtDerHochschule-Codes</nameTechnisch>
-               <kennung>urn:xbildung-de:xbildung:codeliste:artderhochschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Hochschule.</beschreibung>
-               <herausgebernameLang>XBildung</herausgebernameLang>
-               <herausgebernameKurz>XBildung.de</herausgebernameKurz>
-            </codeliste>
-            <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2021-06-22</datumGueltigkeitAb>
-               <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
-            </versionCodeliste>
-            <codelistenspalten>
-               <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>true</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>true</empfohleneCodeSpalte>
-               </code>
-               <description-de-DE>
-                  <spaltennameLang>Hochschule</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <sprache>de-DE</sprache>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-de-DE>
-            </codelistenspalten>
-            <genutzteCodeSpalte>code</genutzteCodeSpalte>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:complexContent>
-         <xs:restriction base="xoev-code:Code">
-            <xs:sequence>
-               <xs:element name="code" form="unqualified" type="xbd:ArtDerHochschule-Codes"/>
-            </xs:sequence>
-            <xs:attribute name="listURI"
-                          type="xs:anyURI"
-                          use="optional"
-                          fixed="urn:xbildung-de:xbildung:codeliste:artderhochschule"/>
-            <xs:attribute name="listVersionID"
-                          type="xs:normalizedString"
-                          use="optional"
-                          fixed="0.93"/>
-         </xs:restriction>
-      </xs:complexContent>
-   </xs:complexType>
    <xs:complexType name="Code.ArtDerPruefung">
       <xs:annotation>
          <xs:appinfo>
@@ -411,18 +311,16 @@
                <nameKurz>Art der Prüfung</nameKurz>
                <nameTechnisch>ArtderPruefung-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artderpruefung</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2021-06-01</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -442,13 +340,13 @@
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
                </description-en-GB>
-               <mapping-EuropassAssessmentType>
-                  <spaltennameLang>Europass Standard List Of Assessment Types</spaltennameLang>
+               <mapping-ELMAssessmentType>
+                  <spaltennameLang>ELM List Of Assessment Types</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>false</codeSpalte>
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </mapping-EuropassAssessmentType>
+               </mapping-ELMAssessmentType>
             </codelistenspalten>
             <genutzteCodeSpalte>code</genutzteCodeSpalte>
          </xs:appinfo>
@@ -465,7 +363,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="0.93"/>
+                          fixed="0.94"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -477,18 +375,16 @@
                <nameKurz>Art der Schule</nameKurz>
                <nameTechnisch>ArtDerSchule-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:kmk:codeliste:artderschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Schularten nach dem Kerndatensatz (KDS) 4.0 der Kultusministerkonferenz (KMK).</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Quelle: https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
                <herausgebernameLang>Kultusministerkonferenz</herausgebernameLang>
                <herausgebernameKurz>KMK</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
                <version>4.0</version>
-               <datumGueltigkeitAb>2021-06-01</datumGueltigkeitAb>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -530,18 +426,16 @@
                <nameKurz>Art der Trägerschaft</nameKurz>
                <nameTechnisch>ArtderTraegerschaft-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung. Sie basiert auf dem Dokument "Schlüsselverzeichnisse, Datensatzbeschreibungen und Definitionenkatalog für die Statistik zum Deutschlandstipendium", ergänzt um den Wert "Kreis".</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2020-04-26</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -571,7 +465,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="0.93"/>
+                          fixed="0.94"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -588,8 +482,7 @@
                <herausgebernameKurz>DESTATIS</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -633,7 +526,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="0.93"/>
+                          fixed="0.94"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -650,8 +543,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -693,7 +585,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="0.93"/>
+                          fixed="0.94"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -705,18 +597,17 @@
                <nameKurz>CEFR / GER</nameKurz>
                <nameTechnisch>CEFR-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:coe-int:codeliste:languagereference</kennung>
-               <beschreibung>Das Common European Framework Reference of Languages (CEFR), das auch Gemeinsamer europäischer Referenzrahmen für Sprachen (GER) genannt wird, wurde vom Europarat erstellt. Offizielle weitere Informationen können hier abgerufen werden: https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions XBildung verwendet die Codeliste, die vom EU Publication Office technisch zur Verfügung gestellt wird. Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Link zur Webseite: https://op.europa.eu/de/web​/eu-vocabularies​/dataset/-/​resource?uri=​http://publications.europa.eu/​resource/dataset/​foreign-language-skill Beispiele: (Element : Code) Todo : Globale Level als Tabelle angeben.</beschreibung>
+               <beschreibung>Das Common European Framework Reference of Languages (CEFR), das auch Gemeinsamer europäischer Referenzrahmen für Sprachen (GER) genannt wird, wurde vom Europarat erstellt. Offizielle weitere Informationen können hier abgerufen werden: https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions XBildung verwendet die Codeliste, die vom EU Publication Office technisch zur Verfügung gestellt wird. Link zur Webseite: https://op.europa.eu/de/web​/eu-vocabularies​/dataset/-/​resource?uri=​http://publications.europa.eu/​resource/dataset/​foreign-language-skill Code: Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Beispiele: (Element : Code) A1 Elementare Sprachverwendung : http://data.europa.eu/snb/cefr/c_1e3dc79a A2 Elementare Sprachverwendung : http://data.europa.eu/snb/cefr/c_3458f114 B1 Selbstständige Sprachverwendung : http://data.europa.eu/snb/cefr/c_0427b00c B2 Selbstständige Sprachverwendung : http://data.europa.eu/snb/cefr/c_097c5ed1 C1 Kompetente Sprachverwendung : http://data.europa.eu/snb/cefr/c_2f49f1ce C2 Kompetente Sprachverwendung : http://data.europa.eu/snb/cefr/c_c24a21da</beschreibung>
                <herausgebernameLang>Technisch: Publications Office of the European Union; Inhaltlich: Council of Europe</herausgebernameLang>
                <herausgebernameKurz>PO.EU for CoE</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>20230118-0</version>
+               <datumGueltigkeitAb>2023-01-18</datumGueltigkeitAb>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -746,7 +637,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="1.0"/>
+                          fixed="20230118-0"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -758,7 +649,7 @@
                <nameKurz>Country Codes</nameKurz>
                <nameTechnisch>CountryCodes-Codes</nameTechnisch>
                <kennung>urn:xoev-de:kosit:codeliste:country-codes</kennung>
-               <beschreibung>Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard "Country codes" der International Organization for Standardization (ISO). Die vorliegende Liste die"officially assigned codes" (Alpha-2 und Numerisch) der ISO-Liste sowie den "user assigned code" für Kosovo ("XK"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol "BIS Order only" Spezifikation. Link zur Webseite: https://www.xrepository.de/details/urn​:xoev-de​:kosit​:codeliste​:country-codes Beispiele: (Element : Code) Deutschland : DE Griechenland : GR</beschreibung>
+               <beschreibung>Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard "Country codes" der International Organization for Standardization (ISO). Die vorliegende Liste die"officially assigned codes" (Alpha-2 und Numerisch) der ISO-Liste sowie den "user assigned code" für Kosovo ("XK"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol "BIS Order only" Spezifikation. Link zur Webseite: https://www.xrepository.de/details/urn​:xoev-de​:kosit​:codeliste​:country-codes Code: Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "ISOAlpha2code". Beispiele: (Element : Code) Deutschland : DE Griechenland : GR</beschreibung>
                <herausgebernameLang>Koordinierungsstelle für IT-Standards</herausgebernameLang>
                <herausgebernameKurz>KoSIT</herausgebernameKurz>
             </codeliste>
@@ -836,7 +727,9 @@
                <nameKurz>Geschlecht</nameKurz>
                <nameTechnisch>Geschlecht-Codes</nameTechnisch>
                <kennung>urn:de:dsmeld:schluesseltabelle:geschlecht</kennung>
-               <beschreibung>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Siehe Blatt 0701 des DSMeld. Link zur Webseite: https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht Beispiele: (Element : Code) männlich : m weiblich : w ohne Angabe : x divers : d</beschreibung>
+               <beschreibung>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Siehe Blatt 0701 des DSMeld. Link zur Webseite: https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht Code: Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key". Beispiele: (Element : Code) männlich : m weiblich : w ohne Angabe : x divers : d</beschreibung>
+               <herausgebernameLang>Koordinierungsstelle für IT-Standards</herausgebernameLang>
+               <herausgebernameKurz>KoSIT</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
                <version>3</version>
@@ -886,7 +779,7 @@
                <nameKurz>ISCED Level</nameKurz>
                <nameTechnisch>ISCEDlevel-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:unesco:codeliste:isced2011</kennung>
-               <beschreibung>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: http://uis.unesco.org/en/isced-mappings ISCED 2011 definiert neun Ebenen (Level 0 bis 8) für die Angabe des Bildungsniveaus. Der zu verwendende Schlüssel ist die einstellige Ziffer des Levels. Link zur Webseite: https://www.datenportal.bmbf.de/​portal/de/G293.html Beispiele: (Element : Code) Gymnasium : 3 Bachelor : 6 Master : 7</beschreibung>
+               <beschreibung>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: http://uis.unesco.org/en/isced-mappings ISCED 2011 definiert neun Ebenen (Level 0 bis 8) für die Angabe des Bildungsniveaus. Link zur Webseite: https://www.datenportal.bmbf.de/​portal/de/G293.html Code: Der zu verwendende Schlüssel ist die einstellige Ziffer des Levels. Beispiele: (Element : Code) Gymnasium : 3 Bachelor : 6 Master : 7</beschreibung>
                <herausgebernameLang>United Nations Educational, Scientific and Cultural Organization</herausgebernameLang>
                <herausgebernameKurz>UNESCO</herausgebernameKurz>
             </codeliste>
@@ -920,7 +813,7 @@
                <nameKurz>ISCED-F 2013</nameKurz>
                <nameTechnisch>ISCED-F-2013-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:publicationsoffice-eu:taxonomie:isced-f-2013</kennung>
-               <beschreibung>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: http://uis.unesco.org/en/isced-mappings International Standard Classification of Education 2013 Field of Studies (ISCED-F 2013) ist eine Taxonomie von Bildungsbereichen. Sie wurde von der UNESCO erstellt. Von XBildung wird jedoch die Version verwendet, die vom EU Publication Office technisch zur Verfügung gestellt wird. Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Link zur Webseite: https://op.europa.eu/de/​web/eu-vocabularies/dataset/​-/resource?uri=​http://publications.europa.eu/​resource/dataset/​international-education-classification Beispiele: (Element : Code) Mathematik : http://data.europa.eu/snb/isced-f/0541 Fremdsprachenerwerb : http://data.europa.eu/snb/isced-f/0231 Sport : http://data.europa.eu/snb/isced-f/1014</beschreibung>
+               <beschreibung>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: http://uis.unesco.org/en/isced-mappings International Standard Classification of Education 2013 Field of Studies (ISCED-F 2013) ist eine Taxonomie von Bildungsbereichen. Sie wurde von der UNESCO erstellt. Von XBildung wird jedoch die Version verwendet, die vom EU Publication Office technisch zur Verfügung gestellt wird. Link zur Webseite: https://op.europa.eu/de/​web/eu-vocabularies/dataset/​-/resource?uri=​http://publications.europa.eu/​resource/dataset/​international-education-classification Code: Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Beispiele: (Element : Code) Mathematik : http://data.europa.eu/snb/isced-f/0541 Fremdsprachenerwerb : http://data.europa.eu/snb/isced-f/0231 Sport : http://data.europa.eu/snb/isced-f/1014</beschreibung>
                <herausgebernameLang>Technisch: Publications Office of the European Union; Inhaltlich: United Nations Educational, Scientific and Cultural Organization</herausgebernameLang>
                <herausgebernameKurz>PO.EU for UNESCO</herausgebernameKurz>
             </codeliste>
@@ -955,18 +848,16 @@
                <nameKurz>Kursstatus</nameKurz>
                <nameTechnisch>Kursstatus-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:kursstatus</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt.</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -1003,7 +894,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="0.93"/>
+                          fixed="0.94"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -1015,19 +906,18 @@
                <nameKurz>Language Authority Table</nameKurz>
                <nameTechnisch>LanguageAuthTable-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:publicationsoffice-eu:codeliste:language</kennung>
-               <beschreibung>Folgende Beschreibung wurde vom Publications Office der EU übernommen: The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts: ISO 639-1 contains strictly two alphabetic letters (alpha-2), ISO 639-2/B (B = bibliographic) is used for bibliographic purpose (alpha-3), ISO 639-2/T (T = terminology) is used for technical purpose (alpha-3), ISO 639-3 covers all the languages and macro-languages of the world (alpha-3); the values are compliant with ISO 639-2/T. If an authority code is needed for a language without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic. Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Link zur Webseite: https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri​=http://publications.europa.eu/​resource/​dataset/language Beispiele: (Element : Code) Deutsch : http://publications.europa.eu/resource/authority/language/DEU Englisch : http://publications.europa.eu/resource/authority/language/ENG Französisch : http://publications.europa.eu/resource/authority/language/FRA Latein : http://publications.europa.eu/resource/authority/language/LAT</beschreibung>
+               <beschreibung>Folgende Beschreibung wurde vom Publications Office der EU übernommen: The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts: ISO 639-1 contains strictly two alphabetic letters (alpha-2), ISO 639-2/B (B = bibliographic) is used for bibliographic purpose (alpha-3), ISO 639-2/T (T = terminology) is used for technical purpose (alpha-3), ISO 639-3 covers all the languages and macro-languages of the world (alpha-3); the values are compliant with ISO 639-2/T. If an authority code is needed for a language without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic. Link zur Webseite: https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri​=http://publications.europa.eu/​resource/​dataset/language Code: Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann. Beispiele: (Element : Code) Deutsch : http://publications.europa.eu/resource/authority/language/DEU Englisch : http://publications.europa.eu/resource/authority/language/ENG Französisch : http://publications.europa.eu/resource/authority/language/FRA Latein : http://publications.europa.eu/resource/authority/language/LAT</beschreibung>
                <herausgebernameLang>Publications Office of the European Union</herausgebernameLang>
                <herausgebernameKurz>PO.EU</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>20210929-0</version>
+               <version>20220928-0</version>
                <bezugsort>http://publications.europa.eu/resource/dataset/language</bezugsort>
-               <datumGueltigkeitAb>2021-09-29</datumGueltigkeitAb>
+               <datumGueltigkeitAb>2022-09-28</datumGueltigkeitAb>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -1056,7 +946,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="20210929-0"/>
+                          fixed="20220928-0"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -1070,7 +960,7 @@
                      maxOccurs="unbounded"
                      type="xbd:Identifikation">
             <xs:annotation>
-               <xs:documentation>eindeutige Identifikation eines Dokuments im Bildungswesen</xs:documentation>
+               <xs:documentation>Eindeutige Identifikation eines Dokuments im Bildungswesen.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="titel"
@@ -1078,12 +968,12 @@
                      maxOccurs="unbounded"
                      type="xbd:String.Localized">
             <xs:annotation>
-               <xs:documentation>Voller Titel des Dokuments</xs:documentation>
+               <xs:documentation>Vollständiger Titel des Dokuments.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="ausstellung" minOccurs="0">
+         <xs:element name="ausstellung" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-               <xs:documentation>Angaben zur Ausstellung des Dokuments</xs:documentation>
+               <xs:documentation>Angaben zur Ausstellung des Dokuments. In manchen Dokumenten gibt es parallel zum Datum der Ausstellung auch ein Datum des Erwerbs.</xs:documentation>
             </xs:annotation>
             <xs:complexType>
                <xs:sequence>
@@ -1092,7 +982,7 @@
                         <xs:documentation>Datum der Ausstellung des Dokuments</xs:documentation>
                      </xs:annotation>
                   </xs:element>
-                  <xs:element name="ort" minOccurs="0" type="dinspec91379:datatypeC">
+                  <xs:element name="ort" minOccurs="0" type="din91379:datatypeC">
                      <xs:annotation>
                         <xs:documentation>Ort der Ausstellung des Dokuments</xs:documentation>
                      </xs:annotation>
@@ -1110,7 +1000,7 @@
                      maxOccurs="unbounded"
                      type="xbd:Sprache">
             <xs:annotation>
-               <xs:documentation>Sprachkennzeichnung des Dokuments. Bitte nutzen Sie Eintragungen nach "BCP47" https://tools.ietf.org/html/bcp47 zur Kennzeichnung der Sprache(n) in der die Bescheinigung ausgestellt ist. Damit sind Eintragungen wie de-AT, fr-CA möglich.</xs:documentation>
+               <xs:documentation>Sprachkennzeichnung des Dokuments. Bitte nutzen Sie Eintragungen nach "BCP47": https://tools.ietf.org/html/bcp47 zur Kennzeichnung der Sprache(n) in der das Dokument ausgestellt ist. Damit sind Eintragungen wie de-AT, fr-CA möglich.</xs:documentation>
             </xs:annotation>
          </xs:element>
       </xs:sequence>
@@ -1168,20 +1058,24 @@
    </xs:complexType>
    <xs:complexType name="Identifikation">
       <xs:annotation>
-         <xs:documentation>Unter "Identifikation" werden die Informationen zusammengefasst, die die eindeutige Identifikation von Objekten in einem fachlichen Kontext erlauben.</xs:documentation>
+         <xs:documentation>Unter "Identifikation" werden die Informationen zusammengefasst, die die eindeutige Identifikation von Objekten, Dokumenten, Personen oder Organisationen in einem fachlichen Kontext erlauben.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
          <xs:element name="id" minOccurs="0" type="xs:string">
             <xs:annotation>
-               <xs:documentation>Die ID sichert die eindeutige Identifikation von Objekten in einem fachlichen Kontext. Anmerkung: Hier geht es ausschließlich um fachliche Identifikationen wie Steuernummer, Krankenversicherungsnummer, Personalausweisnummer, etc.</xs:documentation>
+               <xs:documentation>Die ID sichert die eindeutige Identifikation von Objekten, Dokumenten, Personen oder Organisationen in einem fachlichen Kontext. Dieses Feld beinhaltet die tatsächlich Angabe, die die fachliche Identifikationen ermöglicht. Es beinhaltet also zum Beispiel die Steuernummer, Krankenversicherungsnummer, Personalausweisnummer, etc.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="beschreibung" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="beschreibung" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
-               <xs:documentation>Die "beschreibung" dient der näheren Charakterisierung des fachlichen Kontext der Identifikation.</xs:documentation>
+               <xs:documentation>Die "beschreibung" muss verwendet werden, um anzugeben, auf welches Identifikationsmittel es sich bei der "id" handelt. Mögliche Einträge können also zum Beispiel "Steuernummer", "Krankenversicherungsnummer" oder "Personalausweis" sein. Es wird angestrebt, eine Liste von erwarteten Werten anzugeben, damit die Identifikationsmittel einheitlich beschrieben werden. Wird die Klasse von einem Fachmodul für eine Eigenschaft verwendet, die den Kontext eindeutig beschreibt, kann auf die Befüllung der "beschreibung" verzichtet werden.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="gueltigkeit" minOccurs="0" type="xbd:Zeitraum"/>
+         <xs:element name="gueltigkeit" minOccurs="0" type="xbd:Zeitraum">
+            <xs:annotation>
+               <xs:documentation>Angaben zum Gültigkeitszeitraum der ID. Zum Beispiel die Gültigkeit eines Personalausweises.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
       </xs:sequence>
    </xs:complexType>
    <xs:complexType name="Kommunikation">
@@ -1194,12 +1088,12 @@
                <xs:documentation>Der "kanal" gibt an, über welchen Kommunikationskanal eine Erreichbarkeit besteht. Beispiele: Telefon, Fax, E-Mail</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="kennung" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="kennung" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Die "kennung" beinhaltet die konkreten Angaben zur Erreichbarkeit über einen Kommunikationskanal, d.h. die Telefonnummer, Faxnummer, E-Mail-Adresse oder dergleichen. Die Kennung soll strukturiert erfasst werden. Anmerkung: Die Erfassung von Telefonnummern oder Faxnummern kann nach der Gliederungsvorschrift von DIN 5008 oder E.123 der internationalen Fernmeldeunion erfolgen. Als allgemeine Gliederungsvorschrift gilt nach DIN 5008 die Trennung von Ländervorwahl, Ortskennzahl und Teilnehmernummer durch ein Leerzeichen und die Abtrennung der Durchwahl durch einen Bindestrich. Nach E.123 werden Ländervorwahl, Ortskennzahl und Teilnehmernummer ebenfalls durch Leerzeichen getrennt, bei nationalen Rufnummern wird die Ortskennzahl als vernachlässigbarer Teil zusätzlich in Klammern gesetzt. Eine E-Mail-Adresse wird aufgeteilt in einen local-part und einen domain-part, die durch @(at)-Zeichen getrennt werden. Die zulässigen Zeichen für den local part definiert RFC 2822, für den domain-part gelten die Syntaxregeln des Domain Name Systems. Beispiele: +49 30 12345-67 (internationale Rufnummer nach DIN 5008) 030 12345-67 ( nationale Rufnummern nach DIN 5008) +49 89 1234567 (internationale Rufnummer nach E.123) (089) 123456) (nationale Rufnummer nach E.123) tel:+49-30-1234567 (Uniform Resource Identifier nach RFC 3966)</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="zusatz" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="zusatz" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Im "zusatz" können zusätzliche freie Angaben zur Erreichbarkeit über einen Kommunikationskanal gemacht werden. Beispiel: erreichbar tagsüber zwischen 9 und 16 Uhr</xs:documentation>
             </xs:annotation>
@@ -1268,158 +1162,6 @@
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:complexType name="Meldeanschrift">
-      <xs:annotation>
-         <xs:documentation>Eine Anschrift beschreibt einen Ort mit den klassischen Ordnungsbegriffen wie Orts- und Straßennamen sowie ergänzenden Informationen. Eine Anschrift kann genutzt werden, um Orte zu benennen, an denen sich Personen aufhalten, an denen Objekte zu finden sind, oder an denen Ereignisse stattfinden. Darüber hinaus kann sie genutzt werden, um Post oder Waren zuzustellen.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-         <xs:element name="strasse" minOccurs="0" type="xbd:Meldeanschrift.Strasse">
-            <xs:annotation>
-               <xs:documentation>Es ist die Bezeichnung der Straße anzugeben. Die Feldlänge ist auf 55 Zeichen beschränkt. Bei Überschreitung einer Länge von 25 Zeichen darf sinnvoll abgekürzt werden. Ist keine Straßenbezeichnung - wohl aber eine Hausnummer - vorhanden, so ist die Zeichenkette Hausnummer anzugeben. Sind weder Straßenbezeichnung noch Hausnummer vorhanden, so ist die Zeichenkette ohne Hausnummer anzugeben.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="hausnummer"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.Hausnummer">
-            <xs:annotation>
-               <xs:documentation>Es sind nur die Ziffern einer Hausnummer anzugeben.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="teilnummerDerHausnummer"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.TeilnummerDerHausnummer">
-            <xs:annotation>
-               <xs:documentation>Es sind Teilnummern zur Hausnummer anzugeben. Beispiel: 16 1/7</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="hausnummerBuchstabeZusatzziffer"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.HausnummerBuchstabeZusatzziffer">
-            <xs:annotation>
-               <xs:documentation>Es sind die Buchstaben oder die Zusatzziffern zur Hausnummer gemäß der amtlichen Festlegung der Gemeinde zur Hausnummer anzugeben. Beispiel: 124 a, 124 A, 109.5, 135.44, 116/1</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="stockwerkswohnungsnummer"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.Stockwerkswohnungsnummer">
-            <xs:annotation>
-               <xs:documentation>Es können Stockwerks- oder Wohnungsnummern angegeben werden, soweit sie für die Adressierung erforderlich sind. Beispiele: 7OG, 13OG, P für Parterre, HP für Hochparterre, St für Souterrain oder (Wohnung) 115.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="wohnungsinhaber"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.Wohnungsinhaber">
-            <xs:annotation>
-               <xs:documentation>In diesem Element ist der Hauptmieter oder Eigentümer der Wohnung anzugeben, soweit dies für die Adressierung erforderlich ist. Bei Überschreitung einer Länge von 26 Zeichen darf sinnvoll abgekürzt werden.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="postleitzahl"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.Postleitzahl">
-            <xs:annotation>
-               <xs:documentation>Es ist die Postleitzahl anzugeben.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="wohnort" minOccurs="0" type="xbd:Meldeanschrift.Wohnort">
-            <xs:annotation>
-               <xs:documentation>Es ist die postalische Wohnortsbezeichnung anzugeben. Die Feldlänge ist auf 40 Zeichen beschränkt.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="gemeindeschluessel"
-                     minOccurs="0"
-                     type="xicgvz:Code.GemeindeVZ.AmtlicherGemeindeschluessel">
-            <xs:annotation>
-               <xs:appinfo>
-                  <implementationHint>Solange die Aktualität der verwendeten Schlüsseltabelle nicht gegeben ist, wird vollständig auf die Plausibilisierung der listVersionID verzichtet.</implementationHint>
-               </xs:appinfo>
-               <xs:documentation>Es ist der vom Statistischen Bundesamt herausgegebene bundeseinheitliche Gemeindeschlüssel der Gemeinde anzugeben, in der die Wohnung liegt.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="wohnortFruehererGemeindename"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.WohnortFruehererGemeindename">
-            <xs:annotation>
-               <xs:documentation>Es ist der frühere Gemeindename anzugeben, der als Stadt- bzw. Ortsteilname dem jetzigen Gemeindenamen hinzugefügt werden kann.Der frühere Gemeindename (jetziger Ortsteil- oder Stadtteilname) ist bei Adressierungen unterhalb des Namens (oberhalb der Straßenbezeichnung) anzugeben.Beispiel: Frau Rita Scholl Zuffenhausen Am Stadtpark 12 70123 Stuttgart Die Feldlänge ist auf 40 Zeichen beschränkt.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="zusatzangaben"
-                     minOccurs="0"
-                     type="xbd:Meldeanschrift.Zusatzangaben">
-            <xs:annotation>
-               <xs:documentation>Es sind Zusatzangaben zur Anschrift anzugeben. Beispiele: Hinterhaus, Gartenhaus. Bei Überschreitung einer Länge von 21 Zeichen darf sinnvoll abgekürzt werden.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:simpleType name="Meldeanschrift.Hausnummer">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'hausnummer' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC">
-         <xs:maxLength value="4"/>
-         <xs:pattern value="[0-9 ]*"/>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.HausnummerBuchstabeZusatzziffer">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'buchstabeZusatzziffer' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC">
-         <xs:maxLength value="4"/>
-         <xs:pattern value="[\p{L}0-9./ ]*"/>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Postleitzahl">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'postleitzahl' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC">
-         <xs:maxLength value="5"/>
-         <xs:pattern value="[0-9 ]*"/>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Stockwerkswohnungsnummer">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element stockwerkswohnungsnummer' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC">
-         <xs:maxLength value="4"/>
-         <xs:pattern value="[\p{L}0-9 .]*"/>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Strasse">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'strasse' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.TeilnummerDerHausnummer">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'teilnummerDerHausnummer' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Wohnort">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'wohnort' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.WohnortFruehererGemeindename">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'fruehererGemeindename' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Wohnungsinhaber">
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
-   <xs:simpleType name="Meldeanschrift.Zusatzangaben">
-      <xs:annotation>
-         <xs:documentation>Dies ist der Typ für das Element 'zusatzangaben' im Typ Meldeanschrift.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC"/>
-   </xs:simpleType>
    <xs:complexType name="NameNatuerlichePerson">
       <xs:annotation>
          <xs:documentation>Der Name einer Person ist eine Benennung dieser Person, die dazu dient, diese Person von anderen Personen zu unterscheiden.</xs:documentation>
@@ -1453,7 +1195,7 @@
                <xs:documentation>Der Rufname ist der im alltäglichen Gebrauch zu nutzende Vorname.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="titel" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="titel" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Ein Titel wird häufig im Zusammenhang mit Namen verwendet, ist aber kein orginärer Bestandteil des Namens. Im Unterschied dazu gehören Adelstitel zum Familiennamen und sind daher in diesem Verständnis kein Titel. Zu den Titeln zählen beispielsweise akademische Grade, Dienst- und Amtsbezeichnungen oder militärische Ränge. Es können auch Titel übermittelt werden, die keine Titel im Sinne des Meldewesens sind. Beispiel: Dr.</xs:documentation>
             </xs:annotation>
@@ -1461,7 +1203,7 @@
          <xs:element name="anrede"
                      minOccurs="0"
                      maxOccurs="unbounded"
-                     type="dinspec91379:datatypeC">
+                     type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Die Anrede ist der Namenszusatz (auch eine Anrede ohne Namen nur mit Titel ist eine Anrede!) bei der Anrede (mündlich oder schriftlich) oder bei einem Anruf (fernmündlich) an eine Person oder Personengruppe. Anmerkung: Die komplette Anrede einer Person kann in einem Feld übermittelt werden. Beispiel: Herr, Frau, Herr Staatssekretär, Frau Bundeskanzlerin, Herr Botschafter, Eure Eminenz</xs:documentation>
             </xs:annotation>
@@ -1469,7 +1211,7 @@
          <xs:element name="namenssuffix"
                      minOccurs="0"
                      maxOccurs="unbounded"
-                     type="dinspec91379:datatypeC">
+                     type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Ein Namenssuffix ist ein Zusatz zu einem Namen, der ohne Komma hinter den Familiennamen gestellt wird. Als Namenssuffix können beispielsweise akademische Grade oder Dienst- und Funktionsbezeichnungen übermittelt werden. Adelstitel sind Bestandteil des Familiennamens und zählen nicht zu den zulässigen Namenssuffixen. Beispiele: a.d., MdB, M.A.</xs:documentation>
             </xs:annotation>
@@ -1532,7 +1274,7 @@
          <xs:element name="anschrift"
                      minOccurs="0"
                      maxOccurs="unbounded"
-                     type="xbd:Meldeanschrift">
+                     type="xbd:Anschrift">
             <xs:annotation>
                <xs:documentation>Hier werden Angaben zur Anschrift einer natürlichen Person gemacht.</xs:documentation>
             </xs:annotation>
@@ -1618,7 +1360,7 @@
                <xs:documentation>Sprache bezeichnet die aus Wörtern bestehende, verbale Kommunikation im Unterschied zur nonverbalen Kommunikation.</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="zusatz" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="zusatz" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Im "zusatz" können weitere detaillierte Informationen zu einer Sprache hinterlegt werden. Beispiel: nur Grundkenntnisse vorhanden</xs:documentation>
             </xs:annotation>
@@ -1639,7 +1381,7 @@
    </xs:complexType>
    <xs:complexType name="VerwaltungspolitischeKodierung">
       <xs:annotation>
-         <xs:documentation>Die Komponente "VerwaltungspolitischeKodierung" beinhaltet Information, die eine verwaltungspolitisch eindeutige Zuordnung ermöglichen.</xs:documentation>
+         <xs:documentation>Die Komponente "VerwaltungspolitischeKodierung" beinhaltet Informationen, die eine verwaltungspolitisch eindeutige Zuordnung ermöglichen. Sofern nicht anderes angegeben wird, sollten die vom Statistischen Bundesamt im XRepository veröffentlichten Codelisten verwendet werden. (Suchen Sie nach: urn:de:bund:destatis:bevoelkerungsstatistik:schluessel)</xs:documentation>
       </xs:annotation>
       <xs:sequence>
          <xs:element name="kreis" minOccurs="0" type="xoev-code:Code">
@@ -1674,45 +1416,6 @@
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:complexType name="ZeileAufschrift">
-      <xs:annotation>
-         <xs:appinfo>
-            <title>Aufschriftzeile</title>
-         </xs:appinfo>
-         <xs:documentation>Dieser Datentyp repräsentiert eine Zeile einer Aufschrift gemäß DIN 5008 und besteht aus dem Inhalt der Zeile sowie der Angabe der Zeilennummer in der Aufschrift. Sofern dieser Datentyp für die Übermittlung einer Zeile der Anschriftzone verwendet wird, sind ausschließlich die Zeilennummern 4 bis 8 zu verwenden. Zeilen der Vermerkzone werden in dem Datentyp Auslandsanschrift.Druckbild nicht übermittelt.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-         <xs:element name="zeilennummer" type="xbd:ZeileAufschrift.Zeilennummer">
-            <xs:annotation>
-               <xs:documentation>Die Angabe, in welcher Zeile der Inhalt in der Aufschrift auftauchen soll.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="inhalt" type="xbd:ZeileAufschrift.Inhalt">
-            <xs:annotation>
-               <xs:documentation>Hier ist der Inhalt der Aufschriftzeile anzugeben.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:simpleType name="ZeileAufschrift.Inhalt">
-      <xs:annotation>
-         <xs:documentation>Dieser Datentyp beschreibt den Inhalt einer Aufschriftzeile.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="dinspec91379:datatypeC">
-         <xs:maxLength value="35"/>
-         <xs:minLength value="1"/>
-         <xs:pattern value="[^&#xA;&#x9;&#xD;]*"/>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="ZeileAufschrift.Zeilennummer">
-      <xs:annotation>
-         <xs:documentation>Dieser Datentyp beschreibt die Zeilennummer einer Aufschriftzeile.</xs:documentation>
-      </xs:annotation>
-      <xs:restriction base="xs:nonNegativeInteger">
-         <xs:maxInclusive value="8"/>
-         <xs:minInclusive value="1"/>
-      </xs:restriction>
-   </xs:simpleType>
    <xs:complexType name="Zeitraum">
       <xs:annotation>
          <xs:documentation>Der Zeitraum kennzeichnet einen Abschnitt auf einem Zeitstrahl durch Angabe von Beginn und/oder Ende.</xs:documentation>
@@ -1728,94 +1431,13 @@
                <xs:documentation>Das Ende eines Zeitraumes beschreibt den Zeitpunkt, ab dem ein Sachverhalt endet bzw. nicht mehr rechtskräftig ist. Das Ende ist Teil der Dauer des Zeitraumes. Anmerkung: Bei der Ableitung von Fachkomponenten sollten zusätzliche Festlegungen getroffen werden wie das Ende des Zeitraums zu interpretieren ist. z.B.: "Wird ein Monat als Ende angegeben, dann gilt der letzte Tag des Monats als Ende des Zeitraums" Beispiel: identisch mit *Fristdatum (Bau) *Ablaufdatum (Finanz) *Faelligkeitsdatum (Finanz) *Wirksamkeitsdatum der Aufhebung/Scheidung der Ehe (Personenstand)</xs:documentation>
             </xs:annotation>
          </xs:element>
-         <xs:element name="zusatz" minOccurs="0" type="dinspec91379:datatypeC">
+         <xs:element name="zusatz" minOccurs="0" type="din91379:datatypeC">
             <xs:annotation>
                <xs:documentation>Der Zusatz enthält weitere textuelle Beschreibungen des festgelegten Zeitraums.</xs:documentation>
             </xs:annotation>
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:simpleType name="ArtDerHochschule-Codes">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Art der Hochschule</nameLang>
-               <nameKurz>Art der Hochschule</nameKurz>
-               <nameTechnisch>ArtDerHochschule-Codes</nameTechnisch>
-               <kennung>urn:xbildung-de:xbildung:codeliste:artderhochschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Hochschule.</beschreibung>
-               <herausgebernameLang>XBildung</herausgebernameLang>
-               <herausgebernameKurz>XBildung.de</herausgebernameKurz>
-            </codeliste>
-            <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2021-06-22</datumGueltigkeitAb>
-               <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
-            </versionCodeliste>
-            <codelistenspalten>
-               <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>true</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>true</empfohleneCodeSpalte>
-               </code>
-               <description-de-DE>
-                  <spaltennameLang>Hochschule</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <sprache>de-DE</sprache>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-de-DE>
-            </codelistenspalten>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/1">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Universität</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/2">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Verwaltungsfachhochschule</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/3">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Pädagogische Hochschule</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/4">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Theologische Hochschule</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/5">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Kunsthochschule</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/ArtDerHochschule/6">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Fachhochschule</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-      </xs:restriction>
-   </xs:simpleType>
    <xs:simpleType name="ArtDerSchule-Codes">
       <xs:annotation>
          <xs:appinfo>
@@ -1824,18 +1446,16 @@
                <nameKurz>Art der Schule</nameKurz>
                <nameTechnisch>ArtDerSchule-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:kmk:codeliste:artderschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Schularten nach dem Kerndatensatz (KDS) 4.0 der Kultusministerkonferenz (KMK).</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Quelle: https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
                <herausgebernameLang>Kultusministerkonferenz</herausgebernameLang>
                <herausgebernameKurz>KMK</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
                <version>4.0</version>
-               <datumGueltigkeitAb>2021-06-01</datumGueltigkeitAb>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -2064,8 +1684,7 @@
                <herausgebernameKurz>DESTATIS</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -2095,7 +1714,7 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDesSchulabschlusses/allgemeine_hochschulreife">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/allgemeine_hochschulreife">
             <xs:annotation>
                <xs:appinfo>
                   <mapping-ISCED2011L>3</mapping-ISCED2011L>
@@ -2103,7 +1722,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDesSchulabschlusses/fachhochschulreife">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/fachhochschulreife">
             <xs:annotation>
                <xs:appinfo>
                   <mapping-ISCED2011L>3</mapping-ISCED2011L>
@@ -2111,7 +1730,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDesSchulabschlusses/hauptschulabschluss">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/hauptschulabschluss">
             <xs:annotation>
                <xs:appinfo>
                   <mapping-ISCED2011L>2</mapping-ISCED2011L>
@@ -2119,7 +1738,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDesSchulabschlusses/ohne_hauptschulabschluss">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/ohne_hauptschulabschluss">
             <xs:annotation>
                <xs:appinfo>
                   <mapping-ISCED2011L>2</mapping-ISCED2011L>
@@ -2127,7 +1746,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDesSchulabschlusses/realschulabschluss">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/realschulabschluss">
             <xs:annotation>
                <xs:appinfo>
                   <mapping-ISCED2011L>2</mapping-ISCED2011L>
@@ -2145,18 +1764,16 @@
                <nameKurz>Art der Prüfung</nameKurz>
                <nameTechnisch>ArtderPruefung-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artderpruefung</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2021-06-01</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -2176,78 +1793,78 @@
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
                </description-en-GB>
-               <mapping-EuropassAssessmentType>
-                  <spaltennameLang>Europass Standard List Of Assessment Types</spaltennameLang>
+               <mapping-ELMAssessmentType>
+                  <spaltennameLang>ELM List Of Assessment Types</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>false</codeSpalte>
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </mapping-EuropassAssessmentType>
+               </mapping-ELMAssessmentType>
             </codelistenspalten>
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/besondereLernleistung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/besondere_lernleistung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>besondere Lernleistung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/fortlaufendeBewertung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/fortlaufende_bewertung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>fortlaufende Bewertung</description-de-DE>
                   <description-en-GB>continuous evaluation</description-en-GB>
-                  <mapping-EuropassAssessmentType>http://data.europa.eu/snb/assessment/3484bd7e51</mapping-EuropassAssessmentType>
+                  <mapping-ELMAssessmentType>http://data.europa.eu/snb/assessment/3484bd7e51</mapping-ELMAssessmentType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/kuenstlerischeEignungspruefung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/kuenstlerische_eignungspruefung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>künstlerische Eignungsprüfung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/muendlichePruefung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/muendliche_pruefung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>mündliche Prüfung</description-de-DE>
                   <description-en-GB>oral examination</description-en-GB>
-                  <mapping-EuropassAssessmentType>http://data.europa.eu/snb/assessment/d30284d7df</mapping-EuropassAssessmentType>
+                  <mapping-ELMAssessmentType>http://data.europa.eu/snb/assessment/d30284d7df</mapping-ELMAssessmentType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/praesentationspruefung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/praesentationspruefung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Präsentationsprüfung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/praktischePruefung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/praktische_pruefung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>praktische Prüfung</description-de-DE>
                   <description-en-GB>practical assessment</description-en-GB>
-                  <mapping-EuropassAssessmentType>http://data.europa.eu/snb/assessment/6a4db9f11d</mapping-EuropassAssessmentType>
+                  <mapping-ELMAssessmentType>http://data.europa.eu/snb/assessment/6a4db9f11d</mapping-ELMAssessmentType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/schriftlicheHausarbeit">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/schriftliche_hausarbeit">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>schriftliche Hausarbeit</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerPruefung/schriftlichePruefung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/schriftliche_pruefung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>schriftliche Prüfung</description-de-DE>
                   <description-en-GB>written examination</description-en-GB>
-                  <mapping-EuropassAssessmentType>http://data.europa.eu/snb/assessment/6e6cb2cc78</mapping-EuropassAssessmentType>
+                  <mapping-ELMAssessmentType>http://data.europa.eu/snb/assessment/6e6cb2cc78</mapping-ELMAssessmentType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
@@ -2261,18 +1878,16 @@
                <nameKurz>Art der Trägerschaft</nameKurz>
                <nameTechnisch>ArtderTraegerschaft-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artdertraegerschaft</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft einer Bildungseinrichtung. Sie basiert auf dem Dokument "Schlüsselverzeichnisse, Datensatzbeschreibungen und Definitionenkatalog für die Statistik zum Deutschlandstipendium", ergänzt um den Wert "Kreis".</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2020-04-26</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -2290,49 +1905,49 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/10">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/10">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Bund</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/20">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/20">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Land</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/30">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/30">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Kreis</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/40">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/40">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Kommune</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/50">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/50">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Privat</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/60">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/60">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Kirchlich</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/0.93/code/ArtDerTraegerschaft/70">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/70">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Sonstige</description-de-DE>
@@ -2354,8 +1969,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -2385,7 +1999,15 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/bewertungsschema/de_kmk_abitur_000_100_300">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>Verordnung über eine Noten- und Punkteskala für die erste und zweite juristische Prüfung vom 3. Dezember 1981 (BGBl. I S. 1243), die durch Artikel 209 Absatz 4 des Gesetzes vom 19. April 2006 (BGBl. I S. 866) geändert worden ist. Es werden mindestens 4 Punkte zum Bestehen benötigt. Maximal möglich sind 18 Punkte.</description-de-DE>
+                  <seeAlso>https://www.gesetze-im-internet.de/jurprnotskv/BJNR012430981.html</seeAlso>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_100_300">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block II des Abiturzeugnisses. Es werden mindestens 100 Punkte zum Bestehen benötigt. Maximal möglich sind 300 Punkte.</description-de-DE>
@@ -2393,7 +2015,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/bewertungsschema/de_kmk_abitur_000_200_600">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_200_600">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block I des Abiturzeugnisses. Es werden mindestens 200 Punkte zum Bestehen benötigt. Maximal möglich sind 600 Punkte.</description-de-DE>
@@ -2401,14 +2023,14 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/bewertungsschema/de_kmk_abitur_000_280_840">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_280_840">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 280 Punkte zum Bestehen benötigt. Maximal möglich sind 840 Punkte.</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/bewertungsschema/de_kmk_abitur_000_300_900">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_300_900">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 300 Punkte zum Bestehen benötigt. Maximal möglich sind 900 Punkte.</description-de-DE>
@@ -2416,11 +2038,27 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/bewertungsschema/de_kmk_abitur_00_05_15">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_00_05_15">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für Leistungen aus der Qualifkationsphase. Es werden in einem Kurs mindestens 5 Punkte zum Bestehen benötigt. Maximal möglich sind 15 Punkte.</description-de-DE>
                   <seeAlso>http://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/1972/1972_07_07-VB-gymnasiale-Oberstufe-Abiturpruefung.pdf</seeAlso>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">
+            <xs:annotation>
+               <xs:appinfo>
+                  <seeAlso>https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2003/2003_10_10-Laendergemeinsame-Strukturvorgaben.pdf</seeAlso>
+                  <description-de-DE>Notensystem der KMK aus dem Jahre 2003, verwendet für die Bewertung von Leistungen erbracht im Verlauf des Hochschulstudiums. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</description-de-DE>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_schulnote_6_4_1">
+            <xs:annotation>
+               <xs:appinfo>
+                  <seeAlso>https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2020/2020_10_15-Laendervereinbarung-gemeinsame-Grundstruktur.pdf</seeAlso>
+                  <description-de-DE>Notensystem der KMK für die Bewertung von Leistungen erbracht im Verlauf der Primar- und Sekundarstufe. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
@@ -2534,18 +2172,16 @@
                <nameKurz>Kursstatus</nameKurz>
                <nameTechnisch>Kursstatus-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:kursstatus</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt.</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>0.93</version>
-               <datumGueltigkeitAb>2022-07-21</datumGueltigkeitAb>
+               <version>0.94</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
                <code>
-                  <spaltennameLang>Code Name</spaltennameLang>
                   <datentyp>string</datentyp>
                   <codeSpalte>true</codeSpalte>
                   <verwendung>required</verwendung>
@@ -2570,7 +2206,7 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/kursstatus/befreit">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/befreit">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>befreit</description-de-DE>
@@ -2578,7 +2214,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/kursstatus/bestanden">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/bestanden">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>bestanden</description-de-DE>
@@ -2586,7 +2222,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/kursstatus/erfolgreich_teilgenommen">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/erfolgreich_teilgenommen">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>erfolgreich teilgenommen</description-de-DE>
@@ -2594,7 +2230,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.93/code/kursstatus/nicht_bestanden">
+         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/nicht_bestanden">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>nicht bestanden</description-de-DE>

@@ -24,10 +24,10 @@
                <entry>-beschreibung</entry>
                <entry><para>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: <link xlink:href="http://uis.unesco.org/en/isced-mappings" xmlns:xlink="http://www.w3.org/1999/xlink">http://uis.unesco.org/en/isced-mappings</link></para>
 
-<para>International Standard Classification of Education 2013 Field of Studies (ISCED-F 2013) ist eine Taxonomie von Bildungsbereichen. Sie wurde von der UNESCO erstellt. Von XBildung wird jedoch die Version verwendet, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/international-education-classification" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.
-Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+<para>International Standard Classification of Education 2013 Field of Studies (ISCED-F 2013) ist eine Taxonomie von Bildungsbereichen. Sie wurde von der UNESCO erstellt. Von XBildung wird jedoch die Version verwendet, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/international-education-classification" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.</para>
 
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/international-education-classification" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/de/​web/eu-vocabularies/dataset/​-/resource?uri=​http://publications.europa.eu/​resource/dataset/​international-education-classification</link></para>
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
 
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">

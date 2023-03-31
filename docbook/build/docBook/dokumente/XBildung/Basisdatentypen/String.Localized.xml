@@ -24,11 +24,11 @@
          <colspec colname="page" colnum="11" colwidth="12mm"/>
          <thead>
             <row>
-               <entry namest="indent0" nameend="page" align="center">Kindelement von <emphasis role="codebf">String.Localized</emphasis>
+               <entry namest="indent0" nameend="page" align="center">Attribut von <emphasis role="codebf">String.Localized</emphasis>
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry namest="indent0" nameend="child">Attribut</entry>
                <entry>Typ</entry>
                <entry>Anz.</entry>
                <entry>Ref.</entry>

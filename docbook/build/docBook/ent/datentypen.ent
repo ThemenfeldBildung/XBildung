@@ -10,18 +10,9 @@
                     <!ENTITY datentyp.ref.anschrift '<emphasis role="codebf">Anschrift</emphasis>'>
                     <!ENTITY datentyp.ref.link.anschrift '<link linkend="XBildung.Baukasten.Anschrift">Anschrift</link>'>
                     <!ENTITY datentyp.ref.xref.anschrift '<xref linkend="XBildung.Baukasten.Anschrift" role="AS"/>'>
-                    <!ENTITY datentyp.ref.auslandsanschrift.anschriftzone '<emphasis role="codebf">Auslandsanschrift.Anschriftzone</emphasis>'>
-                    <!ENTITY datentyp.ref.link.auslandsanschrift.anschriftzone '<link linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Anschriftzone">Auslandsanschrift.Anschriftzone</link>'>
-                    <!ENTITY datentyp.ref.xref.auslandsanschrift.anschriftzone '<xref linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Anschriftzone" role="AS"/>'>
-                    <!ENTITY datentyp.ref.auslandsanschrift.druckbild '<emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis>'>
-                    <!ENTITY datentyp.ref.link.auslandsanschrift.druckbild '<link linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild">Auslandsanschrift.Druckbild</link>'>
-                    <!ENTITY datentyp.ref.xref.auslandsanschrift.druckbild '<xref linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild" role="AS"/>'>
                     <!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
                     <!ENTITY datentyp.ref.link.benotung '<link linkend="XBildung.Baukasten.Benotung">Benotung</link>'>
                     <!ENTITY datentyp.ref.xref.benotung '<xref linkend="XBildung.Baukasten.Benotung" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.artderhochschule '<emphasis role="codebf">Code.ArtDerHochschule</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.artderhochschule '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerHochschule">Code.ArtDerHochschule</link>'>
-                    <!ENTITY datentyp.ref.xref.code.artderhochschule '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerHochschule" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.artderpruefung '<emphasis role="codebf">Code.ArtDerPruefung</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.artderpruefung '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>'>
                     <!ENTITY datentyp.ref.xref.code.artderpruefung '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung" role="AS"/>'>
@@ -82,39 +73,6 @@
                     <!ENTITY datentyp.ref.kurs '<emphasis role="codebf">Kurs</emphasis>'>
                     <!ENTITY datentyp.ref.link.kurs '<link linkend="XBildung.Baukasten.Kurs">Kurs</link>'>
                     <!ENTITY datentyp.ref.xref.kurs '<xref linkend="XBildung.Baukasten.Kurs" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift '<emphasis role="codebf">Meldeanschrift</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift">Meldeanschrift</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.hausnummer '<emphasis role="codebf">Meldeanschrift.Hausnummer</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.hausnummer '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Hausnummer">Meldeanschrift.Hausnummer</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.hausnummer '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Hausnummer" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.hausnummerbuchstabezusatzziffer '<emphasis role="codebf">Meldeanschrift.HausnummerBuchstabeZusatzziffer</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.hausnummerbuchstabezusatzziffer '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.HausnummerBuchstabeZusatzziffer">Meldeanschrift.HausnummerBuchstabeZusatzziffer</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.hausnummerbuchstabezusatzziffer '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.HausnummerBuchstabeZusatzziffer" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.postleitzahl '<emphasis role="codebf">Meldeanschrift.Postleitzahl</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.postleitzahl '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Postleitzahl">Meldeanschrift.Postleitzahl</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.postleitzahl '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Postleitzahl" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.stockwerkswohnungsnummer '<emphasis role="codebf">Meldeanschrift.Stockwerkswohnungsnummer</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.stockwerkswohnungsnummer '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Stockwerkswohnungsnummer">Meldeanschrift.Stockwerkswohnungsnummer</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.stockwerkswohnungsnummer '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Stockwerkswohnungsnummer" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.strasse '<emphasis role="codebf">Meldeanschrift.Strasse</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.strasse '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Strasse">Meldeanschrift.Strasse</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.strasse '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Strasse" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.teilnummerderhausnummer '<emphasis role="codebf">Meldeanschrift.TeilnummerDerHausnummer</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.teilnummerderhausnummer '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.TeilnummerDerHausnummer">Meldeanschrift.TeilnummerDerHausnummer</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.teilnummerderhausnummer '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.TeilnummerDerHausnummer" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.wohnort '<emphasis role="codebf">Meldeanschrift.Wohnort</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.wohnort '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnort">Meldeanschrift.Wohnort</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.wohnort '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnort" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.wohnortfrueherergemeindename '<emphasis role="codebf">Meldeanschrift.WohnortFruehererGemeindename</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.wohnortfrueherergemeindename '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.WohnortFruehererGemeindename">Meldeanschrift.WohnortFruehererGemeindename</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.wohnortfrueherergemeindename '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.WohnortFruehererGemeindename" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.wohnungsinhaber '<emphasis role="codebf">Meldeanschrift.Wohnungsinhaber</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.wohnungsinhaber '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnungsinhaber">Meldeanschrift.Wohnungsinhaber</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.wohnungsinhaber '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Wohnungsinhaber" role="AS"/>'>
-                    <!ENTITY datentyp.ref.meldeanschrift.zusatzangaben '<emphasis role="codebf">Meldeanschrift.Zusatzangaben</emphasis>'>
-                    <!ENTITY datentyp.ref.link.meldeanschrift.zusatzangaben '<link linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Zusatzangaben">Meldeanschrift.Zusatzangaben</link>'>
-                    <!ENTITY datentyp.ref.xref.meldeanschrift.zusatzangaben '<xref linkend="XBildung.Baukasten.Meldeanschrift.Meldeanschrift.Zusatzangaben" role="AS"/>'>
                     <!ENTITY datentyp.ref.namenatuerlicheperson '<emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
                     <!ENTITY datentyp.ref.link.namenatuerlicheperson '<link linkend="XBildung.Baukasten.NameNatuerlichePerson">NameNatuerlichePerson</link>'>
                     <!ENTITY datentyp.ref.xref.namenatuerlicheperson '<xref linkend="XBildung.Baukasten.NameNatuerlichePerson" role="AS"/>'>
@@ -139,15 +97,6 @@
                     <!ENTITY datentyp.ref.verwaltungspolitischekodierung '<emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
                     <!ENTITY datentyp.ref.link.verwaltungspolitischekodierung '<link linkend="XBildung.Baukasten.VerwaltungspolitischeKodierung">VerwaltungspolitischeKodierung</link>'>
                     <!ENTITY datentyp.ref.xref.verwaltungspolitischekodierung '<xref linkend="XBildung.Baukasten.VerwaltungspolitischeKodierung" role="AS"/>'>
-                    <!ENTITY datentyp.ref.zeileaufschrift '<emphasis role="codebf">ZeileAufschrift</emphasis>'>
-                    <!ENTITY datentyp.ref.link.zeileaufschrift '<link linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift">ZeileAufschrift</link>'>
-                    <!ENTITY datentyp.ref.xref.zeileaufschrift '<xref linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift" role="AS"/>'>
-                    <!ENTITY datentyp.ref.zeileaufschrift.inhalt '<emphasis role="codebf">ZeileAufschrift.Inhalt</emphasis>'>
-                    <!ENTITY datentyp.ref.link.zeileaufschrift.inhalt '<link linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Inhalt">ZeileAufschrift.Inhalt</link>'>
-                    <!ENTITY datentyp.ref.xref.zeileaufschrift.inhalt '<xref linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Inhalt" role="AS"/>'>
-                    <!ENTITY datentyp.ref.zeileaufschrift.zeilennummer '<emphasis role="codebf">ZeileAufschrift.Zeilennummer</emphasis>'>
-                    <!ENTITY datentyp.ref.link.zeileaufschrift.zeilennummer '<link linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Zeilennummer">ZeileAufschrift.Zeilennummer</link>'>
-                    <!ENTITY datentyp.ref.xref.zeileaufschrift.zeilennummer '<xref linkend="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift.Zeilennummer" role="AS"/>'>
                     <!ENTITY datentyp.ref.zeitraum '<emphasis role="codebf">Zeitraum</emphasis>'>
                     <!ENTITY datentyp.ref.link.zeitraum '<link linkend="XBildung.Baukasten.Zeitraum">Zeitraum</link>'>
                     <!ENTITY datentyp.ref.xref.zeitraum '<xref linkend="XBildung.Baukasten.Zeitraum" role="AS"/>'>

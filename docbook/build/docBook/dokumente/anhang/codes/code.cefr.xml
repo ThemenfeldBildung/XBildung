@@ -23,13 +23,19 @@
             <row>
                <entry>-beschreibung</entry>
                <entry><para>Das Common European Framework Reference of Languages (CEFR), das auch Gemeinsamer europäischer Referenzrahmen für Sprachen (GER) genannt wird, wurde vom Europarat erstellt. Offizielle weitere Informationen können hier abgerufen werden: <link xlink:href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions</link></para>
-<para>XBildung verwendet die Codeliste, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/foreign-language-skill" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.
-Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+<para>XBildung verwendet die Codeliste, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/foreign-language-skill" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.</para>
+
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/foreign-language-skill" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/de/web​/eu-vocabularies​/dataset/-/​resource?uri=​http://publications.europa.eu/​resource/dataset/​foreign-language-skill</link></para>
 
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">Todo</emphasis> : Globale Level als Tabelle angeben.</para></listitem>
+<listitem><para><emphasis role="bold">A1 Elementare Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_1e3dc79a</para></listitem>
+<listitem><para><emphasis role="bold">A2 Elementare Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_3458f114</para></listitem>
+<listitem><para><emphasis role="bold">B1 Selbstständige Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_0427b00c</para></listitem>
+<listitem><para><emphasis role="bold">B2 Selbstständige Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_097c5ed1</para></listitem>
+<listitem><para><emphasis role="bold">C1 Kompetente Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_2f49f1ce</para></listitem>
+<listitem><para><emphasis role="bold">C2 Kompetente Sprachverwendung</emphasis> : http://data.europa.eu/snb/cefr/c_c24a21da</para></listitem>
 </itemizedlist>
 </para></entry>
             </row>
@@ -43,7 +49,7 @@ Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über d
             </row>
             <row>
                <entry>-version</entry>
-               <entry>1.0</entry>
+               <entry>20230118-0</entry>
             </row>
          </tbody>
       </tgroup>
