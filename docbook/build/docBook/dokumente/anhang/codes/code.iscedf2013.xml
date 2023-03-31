@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.ISCEDF2013"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.ISCEDF2013</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Die International Standard Classification of Education (ISCED) der UNESCO klassifiziert Elemente des Bildungswesens, wodurch internationalie Vergleiche möglich werden. Offizielle Dokumente können hier abgerufen werden: <link xlink:href="http://uis.unesco.org/en/isced-mappings" xmlns:xlink="http://www.w3.org/1999/xlink">http://uis.unesco.org/en/isced-mappings</link></para>
+
+<para>International Standard Classification of Education 2013 Field of Studies (ISCED-F 2013) ist eine Taxonomie von Bildungsbereichen. Sie wurde von der UNESCO erstellt. Von XBildung wird jedoch die Version verwendet, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/international-education-classification" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.
+Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/international-education-classification" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/de/​web/eu-vocabularies/dataset/​-/resource?uri=​http://publications.europa.eu/​resource/dataset/​international-education-classification</link></para>
+
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Mathematik</emphasis>          : http://data.europa.eu/snb/isced-f/0541</para></listitem>
+<listitem><para><emphasis role="bold">Fremdsprachenerwerb</emphasis> : http://data.europa.eu/snb/isced-f/0231</para></listitem>
+<listitem><para><emphasis role="bold">Sport</emphasis>               : http://data.europa.eu/snb/isced-f/1014</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 2, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:xbildung-de:publicationsoffice-eu:taxonomie:isced-f-2013</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>ISCED-F 2013</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>

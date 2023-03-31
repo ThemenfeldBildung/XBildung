@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Meldeanschrift.Meldeanschrift">
+   <title>Meldeanschrift</title>
+   <subtitle>Typ: <emphasis role="codebf">Meldeanschrift</emphasis>
+   </subtitle><para>Eine Anschrift beschreibt einen Ort mit den klassischen Ordnungsbegriffen wie Orts- und Straßennamen sowie ergänzenden Informationen.</para>
+
+<para>Eine Anschrift kann genutzt werden, um Orte zu benennen, an denen sich Personen aufhalten, an denen Objekte zu finden sind, oder an denen Ereignisse stattfinden. Darüber hinaus kann sie genutzt werden, um Post oder Waren zuzustellen.</para>
+
+<figure xml:id="figure.XBildung.Baukasten.Meldeanschrift.Meldeanschrift">
+      <title>Meldeanschrift</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../../zeichnungen/XBildung/Baukasten/Meldeanschrift/Meldeanschrift.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.XBildung.Baukasten.Meldeanschrift.Meldeanschrift">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">Meldeanschrift</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">strasse</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Strasse</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es ist die Bezeichnung der Straße anzugeben. Die Feldlänge ist auf 55 Zeichen beschränkt. Bei Überschreitung einer Länge von 25 Zeichen darf sinnvoll abgekürzt werden.</para>
+<para>Ist keine Straßenbezeichnung &ndash; wohl aber eine Hausnummer &ndash; vorhanden, so ist die Zeichenkette <quote>Hausnummer</quote> anzugeben. Sind weder Straßenbezeichnung noch Hausnummer vorhanden, so ist die Zeichenkette <quote>ohne Hausnummer</quote> anzugeben.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hausnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Hausnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es sind nur die Ziffern einer Hausnummer anzugeben.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+                  <para>Die Werte müssen dem Muster '<![CDATA[[0-9 ]*]]>' entsprechen.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxLength:4</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">teilnummerDerHausnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.TeilnummerDerHausnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es sind Teilnummern zur Hausnummer anzugeben.</para>
+<para>Beispiel: 16 <emphasis role="underline">1/7</emphasis></para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">hausnummerBuchstabeZusatzziffer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.HausnummerBuchstabeZusatzziffer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es sind die Buchstaben oder die Zusatzziffern zur Hausnummer gemäß der amtlichen Festlegung der Gemeinde zur Hausnummer anzugeben.</para>
+<para>Beispiel: 124<emphasis role="underline"> a</emphasis>, 124<emphasis role="underline"> A</emphasis>, 109<emphasis role="underline">.5</emphasis>, 135<emphasis role="underline">.44</emphasis>, 116<emphasis role="underline">/1</emphasis></para>
+<para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+                  <para>Die Werte müssen dem Muster '<![CDATA[[\p{L}0-9./ ]*]]>' entsprechen.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxLength:4</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">stockwerkswohnungsnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Stockwerkswohnungsnummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es können Stockwerks- oder Wohnungsnummern angegeben werden, soweit sie für die Adressierung erforderlich sind. Beispiele: 7OG, 13OG, P für Parterre, HP für Hochparterre, St für Souterrain oder (Wohnung) 115.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+                  <para>Die Werte müssen dem Muster '<![CDATA[[\p{L}0-9 .]*]]>' entsprechen.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxLength:4</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">wohnungsinhaber</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Wohnungsinhaber</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>In diesem Element ist der Hauptmieter oder Eigentümer der Wohnung anzugeben, soweit dies für die Adressierung erforderlich ist. </para>
+<para>Bei Überschreitung einer Länge von 26 Zeichen darf sinnvoll abgekürzt werden.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">postleitzahl</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Postleitzahl</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es ist die Postleitzahl anzugeben.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+                  <para>Die Werte müssen dem Muster '<![CDATA[[0-9 ]*]]>' entsprechen.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxLength:5</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">wohnort</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Wohnort</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es ist die postalische Wohnortsbezeichnung anzugeben.</para>
+<para>Die Feldlänge ist auf 40 Zeichen beschränkt.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">gemeindeschluessel</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.GemeindeVZ.AmtlicherGemeindeschluessel</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XInneres" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XInneres" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es ist der vom Statistischen Bundesamt herausgegebene bundeseinheitliche Gemeindeschlüssel der Gemeinde anzugeben, in der die Wohnung liegt.</para><para>
+                     <emphasis role="strong">Umsetzungshinweise:</emphasis>
+                  </para><para>Solange die Aktualität der verwendeten Schlüsseltabelle nicht gegeben ist, wird vollständig auf die Plausibilisierung der <emphasis>listVersionID</emphasis> verzichtet.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">wohnortFruehererGemeindename</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.WohnortFruehererGemeindename</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es ist der frühere Gemeindename anzugeben, der als Stadt- bzw. Ortsteilname dem jetzigen Gemeindenamen hinzugefügt werden kann.</para><para>Der frühere Gemeindename (jetziger Ortsteil- oder Stadtteilname) ist bei <emphasis role="underline">Adressierungen</emphasis> unterhalb des Namens (oberhalb der Straßenbezeichnung) anzugeben.</para><para>Beispiel: Frau</para><para>               Rita Scholl</para><para>               Zuffenhausen</para><para>              Am Stadtpark 12</para><para>              70123 Stuttgart</para>
+<para>Die Feldlänge ist auf 40 Zeichen beschränkt.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">zusatzangaben</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Meldeanschrift.Zusatzangaben</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Es sind Zusatzangaben zur Anschrift anzugeben. Beispiele: Hinterhaus, Gartenhaus.</para>
+<para>Bei Überschreitung einer Länge von 21 Zeichen darf sinnvoll abgekürzt werden.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+               </entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+</section>

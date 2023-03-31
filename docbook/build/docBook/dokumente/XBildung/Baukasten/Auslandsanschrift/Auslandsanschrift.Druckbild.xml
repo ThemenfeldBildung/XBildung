@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild">
+   <title>Datentyp für das Druckbild einer Auslandsanschrift</title>
+   <subtitle>Typ: <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis>
+   </subtitle><para>Dieser Datentyp repräsentiert das Druckbild einer Anschrift im Ausland, indem die <emphasis>Anschriftzone</emphasis> eines Brieffensters gemäß DIN 5008 abgebildet wird. Die Anschriftzone setzt sich aus einem Schlüsselwert für den Zielstaat und bis zu fünf weiteren Zeilen für die übrigen Adressierungsangaben zusammen. Angaben zur Vermerkzone können mit diesem Datentypen nicht abgebildet werden.</para>
+<para>Die ersten fünf Zeilen werden mit den Angaben zur Anschrift im Ausland gefüllt. Leerzeilen sind dabei nicht zulässig. Entsprechend DIN 5008 sind die Zeilen beginnend mit der Nummer 4 lückenlos durchzunummerieren und Zeilennummern nicht mehrfach zu verwenden. </para>
+<para>Der Ortsname in der Anschrift sollte in Großbuchstaben und in der Sprache des Zielstaates erfasst und übermittelt werden. Für die Erstellung des Druckbildes ist der übermittelte Schlüsselwert des Zielstaates in eine für die Zustellung geeignete Klartextform - d. h. in Großbuchstaben und in die deutsche Sprache - zu überführen.</para>
+<para>
+      <emphasis role="strong">Umsetzungshinweise:</emphasis>
+   </para><para>Sofern dieser Datentyp verwendet wird, um Inhalte des DSMeld-Blattes 1233 zu übermitteln, gelten die strengeren Regelungen aus dem DSMeld.</para><figure xml:id="figure.XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild">
+      <title>Auslandsanschrift.Druckbild</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../../zeichnungen/XBildung/Baukasten/Auslandsanschrift/Auslandsanschrift.Druckbild.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Druckbild">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">staat</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier ist Staatenschlüssel des Zielstaats aus der aktuell gültigen Staats- und Gebietssystematik des Statistischen Bundesamtes zu übermitteln.</para>
+<para>Da mit dem Datentyp <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis> nur Auslandsanschriften übermittelt werden dürfen, ist die Verwendung des Schlüssels <emphasis role="code">000</emphasis> (Deutschland) nicht zulässig.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">anschriftzone</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Auslandsanschrift.Anschriftzone</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Anschriftzone"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Auslandsanschrift.Auslandsanschrift.Anschriftzone"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier sind zeilenweise die für die Zustellung erforderlichen Angaben zur Anschriftzone zu übermitteln.</para></entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+</section>

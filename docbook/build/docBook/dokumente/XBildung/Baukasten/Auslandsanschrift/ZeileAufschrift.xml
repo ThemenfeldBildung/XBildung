@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift">
+   <title>Aufschriftzeile</title>
+   <subtitle>Typ: <emphasis role="codebf">ZeileAufschrift</emphasis>
+   </subtitle><para>Dieser Datentyp repräsentiert eine Zeile einer Aufschrift gemäß DIN 5008 und besteht aus dem Inhalt der Zeile sowie der Angabe der Zeilennummer in der Aufschrift.</para>
+<para>Sofern dieser Datentyp für die Übermittlung einer Zeile der Anschriftzone verwendet wird, sind ausschließlich die Zeilennummern 4 bis 8 zu verwenden.</para>
+<para>Zeilen der Vermerkzone werden in dem Datentyp <emphasis role="codebf">Auslandsanschrift.Druckbild</emphasis> nicht übermittelt.</para>
+<figure xml:id="figure.XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift">
+      <title>ZeileAufschrift</title>
+      <mediaobject>
+         <imageobject>
+            <imagedata format="svg"
+                       align="center"
+                       scale="110"
+                       fileref="../../../../zeichnungen/XBildung/Baukasten/Auslandsanschrift/ZeileAufschrift.svg"/>
+         </imageobject>
+      </mediaobject>
+   </figure>
+   <informaltable xml:id="table.XBildung.Baukasten.Auslandsanschrift.ZeileAufschrift">
+      <tgroup cols="11">
+         <colspec colname="indent0" colnum="1" colwidth="5mm"/>
+         <colspec colname="indent1" colnum="2" colwidth="5mm"/>
+         <colspec colname="indent2" colnum="3" colwidth="5mm"/>
+         <colspec colname="indent3" colnum="4" colwidth="5mm"/>
+         <colspec colname="indent4" colnum="5" colwidth="5mm"/>
+         <colspec colname="indent5" colnum="6" colwidth="5mm"/>
+         <colspec colname="child" colnum="7" colwidth="27mm"/>
+         <colspec colname="type" colnum="8" colwidth="65mm"/>
+         <colspec colname="cardinality" colnum="9" colwidth="12mm"/>
+         <colspec colname="reference" colnum="10" colwidth="14mm"/>
+         <colspec colname="page" colnum="11" colwidth="12mm"/>
+         <thead>
+            <row>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">ZeileAufschrift</emphasis>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">Kindelement</entry>
+               <entry>Typ</entry>
+               <entry>Anz.</entry>
+               <entry>Ref.</entry>
+               <entry>Seite</entry>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">zeilennummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">ZeileAufschrift.Zeilennummer</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Angabe, in welcher Zeile der Inhalt in der Aufschrift auftauchen soll.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">xs:nonNegativeInteger</emphasis>.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxInclusive:8; minInclusive:1</para>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">inhalt</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">ZeileAufschrift.Inhalt</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier ist der Inhalt der Aufschriftzeile anzugeben.</para><para>Der Typ dieses Elements ist eine Einschränkung des Basistyps <emphasis role="codebf">datatypeC</emphasis> (siehe <xref linkend="externe.modelle.XOEV_Bibliothek" role="AS"/>).</para>
+                  <para>Die Werte müssen dem Muster '<![CDATA[[^&#xA;&#x9;&#xD;]*]]>' entsprechen.</para>
+                  <para>Beschränkungen (XML-Schema-Facetten): maxLength:35; minLength:1</para>
+               </entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+   <para/>
+</section>

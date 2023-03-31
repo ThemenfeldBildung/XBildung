@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.CEFR"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.CEFR</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Das Common European Framework Reference of Languages (CEFR), das auch Gemeinsamer europäischer Referenzrahmen für Sprachen (GER) genannt wird, wurde vom Europarat erstellt. Offizielle weitere Informationen können hier abgerufen werden: <link xlink:href="https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions</link></para>
+<para>XBildung verwendet die Codeliste, die vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/foreign-language-skill" xmlns:xlink="http://www.w3.org/1999/xlink">EU Publication Office technisch zur Verfügung gestellt</link> wird.
+Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/foreign-language-skill" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/de/web​/eu-vocabularies​/dataset/-/​resource?uri=​http://publications.europa.eu/​resource/dataset/​foreign-language-skill</link></para>
+
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Todo</emphasis> : Globale Level als Tabelle angeben.</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 2, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:xbildung-de:coe-int:codeliste:languagereference</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>1.0</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE preface [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter version="5" xml:id="spezifikation.einleitung.spezifikationXBildung" xml:lang="de" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Spezifikation XBildung</title>
+    </info>
+    <section>
+        <title>Aufbau</title>
+        <para>Das Dokument ist in drei Teile gegliedert, einer Einleitung mit dem <link linkend="spezifikation.hintergrundZuXBildung">Hintergrund zu XBildung</link>
+            und der <link linkend="spezifikation.dieBildungsjourney">Bildungsjourney</link>, einem inhaltlichem Kapitel zur <link linkend="spezifikation.fachlicheModellierung"
+                >fachlichen Modellierung</link> mit Metadaten-Strukturen für das Ausstellen von digitalen Nachweisen im Hochschulwesen, sowie einem <link
+                linkend="spezifikation.anhaenge"
+            >Anhang</link>, welcher unter anderem konkrete Werte von aus der Hochschulstatistik übernommenen oder eigens geschaffenen Wertelisten führt.</para>
+    </section>
+    <section>
+        <title>Bestandteile</title>
+        <para>Diese Spezifikation besteht in der <link xlink:href="http://xbildung.de/def/xbildung/&version;/">Version
+				&version;</link></para>
+        <itemizedlist>
+            <listitem>
+                <para>aus dem hier vorliegenden <link xlink:href="http://xbildung.de/def/xbildung/&version;/spec">Spezifikationsdokument</link>
+                </para>
+            </listitem>
+            <listitem>
+                <para>aus XML Schema-Definitionen, Bezugsquelle: <link xlink:href="http://xbildung.de/def/xbildung/&version;/xsd" /></para>
+            </listitem>
+            <listitem>
+                <para>
+                    <link xlink:href="http://xbildung.de/def/xbildung/&version;/code">Codelisten und Mapping zu EU-Vokabularen</link>
+                </para>
+            </listitem>           
+        </itemizedlist>
+        <para>Zusätzlich wird erhaltenes Feedback zur Spezifikation auf <link xlink:href="https://github.com/OZG-TFBildung/&fachmodul_in_uri;/issues">Github.com</link>
+            veröffentlicht und in Folgeversionen eingearbeitet.</para>
+    </section>
+</chapter>

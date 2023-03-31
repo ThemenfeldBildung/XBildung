@@ -1,0 +1,532 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<chapter version="5" xml:id="spezifikation.dieBildungsjourney" xml:lang="de" xmlns="http://docbook.org/ns/docbook">
+  <info>
+    <title>"Die Bildungsjourney"</title>
+  </info>
+  <para>Die Bildungsjourney beschreibt idealtypische Wege von Nutzern durch das deutsche Bildungswesen. Dabei liegt der Schwerpunkt auf fünf Lebenslagen bzw. Fachmodulen (Schule,
+    Berufsausbildung, Studium, Anerkennung, Weiterbildung), außerdem existieren auch übergreifende Aspekte bzw. Schritte. Zum einen bietet die Journey einen Überblick über das
+    komplexe deutsche Bildungswesen, zum anderen lassen sich damit auch Standardisierungsbedarfe ableiten.</para>
+  <para>
+    <table frame="all">
+      <title>Schritte der Bildungsjourney</title>
+      <tgroup cols="5">
+        <colspec colname="c1" colnum="1" colwidth="7mm" />
+        <colspec colname="c2" colnum="2" />
+        <colspec colname="c3" colnum="3" />
+        <colspec colname="c4" colnum="4" colwidth="69mm" />
+        <colspec colname="c5" colnum="5" colwidth="12mm" />
+        <thead>
+          <row>
+            <entry>#</entry>
+            <entry>Schritt</entry>
+            <entry>Kurzbeschreibung</entry>
+            <entry>Beschreibung</entry>
+            <entry>ISCED-Level</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>S1</entry>
+            <entry>An Grundschule anmelden</entry>
+            <entry>Anmeldung an einer spezifischen Grundschule i.d.R. durch die Eltern</entry>
+            <entry>Die Personensorgeberechtigten (i.d.R. die Eltern) melden ein schulpflichtiges Kind über digitale Plattformen bei einer spezifischen Grundschule an (meist vor
+              Ort).</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>S2</entry>
+            <entry>Grundschule besuchen</entry>
+            <entry>Besuch einer Grundschule für vier bzw. sechs Jahre</entry>
+            <entry>Die formale Bildungsjourney startet in Deutschland i.d.R. mit dem Besuch der Grundschule für vier bzw. sechs Jahre (je nach Land).</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>S3</entry>
+            <entry>Grundschulzeugnis erhalten</entry>
+            <entry>Beim erfolgreichen Abschluss der Grundschule wird ein Zeugnis ausgestellt</entry>
+            <entry>Beim erfolgreichen Abschluss der Grundschule wird den Schülern ein (digitales)
+              Grundschulzeugnis ausgestellt, welches häufig auch eine (nicht-bindende) Empfehlung
+              für eine weiterführende Schulart enthält.</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>S4</entry>
+            <entry>Suchen und informieren</entry>
+            <entry>Online- und Vor-Ort-Suche nach geeigneten weiterführenden Schulen</entry>
+            <entry>Zum Ende oder nach der Grundschule informieren sich Schüler und Personensorgeberechtigten (i.d.R. die Eltern) mit strukturierten Informationsangeboten (z.B.
+              Deutscher Bildungsserver, regionale Angebote) oder Suchmaschinen (z.B. Google), aber auch vor Ort (Tag der offenen Tür etc.) über das weiterführende
+              Schulangebot.</entry>
+            <entry>1</entry>
+          </row>
+          <row>
+            <entry>S5</entry>
+            <entry>An weiterführender Schule anmelden</entry>
+            <entry>Anmeldung bzw. Bewerbung für eine spezifische weiterführende Schule</entry>
+            <entry>Die Personensorgeberechtigten (i.d.R. die Eltern) melden ein schulpflichtiges Kind über digitale Plattformen bei einer spezifischen weiterführenden Schule an,
+              wobei mitunter auch Bewerbungsverfahren mit Auswahlprozessen durchgeführt werden (abhängig von Land, Schulart, Schwerpunkt etc.).</entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>S6</entry>
+            <entry>Weiterführende Schule besuchen</entry>
+            <entry>Besuch einer weiterführenden Schule für fünf bis neun Jahre</entry>
+            <entry>Nach der Grundschule besuchen Schüler in Deutschland eine von vielen weiterführenden Schulen bzw. Schularten in Deutschland, wobei hier grob zwischen
+              Sekundarstufe I (z.B. Haupt, Real- und Gesamtschule) und Sekundarstufe II (z.B. gymnasiale Oberstufe, berufsbildende Schulen) unterschieden werden kann. Der
+              Schulbesuch kann insgesamt fünf bis neun Jahre dauern.</entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>S7</entry>
+            <entry>(Weiterführende) Schule wechseln</entry>
+            <entry>Wechsel zwischen den verschiedenen Schularten oder Wechsel innerhalb der gleichen Schulart</entry>
+            <entry>Im Verlauf der Schullaufbahn können die - nach der Grundschule getroffenen - Übergangsentscheidungen durch Wechsel der Schulart oder des Bildungsgangs revidiert
+              werden. Zudem besteht die Möglichkeit, dass ein Umzug an einen anderen Wohnort einen Wechsel innerhalb der Schulart notwendig macht (betrifft auch S2 "Grundschule
+              besuchen"). Hierbei kann ggf. herausfordernd sein, dass nicht alle Bundesländer dieselben Schularten anbieten. S7 erfordert erneut den Schritt S4 "Suchen und
+              Informieren".</entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>S8a</entry>
+            <entry>Schulabgangszeugnis erhalten</entry>
+            <entry>Beim Beenden der Schullaufbahn vor dem erfolgreichen Abschluss wird den Schülern
+              ein Zeugnis ausgestellt</entry>
+            <entry>
+              <para>Das (digitale) Abgangszeugnis bestätigt, dass die betroffene Person von der
+                Schule abgegangen ist, ohne einen Abschluss an dieser gemacht oder erreicht zu
+                haben. IdR besitzt man mit dem Besitz eines Schulabgangszeugnis keinen
+                Schulabschluss.</para>
+              <para>Ausnahmen:</para>
+              <itemizedlist>
+                <listitem>
+                  <para>Verlassen der Haupt-/Realschule in Klasse 10 = Hauptschulabschluss</para>
+                </listitem>
+                <listitem>
+                  <para>Verlassen des Gymnasium nach der 10. Klasse = Realschulabschluss</para>
+                </listitem>
+              </itemizedlist>
+              <para>Für diese Ausnahmen kann das Abgangszeugnis unter Erfüllung weiterer
+                Voraussetzungen in ein Abschlusszeugnis umgeschrieben werden. </para>
+            </entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>S8b</entry>
+            <entry>Schulabschlusszeugnis erhalten</entry>
+            <entry>Beim erfolgreichen Abschluss der Schullaufbahn wird den Schülern ein Zeugnis
+              ausgestellt</entry>
+            <entry>Beim erfolgreichen Abschluss ihrer weiterführenden Schule wird den Schülern ein
+              (digitales) Schulabschlusszeugnis (z.B. HZB, Realschulabschluss etc.)
+              ausgestellt.</entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>Ü1</entry>
+            <entry>Suchen und informieren</entry>
+            <entry>(Online-)Suche nach geeigneten Ausbildungs- und
+              Beschäftigungsmöglichkeiten</entry>
+            <entry>Zum Ende oder nach der Schullaufbahn informieren sich die Schüler bzw.
+              Absolventen mit strukturierten Informationsangeboten (für Studium: z.B. MyGuide,
+              digitaler Campus, StudyInEurope; für Berufsausbildung: z.B. Ausbildung plus; für
+              berufliche Tätigkeit: z.B. Jobbörse der Bundesagentur für Arbeit) oder Suchmaschinen
+              (z.B. Google) über Ausbildungs- und Beschäftigungsmöglichkeiten in Deutschland sowie
+              konkrete Angebote.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü2</entry>
+            <entry>Bildungs- und Berufsweg vorbereiten</entry>
+            <entry>Auswahl einer konkreten Ausbildungs- und Beschäftigungsmöglichkeit und Vorbereitung der Unterlagen</entry>
+            <entry>Nach einem Vergleich der verschiedenen Ausbildungs- und
+              Beschäftigungsmöglichkeiten entscheiden sich junge Menschen i.d.R. für ein bis zwei
+              konkrete Angebote und bereiten den weiteren Bildungs- und oder Berufsweg entsprechend
+              vor (schriftliche Bewerbung, Nachweise etc.).</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü3</entry>
+            <entry>Berufsvorbereitende Maßnahmen</entry>
+            <entry>Angebote, welche die Integration in den Ausbildungs- oder Arbeitsmarkt erleichtern bzw. ermöglichen</entry>
+            <entry>Berufsvorbereitende Maßnahmen (z.B. Berufsvorbereitungsjahr (BVJ)) richten sich
+              insbesondere an junge Menschen, die nach der Beendigung oder dem Abbruch der Schule
+              keinen Platz auf dem Ausbildungs- oder Arbeitsmarkt gefunden haben und zum Teil noch
+              (berufs-)schulpflichtig sind (z.B. junge Menschen in belasteten Lebenslagen,
+              jugendliche Flüchtlinge, Menschen mit Behinderung). Ziel dieser Maßnahmen ist es,
+              jungen Menschen den Einstieg in eine Berufsausbildung oder eine berufliche Tätigkeit
+              zu erleichtern bzw. überhaupt erst zu ermöglichen (z.B. durch Nachqualifizierung,
+              Unterstützung der Berufswahl).</entry>
+            <entry>2,3</entry>
+          </row>
+          <row>
+            <entry>Ü4</entry>
+            <entry>Jugendarbeitsschutzuntersuchung</entry>
+            <entry>Jugendliche müssen sich vor einer beruflichen Tätigkeit gesundheitlich untersuchen lassen</entry>
+            <entry>Jugendliche, die in Deutschland eine duale Berufsausbildung oder ein anderes
+              Beschäftigungsverhältnis beginnen wollen, müssen sich vor Arbeitsantritt einer
+              ärztlichen Untersuchung, der sog. Jugendarbeitsschutzuntersuchung, unterziehen. Dies
+              gilt nicht bei geringfügigen oder kurzen Tätigkeiten. d.h., wenn Jugendliche nur eine
+              geringfügige oder eine nicht länger als zwei Monate dauernde Beschäftigung mit
+              leichten Arbeiten ausüben wollen. Jugendliche/r ist, wer 15, aber noch nicht 18 Jahre
+              alt ist. Untersucht wird der Gesundheitszustand sowie die gesundheitliche Eignung der
+              Jugendlichen für die angestrebte Tätigkeit.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>B1</entry>
+            <entry>Für Ausbildung bewerben</entry>
+            <entry>Bewerbung für eine duale Berufsausbildung oder eine vollzeitschulische Ausbildung</entry>
+            <entry>Die Bewerbung für eine duale Berufsausbildung bei Ausbildungsstellen (z.B.
+              Betriebe, öffentliche Verwaltung) oder eine vollzeitschulische Ausbildung bei
+              berufsbildenden Schulen (z.B. Berufsfachschule, berufliches Gymnasium) mit konkreten
+              Nachweisen etc. erfolgt über digitale Bewerbungsplattformen.</entry>
+            <entry>3,4</entry>
+          </row>
+          <row>
+            <entry>B2</entry>
+            <entry>Vorbildung anerkennen lassen</entry>
+            <entry>Schulische und berufliche Vorbildung können anerkannt werden</entry>
+            <entry>Zu Beginn oder im Laufe einer dualen Berufsausbildung kann einschlägige
+              berufliche (z.B. berufsvorbereitende Maßnahme, abgebrochene bzw. abgeschlossene
+              Berufsausbildung) oder schulische Vorbildung (z.B. Fachabitur/Abitur) anerkannt
+              werden, was wiederum zu einer Verkürzung der Regelausbildungszeit führen kann.</entry>
+            <entry>3,4</entry>
+          </row>
+          <row>
+            <entry>B3</entry>
+            <entry>Berufsausbildungsförderung beantragen</entry>
+            <entry>Zur Finanzierung einer Berufsausbildung existieren verschiedene
+              Fördermöglichkeiten</entry>
+            <entry>Zur Finanzierung einer Berufsausbildung können Auszubildende verschiedene
+              Fördermöglichkeiten beantragen (z.B. BAföG, AFBG (Aufstiegs-BAföG), Stipendien), wobei
+              die Möglichkeiten und eine konkrete finanzielle Förderung von zahlreichen Faktoren
+              abhängig sind (z.B. persönliche Lebenslage, angestrebte Berufsausbildung).</entry>
+            <entry>3,4</entry>
+          </row>
+          <row>
+            <entry>B4</entry>
+            <entry>Ausbildung absolvieren</entry>
+            <entry>Absolvieren einer dualen Berufsausbildung oder einer vollzeitschulischen Ausbildung</entry>
+            <entry>Eine Berufsausbildung hat in Deutschland i.d.R. eine Dauer von drei bis dreieinhalb Jahren und umfasst sowohl schulische als auch berufspraktische Lernphasen,
+              wobei duale Berufsausbildungen einen Schwerpunkt auf berufspraktische Kenntnisse legen, während vollzeitschulische Ausbildungen vor allem auf schulische Bildung
+              setzen (oft sind Praktika oder Praxisphasen vorgesehen).</entry>
+            <entry>3,4</entry>
+          </row>
+          <row>
+            <entry>B5</entry>
+            <entry>Ausbildungszeugnis erhalten</entry>
+            <entry>Zum erfolgreichen Abschluss der Ausbildung wird ein Zeugnis ausgestellt</entry>
+            <entry>Zum erfolgreichen Abschluss ihrer Ausbildung wird den Auszubildenden ein (digitales) Ausbildungszeugnis ausgestellt. Während den Absolventen einer
+              vollzeitschulischen Ausbildung ein Zeugnis der besuchten Schule ausgestellt wird, erhalten Auszubildende in der dualen Berufsausbildung insgesamt drei Zeugnisse: Ein
+              Prüfungszeugnis von der zuständigen Stelle (z.B. berufsständische Kammern wie IHK und HWK), ein Berufsschulzeugnis sowie ein (qualifiziertes) Ausbildungszeugnis der
+              Ausbildungsstelle (z.B. Betrieb, öffentliche Verwaltung).</entry>
+            <entry>3,4</entry>
+          </row>
+          <row>
+            <entry>H1</entry>
+            <entry>Zulassungsvoraussetzungen prüfen lassen</entry>
+            <entry>Eignung und/oder Kompetenznachweise vorab prüfen lassen</entry>
+            <entry>Für einige Studiengänge müssen Studieninteressierte bestimmte
+              Zulassungsvoraussetzungen erfüllen und vor bzw. im Zuge einer Bewerbung prüfen lassen:
+              Zum einen gibt es Studiengänge, für die eine bestimmte Eignung im Rahmen einer Prüfung
+              nachgewiesen werden müssen (künstlerische und sportliche Eignungsprüfung, Test für
+              medizinische Studiengänge). Zum anderen müssen Studieninteressierte vor einer
+              Bewerbung teilweise auch Kompetenznachweise z.B. bei Dienstleistern wie uni-assist zur
+              Prüfung der Zulassungsvoraussetzungen für einen konkreten Studiengang (ggf. mit
+              Zweitwunsch) einreichen.</entry>
+            <entry>6 </entry>
+          </row>
+          <row>
+            <entry>H2</entry>
+            <entry>Für Studiengang bewerben</entry>
+            <entry>Bewerbung für einen konkreten Studiengang bei Hochschule / Stiftung für
+              Hochschulzulassung (SfH)</entry>
+            <entry>Die Bewerbung für einen konkreten Studiengang mit Nachweisen etc. erfolgt i.d.R. über die digitalen Bewerbungsplattformen der Hochschulen. Insbesondere bei
+              bundesweit zulassungsbeschränkten Studiengängen (Medizin, Pharmazie, Tiermedizin und Zahnmedizin) erfolgt die Bewerbung hingegen zentral über die
+              DoSV-Bewerbungsplattform der Stiftung für Hochschulzulassung (SfH).</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H3</entry>
+            <entry>Kompetenzen anerkennen lassen</entry>
+            <entry>Anerkennung von (ausländischen) Kompetenznachweisen durch die Hochschule</entry>
+            <entry>Das Prüfungsamt und/oder einzelne Fakultäten einer Hochschule erkennen (ausländische) Kompetenznachweise ggf. studiengangsspezifisch an.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H4</entry>
+            <entry>An Hochschule einschreiben</entry>
+            <entry>Immatrikulation in einen konkreten Studiengang</entry>
+            <entry>Bei Vorliegen aller Zulassungsvoraussetzungen erhalten Studieninteressierte ein Studienplatzangebot, welches sie annehmen können (Zusage). Nach der Bezahlung
+              einer Gebühr werden sie an der Hochschule immatrikuliert.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H5</entry>
+            <entry>Studienförderung beantragen</entry>
+            <entry>Zur Studienfinanzierung existieren verschiedene Fördermöglichkeiten</entry>
+            <entry>Zur Finanzierung einer Studiums können (angehende) Studierende verschiedene Fördermöglichkeiten beantragen (z.B. BAföG, Stipendien), wobei die Möglichkeiten und
+              eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängig sind (z.B. persönliche Lebenslage, bisherige Leistungen, Hochschule, konkreter
+              Studiengang).</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H6</entry>
+            <entry>Im Bachelor studieren</entry>
+            <entry>Absolvieren eines grundständigen Studiums</entry>
+            <entry>Das grundständige Studium (Bachelor) bildet i.d.R. den ersten Teil einer
+              Hochschulausbildung.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H7</entry>
+            <entry>Auslandsstudium vorbereiten</entry>
+            <entry>Vorbereitung und Bewerbung für ein Auslandssemester</entry>
+            <entry>Studierende informieren sich z.B. mit strukturierten Informationsangeboten oder beim akademischen Auslandsamt ihrer Hochschule über die Möglichkeit eines
+              Auslandsaufenthalts bzw. Auslandssemesters (z.B. mit Erasmus+) und können sich nach einer Prüfung der Zulassungsvoraussetzungen im Ausland für einen Studienplatz
+              bewerben. Im Zuge von Erasmus+ kann ein sog. Learning Agreement über die im Rahmen des Auslandsaufenthalts angestrebten Leistungen zwischen Studierenden, heimischer
+              Hochschule und der ausländischen Hochschule geschlossen werden.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H8</entry>
+            <entry>Auslandsstudium antreten</entry>
+            <entry>Immatrikulation an einer ausländischen Hochschule</entry>
+            <entry>Nach erfolgreicher Prüfung der (deutschen) Kompetenznachweise durch die ausländische Hochschule können die Studierenden ihr Studium im Ausland antreten.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H9</entry>
+            <entry>Im Ausland studieren</entry>
+            <entry>Absolvieren eines Studiensemesters im Ausland</entry>
+            <entry>Im Ausland absolvieren die Studierenden ein Studiensemester, wobei sie i.d.R. Veranstaltungen in ihrem Studienfach und auf ihrem Niveau besuchen.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H10</entry>
+            <entry>Auslandsstudium beenden</entry>
+            <entry>Abschluss des Auslandssemesters und Anerkennung absolvierter Leistungen</entry>
+            <entry>Nach Abschluss des Auslandssemester können die Studierenden ihre im Rahmen des
+              Auslandsaufenthalts erbrachten Leistungen durch die heimische Hochschule für ihr
+              Studium anerkennen und anrechnen lassen.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H11</entry>
+            <entry>Hochschulabschlusszeugnis erhalten</entry>
+            <entry>Beim erfolgreichen Abschluss des Studiums wird ein Zeugnis ausgestellt</entry>
+            <entry>Beim erfolgreichen Abschluss ihres Bachelorstudiums wird Studierenden ein
+              digitales Hochschulabschlusszeugnis mit weiteren Informationen (ToR, Diploma
+              Supplement) ausgestellt.</entry>
+            <entry>6</entry>
+          </row>
+          <row>
+            <entry>H12</entry>
+            <entry>Vom Bachelor- in einen Masterstudiengang wechseln</entry>
+            <entry>Übergang vom Bachelor zum Master</entry>
+            <entry>Studierende können nach erfolgreichem Abschluss ihres Bachelorstudiums ein Masterstudium aufnehmen, falls ihr Bachelorabschluss durch die entsprechende
+              Hochschule anerkannt wird und sie alle weiteren Zulassungsvoraussetzungen erfüllen.</entry>
+            <entry>7</entry>
+          </row>
+          <row>
+            <entry>H13</entry>
+            <entry>Im Master studieren</entry>
+            <entry>Absolvieren eines konsekutiven bzw. weiterführenden Studiums</entry>
+            <entry>Nach dem grundständigen Studium (Bachelor) absolvieren Studierende in Deutschland häufig ein konsekutives bzw. weiterführendes Studium (Master)</entry>
+            <entry>7</entry>
+          </row>
+          <row>
+            <entry>H14</entry>
+            <entry>Hochschulabschlusszeugnis erhalten</entry>
+            <entry>Beim erfolgreichen Abschluss des Studium wird ein Zeugnis ausgestellt</entry>
+            <entry>Zum erfolgreichen Abschluss ihres Masterstudiums wird Studierenden ein (digitales) Hochschulabschlusszeugnis mit weiteren Informationen (ToR, Diploma Supplement)
+              ausgestellt.</entry>
+            <entry>7</entry>
+          </row>
+          <row>
+            <entry>A1</entry>
+            <entry>Suchen und informieren</entry>
+            <entry>Online-Suche zur Berufsanerkennung in Deutschland</entry>
+            <entry>Zu Beginn informieren sich anerkennungsinteressierte Fachkräfte mit
+              strukturierten Informationsangeboten (insbesondere Anerkennung in Deutschland (AiD),
+              aber auch Make-it-in-Germany), Suchmaschinen (z.B. <emphasis>Google</emphasis>) oder
+              bei Beratungsstellen im Inland (z.B. IQ-Beratungsstellen, ALiD-Hotline) oder Ausland
+              (z.B. ProRecognition) über die Anerkennung ausländischer Berufsqualifikationen bzw.
+              die Zeugnisbewertung für ausländische Hochschulqualifikationen in Deutschland.</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A2</entry>
+            <entry>Anerkennungsantrag stellen</entry>
+            <entry>Online-Antrag für eine konkrete Qualifikation bei der zuständigen Stelle</entry>
+            <entry>Der Antrag auf Anerkennung bzw. Zeugnisbewertung mit Nachweisen etc. wird in Zukunft idealerweise über digitale Plattformen und Lösungen bei der zuständigen
+              Stelle gestellt. Für die Anerkennung ausländischer Berufsqualifikationen sind insgesamt mehr als 1.500 Stellen (z.B. Landesbehörden, Kammern) zuständig, während die
+              Zentralstelle für ausländisches Bildungswesen (ZAB) individuelle Zeugnisbewertungen durchführt.</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A3</entry>
+            <entry>Förderung beantragen</entry>
+            <entry>Für Anerkennungsverfahren existieren verschiedene Förderungsmöglichkeiten</entry>
+            <entry>Zur Finanzierung eines Verfahrens können anerkennungsinteressierte Fachkräfte
+              verschiedene Fördermöglichkeiten beantragen (z.B. für Verwaltungsgebühren, Kosten für
+              Beglaubigungen und Übersetzungen, ggf. für Qualifizierungen), wobei die Möglichkeiten
+              und eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängig sind (z.B.
+              persönliche Lebenslage, angestrebter Beruf in Deutschland).</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A4</entry>
+            <entry>Gleichwertigkeit prüfen lassen</entry>
+            <entry>Zuständige Stelle prüft die Gleichwertigkeit der ausländischen Qualifikation</entry>
+            <entry>Bei der Anerkennung ausländischer Berufsqualifikationen prüft die zuständige
+              Stelle die Gleichwertigkeit einer im Ausland erworbenen Berufsqualifikation im
+              Hinblick auf eine vergleichbare deutsche Berufsqualifikation (sog. Referenzberuf),
+              wobei hier grob zwischen automatischer Anerkennung für Qualifikationen aus der
+              EU/EWR/Schweiz sowie der individuellen Gleichwertigkeitsprüfung für Qualifikationen
+              aus Drittstaaten unterschieden werden kann. Bei der Zeugnisbewertung durch die
+              Zentralstelle für ausländisches Bildungswesen (ZAB) werden die ausländischen
+              Hochschulqualifikationen immer individuell geprüft (vergleichende Einstufung, aber
+              keine Anerkennung).</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A5</entry>
+            <entry>Eignung prüfen lassen</entry>
+            <entry>Zuständige Stelle prüft die persönliche Eignung und Zuverlässigkeit</entry>
+            <entry>Bei sog. reglementierten Berufen (z.B. Arzt, Lehrer) prüft die zuständige Stelle nicht nur die Gleichwertigkeit der ausländischen Qualifikation, sondern auch die
+              persönliche Eignung und Zuverlässigkeit der anerkennungsinteressierten Fachkräfte (z.B. deutsche Sprachkenntnisse, Straffreiheit).</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A6</entry>
+            <entry>Anerkennungsbescheid erhalten</entry>
+            <entry>Beim erfolgreichen Abschluss des Verfahrens wird ein Bescheid ausgestellt</entry>
+            <entry>Beim erfolgreichen Abschluss ihres Verfahrens wird anerkennungsinteressierten
+              Fachkräften ein Bescheid über die Anerkennung (Gleichwertigkeit sowie ggf.
+              Berufszulassung) bzw. über die individuelle Zeugnisbewertung für ihre ausländische
+              Qualifikation ausgestellt.</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>A7</entry>
+            <entry>Einreisen</entry>
+            <entry>Fachkräfteeinwanderung nach Deutschland</entry>
+            <entry>Die anerkannten Fachkräfte können spätestens eine dauerhafte Aufenthaltsgenehmigung erhalten und nach Deutschland einreisen, wobei die zeitweise Einreise etwa
+              für Sprachprüfungen ggf. bereits früher möglich ist. Die individuelle Zeugnisbewertung hat keinen Einfluss auf die Aufenthaltsregelungen. Darüber hinaus ist zu
+              beachten, dass sich Fachkräfte mit ausländischer Qualifikation teilweise auch schon in Deutschland aufhalten (z.B. deutsche Staatsangehörige, geflüchtete
+              Menschen).</entry>
+            <entry>3-7</entry>
+          </row>
+          <row>
+            <entry>Ü5</entry>
+            <entry>Suchen und informieren</entry>
+            <entry>Online-Suche nach geeigneten Jobs</entry>
+            <entry>Zu Beginn der Jobsuche informieren sich Arbeitssuchende mit strukturierten
+              Informationsangeboten (z.B. Jobbörse der Bundesagentur für Arbeit, Indeed),
+              Suchmaschinen (z.B. <emphasis>Google</emphasis>) oder bei Beratungsstellen (z.B bei
+              Vermittlungsfachkräften der Bundesagentur für Arbeit) zum deutschen Arbeitsmarkt und
+              geeigneten Beschäftigungsmöglichkeiten, vor allem in ihrem Beruf.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü6</entry>
+            <entry>Bewerbung vorbereiten</entry>
+            <entry>Erstellen eines Online-Profils und Vorbereitung der Unterlagen</entry>
+            <entry>Zur Bewerbung für geeignete Jobs können sich Arbeitssuchende ein umfangreiches Onine-Bewerberprofil anlegen (z.B. europass, LinkedIn), welches über verschiedene
+              Features verfügt (z.B. CV, Kompetenzprofil, Wallet für digitale Nachweise) und die Suche nach und Bewerbung für Lernangebote (z.B. auch Promotion) und Jobs
+              ermöglicht. Zudem bereiten Arbeitssuchende ihre Bewerbungsunterlagen entsprechend digital auf.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü7</entry>
+            <entry>Für Job bewerben</entry>
+            <entry>Online-Bewerbung bei einem Arbeitgeber</entry>
+            <entry>Die Bewerbung für einen konkreten Job mit Nachweisen etc. erfolgt i.d.R. entweder
+              über digitale Bewerbungsplattformen der Arbeitgeber und zunehmend auch über die
+              digitalen Online-Profile der Bewerber.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü8</entry>
+            <entry>Kompetenzen prüfen lassen</entry>
+            <entry>Arbeitgeber prüfen die Kompetenzen der Bewerber</entry>
+            <entry>Bei Bewerbungen prüfen Arbeitgeber zunächst die eingereichten Kompetenznachweise
+              im Hinblick auf die Anforderungen des ausgeschriebenen Jobs. Im nächsten Schritt
+              prüfen sie dann ggf. die Eignung der Bewerber in persönlichen Gesprächen oder per
+              Video-Chat. Während oder am Ende der Prüfung erteilt der Arbeitgeber eine Zu- oder
+              Absage.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>Ü9</entry>
+            <entry>Berufstätig sein</entry>
+            <entry>In einem spezifischen Beruf arbeiten</entry>
+            <entry>Nach erfolgreicher Bewerbung sind die Arbeitnehmer im angestrebten Job bzw. in ihrem Beruf tätig.</entry>
+            <entry>NA</entry>
+          </row>
+          <row>
+            <entry>W1</entry>
+            <entry>Suchen und informieren</entry>
+            <entry>Online-Suche nach geeigneten Weiterbildungsmöglichkeiten</entry>
+            <entry>Weiterbildungsinteressierte (Arbeitssuchende, Arbeitnehmer, aber auch Studierende) informieren sich mit strukturierten Informationsangeboten (z.B. KURSNET der
+              Bundesagentur für Arbeit, Weiterbildungsinformationssystem der Industrie- und Handelskammern (WIS)), Suchmaschinen (z.B. Google) oder bei Beratungsstellen (z.B.
+              Beratungsfachkräfte der Bundesagentur für Arbeit, Berufsberatung an Hochschulen) über geeignete Weitebildungsmöglichkeiten in Deutschland, vor allem in ihrem
+              (angestrebten) Beruf bzw. ihrem Studiengang.</entry>
+            <entry>1-7</entry>
+          </row>
+          <row>
+            <entry>W2</entry>
+            <entry>Weiterbildung vorbereiten</entry>
+            <entry>Auswahl eines konkreten Weiterbildungsangebots</entry>
+            <entry>Nach einem Vergleich der verschiedenen Weiterbildungsmöglichkeiten entscheiden sich Weiterbildungsinteressierte i.d.R. für ein oder zwei konkrete Angebote und
+              bereiten die Weiterbildung entsprechend vor (schriftliche Bewerbung, Nachweise etc.).</entry>
+            <entry>1-7</entry>
+          </row>
+          <row>
+            <entry>W3</entry>
+            <entry>Für Weiterbildung bewerben</entry>
+            <entry>Online-Anmeldung bzw. Bewerbung für eine Weiterbildung</entry>
+            <entry>Die Anmeldung bzw. Bewerbung mit Nachweisen etc. für ein geeignetes Weiterbildungsangebot erfolgt i.d.R. über digitale Bewerbungsplattformen der
+              Weiterbildungsanbieter (z.B. Hochschulen, freie Träger, Volkshochschulen).</entry>
+            <entry>1-7</entry>
+          </row>
+          <row>
+            <entry>W4</entry>
+            <entry>Weiterbildungsförderung beantragen</entry>
+            <entry>Für Weiterbildungen existieren verschiedene Förderungsmöglichkeiten</entry>
+            <entry>Zur Finanzierung von Weiterbildungsangeboten können Teilnehmende verschiedene Fördermöglichkeiten beantragen (z.B. Bildungsgutschein der Bundesagentur für
+              Arbeit, Weiterbildungsscheck der Länder), wobei die Möglichkeiten und eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängig sind (z.B. persönliche
+              Lebenslage, angestrebte Weiterbildung).</entry>
+            <entry>1-7</entry>
+          </row>
+          <row>
+            <entry>W5</entry>
+            <entry>Weiterbilden</entry>
+            <entry>Absolvieren einer konkreten Weiterbildung</entry>
+            <entry>Für Weiterbildungsinteressierte existiert in Deutschland ein umfangreiches und heterogenes Weiterbildungsangebot (z.B. Sprachkurse, Zertifikatskurse, Coding
+              Camps, Nachqualifizierungen, Aufbaustudiengang), wobei die einzelnen Weiterbildungsmöglichkeiten sich sowohl von der Dauer (von einigen Tagen bis zu mehreren Jahren)
+              als auch im Hinblick auf den Grad der staatlichen und privatwirtschaftlichen Anerkennung erheblich unterscheiden.</entry>
+            <entry>1-7</entry>
+          </row>
+          <row>
+            <entry>W6</entry>
+            <entry>Weiterbildungsnachweis erhalten</entry>
+            <entry>Zum erfolgreichen Abschluss der Weiterbildung wird ein Kompetenznachweis ausgestellt</entry>
+            <entry>Zum erfolgreichen Abschluss ihrer Weiterbildung wird den Teilnehmenden ein (digitaler) Weiterbildungsnachweis (z.B. Zertifikat, Teilnahmebestätigung)
+              ausgestellt.</entry>
+            <entry>1-7</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </para>
+  <figure>
+    <title>Die Bildungsjourney</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata align="center" fileref="../abbildungen/Bildungsjourney_0.92.svg" format="SVG"
+          scale="40"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+</chapter>

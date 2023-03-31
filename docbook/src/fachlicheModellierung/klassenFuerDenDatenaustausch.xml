@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE chapter [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter version="5" xml:id="modellierung.klassenFuerDenDatenaustausch" xml:lang="de" xmlns="http://docbook.org/ns/docbook">
+    <info>
+        <title>Klassen für den Datenaustausch</title>
+    </info>    
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Abschlussarbeit.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/AllgemeinerName.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/AlternativeRepraesentation.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Anschrift.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Auslandsanschrift/Auslandsanschrift.Anschriftzone.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Auslandsanschrift/Auslandsanschrift.Druckbild.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Benotung.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Dokument.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Geburt.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Geburtsort.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Geschlecht.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Identifikation.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Kommunikation.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Kurs.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Meldeanschrift/Meldeanschrift.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/NameNatuerlichePerson.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/NameOrganisation.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/NatuerlichePerson.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Organisation.xml" xmlns="http://www.w3.org/2001/XInclude" />
+        <include href="../../build/docBook/dokumente/xbildung/Baukasten/Sprache.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Staat.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/VerwaltungspolitischeKodierung.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Auslandsanschrift/ZeileAufschrift.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Zeitraum.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    
+</chapter>

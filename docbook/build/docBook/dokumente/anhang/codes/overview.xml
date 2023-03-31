@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent"> %complete;]><section xmlns="http://docbook.org/ns/docbook"
+         version="5"
+         xml:lang="de"
+         xml:id="code.datentypen.overview"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title xmlns:xlink="http://www.w3.org/1999/xlink">Übersicht über die Code-Datentypen</title>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderhochschule.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderpruefung.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderschule.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.artdertraegerschaft.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.artdesschulabschlusses.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.bewertungsschema.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.cefr.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.countrycodes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.erreichbarkeit.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.geschlecht.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.isced2011.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.iscedf2013.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.kursstatus.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.language.xml"/>
+</section>

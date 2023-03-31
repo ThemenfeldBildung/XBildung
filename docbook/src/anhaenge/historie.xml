@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE appendix [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<appendix version="5" xml:id="anhaenge.historie" xml:lang="de" xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+        <title>Versionshistorie</title>
+    </info>
+    <para>In der Versionshistorie werden die Änderungen der aktuellen Version zur Vorversion der
+        Spezifikation dargestellt. Es werden die Änderungen der letzten zwei Versionen aufgeführt.</para>
+    <section xml:id="spezifikation.anhang.versionshistorie093">
+        <info>
+            <title>Version &version;</title>
+        </info>
+        <para>Veröffentlichungsdatum: &fassung;</para>
+        <para>Veränderungen zur vorherigen Version: Struktur des Dokumentes überarbeitet, Errata sowie folgende Änderungen: </para>
+        <itemizedlist>
+            <listitem><para>XBD-223: Notenschemata für Abitur (000_280_840) ergänzen</para></listitem>
+            <listitem><para>XBD-213: Codelisten: Angaben des Bezugsorts, Beschreibung und Beispiele überarbeiten</para></listitem>
+            <listitem><para>XBD-212: Signatur aus Klasse Dokument entfernen</para></listitem>
+            <listitem><para>XBD-210: Klasse Benotung ändern</para></listitem>
+            <listitem><para>XBD-208: Klasse Abschluss entfernen sowie deren Kindelemente und Codelisten beibehalten</para></listitem>
+            <listitem><para>XBD-207: Codeliste Gebiet löschen, da Country Codes verwendet werden soll</para></listitem>
+            <listitem><para>XBD-205: xbd:natuerlichePerson/xbd:geschlecht auf 0..1 umstellen</para></listitem>
+            <listitem><para>XBD-204: Klasse Geburtsort anlegen</para></listitem>
+            <listitem><para>XBD-199: Errata für XBD V0.93</para></listitem>
+            <listitem><para>XBD-197: Präsentation als Prüfungsart hinzufügen</para></listitem>
+            <listitem><para>XBD-196: Klasse Bildungseinrichtung entfernen</para></listitem>
+            <listitem><para>XBD-195: Klasse Bildungsnachweis und AllgemeineBescheinigung in Klasse Dokument aufgehen lassen</para></listitem>
+            <listitem><para>XBD-193: Reihenfolge der Elemente in Klasse Dokument anpassen</para></listitem>
+            <listitem><para>XBD-147: Codewerte der Codeliste Geschlecht nicht als URI formulieren</para></listitem>
+            <listitem><para>XBD-136: Bezug zu SDG, EDCI und ELMO richtigstellen</para></listitem>
+            <listitem><para>XBD-86: Feld Einsatzzweck entfernen</para></listitem>
+            <listitem><para>XBD-85: Reihenfolge der Elemente von Anschrift ändern</para></listitem>
+            <listitem><para>XBD-60: Falsche Verwendung von skos:hasTopConcept, fehlende skos:ConceptScheme(s) korrigieren</para></listitem>
+        </itemizedlist>
+    </section>
+    <section xml:id="spezifikation.anhang.versionshistorie092">
+        <info>
+            <title>Version 0.92</title>
+        </info>
+        <para>Veröffentlichungsdatum: 21. Juli 2022</para>
+        <para>Veränderungen zur vorherigen Version: Struktur des Dokumentes überarbeitet, Errata sowie folgende Änderungen: </para>
+        <orderedlist continuation="restarts" inheritnum="ignore">
+            <listitem>
+                <para>
+                    <emphasis role="bold">Allgemein:</emphasis>
+                </para>
+                <para>XBD-185: ISCED-F 2013 in Kurs aufgenommen</para>
+                <para>XBD-172: Verweise auf Notenschemata für Abiturnoten erstellt und gehostet</para>
+                <para>XBD-169: Kapitel I.2 Bildungsjourney überarbeitet</para>
+                <para>XBD-163: Angabe Schwerpunkt in Kurs ermöglicht</para>
+                <para>XBD-161: Klasse Abschluss um artDesSchulabschlusses erweitert, Typ artDesAbschlusses geändert</para>
+                <para>XBD-155: Überarbeitung der Klasse Benotung: erweitert um Angaben zum "passing, maximum und minimum Grade"</para>
+                <para>XBD-153: Beschreibung Rufname von XÖV-Bibliothek übernommen</para>
+                <para>XBD-148: Headerkommentare in RDF-Dateien überarbeitet</para>
+                <para>XBD-25: Kernkomponente Kommunikation verfügbar gemacht</para>
+            </listitem>
+            <listitem>
+                <para>
+                    <emphasis role="bold"><link linkend="schluesseltabellen.uebersicht">Codelisten</link></emphasis></para>
+                <para>XBD-192: Common European Reference Framework CEFR - als Typ 2 PublicationsOffice Liste angelegt</para>
+                <para>XBD-174: ISCED-F 2013 als Publications Office Taxonomie (Typ 2) eingebunden</para>
+                <para>XBD-168: ArtDerTraegerschaft neu nummeriert und um "Kreis" ergänzt</para>
+                <para>XBD-161: ArtDesAbschlusses: Titel, Werte und Beschreibung angepasst</para>
+                <para>XBD-137: NDRs für Codewerten bei kursstatus angewendet</para>
+                <para>XBD-6: Codeliste ArtDerHochschulzugangsberechtigung entfernt</para>
+            </listitem>
+        </orderedlist>
+
+    </section>
+</appendix>

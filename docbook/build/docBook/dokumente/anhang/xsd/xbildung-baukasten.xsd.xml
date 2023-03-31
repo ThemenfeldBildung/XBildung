@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE informaltable [<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent"> %complete;]><informaltable xmlns="http://docbook.org/ns/docbook"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               version="5"
+               xml:lang="de">
+   <tgroup cols="2">
+      <colspec colnum="1" colname="c1" colwidth="30mm"/>
+      <colspec colnum="2" colname="c2" colwidth="128mm"/>
+      <thead>
+         <row>
+            <entry align="left" namest="c1" nameend="c2">
+               <emphasis role="bold">XML Schema-Definition: xbildung-baukasten.xsd</emphasis>
+            </entry>
+         </row>
+      </thead>
+      <tbody>
+         <row>
+            <entry>
+               <emphasis role="bold">Eigenschaft</emphasis>
+            </entry>
+            <entry>
+               <emphasis role="bold">Wert</emphasis>
+            </entry>
+         </row>
+         <row>
+            <entry>Version</entry>
+            <entry>0.93</entry>
+         </row>
+         <row>
+            <entry>Namensraum</entry>
+            <entry>http://xbildung.de/def/xbildung/0.93/xsd</entry>
+         </row>
+         <row>
+            <entry>Präfix</entry>
+            <entry>xbd</entry>
+         </row>
+         <row>
+            <entry>SchemaLocation</entry>
+            <entry>http://xbildung.de/def/xbildung/0.93/xsd/xbildung-baukasten.xsd</entry>
+         </row>
+         <row>
+            <entry>Inkludierte XSDs</entry>
+            <entry>
+               <itemizedlist>
+                  <listitem>
+                     <para>xbildung-basisdatentypen.xsd</para>
+                  </listitem>
+               </itemizedlist>
+            </entry>
+         </row>
+         <row>
+            <entry>Importierte XSDs</entry>
+            <entry>
+               <itemizedlist>
+                  <listitem>
+                     <para>din-91379-datatypes.xsd (dinspec91379 : urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03)</para>
+                  </listitem>
+                  <listitem>
+                     <para>latinchars.xsd (xoev-lc : http://xoev.de/latinchars/1_1/datatypes)</para>
+                  </listitem>
+                  <listitem>
+                     <para>xinneres-auslandsanschrift.xsd (xiaa : http://www.osci.de/xinneres/auslandsanschrift/3)</para>
+                  </listitem>
+                  <listitem>
+                     <para>xinneres-codes-gemeindeverzeichnis.xsd (xicgvz : http://www.osci.de/xinneres/codes/gemeindeverzeichnis/2)</para>
+                  </listitem>
+                  <listitem>
+                     <para>xinneres-meldeanschrift.xsd (xima : http://www.osci.de/xinneres/meldeanschrift/3)</para>
+                  </listitem>
+                  <listitem>
+                     <para>xoev-code.xsd (xoev-code : http://xoev.de/schemata/code/1_0)</para>
+                  </listitem>
+               </itemizedlist>
+            </entry>
+         </row>
+      </tbody>
+   </tgroup>
+</informaltable>

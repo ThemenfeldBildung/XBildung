@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.Language"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.Language</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+<para>
+    The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts:
+</para>
+<para>
+    <itemizedlist spacing="compact" mark="-">
+        <listitem><para>ISO 639-1 contains strictly two alphabetic letters (alpha-2),</para></listitem>
+        <listitem><para>ISO 639-2/B (B = bibliographic) is used for bibliographic purpose (alpha-3),</para></listitem>
+        <listitem><para>ISO 639-2/T (T = terminology) is used for technical purpose (alpha-3),</para></listitem>
+        <listitem><para>ISO 639-3 covers all the languages and macro-languages of the world (alpha-3); the values are compliant with ISO 639-2/T.</para></listitem>
+    </itemizedlist>
+</para>
+<para>If an authority code is needed for a language without assigned ISO code, an alphanumeric code is created in order to not confuse with ISO codes that are strictly alphabetic.</para>
+
+<para>Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri​=http://publications.europa.eu/​resource/​dataset/language</link></para>
+
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Deutsch</emphasis>     : http://publications.europa.eu/resource/authority/language/DEU</para></listitem>
+<listitem><para><emphasis role="bold">Englisch</emphasis>    : http://publications.europa.eu/resource/authority/language/ENG</para></listitem>
+<listitem><para><emphasis role="bold">Französisch</emphasis> : http://publications.europa.eu/resource/authority/language/FRA</para></listitem>
+<listitem><para><emphasis role="bold">Latein</emphasis>      : http://publications.europa.eu/resource/authority/language/LAT</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 2, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:xbildung-de:publicationsoffice-eu:codeliste:language</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>20210929-0</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>

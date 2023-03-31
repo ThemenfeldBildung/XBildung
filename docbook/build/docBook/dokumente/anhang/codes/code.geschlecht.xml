@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.Geschlecht"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.Geschlecht</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Siehe Blatt 0701 des DSMeld.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht</link></para>
+
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">männlich</emphasis> : m</para></listitem>
+<listitem><para><emphasis role="bold">weiblich</emphasis> : w</para></listitem>
+<listitem><para><emphasis role="bold">ohne Angabe</emphasis> : x</para></listitem>
+<listitem><para><emphasis role="bold">divers</emphasis> : d</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 2, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:de:dsmeld:schluesseltabelle:geschlecht</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>3</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>
