@@ -46,7 +46,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/01</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/01</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>E-Mail</SimpleValue>
@@ -54,7 +54,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/02</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/02</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Telefon Festnetz</SimpleValue>
@@ -62,7 +62,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/03</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/03</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Telefon mobil</SimpleValue>
@@ -70,7 +70,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/04</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/04</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fax</SimpleValue>
@@ -78,7 +78,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/05</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/05</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Instant Messenger</SimpleValue>
@@ -86,7 +86,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/06</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/06</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Pager</SimpleValue>
@@ -94,7 +94,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/07</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/07</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Sonstiges</SimpleValue>
@@ -102,7 +102,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/08</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/08</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>De-Mail</SimpleValue>
@@ -110,7 +110,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/09</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/xoev/erreichbarkeit/3/code/09</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Web</SimpleValue>

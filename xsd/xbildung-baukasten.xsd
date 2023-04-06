@@ -375,7 +375,7 @@
                <nameKurz>Art der Schule</nameKurz>
                <nameTechnisch>ArtDerSchule-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:kmk:codeliste:artderschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Quelle: https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Grundlage:https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
                <herausgebernameLang>Kultusministerkonferenz</herausgebernameLang>
                <herausgebernameKurz>KMK</herausgebernameKurz>
             </codeliste>
@@ -538,7 +538,7 @@
                <nameKurz>Bewertungsschema</nameKurz>
                <nameTechnisch>Bewertungsschema-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:bewertungsschema</kennung>
-               <beschreibung>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata. Die Aufbauvorschrift lautet: http://www.xbildung.de/def/xbildung/{Version}/code/bewertungsschema/{ISO3166-Alpha2}_{Hrsg}_{Kontext}_{schlechtesteBewertung}_{bestandenAbBewertung}_{besteBewertung}</beschreibung>
+               <beschreibung>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata. Die Aufbauvorschrift lautet: http://xbildung.de/def/xbildung/{Version}/code/bewertungsschema/{ISO3166-Alpha2}_{Hrsg}_{Kontext}_{schlechtesteBewertung}_{bestandenAbBewertung}_{besteBewertung}</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
@@ -1000,7 +1000,7 @@
                      maxOccurs="unbounded"
                      type="xbd:Sprache">
             <xs:annotation>
-               <xs:documentation>Sprachkennzeichnung des Dokuments. Bitte nutzen Sie Eintragungen nach "BCP47": https://tools.ietf.org/html/bcp47 zur Kennzeichnung der Sprache(n) in der das Dokument ausgestellt ist. Damit sind Eintragungen wie de-AT, fr-CA möglich.</xs:documentation>
+               <xs:documentation>Sprachkennzeichnung des Dokuments.</xs:documentation>
             </xs:annotation>
          </xs:element>
       </xs:sequence>
@@ -1446,7 +1446,7 @@
                <nameKurz>Art der Schule</nameKurz>
                <nameTechnisch>ArtDerSchule-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:kmk:codeliste:artderschule</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Quelle: https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Grundlage:https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</beschreibung>
                <herausgebernameLang>Kultusministerkonferenz</herausgebernameLang>
                <herausgebernameKurz>KMK</herausgebernameKurz>
             </codeliste>
@@ -1473,196 +1473,196 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/010">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/010">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Vorklasse</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/020">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/020">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Vorklasse an Förderschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/030">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/030">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Schulkindergarten</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/040">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/040">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Schulkindergarten an Förderschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/050">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/050">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Grundschule (1 - 4)</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/060">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/060">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Schulartunabhängige Orientierungsstufe</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/070">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/070">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Hauptschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/080">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/080">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Schule mit mehreren Bildungsgängen</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/090">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/090">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Realschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/100">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/100">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Gymnasium</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/110">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/110">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Integrierte Gesamtschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/120">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/120">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Freie Waldorfschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/130">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/130">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Förderschule (Sonderschule)</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/140">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/140">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Abendhauptschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/150">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/150">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Abendrealschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/160">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/160">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Abendgymnasium</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/170">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/170">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Kolleg</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/180">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/180">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Teilzeit-Berufsschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/190">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/190">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Berufsvorbereitungsjahr</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/200">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/200">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Berufsgrundbildungsjahr in Vollzeitform</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/210">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/210">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Berufsaufbauschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/220">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/220">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Berufsfachschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/230">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/230">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Berufsoberschule/Technische Oberschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/240">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/240">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Fachgymnasium</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/250">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/250">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Fachoberschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/260">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/260">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Fachschule</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/270">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/270">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Fachakademie/Berufsakademie</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/kmk/kds/4.0/code/artderschule/280">
+         <xs:enumeration value="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/280">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Schule des Gesundheitswesens</description-de-DE>
@@ -1964,7 +1964,7 @@
                <nameKurz>Bewertungsschema</nameKurz>
                <nameTechnisch>Bewertungsschema-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:bewertungsschema</kennung>
-               <beschreibung>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata. Die Aufbauvorschrift lautet: http://www.xbildung.de/def/xbildung/{Version}/code/bewertungsschema/{ISO3166-Alpha2}_{Hrsg}_{Kontext}_{schlechtesteBewertung}_{bestandenAbBewertung}_{besteBewertung}</beschreibung>
+               <beschreibung>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata. Die Aufbauvorschrift lautet: http://xbildung.de/def/xbildung/{Version}/code/bewertungsschema/{ISO3166-Alpha2}_{Hrsg}_{Kontext}_{schlechtesteBewertung}_{bestandenAbBewertung}_{besteBewertung}</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
@@ -1999,7 +1999,7 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Verordnung über eine Noten- und Punkteskala für die erste und zweite juristische Prüfung vom 3. Dezember 1981 (BGBl. I S. 1243), die durch Artikel 209 Absatz 4 des Gesetzes vom 19. April 2006 (BGBl. I S. 866) geändert worden ist. Es werden mindestens 4 Punkte zum Bestehen benötigt. Maximal möglich sind 18 Punkte.</description-de-DE>
@@ -2007,7 +2007,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_100_300">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_100_300">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block II des Abiturzeugnisses. Es werden mindestens 100 Punkte zum Bestehen benötigt. Maximal möglich sind 300 Punkte.</description-de-DE>
@@ -2015,7 +2015,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_200_600">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_200_600">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block I des Abiturzeugnisses. Es werden mindestens 200 Punkte zum Bestehen benötigt. Maximal möglich sind 600 Punkte.</description-de-DE>
@@ -2023,14 +2023,14 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_280_840">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_280_840">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 280 Punkte zum Bestehen benötigt. Maximal möglich sind 840 Punkte.</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_300_900">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_300_900">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 300 Punkte zum Bestehen benötigt. Maximal möglich sind 900 Punkte.</description-de-DE>
@@ -2038,7 +2038,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_00_05_15">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_00_05_15">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für Leistungen aus der Qualifkationsphase. Es werden in einem Kurs mindestens 5 Punkte zum Bestehen benötigt. Maximal möglich sind 15 Punkte.</description-de-DE>
@@ -2046,7 +2046,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">
             <xs:annotation>
                <xs:appinfo>
                   <seeAlso>https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2003/2003_10_10-Laendergemeinsame-Strukturvorgaben.pdf</seeAlso>
@@ -2054,7 +2054,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_schulnote_6_4_1">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_schulnote_6_4_1">
             <xs:annotation>
                <xs:appinfo>
                   <seeAlso>https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2020/2020_10_15-Laendervereinbarung-gemeinsame-Grundstruktur.pdf</seeAlso>
@@ -2099,63 +2099,63 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/01">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/01">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>E-Mail</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/02">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/02">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Telefon Festnetz</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/03">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/03">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Telefon mobil</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/04">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/04">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Fax</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/05">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/05">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Instant Messenger</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/06">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/06">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Pager</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/07">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/07">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Sonstiges</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/08">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/08">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>De-Mail</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xoev/erreichbarkeit/3/code/09">
+         <xs:enumeration value="http://xbildung.de/def/xoev/erreichbarkeit/3/code/09">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Web</description-de-DE>
@@ -2206,7 +2206,7 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/befreit">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/kursstatus/befreit">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>befreit</description-de-DE>
@@ -2214,7 +2214,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/bestanden">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/kursstatus/bestanden">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>bestanden</description-de-DE>
@@ -2222,7 +2222,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/erfolgreich_teilgenommen">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/kursstatus/erfolgreich_teilgenommen">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>erfolgreich teilgenommen</description-de-DE>
@@ -2230,7 +2230,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://www.xbildung.de/def/xbildung/0.94/code/kursstatus/nicht_bestanden">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/0.94/code/kursstatus/nicht_bestanden">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>nicht bestanden</description-de-DE>
