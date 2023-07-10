@@ -51,26 +51,6 @@
          <tbody>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">identifikation</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">Identifikation</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Identifikation" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Identifikation" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>eindeutige Identifikation einer Organisation im Bildungswesen</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
                   <emphasis role="bold">name</emphasis>
                </entry>
                <entry>
@@ -91,23 +71,6 @@
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">existenzzeitraum</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">Zeitraum</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
                   <emphasis role="bold">unterorganisation</emphasis>
                </entry>
                <entry>
@@ -124,21 +87,7 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">anschrift</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">Anschrift</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Anschrift" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Anschrift" role="Seitenzahl"/>
-               </entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zur Unterorganisation dieser Organisation.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -160,6 +109,68 @@
             <row>
                <entry namest="indent0" nameend="page"><para>"Kommunikation" fasst Angaben zur Erreichbarkeit über elektronische Kommunikationskanäle (z.B. Telefon, Fax, E-Mail) zusammen.</para>
 </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">identifikation</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Identifikation</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Identifikation" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Identifikation" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>eindeutige Identifikation einer Organisation im Bildungswesen</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">existenzzeitraum</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Zeitraum</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Zeitraum" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Zeitraum" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Hier werden Angaben zum Zeitraum der Existenz einer Organisation gemacht, der mit Gründungs- und Auflösungsdatum
+der Organisation angegeben wird.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">anschrift</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Anschrift</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Anschrift" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Anschrift" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Angaben zur Anschrift der Organisation. Bei Bedarf kann über den Typ der Anschrift auf deren Verwendung als Postanschrift,
+Niederlassungsanschrift oder Gründungsanschrift verwiesen werden.</para></entry>
             </row>
          </tbody>
       </tgroup>

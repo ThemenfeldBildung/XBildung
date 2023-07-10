@@ -51,7 +51,7 @@
                   <emphasis role="bold">ort</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">1</emphasis>
@@ -71,17 +71,16 @@
                   <emphasis role="bold">staat</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code.CountryCodes</emphasis>
+                  <emphasis role="codebf">Code.Staat</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.CountryCodes"
-                        role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.CountryCodes" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="Seitenzahl"/>
                </entry>
             </row>
             <row>

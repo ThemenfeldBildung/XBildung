@@ -25,7 +25,7 @@
                <entry><para>
 Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK).
 </para>
-<para><emphasis role="bold">Grundlage:</emphasis><link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
+<para><emphasis role="bold">Grundlage: </emphasis><link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
 </para></entry>
             </row>
             <row>
@@ -40,7 +40,7 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
             </row>
             <row>
                <entry>-version</entry>
-               <entry>4.0</entry>
+               <entry>3.0</entry>
             </row>
          </tbody>
       </tgroup>

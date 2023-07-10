@@ -88,14 +88,14 @@
             y2="66"
             class="type-structure-optional"/>
       <g transform="translate(55,96)">
-         <rect width="147.734375" height="18" class="element-upper"/>
-         <rect width="147.734375" height="18" y="18" class="element-lower"/>
-         <text font-size="12" x="3.6" y="12" font-weight="bold">zusatz</text>
-         <line x1="0" y1="18" x2="147.734375" y2="18"/>
+         <rect width="97.703125" height="18" class="element-upper"/>
+         <rect width="97.703125" height="18" y="18" class="element-lower"/>
+         <text font-size="12" x="3.6" y="12" font-weight="bold">istDienstlich</text>
+         <line x1="0" y1="18" x2="97.703125" y2="18"/>
          <text font-size="12" fill="grey" x="3.6" y="30">type</text>
          <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
-         <text font-size="12" x="35.353125" y="30">din91379:datatypeC</text>
-         <g transform="translate(147.734375,0)"/>
+         <text font-size="12" x="35.353125" y="30">xs:boolean</text>
+         <g transform="translate(97.703125,0)"/>
       </g>
       <line x1="33"
             y1="114"
@@ -113,14 +113,14 @@
             y2="114"
             class="type-structure-optional"/>
       <g transform="translate(55,144)">
-         <rect width="97.703125" height="18" class="element-upper"/>
-         <rect width="97.703125" height="18" y="18" class="element-lower"/>
-         <text font-size="12" x="3.6" y="12" font-weight="bold">istDienstlich</text>
-         <line x1="0" y1="18" x2="97.703125" y2="18"/>
+         <rect width="147.734375" height="18" class="element-upper"/>
+         <rect width="147.734375" height="18" y="18" class="element-lower"/>
+         <text font-size="12" x="3.6" y="12" font-weight="bold">zusatz</text>
+         <line x1="0" y1="18" x2="147.734375" y2="18"/>
          <text font-size="12" fill="grey" x="3.6" y="30">type</text>
          <line x1="31.753125" y1="18" x2="31.753125" y2="36"/>
-         <text font-size="12" x="35.353125" y="30">xs:boolean</text>
-         <g transform="translate(97.703125,0)"/>
+         <text font-size="12" x="35.353125" y="30">din91379:datatypeC</text>
+         <g transform="translate(147.734375,0)"/>
       </g>
       <line x1="33"
             y1="162"

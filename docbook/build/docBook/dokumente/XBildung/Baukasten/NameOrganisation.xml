@@ -51,7 +51,7 @@
                   <emphasis role="bold">name</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeE</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -71,7 +71,7 @@
                   <emphasis role="bold">kurzbezeichnung</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeE</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>

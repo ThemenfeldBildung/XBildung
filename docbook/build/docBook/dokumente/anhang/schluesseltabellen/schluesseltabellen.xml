@@ -56,9 +56,30 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.ags.AGS-Codes">AGS</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">Anschriftstyp</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                   </entry>
-                  <entry align="left">0.94</entry>
+                  <entry align="left">0.95</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                   </entry>
@@ -68,7 +89,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>
                   </entry>
-                  <entry align="left">4.0</entry>
+                  <entry align="left">3.0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerSchule">Code.ArtDerSchule</link>
                   </entry>
@@ -78,7 +99,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                   </entry>
-                  <entry align="left">0.94</entry>
+                  <entry align="left">0.95</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.ArtDerTraegerschaft">Code.ArtDerTraegerschaft</link>
@@ -89,7 +110,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                   </entry>
-                  <entry align="left">0.94</entry>
+                  <entry align="left">0.95</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses">Code.ArtDesSchulabschlusses</link>
@@ -100,7 +121,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                   </entry>
-                  <entry align="left">0.94</entry>
+                  <entry align="left">0.95</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema">Code.Bewertungsschema</link>
                   </entry>
@@ -108,9 +129,29 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bezirk.Bezirk-Codes">Bezirk</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bezirk">Code.Bezirk</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bundesland.Bundesland-Codes">Bundesland</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bundesland">Code.Bundesland</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.coe-int.codeliste.languagereference.LanguageLevel-Codes">CEFR / GER</link>
                   </entry>
-                  <entry align="left">20230118-0</entry>
+                  <entry align="left">20230628-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.CEFR">Code.CEFR</link>
                   </entry>
@@ -118,11 +159,11 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
-                           linkend="tabelle.urn.xoev-de.kosit.codeliste.country-codes.Country-Codes">Country Codes</link>
+                           linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">EQF</link>
                   </entry>
-                  <entry align="left">--</entry>
+                  <entry align="left">20230118-0</entry>
                   <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.CountryCodes">Code.CountryCodes</link>
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.EQF">Code.EQF</link>
                   </entry>
                </row>
                <row>
@@ -133,16 +174,6 @@
                   <entry align="left">3</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Erreichbarkeit">Code.Erreichbarkeit</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
-                           linkend="tabelle.urn.de.dsmeld.schluesseltabelle.geschlecht.Geschlecht-Codes">Geschlecht</link>
-                  </entry>
-                  <entry align="left">3</entry>
-                  <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Geschlecht">Code.Geschlecht</link>
                   </entry>
                </row>
                <row>
@@ -168,9 +199,19 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.kreis.Kreis-Codes">Kreis</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kreis">Code.Kreis</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
                   </entry>
-                  <entry align="left">0.94</entry>
+                  <entry align="left">0.95</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>
                   </entry>
@@ -178,11 +219,54 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
-                           linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language Authority Table</link>
+                           linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                   </entry>
-                  <entry align="left">20220928-0</entry>
+                  <entry align="left">20230614-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">Namensart</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschüssel</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link>
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xoev-de.xinneres.codeliste.geschlecht.Geschlecht-Codes">XInneres Geschlecht</link>
+                  </entry>
+                  <entry align="left">1</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Geschlecht">Code.Geschlecht</link>
                   </entry>
                </row>
             </tbody>
@@ -192,6 +276,106 @@
    <section xmlns:xlink="http://www.w3.org/1999/xlink"
             xml:id="schluesseltabellen.details">
       <title>Details</title>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.ags.AGS-Codes">
+         <title>AGS</title><para>Diese Codeliste stellt alle Gemeinden Deutschlands durch den Amtlichen Gemeindeschlüssel (AGS) dar, wie im Gemeindeverzeichnis des Statistischen Bundesamtes enthalten. Darüber hinaus enthält die Codeliste für die Stadtstaaten Hamburg, Bremen und Berlin Einträge für Stadt-/Ortsteile bzw. Stadtbezirke. Diese Einträge sind mit einem entsprechenden Hinweis versehen.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Flensburg, Stadt</emphasis> : 01001000</para></listitem>
+<listitem><para><emphasis role="bold">Kiel, Landeshauptstadt</emphasis> : 01002000</para></listitem>
+<listitem><para><emphasis role="bold">Lübeck, Hansestadt</emphasis> : 01003000</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Gemeinden, dargestellt durch den Amtlichen Gemeindeschlüssel (AGS) des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>AGS</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">
+         <title>Anschriftstyp</title><para>Die Werteliste der Anschriftentypen.</para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Aktuelle Anschrift</emphasis> : 001</para></listitem>
+</itemizedlist>
+</para>
+<section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Anschriftstyp</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Anschriftstyp</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xdomea:codeliste:anschriftstyp</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>AG xdomea des IT-Planungsrates (ag-xdomea)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
       <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">
          <title>Art der Prüfung</title><para>
 Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM).
@@ -229,7 +413,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.94</entry>
+                        <entry>0.95</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -254,7 +438,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/besondere_lernleistung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​b​e​s​o​n​d​e​r​e​_​l​e​r​n​l​e​i​s​t​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/besondere_lernleistung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​b​e​s​o​n​d​e​r​e​_​l​e​r​n​l​e​i​s​t​u​n​g</link>
                         </entry>
                         <entry align="left">besondere Lernleistung</entry>
                         <entry align="left"/>
@@ -262,7 +446,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/fortlaufende_bewertung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​f​o​r​t​l​a​u​f​e​n​d​e​_​b​e​w​e​r​t​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/fortlaufende_bewertung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​f​o​r​t​l​a​u​f​e​n​d​e​_​b​e​w​e​r​t​u​n​g</link>
                         </entry>
                         <entry align="left">fortlaufende Bewertung</entry>
                         <entry align="left">continuous evaluation</entry>
@@ -272,7 +456,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/kuenstlerische_eignungspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​k​u​e​n​s​t​l​e​r​i​s​c​h​e​_​e​i​g​n​u​n​g​s​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/kuenstlerische_eignungspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​k​u​e​n​s​t​l​e​r​i​s​c​h​e​_​e​i​g​n​u​n​g​s​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">künstlerische Eignungsprüfung</entry>
                         <entry align="left"/>
@@ -280,7 +464,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/muendliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​m​u​e​n​d​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/muendliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​m​u​e​n​d​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">mündliche Prüfung</entry>
                         <entry align="left">oral examination</entry>
@@ -290,7 +474,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/praesentationspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​e​s​e​n​t​a​t​i​o​n​s​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/praesentationspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​e​s​e​n​t​a​t​i​o​n​s​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">Präsentationsprüfung</entry>
                         <entry align="left"/>
@@ -298,7 +482,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/praktische_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​k​t​i​s​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/praktische_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​k​t​i​s​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">praktische Prüfung</entry>
                         <entry align="left">practical assessment</entry>
@@ -308,7 +492,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/schriftliche_hausarbeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​h​a​u​s​a​r​b​e​i​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/schriftliche_hausarbeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​h​a​u​s​a​r​b​e​i​t</link>
                         </entry>
                         <entry align="left">schriftliche Hausarbeit</entry>
                         <entry align="left"/>
@@ -316,13 +500,29 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artderpruefung/schriftliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/schriftliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">schriftliche Prüfung</entry>
                         <entry align="left">written examination</entry>
                         <entry align="left">
                            <link xlink:href="http://data.europa.eu/snb/assessment/6e6cb2cc78">h​t​t​p​:​/​/​d​a​t​a​.​e​u​r​o​p​a​.​e​u​/​s​n​b​/​a​s​s​e​s​s​m​e​n​t​/​6​e​6​c​b​2​c​c​7​8</link>
                         </entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
+                        <entry align="left">value not known</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                        </entry>
+                        <entry align="left">Wert nicht in Liste</entry>
+                        <entry align="left">value not in list</entry>
+                        <entry align="left"/>
                      </row>
                   </tbody>
                </tgroup>
@@ -334,7 +534,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
          <title>Art der Schule</title><para>
 Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK).
 </para>
-<para><emphasis role="bold">Grundlage:</emphasis><link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
+<para><emphasis role="bold">Grundlage: </emphasis><link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
 </para><section>
             <title>Metadaten</title>
             <informaltable>
@@ -366,7 +566,7 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>4.0</entry>
+                        <entry>3.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -553,6 +753,18 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
                         </entry>
                         <entry align="left">Schule des Gesundheitswesens</entry>
                      </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                        </entry>
+                        <entry align="left">Wert nicht in Liste</entry>
+                     </row>
                   </tbody>
                </tgroup>
             </informaltable>
@@ -593,7 +805,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.94</entry>
+                        <entry>0.95</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -614,45 +826,51 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/10">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​1​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/10">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​1​0</link>
                         </entry>
                         <entry align="left">Bund</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/20">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​2​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/20">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​2​0</link>
                         </entry>
                         <entry align="left">Land</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/30">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​3​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/30">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​3​0</link>
                         </entry>
                         <entry align="left">Kreis</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/40">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​4​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/40">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​4​0</link>
                         </entry>
                         <entry align="left">Kommune</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/50">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​5​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/50">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​5​0</link>
                         </entry>
                         <entry align="left">Privat</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/60">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​6​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/60">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​6​0</link>
                         </entry>
                         <entry align="left">Kirchlich</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdertraegerschaft/70">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​7​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/70">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​7​0</link>
                         </entry>
                         <entry align="left">Sonstige</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -693,7 +911,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.94</entry>
+                        <entry>0.95</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -716,38 +934,52 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
                         <entry align="left">allgemeine Hochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
                         <entry align="left">Fachhochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">Hauptschulabschluss bzw. entsprechendem Abschluss</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/ohne_hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/ohne_hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">ohne Hauptschulabschluss; einschl. Abschluss der Förderschule mit Förderschwerpunkt Lernen und Abschluss der Förderschule mit Förderschwerpunkt geistige Entwicklunng</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/artdesschulabschlusses/realschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​r​e​a​l​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/realschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​r​e​a​l​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">Realschulabschluss (Mittlerer Abschluss)</entry>
                         <entry align="left">2</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
+                        <entry align="left"/>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                        </entry>
+                        <entry align="left">Wert nicht in Liste</entry>
+                        <entry align="left"/>
                      </row>
                   </tbody>
                </tgroup>
@@ -788,7 +1020,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.94</entry>
+                        <entry>0.95</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -811,7 +1043,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​b​m​j​_​j​u​r​i​s​t​i​s​c​h​e​p​r​u​e​f​u​n​g​_​0​0​_​0​4​_​1​8</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​b​m​j​_​j​u​r​i​s​t​i​s​c​h​e​p​r​u​e​f​u​n​g​_​0​0​_​0​4​_​1​8</link>
                         </entry>
                         <entry align="left">Verordnung über eine Noten- und Punkteskala für die erste und zweite juristische Prüfung vom 3. Dezember 1981 (BGBl. I S. 1243), die durch Artikel 209 Absatz 4 des Gesetzes vom 19. April 2006 (BGBl. I S. 866) geändert worden ist. Es werden mindestens 4 Punkte zum Bestehen benötigt. Maximal möglich sind 18 Punkte.</entry>
                         <entry align="left">
@@ -820,7 +1052,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_100_300">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​1​0​0​_​3​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_100_300">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​1​0​0​_​3​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet im Block II des Abiturzeugnisses. Es werden mindestens 100 Punkte zum Bestehen benötigt. Maximal möglich sind 300 Punkte.</entry>
                         <entry align="left">
@@ -829,7 +1061,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_200_600">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​0​0​_​6​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_200_600">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​0​0​_​6​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet im Block I des Abiturzeugnisses. Es werden mindestens 200 Punkte zum Bestehen benötigt. Maximal möglich sind 600 Punkte.</entry>
                         <entry align="left">
@@ -838,14 +1070,14 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_280_840">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​8​0​_​8​4​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_280_840">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​8​0​_​8​4​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 280 Punkte zum Bestehen benötigt. Maximal möglich sind 840 Punkte.</entry>
                         <entry align="left"/>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_000_300_900">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​3​0​0​_​9​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_300_900">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​3​0​0​_​9​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 300 Punkte zum Bestehen benötigt. Maximal möglich sind 900 Punkte.</entry>
                         <entry align="left">
@@ -854,7 +1086,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_abitur_00_05_15">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​_​0​5​_​1​5</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_00_05_15">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​_​0​5​_​1​5</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für Leistungen aus der Qualifkationsphase. Es werden in einem Kurs mindestens 5 Punkte zum Bestehen benötigt. Maximal möglich sind 15 Punkte.</entry>
                         <entry align="left">
@@ -863,7 +1095,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​h​o​c​h​s​c​h​u​l​n​o​t​e​_​5​_​4​_​1</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​h​o​c​h​s​c​h​u​l​n​o​t​e​_​5​_​4​_​1</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 2003, verwendet für die Bewertung von Leistungen erbracht im Verlauf des Hochschulstudiums. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</entry>
                         <entry align="left">
@@ -872,12 +1104,114 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/bewertungsschema/de_kmk_schulnote_6_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​s​c​h​u​l​n​o​t​e​_​6​_​4​_​1</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_schulnote_6_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​s​c​h​u​l​n​o​t​e​_​6​_​4​_​1</link>
                         </entry>
                         <entry align="left">Notensystem der KMK für die Bewertung von Leistungen erbracht im Verlauf der Primar- und Sekundarstufe. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</entry>
                         <entry align="left">
                            <link xlink:href="https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2020/2020_10_15-Laendervereinbarung-gemeinsame-Grundstruktur.pdf">h​t​t​p​s​:​/​/​w​w​w​.​k​m​k​.​o​r​g​/​f​i​l​e​a​d​m​i​n​/​D​a​t​e​i​e​n​/​v​e​r​o​e​f​f​e​n​t​l​i​c​h​u​n​g​e​n​_​b​e​s​c​h​l​u​e​s​s​e​/​2​0​2​0​/​2​0​2​0​_​1​0​_​1​5​-​L​a​e​n​d​e​r​v​e​r​e​i​n​b​a​r​u​n​g​-​g​e​m​e​i​n​s​a​m​e​-​G​r​u​n​d​s​t​r​u​k​t​u​r​.​p​d​f</link>
                         </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bezirk.Bezirk-Codes">
+         <title>Bezirk</title><para>Die Bundesrepublik Deutschland ist ein Zusammenschluss von Bundesländern. Die meisten Bundesländer umfassen mehrere Kreise und Bezirke bzw. Regierungsbezirke. Diese Codeliste stellt alle Bezirke nach dem Gemeindeverzeichnis des Statistischen Bundesamtes dar. Dieser Code ist auch Bestandteil des Amtlichen Gemeindeschlüssels (AGS).</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Bezirk Hamburg-Mitte</emphasis> : 021</para></listitem>
+<listitem><para><emphasis role="bold">Statistische Region Hannover</emphasis> : 032</para></listitem>
+<listitem><para><emphasis role="bold">Mittelfranken</emphasis> : 095</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Bezirke bzw. Regierungsbezirke der deutschen Bundesländer nach dem Gemeindeverzeichnis des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Bezirk</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bundesland.Bundesland-Codes">
+         <title>Bundesland</title><para>Die Bundesrepublik Deutschland ist ein Zusammenschluss von Bundesländern. Die meisten Bundesländer umfassen mehrere Kreise und Bezirke. Diese Codeliste stellt die deutschen Bundesländer nach dem Gemeindeverzeichnis des Statistischen Bundesamtes dar. Dieser Code ist auch Bestandteil des Amtlichen Gemeindeschlüssels (AGS).</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bundesland" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bundesland</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Schleswig-Holstein</emphasis> : 01</para></listitem>
+<listitem><para><emphasis role="bold">Hamburg</emphasis> : 02</para></listitem>
+<listitem><para><emphasis role="bold">Niedersachsen</emphasis> : 03</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Die deutschen Bundesländer nach dem Gemeindeverzeichnis des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Bundesland</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bundesland</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -932,11 +1266,11 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>20230118-0</entry>
+                        <entry>20230628-0</entry>
                      </row>
                      <row>
                         <entry>Gültigkeit ab</entry>
-                        <entry>2023-01-18</entry>
+                        <entry>2023-06-28</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -944,17 +1278,22 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <?KoSIT-FO hard-pagebreak?>
       </section>
-      <section xml:id="tabelle.urn.xoev-de.kosit.codeliste.country-codes.Country-Codes">
-         <title>Country Codes</title><para>Die Codeliste basiert auf der Staats- und Gebietssystematik des Statistischen Bundesamtes (DESTATIS) und dem Standard "Country codes" der International Organization for Standardization (ISO). Die vorliegende Liste die"officially assigned codes" (Alpha-2 und Numerisch) der ISO-Liste sowie den "user assigned code" für Kosovo ("XK"). Kurz- und Langnamen der aufgeführten Einträge wurden, sofern vorhanden, der DESTATIS-Liste entnommen. Zu den nicht in der DESTATIS-Liste geführten Codeeinträgen wurden die zugehörigen Namen der Deutschen Fassung der Norm entnommen. Die Codeliste ist konform zur EN16931-1 und dem darauf basierenden Standard XRechnung sowie zum Standard XBestellung und der zugrundeliegenden Peppol "BIS Order only" Spezifikation.</para>
+      <section xml:id="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">
+         <title>EQF</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/european-qualification-framework" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+<para>
+    The European Qualifications Framework (EQF) is an 8-level, learning outcomes-based framework for all types of qualifications that serves as a translation tool between different national qualifications frameworks. This framework helps improve transparency, comparability and portability of people's qualifications and makes it possible to compare qualifications from different countries and institutions. The European Qualifications Framework is maintained by DG EMPL and published by the Publications Office of the European Union on the EU Vocabularies website. 
+</para>
 
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:kosit:codeliste:country-codes" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn​:xoev-de​:kosit​:codeliste​:country-codes</link></para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/european-qualification-framework" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri=​http://publications.europa.eu/​resource/​dataset/​european-qualification-framework</link></para>
 
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "ISOAlpha2code".</para>
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
 
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">Deutschland</emphasis> : DE</para></listitem>
-<listitem><para><emphasis role="bold">Griechenland</emphasis> : GR</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 2</emphasis> : http://data.europa.eu/snb/eqf/2</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 3</emphasis> : http://data.europa.eu/snb/eqf/3</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 4</emphasis> : http://data.europa.eu/snb/eqf/4</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 5</emphasis> : http://data.europa.eu/snb/eqf/5</para></listitem>
 </itemizedlist>
 </para><section>
             <title>Metadaten</title>
@@ -971,23 +1310,27 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry>Name (lang)</entry>
-                        <entry>Country Codes</entry>
+                        <entry>European Qualifications Framework</entry>
                      </row>
                      <row>
                         <entry>Name (kurz)</entry>
-                        <entry>Country Codes</entry>
+                        <entry>EQF</entry>
                      </row>
                      <row>
                         <entry>Kennung</entry>
-                        <entry>urn:xoev-de:kosit:codeliste:country-codes</entry>
+                        <entry>urn:xbildung-de:publicationsoffice-eu:codeliste:eqf</entry>
                      </row>
                      <row>
                         <entry>Herausgeber</entry>
-                        <entry>Koordinierungsstelle für IT-Standards (KoSIT)</entry>
+                        <entry>Publications Office of the European Union (PO.EU)</entry>
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>unbestimmt</entry>
+                        <entry>20230118-0</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2023-01-18</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -996,9 +1339,18 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          <?KoSIT-FO hard-pagebreak?>
       </section>
       <section xml:id="tabelle.urn.de.xoev.codeliste.erreichbarkeit.Erreichbarkeit-Codes">
-         <title>Erreichbarkeit</title>
-         <para>Eine Liste der Kommunikationsmedien und -kanäle, über die man eine Person oder Institution erreichen kann.</para>
-         <section>
+         <title>Erreichbarkeit</title><para>Eine Liste der Kommunikationsmedien und -kanäle, über die man eine Person oder Institution erreichen kann.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:xoev:codeliste:erreichbarkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:xoev:codeliste:erreichbarkeit</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">E-Mail</emphasis> : 01</para></listitem>
+<listitem><para><emphasis role="bold">Telefon Festnetz</emphasis> : 02</para></listitem>
+<listitem><para><emphasis role="bold">Telefon mobil</emphasis> : 03</para></listitem>
+</itemizedlist>
+</para><section>
             <title>Metadaten</title>
             <informaltable>
                <tgroup cols="2">
@@ -1034,133 +1386,6 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      <row>
                         <entry>Gültigkeit ab</entry>
                         <entry>2018-05-03</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <section>
-            <title>Daten</title>
-            <informaltable pgwide="1">
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="key"/>
-                  <colspec colnum="2" colname="val"/>
-                  <thead>
-                     <row>
-                        <entry align="left">code</entry>
-                        <entry align="left">description-de-DE</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/01">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​1</link>
-                        </entry>
-                        <entry align="left">E-Mail</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/02">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​2</link>
-                        </entry>
-                        <entry align="left">Telefon Festnetz</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/03">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​3</link>
-                        </entry>
-                        <entry align="left">Telefon mobil</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/04">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​4</link>
-                        </entry>
-                        <entry align="left">Fax</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/05">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​5</link>
-                        </entry>
-                        <entry align="left">Instant Messenger</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/06">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​6</link>
-                        </entry>
-                        <entry align="left">Pager</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/07">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​7</link>
-                        </entry>
-                        <entry align="left">Sonstiges</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/08">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​8</link>
-                        </entry>
-                        <entry align="left">De-Mail</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xoev/erreichbarkeit/3/code/09">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​o​e​v​/​e​r​r​e​i​c​h​b​a​r​k​e​i​t​/​3​/​c​o​d​e​/​0​9</link>
-                        </entry>
-                        <entry align="left">Web</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
-      <section xml:id="tabelle.urn.de.dsmeld.schluesseltabelle.geschlecht.Geschlecht-Codes">
-         <title>Geschlecht</title><para>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Siehe Blatt 0701 des DSMeld.</para>
-
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht</link></para>
-
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
-<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
-<itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">männlich</emphasis> : m</para></listitem>
-<listitem><para><emphasis role="bold">weiblich</emphasis> : w</para></listitem>
-<listitem><para><emphasis role="bold">ohne Angabe</emphasis> : x</para></listitem>
-<listitem><para><emphasis role="bold">divers</emphasis> : d</para></listitem>
-</itemizedlist>
-</para><section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>DSMeld Geschlecht (DSMeld-Blatt 0701)</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Geschlecht</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:de:dsmeld:schluesseltabelle:geschlecht</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>Koordinierungsstelle für IT-Standards (KoSIT)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>3</entry>
-                     </row>
-                     <row>
-                        <entry>Gültigkeit ab</entry>
-                        <entry>2019-05-01</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1275,6 +1500,58 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <?KoSIT-FO hard-pagebreak?>
       </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.kreis.Kreis-Codes">
+         <title>Kreis</title><para>Die Bundesrepublik Deutschland ist ein Zusammenschluss von Bundesländern. Die meisten Bundesländer umfassen mehrere Kreise und Bezirke. Diese Codeliste stellt die Kreise der deutschen Bundesländer nach dem Gemeindeverzeichnis des Statistischen Bundesamtes dar. Dieser Code ist auch Bestandteil des Amtlichen Gemeindeschlüssels (AGS).</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Flensburg, Stadt</emphasis> : 01001</para></listitem>
+<listitem><para><emphasis role="bold">Kiel, Landeshauptstadt</emphasis> : 01002</para></listitem>
+<listitem><para><emphasis role="bold">Lübeck, Hansestadt</emphasis> : 01003</para></listitem>
+</itemizedlist>
+</para>
+<section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Die Kreise der deutschen Bundesländer nach dem Gemeindeverzeichnis des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Kreis</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:kreis</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
       <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">
          <title>Kursstatus</title>
          <para>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt.</para>
@@ -1309,7 +1586,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.94</entry>
+                        <entry>0.95</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1332,31 +1609,38 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/kursstatus/befreit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​f​r​e​i​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/befreit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​f​r​e​i​t</link>
                         </entry>
                         <entry align="left">befreit</entry>
                         <entry align="left">exempted</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/kursstatus/bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​s​t​a​n​d​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​s​t​a​n​d​e​n</link>
                         </entry>
                         <entry align="left">bestanden</entry>
                         <entry align="left">passed</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/kursstatus/erfolgreich_teilgenommen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​e​r​f​o​l​g​r​e​i​c​h​_​t​e​i​l​g​e​n​o​m​m​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/erfolgreich_teilgenommen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​e​r​f​o​l​g​r​e​i​c​h​_​t​e​i​l​g​e​n​o​m​m​e​n</link>
                         </entry>
                         <entry align="left">erfolgreich teilgenommen</entry>
                         <entry align="left">participation successful</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.94/code/kursstatus/nicht_bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​4​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​n​i​c​h​t​_​b​e​s​t​a​n​d​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/nicht_bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​n​i​c​h​t​_​b​e​s​t​a​n​d​e​n</link>
                         </entry>
                         <entry align="left">nicht bestanden</entry>
                         <entry align="left">failed</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
+                        <entry align="left">value not known</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1365,7 +1649,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          <?KoSIT-FO hard-pagebreak?>
       </section>
       <section xml:id="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">
-         <title>Language Authority Table</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+         <title>Language</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
 <para>
     The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts:
 </para>
@@ -1405,11 +1689,11 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry>Name (lang)</entry>
-                        <entry>Language Authority Table</entry>
+                        <entry>Language</entry>
                      </row>
                      <row>
                         <entry>Name (kurz)</entry>
-                        <entry>Language Authority Table</entry>
+                        <entry>Language</entry>
                      </row>
                      <row>
                         <entry>Kennung</entry>
@@ -1421,11 +1705,212 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>20220928-0</entry>
+                        <entry>20230614-0</entry>
                      </row>
                      <row>
                         <entry>Gültigkeit ab</entry>
-                        <entry>2022-09-28</entry>
+                        <entry>2023-06-14</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">
+         <title>Namensart</title><para>Mit dieser Codeliste wird ein Name näher charakterisiert.</para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Eigenname</emphasis> : e</para></listitem>
+<listitem><para><emphasis role="bold">Eigennamen</emphasis> : en</para></listitem>
+<listitem><para><emphasis role="bold">Eigenname und Namenszusatz</emphasis> : ez</para></listitem>
+</itemizedlist>
+</para>
+<section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Namensart</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Namensart</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xpersonenstand:schluesseltabelle:namensart</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Bundesministerium des Innern (Bundesministerium des Innern)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">
+         <title>Regionalschüssel</title><para>Diese Codeliste stellt alle Gemeinden Deutschlands durch den Amtlichen Regionalschlüssel (ARS) dar, wie im Gemeindeverzeichnis des Statistischen Bundesamtes enthalten. Darüber hinaus enthält die Codeliste für die Stadtstaaten Hamburg, Bremen und Berlin Einträge für Stadt-/Ortsteile bzw. Stadtbezirke. Diese Einträge sind mit einem entsprechenden Hinweis versehen.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Flensburg, Stadt</emphasis> : 010010000000</para></listitem>
+<listitem><para><emphasis role="bold">Kiel, Landeshauptstadt</emphasis> : 010020000000</para></listitem>
+<listitem><para><emphasis role="bold">Lübeck, Hansestadt</emphasis> : 010030000000</para></listitem>
+</itemizedlist>
+</para>
+<section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Gemeinden, dargestellt durch den Amtlichen Regionalschlüssel (ARS) des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Regionalschüssel</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">
+         <title>Staatsangehörigkeit</title><para>Tabelle von Staaten und Staatsangehörigkeiten. Enthält alle Einträge der Codeliste Staat (eigenständige, von Deutschland diplomatisch anerkannte derzeitige Staaten) und zusätzlich Einträge für ehemalige Staaten sowie Ersatzwerte.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</link></para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Codeliste Staatsangehörigkeit aus der Staats- und Gebietssystematik des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Staatsangehörigkeit</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (DESTATIS)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xoev-de.xinneres.codeliste.geschlecht.Geschlecht-Codes">
+         <title>XInneres Geschlecht</title><para>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Verwendet werden die Codes für Geschlechtsangaben gemäß §§ 22 und 45 b PStG.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:xinneres:codeliste:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xoev-de:xinneres:codeliste:geschlecht</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">männlich</emphasis> : m</para></listitem>
+<listitem><para><emphasis role="bold">weiblich</emphasis> : w</para></listitem>
+<listitem><para><emphasis role="bold">keine Angabe</emphasis> : x</para></listitem>
+<listitem><para><emphasis role="bold">divers</emphasis> : d</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Geschlechtsangaben in XInneres</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>XInneres Geschlecht</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xoev-de:xinneres:codeliste:geschlecht</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Koordinierungsstelle für IT-Standards (KoSIT)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>1</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2022-11-01</entry>
                      </row>
                   </tbody>
                </tgroup>

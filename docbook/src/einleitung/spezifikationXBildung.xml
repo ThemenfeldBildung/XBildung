@@ -18,8 +18,9 @@
     </section>
     <section>
         <title>Bestandteile</title>
-        <para>Diese Spezifikation besteht in der <link xlink:href="http://xbildung.de/def/xbildung/&version;/">Version
-				&version;</link></para>
+        <para>Diese Spezifikation in der <link
+                xlink:href="http://xbildung.de/def/xbildung/&version;/">Version &version;</link>
+            besteht</para>
         <itemizedlist>
             <listitem>
                 <para>aus dem hier vorliegenden <link xlink:href="http://xbildung.de/def/xbildung/&version;/spec">Spezifikationsdokument</link>
@@ -29,8 +30,8 @@
                 <para>aus XML Schema-Definitionen, Bezugsquelle: <link xlink:href="http://xbildung.de/def/xbildung/&version;/xsd" /></para>
             </listitem>
             <listitem>
-                <para>
-                    <link xlink:href="http://xbildung.de/def/xbildung/&version;/code">Codelisten und Mapping zu EU-Vokabularen</link>
+                <para>aus <link xlink:href="http://xbildung.de/def/xbildung/&version;/code"
+                        >Codelisten und Mapping zu EU-Vokabularen</link>
                 </para>
             </listitem>           
         </itemizedlist>

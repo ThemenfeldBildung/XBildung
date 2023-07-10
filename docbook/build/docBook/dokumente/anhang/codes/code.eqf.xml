@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.EQF"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.EQF</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/european-qualification-framework" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+<para>
+    The European Qualifications Framework (EQF) is an 8-level, learning outcomes-based framework for all types of qualifications that serves as a translation tool between different national qualifications frameworks. This framework helps improve transparency, comparability and portability of people's qualifications and makes it possible to compare qualifications from different countries and institutions. The European Qualifications Framework is maintained by DG EMPL and published by the Publications Office of the European Union on the EU Vocabularies website. 
+</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/european-qualification-framework" xmlns:xlink="http://www.w3.org/1999/xlink">https://op.europa.eu/​de/web/eu-vocabularies/​dataset/-/resource?uri=​http://publications.europa.eu/​resource/​dataset/​european-qualification-framework</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist die URI des gewünschten Eintrags, der über den Button "Browse content" gefunden werden kann.</para>
+
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Niveau 2</emphasis> : http://data.europa.eu/snb/eqf/2</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 3</emphasis> : http://data.europa.eu/snb/eqf/3</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 4</emphasis> : http://data.europa.eu/snb/eqf/4</para></listitem>
+<listitem><para><emphasis role="bold">Niveau 5</emphasis> : http://data.europa.eu/snb/eqf/5</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 2, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:xbildung-de:publicationsoffice-eu:codeliste:eqf</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>20230118-0</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>

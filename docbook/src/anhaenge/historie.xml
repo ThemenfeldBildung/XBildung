@@ -11,11 +11,199 @@
     </info>
     <para>In der Versionshistorie werden die Änderungen der aktuellen Version zur Vorversion der
         Spezifikation dargestellt. Es werden die Änderungen der letzten zwei Versionen aufgeführt.</para>
-    <section xml:id="spezifikation.anhang.versionshistorie094">
+
+    <section xml:id="spezifikation.anhang.versionshistorie095">
         <info>
             <title>Version &version;</title>
         </info>
         <para>Veröffentlichungsdatum: &fassung;</para>
+        
+        <section>
+            <title>Einheitliches Vorgehen für String-basierte Datentypen</title>
+            <simplesect>
+                <title>Wahl des Datentyps</title>
+                <para>
+                    Für String-basierte Elemente kommen fünf verschiedene Datentypen in Frage: xs:string, xbd:String.Localized, din91379:datatypeB, din91379:datatypeC und din91379:datatypeE. 
+                    Die Datentypen der DIN-Norm werden für Namen und einsprachige Texte verwendet. xs:string für "technische" Angaben, wie IDs. 
+                    String.Localized für Texte, die theoretisch auch in einer von der Dokumentensprache abweichenden Sprache vorliegen können.
+                </para>
+                <para>
+                    In den Klassen <link linkend="XBildung.Baukasten.Anschrift">Anschrift</link> und <link linkend="XBildung.Baukasten.Identifikation">Identifikation</link>
+                    verwendet die Eigenschaft "id" nun den Typ xs:string.
+                </para>
+            </simplesect>
+            <simplesect>
+                <title>Umgang mit Mehrsprachigkeit</title>
+                <para>
+                    Mit dieser Version wird Mehrsprachigkeit nicht mehr auf Datenfeld-Ebene abgebildet. 
+                    Muss das ganze Dokument in mehreren Sprachen vorliegen, wird davon ausgegangen, dass je Sprache ein XML-Dokumente erstellt wird. 
+                    Dieser Ansatz führt zu folgenden Änderungen:
+                </para>
+                <para>
+                    In der Klasse <link linkend="XBildung.Baukasten.Dokument">Dokument</link> ist die Eigenschaft "sprache" nun verpflichtend (Häufigkeit 1, statt 0..n). 
+                    Damit wird die Standard-Sprache des Dokuments festgelegt. Die Sprache eines Elements vom Typ xbd:String.Localized muss nur 
+                    noch angegeben werden, wenn sie davon abweicht.
+                </para>
+            </simplesect>
+            <simplesect>
+                <title>Häufigkeit bei xbd:String.Localized</title>
+                <para>
+                    Statt wie bisher Eigenschaften vom Typ xbd:String.Localized immer beliebig oft zu erlauben, um Mehrsprachigkeit abzubilden, 
+                    sind sie nun nur so oft erlaubt, wie sie tatsächlich vorkommen dürfen. Daher wurde die Kardinalität der Eigenschaften vom Typ xbd:String.Localized 
+                    in den folgenden Klassen von 0..n auf 0..1 geändert:
+                </para>
+                <itemizedlist>
+                    <listitem><para><link linkend="XBildung.Baukasten.Abschlussarbeit">Abschlussarbeit</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Benotung">Benotung</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Dokument">Dokument</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Kurs">Kurs</link></para></listitem>
+                </itemizedlist>
+            </simplesect>
+        </section>
+        
+        <section>
+            <title>Änderungen an Codelisten</title>
+           
+            <simplesect>
+                <title>Neue Codelisten</title>
+                <para>Für die folgenden Code-Datentypen werden jetzt Codelisten vorgegeben. Da sie vom Nutzungstyp 3 sind, muss die verwendete Version beim Erstellen einer XML-Instanz angegeben werden.</para>
+                <itemizedlist>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Bezirk">Code.Bezirk</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Bundesland">Code.Bundesland</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Kreis">Code.Kreis</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link></para></listitem>
+                </itemizedlist>
+            </simplesect>
+            <simplesect>
+                <title>Geänderte Code-Werte</title>
+                <para>Die Codeliste <link linkend="tabelle.urn.de.xoev.codeliste.erreichbarkeit.Erreichbarkeit-Codes">Erreichbarkeit</link> wird nun korrekt als Typ-2-Codeliste eingebunden. Die zu verwendenden Code-Werte sind nun Zahlen, statt der früheren XBildungs-URIs.</para>
+                <para>Die Codelisten <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>, 
+                    <link linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>, 
+                    <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>, 
+                    <link linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link> und 
+                    <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link> 
+                    wurden um Standardwerte "Wert nicht bekannt" und (zum Teil) "Wert nicht in Liste" erweitert.
+                </para>
+            </simplesect>
+            <simplesect>
+                <title>Änderungen ohne Einfluss auf die XML-Struktur</title>
+                <para>Die Codeliste <link linkend="tabelle.urn.xoev-de.xinneres.codeliste.geschlecht.Geschlecht-Codes">Geschlecht</link> wird nun von XInneres bezogen.</para> 
+                <para> 
+                    Die Version der Codelisten <link linkend="tabelle.urn.xbildung-de.coe-int.codeliste.languagereference.LanguageLevel-Codes">CEFR / GER</link> und 
+                    <link linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link> wurde aktualisiert.
+                </para>
+                <para>Für das European Qualification Framework wird die Codeliste <link linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">EQF</link> aufgenommen.</para>
+            </simplesect>
+            
+            <simplesect>
+                <title>Modellierung von Staat und Staatsbürgerschaft</title>
+                <para>
+                    Für die Eigenschaften Staat und Staatsbürgerschaft wird jetzt einheitlich die Codeliste 
+                    <link linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Code.Staatsangehoerigkeit</link> verwendet. 
+                    Je nach Einsatzzweck wird sie über <link linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link> oder 
+                    <link linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link> eingebunden. 
+                </para>
+            <para>
+                Als Codewert wird einheitlich der DESTATIS-Code verwendet. Zusätzlich muss zudem der (vom Anwendungsfall abhängige) Klartext-Wert übertragen werden, was die XML-Datei besser archivierbar macht.
+            </para>
+            <programlisting><![CDATA[<xbd:staat 
+ listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" 
+ listVersionID="2023-02-24">
+    <code>000</code>
+    <name>Deutschland</name>
+</xbd:staat>
+
+<xbd:staatsangehoerigkeit 
+ listURI="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" 
+ listVersionID="2023-02-24">
+    <code>000</code>
+    <name>deutsch</name>
+</xbd:staatsangehoerigkeit>
+            ]]></programlisting>
+            </simplesect>
+        
+            <simplesect>
+                <title>Direkte Verwendung von Code.Language</title>
+                <para>
+                    Die Klasse "Sprache" wurde entfernt. Stattdessen wird direkt <link linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link> verwendet.
+                </para>
+            </simplesect>
+        </section>
+        
+        <section>
+            <title>Weitere Änderungen mit Auswirkung auf das Datenmodell</title>
+            <simplesect>
+                <title>Reihenfolge der Eigenschaften in Kernkomponenten</title>
+                <para>
+                    Bei Klassen, die Kernkomponenten aus der XÖV-Bibliothek sind, wurde zum Teil von der empfohlenen Reihenfolge abgewichen. Abweichungen ohne fachliche Begründung wurden rückgängig gemacht. Dies betrifft die folgenden Klassen: 
+                </para>
+                <itemizedlist>
+                    <listitem><para><link linkend="XBildung.Baukasten.Anschrift">Anschrift</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Kommunikation">Kommunikation</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.NameNatuerlichePerson">NameNatuerlichePerson</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.NatuerlichePerson">NatuerlichePerson</link></para></listitem>
+                    <listitem><para><link linkend="XBildung.Baukasten.Organisation">Organisation</link></para></listitem>
+                </itemizedlist>
+            </simplesect>
+            <simplesect>
+                <title>Aufnahme der Klasse Praktikum</title>
+                <para>
+                    Die Klasse <link linkend="XBildung.Baukasten.Praktikum">Praktikum</link> wurde aufgenommen.
+                </para>
+            </simplesect>
+            <simplesect>
+                <title>Aufnahme der Klasse Teilbekanntes Datum</title>
+                <para>
+                    Die Klasse <link linkend="XBildung.Baukasten.TeilbekanntesDatum">Teilbekanntes Datum</link> wurde aufgenommen. 
+                    Die Eigenschaft "datum" der Klasse <link linkend="XBildung.Baukasten.Geburt">Geburt</link> verwendet sie.
+                </para>
+            </simplesect>
+            <simplesect>
+                <title>xbd:identifikation aus xbd:Dokument entfernen</title>
+                <para>
+                    Die Eigenschaft xbd:identifikation wurde aus der Klasse <link linkend="XBildung.Baukasten.Dokument">Dokument</link> entfernt.
+                </para>
+            </simplesect>
+        </section>
+        
+        <simplesect>
+            <title>Liste der umgesetzten Tickets</title>
+            <para>Folgende (intern dokumentierte) Tickets wurden umgesetzt:</para>
+            <itemizedlist>
+                <listitem><para>XBD-251: Codeliste Erreichbarkeit auf Typ 2 umstellen</para></listitem>
+                <listitem><para>XBD-248: Typ-4-Codelisten mit Typ 2 bzw. 3 ersetzen</para></listitem>
+                <listitem><para>XBD-247: Codeliste "Geschlecht" aus XInneres verwenden</para></listitem>
+                <listitem><para>XBD-276: Standard-Codes in Codelisten überarbeiten</para></listitem>
+                <listitem><para>XBD-283: Version der Codeliste "CEFR" aktualisieren</para></listitem>
+                <listitem><para>XBD-281: Version der Codeliste "Language" aktualisieren</para></listitem>
+                <listitem><para>XBD-255: EQF als Feld einbauen</para></listitem>
+                <listitem><para>XBD-222: Vereinheitlichung der Modellierung und Codelisten für Staat und Staatsbürgerschaft</para></listitem>
+                <listitem><para>XBD-285: xbd:Sprache ausbauen, stattdessen immer direkt Code.Language verwenden</para></listitem>
+                <listitem><para>XBD-235: Vereinheitlichen der Datentypen für Zeichenketten</para></listitem>
+                <listitem><para>XBD-277: Änderungen der Kardinalität von String.Localized-Eigenschaften</para></listitem>
+                <listitem><para>XBD-256: Verwendung von xs:ID überarbeiten</para></listitem>
+                <listitem><para>XBD-286: Häufigkeit von Sprache in xbd:Dokument auf 1..1 setzen</para></listitem>
+                <listitem><para>XBD-146: Reihenfolge der Eigenschaften in Kernkomponenten gemäß Vorgabe nutzen</para></listitem>
+                <listitem><para>XBD-275: Praktikum aufnehmen</para></listitem>
+                <listitem><para>XBD-243: xbd:identifikation aus xbd:Dokument entfernen</para></listitem>
+                <listitem><para>XBD-250: Geburt:datum auf TeilbekanntesDatum umstellen</para></listitem>
+                <listitem><para>XBD-279: Metadaten zur Konfiguration im Modell aktualisieren</para></listitem>
+                <listitem><para>XBD-167: spezifikation.ent-Dateien anpassen an XHS-Format</para></listitem>
+                <listitem><para>XBD-246: Metadaten der Codeliste "Art der Schule" ausbessern</para></listitem>
+            </itemizedlist>
+        </simplesect>
+    </section>
+
+    <section xml:id="spezifikation.anhang.versionshistorie094">
+        <info>
+            <title>Version 0.94</title>
+        </info>
+        <para>Veröffentlichungsdatum: 31. März 2023</para>
         <para>Veränderungen zur vorherigen Version: Schwerpunkte waren die Vereinheitlichung der Anschrift, die Anpassung der Codelisten-Beschreibungen und die Überführung auf XÖV 3.0. Im Detail: </para>
         <itemizedlist>
             <listitem><para>XBD-221: Meldeanschrift, Anschriftzone in der Auslandsanschrift, Datentyp für das Druckbild einer Auslandsanschrift und Codeliste amtlicher Gemeindeschluessel löschen</para></listitem>
@@ -35,33 +223,6 @@
             <listitem><para>XBD-200: Codelisten für die Eigenschaften der Klasse "xbd:VerwaltungspolitischeKodierung" empfehlen</para></listitem>
             <listitem><para>XBD-234: Codeliste "Bewertungsschemata" um Einträge für Schulnoten und Noten im Studium ergänzen</para></listitem>
             <listitem><para>XBD-236: In "xbd:Benotung.bewertungsschemaNote" den Typ der Eigenschaft "schemaURI" von "xbd:Code.Bewertungsschema" auf "xs:anyURI" ändern</para></listitem>
-        </itemizedlist>
-    </section>
-    <section xml:id="spezifikation.anhang.versionshistorie093">
-        <info>
-            <title>Version 0.93</title>
-        </info>
-        <para>Veröffentlichungsdatum: 4. November 2022</para>
-        <para>Veränderungen zur vorherigen Version: Struktur des Dokumentes überarbeitet, Errata sowie folgende Änderungen: </para>
-        <itemizedlist>
-            <listitem><para>XBD-223: Notenschemata für Abitur (000_280_840) ergänzen</para></listitem>
-            <listitem><para>XBD-213: Codelisten: Angaben des Bezugsorts, Beschreibung und Beispiele überarbeiten</para></listitem>
-            <listitem><para>XBD-212: Signatur aus Klasse Dokument entfernen</para></listitem>
-            <listitem><para>XBD-210: Klasse Benotung ändern</para></listitem>
-            <listitem><para>XBD-208: Klasse Abschluss entfernen sowie deren Kindelemente und Codelisten beibehalten</para></listitem>
-            <listitem><para>XBD-207: Codeliste Gebiet löschen, da Country Codes verwendet werden soll</para></listitem>
-            <listitem><para>XBD-205: xbd:natuerlichePerson/xbd:geschlecht auf 0..1 umstellen</para></listitem>
-            <listitem><para>XBD-204: Klasse Geburtsort anlegen</para></listitem>
-            <listitem><para>XBD-199: Errata für XBD V0.93</para></listitem>
-            <listitem><para>XBD-197: Präsentation als Prüfungsart hinzufügen</para></listitem>
-            <listitem><para>XBD-196: Klasse Bildungseinrichtung entfernen</para></listitem>
-            <listitem><para>XBD-195: Klasse Bildungsnachweis und AllgemeineBescheinigung in Klasse Dokument aufgehen lassen</para></listitem>
-            <listitem><para>XBD-193: Reihenfolge der Elemente in Klasse Dokument anpassen</para></listitem>
-            <listitem><para>XBD-147: Codewerte der Codeliste Geschlecht nicht als URI formulieren</para></listitem>
-            <listitem><para>XBD-136: Bezug zu SDG, EDCI und ELMO richtigstellen</para></listitem>
-            <listitem><para>XBD-86: Feld Einsatzzweck entfernen</para></listitem>
-            <listitem><para>XBD-85: Reihenfolge der Elemente von Anschrift ändern</para></listitem>
-            <listitem><para>XBD-60: Falsche Verwendung von skos:hasTopConcept, fehlende skos:ConceptScheme(s) korrigieren</para></listitem>
         </itemizedlist>
     </section>
 </appendix>

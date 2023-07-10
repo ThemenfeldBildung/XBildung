@@ -94,16 +94,17 @@
                   <emphasis role="bold">namensart</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.Namensart</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Namensart"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Namensart" role="Seitenzahl"/>
                </entry>
             </row>
             <row>

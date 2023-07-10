@@ -4,9 +4,12 @@
   <info>
     <title>"Die Bildungsjourney"</title>
   </info>
-  <para>Die Bildungsjourney beschreibt idealtypische Wege von Nutzern durch das deutsche Bildungswesen. Dabei liegt der Schwerpunkt auf fünf Lebenslagen bzw. Fachmodulen (Schule,
-    Berufsausbildung, Studium, Anerkennung, Weiterbildung), außerdem existieren auch übergreifende Aspekte bzw. Schritte. Zum einen bietet die Journey einen Überblick über das
-    komplexe deutsche Bildungswesen, zum anderen lassen sich damit auch Standardisierungsbedarfe ableiten.</para>
+  <para>Die Bildungsjourney beschreibt idealtypische Wege von Nutzern durch das deutsche
+    Bildungswesen. Dabei liegt der Schwerpunkt auf fünf Lebenslagen bzw. Fachmodulen – Schule (S),
+    Berufsausbildung (B), Studium (H), Anerkennung (A), Weiterbildung (W) – außerdem existieren auch
+    übergreifende Aspekte bzw. Schritte (Ü). Zum einen bietet die Journey einen Überblick über das
+    komplexe deutsche Bildungswesen, zum anderen lassen sich damit auch Standardisierungsbedarfe
+    ableiten.</para>
   <para>
     <table frame="all">
       <title>Schritte der Bildungsjourney</title>
@@ -65,7 +68,7 @@
             <entry>Anmeldung bzw. Bewerbung für eine spezifische weiterführende Schule</entry>
             <entry>Die Personensorgeberechtigten (i.d.R. die Eltern) melden ein schulpflichtiges Kind über digitale Plattformen bei einer spezifischen weiterführenden Schule an,
               wobei mitunter auch Bewerbungsverfahren mit Auswahlprozessen durchgeführt werden (abhängig von Land, Schulart, Schwerpunkt etc.).</entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>S6</entry>
@@ -74,7 +77,7 @@
             <entry>Nach der Grundschule besuchen Schüler in Deutschland eine von vielen weiterführenden Schulen bzw. Schularten in Deutschland, wobei hier grob zwischen
               Sekundarstufe I (z.B. Haupt, Real- und Gesamtschule) und Sekundarstufe II (z.B. gymnasiale Oberstufe, berufsbildende Schulen) unterschieden werden kann. Der
               Schulbesuch kann insgesamt fünf bis neun Jahre dauern.</entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>S7</entry>
@@ -84,7 +87,7 @@
               werden. Zudem besteht die Möglichkeit, dass ein Umzug an einen anderen Wohnort einen Wechsel innerhalb der Schulart notwendig macht (betrifft auch S2 "Grundschule
               besuchen"). Hierbei kann ggf. herausfordernd sein, dass nicht alle Bundesländer dieselben Schularten anbieten. S7 erfordert erneut den Schritt S4 "Suchen und
               Informieren".</entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>S8a</entry>
@@ -108,7 +111,7 @@
               <para>Für diese Ausnahmen kann das Abgangszeugnis unter Erfüllung weiterer
                 Voraussetzungen in ein Abschlusszeugnis umgeschrieben werden. </para>
             </entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>S8b</entry>
@@ -118,7 +121,7 @@
             <entry>Beim erfolgreichen Abschluss ihrer weiterführenden Schule wird den Schülern ein
               (digitales) Schulabschlusszeugnis (z.B. HZB, Realschulabschluss etc.)
               ausgestellt.</entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>Ü1</entry>
@@ -155,7 +158,7 @@
               jungen Menschen den Einstieg in eine Berufsausbildung oder eine berufliche Tätigkeit
               zu erleichtern bzw. überhaupt erst zu ermöglichen (z.B. durch Nachqualifizierung,
               Unterstützung der Berufswahl).</entry>
-            <entry>2,3</entry>
+            <entry>2, 3</entry>
           </row>
           <row>
             <entry>Ü4</entry>
@@ -179,7 +182,7 @@
               Betriebe, öffentliche Verwaltung) oder eine vollzeitschulische Ausbildung bei
               berufsbildenden Schulen (z.B. Berufsfachschule, berufliches Gymnasium) mit konkreten
               Nachweisen etc. erfolgt über digitale Bewerbungsplattformen.</entry>
-            <entry>3,4</entry>
+            <entry>3, 4</entry>
           </row>
           <row>
             <entry>B2</entry>
@@ -189,7 +192,7 @@
               berufliche (z.B. berufsvorbereitende Maßnahme, abgebrochene bzw. abgeschlossene
               Berufsausbildung) oder schulische Vorbildung (z.B. Fachabitur/Abitur) anerkannt
               werden, was wiederum zu einer Verkürzung der Regelausbildungszeit führen kann.</entry>
-            <entry>3,4</entry>
+            <entry>3, 4</entry>
           </row>
           <row>
             <entry>B3</entry>
@@ -200,7 +203,7 @@
               Fördermöglichkeiten beantragen (z.B. BAföG, AFBG (Aufstiegs-BAföG), Stipendien), wobei
               die Möglichkeiten und eine konkrete finanzielle Förderung von zahlreichen Faktoren
               abhängig sind (z.B. persönliche Lebenslage, angestrebte Berufsausbildung).</entry>
-            <entry>3,4</entry>
+            <entry>3, 4</entry>
           </row>
           <row>
             <entry>B4</entry>
@@ -209,7 +212,7 @@
             <entry>Eine Berufsausbildung hat in Deutschland i.d.R. eine Dauer von drei bis dreieinhalb Jahren und umfasst sowohl schulische als auch berufspraktische Lernphasen,
               wobei duale Berufsausbildungen einen Schwerpunkt auf berufspraktische Kenntnisse legen, während vollzeitschulische Ausbildungen vor allem auf schulische Bildung
               setzen (oft sind Praktika oder Praxisphasen vorgesehen).</entry>
-            <entry>3,4</entry>
+            <entry>3, 4</entry>
           </row>
           <row>
             <entry>B5</entry>
@@ -219,7 +222,7 @@
               vollzeitschulischen Ausbildung ein Zeugnis der besuchten Schule ausgestellt wird, erhalten Auszubildende in der dualen Berufsausbildung insgesamt drei Zeugnisse: Ein
               Prüfungszeugnis von der zuständigen Stelle (z.B. berufsständische Kammern wie IHK und HWK), ein Berufsschulzeugnis sowie ein (qualifiziertes) Ausbildungszeugnis der
               Ausbildungsstelle (z.B. Betrieb, öffentliche Verwaltung).</entry>
-            <entry>3,4</entry>
+            <entry>3, 4</entry>
           </row>
           <row>
             <entry>H1</entry>
@@ -233,16 +236,18 @@
               Bewerbung teilweise auch Kompetenznachweise z.B. bei Dienstleistern wie uni-assist zur
               Prüfung der Zulassungsvoraussetzungen für einen konkreten Studiengang (ggf. mit
               Zweitwunsch) einreichen.</entry>
-            <entry>6 </entry>
+            <entry>6</entry>
           </row>
           <row>
             <entry>H2</entry>
             <entry>Für Studiengang bewerben</entry>
             <entry>Bewerbung für einen konkreten Studiengang bei Hochschule / Stiftung für
               Hochschulzulassung (SfH)</entry>
-            <entry>Die Bewerbung für einen konkreten Studiengang mit Nachweisen etc. erfolgt i.d.R. über die digitalen Bewerbungsplattformen der Hochschulen. Insbesondere bei
-              bundesweit zulassungsbeschränkten Studiengängen (Medizin, Pharmazie, Tiermedizin und Zahnmedizin) erfolgt die Bewerbung hingegen zentral über die
-              DoSV-Bewerbungsplattform der Stiftung für Hochschulzulassung (SfH).</entry>
+            <entry>Die Bewerbung für einen konkreten Studiengang mit Nachweisen etc. erfolgt i.d.R.
+              über die digitalen Bewerbungsplattformen der Hochschulen. Insbesondere bei bundesweit
+              zulassungsbeschränkten Studiengängen (Medizin, Pharmazie, Tiermedizin und Zahnmedizin)
+              erfolgt die Bewerbung hingegen zentral über die DoSV-Bewerbungsplattform der Stiftung
+              für Hochschulzulassung (SfH).</entry>
             <entry>6</entry>
           </row>
           <row>
@@ -338,7 +343,8 @@
             <entry>H14</entry>
             <entry>Hochschulabschlusszeugnis erhalten</entry>
             <entry>Beim erfolgreichen Abschluss des Studium wird ein Zeugnis ausgestellt</entry>
-            <entry>Zum erfolgreichen Abschluss ihres Masterstudiums wird Studierenden ein (digitales) Hochschulabschlusszeugnis mit weiteren Informationen (ToR, Diploma Supplement)
+            <entry>Beim erfolgreichen Abschluss ihres Masterstudiums wird Studierenden ein digitales
+              Hochschulabschlusszeugnis mit weiteren Informationen (ToR, Diploma Supplement)
               ausgestellt.</entry>
             <entry>7</entry>
           </row>
@@ -357,7 +363,8 @@
           <row>
             <entry>A2</entry>
             <entry>Anerkennungsantrag stellen</entry>
-            <entry>Online-Antrag für eine konkrete Qualifikation bei der zuständigen Stelle</entry>
+            <entry>Online-Antrag auf Anerkennung einer ausländischen Qualifikation bei der
+              zuständigen Stelle</entry>
             <entry>Der Antrag auf Anerkennung bzw. Zeugnisbewertung mit Nachweisen etc. wird in Zukunft idealerweise über digitale Plattformen und Lösungen bei der zuständigen
               Stelle gestellt. Für die Anerkennung ausländischer Berufsqualifikationen sind insgesamt mehr als 1.500 Stellen (z.B. Landesbehörden, Kammern) zuständig, während die
               Zentralstelle für ausländisches Bildungswesen (ZAB) individuelle Zeugnisbewertungen durchführt.</entry>
@@ -367,7 +374,7 @@
             <entry>A3</entry>
             <entry>Förderung beantragen</entry>
             <entry>Für Anerkennungsverfahren existieren verschiedene Förderungsmöglichkeiten</entry>
-            <entry>Zur Finanzierung eines Verfahrens können anerkennungsinteressierte Fachkräfte
+            <entry>Zur Finanzierung eines Anerkennungsverfahrens können interessierte Fachkräfte
               verschiedene Fördermöglichkeiten beantragen (z.B. für Verwaltungsgebühren, Kosten für
               Beglaubigungen und Übersetzungen, ggf. für Qualifizierungen), wobei die Möglichkeiten
               und eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängig sind (z.B.
@@ -401,7 +408,7 @@
             <entry>A6</entry>
             <entry>Anerkennungsbescheid erhalten</entry>
             <entry>Beim erfolgreichen Abschluss des Verfahrens wird ein Bescheid ausgestellt</entry>
-            <entry>Beim erfolgreichen Abschluss ihres Verfahrens wird anerkennungsinteressierten
+            <entry>Beim erfolgreichen Abschluss des Anerkennungsverfahrens wird interessierten
               Fachkräften ein Bescheid über die Anerkennung (Gleichwertigkeit sowie ggf.
               Berufszulassung) bzw. über die individuelle Zeugnisbewertung für ihre ausländische
               Qualifikation ausgestellt.</entry>
@@ -432,9 +439,12 @@
             <entry>Ü6</entry>
             <entry>Bewerbung vorbereiten</entry>
             <entry>Erstellen eines Online-Profils und Vorbereitung der Unterlagen</entry>
-            <entry>Zur Bewerbung für geeignete Jobs können sich Arbeitssuchende ein umfangreiches Onine-Bewerberprofil anlegen (z.B. europass, LinkedIn), welches über verschiedene
-              Features verfügt (z.B. CV, Kompetenzprofil, Wallet für digitale Nachweise) und die Suche nach und Bewerbung für Lernangebote (z.B. auch Promotion) und Jobs
-              ermöglicht. Zudem bereiten Arbeitssuchende ihre Bewerbungsunterlagen entsprechend digital auf.</entry>
+            <entry>Zur Bewerbung für geeignete Jobs können sich Arbeitssuchende ein umfangreiches
+              Online-Bewerberprofil anlegen (z.B. <emphasis>europass</emphasis>,
+                <emphasis>LinkedIn</emphasis>), welches über verschiedene Features verfügt (z.B. CV,
+              Kompetenzprofil, Wallet für digitale Nachweise) und die Suche nach und Bewerbung für
+              Lernangebote (z.B. auch Promotion) und Jobs ermöglicht. Zudem bereiten Arbeitssuchende
+              ihre Bewerbungsunterlagen entsprechend digital auf.</entry>
             <entry>NA</entry>
           </row>
           <row>
@@ -503,9 +513,12 @@
             <entry>W5</entry>
             <entry>Weiterbilden</entry>
             <entry>Absolvieren einer konkreten Weiterbildung</entry>
-            <entry>Für Weiterbildungsinteressierte existiert in Deutschland ein umfangreiches und heterogenes Weiterbildungsangebot (z.B. Sprachkurse, Zertifikatskurse, Coding
-              Camps, Nachqualifizierungen, Aufbaustudiengang), wobei die einzelnen Weiterbildungsmöglichkeiten sich sowohl von der Dauer (von einigen Tagen bis zu mehreren Jahren)
-              als auch im Hinblick auf den Grad der staatlichen und privatwirtschaftlichen Anerkennung erheblich unterscheiden.</entry>
+            <entry>Für Weiterbildungsinteressierte existiert in Deutschland ein umfangreiches
+              Weiterbildungsangebot (z.B. Sprachkurse, Zertifikatskurse, Coding Camps,
+              Nachqualifizierungen, Aufbaustudiengang), wobei die einzelnen
+              Weiterbildungsmöglichkeiten sich sowohl von der Dauer (von einigen Tagen bis zu
+              mehreren Jahren) als auch im Hinblick auf den Grad der staatlichen und
+              privatwirtschaftlichen Anerkennung erheblich unterscheiden.</entry>
             <entry>1-7</entry>
           </row>
           <row>
@@ -524,7 +537,7 @@
     <title>Die Bildungsjourney</title>
     <mediaobject>
       <imageobject>
-        <imagedata align="center" fileref="../abbildungen/Bildungsjourney_0.92.svg" format="SVG"
+        <imagedata align="center" fileref="../abbildungen/Bildungsjourney_0.95.svg" format="SVG"
           scale="40"/>
       </imageobject>
     </mediaobject>

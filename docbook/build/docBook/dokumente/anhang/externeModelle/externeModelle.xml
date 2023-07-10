@@ -21,10 +21,13 @@
             <para>Code</para>
          </listitem>
          <listitem>
-            <para>String.Latin</para>
+            <para>datatypeB</para>
          </listitem>
          <listitem>
             <para>datatypeC</para>
+         </listitem>
+         <listitem>
+            <para>datatypeE</para>
          </listitem>
          <listitem>
             <para>lang</para>

@@ -92,6 +92,28 @@ Mit der Vollendung seiner Geburt wird ein Mensch rechtsfähig und damit zu einer
             </row>
             <row>
                <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">staatsangehoerigkeit</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.Staatsangehoerigkeit</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit"
+                        role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die "staatsangehoerigkeit" einer natürlichen Person gibt an, welchem Staat die Person angehört. Die Staatsangehörigkeit ist das rechtliche Band zwischen dem Staat und dem Staatsangehörigen und bestimmt Rechte wie Pflichten zwischen Staat und Staatsangehörigem.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
                   <emphasis role="bold">anschrift</emphasis>
                </entry>
                <entry>
@@ -149,26 +171,6 @@ Mit der Vollendung seiner Geburt wird ein Mensch rechtsfähig und damit zu einer
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>Persönliche Identifikationsnummer einer natürlichen Person, die sie kontextbezogen von allen anderen Personen eindeutig unterscheidet. Eine natürliche Person kann mehrere Identifikationsnummern haben.</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">staatsangehoerigkeit</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">Staat</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Die "staatsangehoerigkeit" einer natürlichen Person gibt an, welchem Staat die Person angehört. Die Staatsangehörigkeit ist das rechtliche Band zwischen dem Staat und dem Staatsangehörigen und bestimmt Rechte wie Pflichten zwischen Staat und Staatsangehörigem.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">

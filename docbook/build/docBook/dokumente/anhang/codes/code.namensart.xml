@@ -5,10 +5,10 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          version="5"
          xml:lang="de"
-         xml:id="XBildung.Baukasten.Codes.Code.Erreichbarkeit"
+         xml:id="XBildung.Baukasten.Codes.Code.Namensart"
          status="&specstatus;"
          revision="&xrecent;">
-   <title>Code.Erreichbarkeit</title>
+   <title>Code.Namensart</title>
    <informaltable>
       <tgroup cols="2">
          <colspec colnum="1" colname="des" colwidth="22mm"/>
@@ -22,30 +22,30 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>Eine Liste der Kommunikationsmedien und -kanäle, über die man eine Person oder Institution erreichen kann.</para>
+               <entry><para>Mit dieser Codeliste wird ein Name näher charakterisiert.</para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart</link></para>
 
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:xoev:codeliste:erreichbarkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:xoev:codeliste:erreichbarkeit</link></para>
-
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">E-Mail</emphasis> : 01</para></listitem>
-<listitem><para><emphasis role="bold">Telefon Festnetz</emphasis> : 02</para></listitem>
-<listitem><para><emphasis role="bold">Telefon mobil</emphasis> : 03</para></listitem>
+<listitem><para><emphasis role="bold">Eigenname</emphasis> : e</para></listitem>
+<listitem><para><emphasis role="bold">Eigennamen</emphasis> : en</para></listitem>
+<listitem><para><emphasis role="bold">Eigenname und Namenszusatz</emphasis> : ez</para></listitem>
 </itemizedlist>
-</para></entry>
+</para>
+</entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 2, siehe Beschreibung</entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
-               <entry>urn:de:xoev:codeliste:erreichbarkeit</entry>
+               <entry>urn:xpersonenstand:schluesseltabelle:namensart</entry>
             </row>
             <row>
                <entry>-version</entry>
-               <entry>3</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

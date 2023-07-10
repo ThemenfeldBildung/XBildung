@@ -57,7 +57,7 @@
                   <emphasis role="bold">id</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">xs:ID</emphasis>
+                  <emphasis role="codebf">xs:string</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -75,7 +75,7 @@
                   <emphasis role="bold">strasse</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -100,7 +100,7 @@
                   <emphasis role="bold">hausnummer</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -122,10 +122,10 @@ Da manche Gebäude oder Organisationen sich als Einheit über mehrere Hausnummer
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">zusatz</emphasis>
+                  <emphasis role="bold">postfach</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -138,20 +138,16 @@ Da manche Gebäude oder Organisationen sich als Einheit über mehrere Hausnummer
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Ein Anschriftenzusatz beinhaltet ggf. erforderliche weitere Präzisierungen zu einer Anschrift.</para>
+               <entry namest="indent0" nameend="page"><para>Ein Postfach (oft Postfachnummer) ist ein Schlüssel zur Identifikation eines Postfaches in einer Postfiliale.</para>
 
-<para>Anmerkung: Anschriftenzusätze können der Anschrift hinzugefügt werden, um eine Adressierung zu erleichtern oder ein Objekt genauer zu beschreiben, als es mit den klassischen Attributen einer Anschrift allein möglich ist.
-
-Auf eine Festlegung des Formats von Anschriftenzusätzen wurde wegen der uneinheitlichen Verwendung verzichtet.</para>
-
-<para>Beispiele: Hinterhof, 3. Aufgang, Haus A, 3. Stock, Appartement 25a,  3. Stock - Appartement 25 a, #325a, Raum 77</para></entry>
+<para>Anmerkung: Eine Beschränkung auf numerische Postfachbezeichnungen wurde bewusst nicht vorgenommen.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
                   <emphasis role="bold">postleitzahl</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -175,7 +171,7 @@ Eine Beschränkung auf deutsche Postleitzahlen (5-stellig) wurde bewusst nicht v
                   <emphasis role="bold">ort</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -197,7 +193,7 @@ Eine Beschränkung auf deutsche Postleitzahlen (5-stellig) wurde bewusst nicht v
                   <emphasis role="bold">ortsteil</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -217,7 +213,7 @@ Eine Beschränkung auf deutsche Postleitzahlen (5-stellig) wurde bewusst nicht v
                   <emphasis role="bold">ortFruehererGemeindename</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -236,19 +232,70 @@ Eine Beschränkung auf deutsche Postleitzahlen (5-stellig) wurde bewusst nicht v
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">staat</emphasis>
+                  <emphasis role="bold">zusatz</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Staat</emphasis>
+                  <emphasis role="codebf">datatypeB</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="AbschnittNummer"/>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="Seitenzahl"/>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Ein Anschriftenzusatz beinhaltet ggf. erforderliche weitere Präzisierungen zu einer Anschrift.</para>
+
+<para>Anmerkung: Anschriftenzusätze können der Anschrift hinzugefügt werden, um eine Adressierung zu erleichtern oder ein Objekt genauer zu beschreiben, als es mit den klassischen Attributen einer Anschrift allein möglich ist.
+
+Auf eine Festlegung des Formats von Anschriftenzusätzen wurde wegen der uneinheitlichen Verwendung verzichtet.</para>
+
+<para>Beispiele: Hinterhof, 3. Aufgang, Haus A, 3. Stock, Appartement 25a,  3. Stock - Appartement 25 a, #325a, Raum 77</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">typ</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.Anschriftstyp</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Im "typ" wird in Abhängigkeit von der fachlichen Verwendung der ACC "Anschrift" in einer Codeliste beschrieben, um welche Art der Anschrift es sich handelt.</para>
+
+<para>Beispiele: Wohn-, Zustell-, aktuelle, Haupt-, Herkunfts- oder Gründungsanschrift.</para>
+
+</entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">staat</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">Code.Staat</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
@@ -275,52 +322,6 @@ Eine Beschränkung auf deutsche Postleitzahlen (5-stellig) wurde bewusst nicht v
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>Die "verwaltungspolitischeKodierung" beinhaltet Informationen, mit denen eine Anschrift verwaltungspolitisch eindeutig zugeordnet werden kann.</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">postfach</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">String.Latin</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..1</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Ein Postfach (oft Postfachnummer) ist ein Schlüssel zur Identifikation eines Postfaches in einer Postfiliale.</para>
-
-<para>Anmerkung: Eine Beschränkung auf numerische Postfachbezeichnungen wurde bewusst nicht vorgenommen.</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">typ</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">Code</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Im "typ" wird in Abhängigkeit von der fachlichen Verwendung der ACC "Anschrift" in einer Codeliste beschrieben, um welche Art der Anschrift es sich handelt.</para>
-
-<para>Beispiele: Wohn-, Zustell-, aktuelle, Haupt-, Herkunfts- oder Gründungsanschrift.</para>
-
-</entry>
             </row>
          </tbody>
       </tgroup>

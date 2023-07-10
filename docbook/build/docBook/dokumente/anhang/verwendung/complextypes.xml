@@ -35,6 +35,12 @@
             <para>Benotung</para>
          </listitem>
          <listitem>
+            <para>Code.AmtlicherGemeindeschluessel</para>
+         </listitem>
+         <listitem>
+            <para>Code.Anschriftstyp</para>
+         </listitem>
+         <listitem>
             <para>Code.ArtDerPruefung</para>
          </listitem>
          <listitem>
@@ -50,10 +56,16 @@
             <para>Code.Bewertungsschema</para>
          </listitem>
          <listitem>
+            <para>Code.Bezirk</para>
+         </listitem>
+         <listitem>
+            <para>Code.Bundesland</para>
+         </listitem>
+         <listitem>
             <para>Code.CEFR</para>
          </listitem>
          <listitem>
-            <para>Code.CountryCodes</para>
+            <para>Code.EQF</para>
          </listitem>
          <listitem>
             <para>Code.Erreichbarkeit</para>
@@ -68,10 +80,25 @@
             <para>Code.ISCEDF2013</para>
          </listitem>
          <listitem>
+            <para>Code.Kreis</para>
+         </listitem>
+         <listitem>
             <para>Code.Kursstatus</para>
          </listitem>
          <listitem>
             <para>Code.Language</para>
+         </listitem>
+         <listitem>
+            <para>Code.Namensart</para>
+         </listitem>
+         <listitem>
+            <para>Code.Regionalschluessel</para>
+         </listitem>
+         <listitem>
+            <para>Code.Staat</para>
+         </listitem>
+         <listitem>
+            <para>Code.Staatsangehoerigkeit</para>
          </listitem>
          <listitem>
             <para>Dokument</para>
@@ -107,13 +134,13 @@
             <para>Organisation</para>
          </listitem>
          <listitem>
-            <para>Sprache</para>
-         </listitem>
-         <listitem>
-            <para>Staat</para>
+            <para>Praktikum</para>
          </listitem>
          <listitem>
             <para>String.Localized</para>
+         </listitem>
+         <listitem>
+            <para>TeilbekanntesDatum</para>
          </listitem>
          <listitem>
             <para>VerwaltungspolitischeKodierung</para>

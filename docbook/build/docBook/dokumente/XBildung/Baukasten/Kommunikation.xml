@@ -117,6 +117,22 @@ tel:+49-30-1234567 (Uniform Resource Identifier nach RFC 3966)</para>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">istDienstlich</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">xs:boolean</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry/>
+               <entry/>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Mit der Komponente "istDienstlich" kann angegeben werden, ob es sich um dienstliche oder private Kommunikationsdaten handelt.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
                   <emphasis role="bold">zusatz</emphasis>
                </entry>
                <entry>
@@ -136,22 +152,6 @@ tel:+49-30-1234567 (Uniform Resource Identifier nach RFC 3966)</para>
                <entry namest="indent0" nameend="page"><para>Im "zusatz" können zusätzliche freie Angaben zur Erreichbarkeit über einen Kommunikationskanal gemacht werden.</para> 
 
 <para>Beispiel: erreichbar tagsüber zwischen 9 und 16 Uhr</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">istDienstlich</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">xs:boolean</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..1</emphasis>
-               </entry>
-               <entry/>
-               <entry/>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Mit der Komponente "istDienstlich" kann angegeben werden, ob es sich um dienstliche oder private Kommunikationsdaten handelt.</para></entry>
             </row>
          </tbody>
       </tgroup>

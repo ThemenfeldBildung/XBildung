@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.Staatsangehoerigkeit</title><para>Verwendet die <link linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Codeliste Staatsangehörigkeit aus der Staats- und Gebietssystematik des Statistischen Bundesamtes zur Angabe von Staaten</link> zur Angabe der Staatsangehörigkeit. Es muss sowohl der Codewert als auch der Name übermittelt werden.</para>
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "DESTATIS-Schluessel-Staatsangehoerigkeit".</para>
+<para><emphasis role="bold">Name:</emphasis> Die zu verwendende Beschreibungsspalte ist "Staatsangehoerigkeit".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Code : Staatsangehoerigkeit)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">000</emphasis> : deutsch</para></listitem>
+<listitem><para><emphasis role="bold">120</emphasis> : jugoslawisch</para></listitem>
+<listitem><para><emphasis role="bold">121</emphasis> : albanisch</para></listitem>
+</itemizedlist>
+</para><informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Tabelle von Staaten und Staatsangehörigkeiten. Enthält alle Einträge der Codeliste Staat (eigenständige, von Deutschland diplomatisch anerkannte derzeitige Staaten) und zusätzlich Einträge für ehemalige Staaten sowie Ersatzwerte.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</link></para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>unbestimmt</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>

@@ -5,7 +5,7 @@
    <Annotation>
       <Description>
          <xoev-cl-4:shortName>Art der Schule</xoev-cl-4:shortName>
-         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Grundlage:https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:codelistDescription>Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK). Grundlage: https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</xoev-cl-4:codelistDescription>
          <xoev-cl-4:agencyShortName>KMK</xoev-cl-4:agencyShortName>
          <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
       </Description>
@@ -13,9 +13,9 @@
    <Identification>
       <ShortName>ArtDerSchule-Codes</ShortName>
       <LongName>Art der Schule</LongName>
-      <Version>4.0</Version>
+      <Version>3.0</Version>
       <CanonicalUri>urn:xbildung-de:kmk:codeliste:artderschule</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:kmk:codeliste:artderschule_4.0</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:kmk:codeliste:artderschule_3.0</CanonicalVersionUri>
       <Agency>
          <LongName>Kultusministerkonferenz</LongName>
       </Agency>
@@ -263,6 +263,22 @@
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Schule des Gesundheitswesens</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_bekannt</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Wert nicht bekannt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_in_liste</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Wert nicht in Liste</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

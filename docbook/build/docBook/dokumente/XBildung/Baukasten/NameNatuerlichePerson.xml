@@ -49,6 +49,74 @@
          <tbody>
             <row>
                <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">titel</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">datatypeC</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Ein Titel wird häufig im Zusammenhang mit Namen verwendet, ist aber  kein orginärer Bestandteil des Namens. Im Unterschied dazu gehören Adelstitel zum Familiennamen und sind daher in diesem Verständnis kein Titel. Zu den Titeln zählen beispielsweise akademische Grade, Dienst- und Amtsbezeichnungen oder militärische Ränge. Es können auch Titel übermittelt werden, die keine Titel im Sinne des Meldewesens sind.</para>
+
+<para>Beispiel: Dr.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">anrede</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">datatypeC</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Die Anrede ist der Namenszusatz (auch eine Anrede ohne Namen nur mit Titel ist eine Anrede!) bei der Anrede (mündlich oder schriftlich) oder bei einem Anruf (fernmündlich) an eine Person oder Personengruppe.</para>
+
+<para>Anmerkung: Die komplette Anrede einer Person kann in einem Feld übermittelt werden.</para>
+
+<para>Beispiel: Herr, Frau, Herr Staatssekretär, Frau Bundeskanzlerin, Herr Botschafter, Eure Eminenz</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">namenssuffix</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">datatypeC</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..n</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Ein Namenssuffix ist ein Zusatz zu einem Namen, der ohne Komma hinter den Familiennamen gestellt wird. Als Namenssuffix können beispielsweise  akademische Grade oder Dienst- und Funktionsbezeichnungen übermittelt werden. Adelstitel sind Bestandteil des Familiennamens und zählen nicht zu den zulässigen Namenssuffixen.</para>
+
+<para>Beispiele: a.d., MdB, M.A.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
                   <emphasis role="bold">familienname</emphasis>
                </entry>
                <entry>
@@ -149,71 +217,23 @@
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">titel</emphasis>
+                  <emphasis role="bold">fruehererVorname</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">datatypeC</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..1</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Ein Titel wird häufig im Zusammenhang mit Namen verwendet, ist aber  kein orginärer Bestandteil des Namens. Im Unterschied dazu gehören Adelstitel zum Familiennamen und sind daher in diesem Verständnis kein Titel. Zu den Titeln zählen beispielsweise akademische Grade, Dienst- und Amtsbezeichnungen oder militärische Ränge. Es können auch Titel übermittelt werden, die keine Titel im Sinne des Meldewesens sind.</para>
-
-<para>Beispiel: Dr.</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">anrede</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">datatypeC</emphasis>
+                  <emphasis role="codebf">AllgemeinerName</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..n</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.AllgemeinerName" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.AllgemeinerName" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Die Anrede ist der Namenszusatz (auch eine Anrede ohne Namen nur mit Titel ist eine Anrede!) bei der Anrede (mündlich oder schriftlich) oder bei einem Anruf (fernmündlich) an eine Person oder Personengruppe.</para>
-
-<para>Anmerkung: Die komplette Anrede einer Person kann in einem Feld übermittelt werden.</para>
-
-<para>Beispiel: Herr, Frau, Herr Staatssekretär, Frau Bundeskanzlerin, Herr Botschafter, Eure Eminenz</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">namenssuffix</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">datatypeC</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
-               </entry>
-               <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Ein Namenssuffix ist ein Zusatz zu einem Namen, der ohne Komma hinter den Familiennamen gestellt wird. Als Namenssuffix können beispielsweise  akademische Grade oder Dienst- und Funktionsbezeichnungen übermittelt werden. Adelstitel sind Bestandteil des Familiennamens und zählen nicht zu den zulässigen Namenssuffixen.</para>
-
-<para>Beispiele: a.d., MdB, M.A.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Der frühere Vorname ist der Vorname, der vor einer Vornamensänderung geführt wurde.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -240,26 +260,6 @@
 <para>Anmerkung: Im Zusammenhang mit ausländischen Namen kann diese Komponente z.B. genutzt werden, um die gesamte Namenskette einzutragen oder den Namen in Originalschreibweise zu übermitteln.</para>
 
 <para>Beispiel: Ein Beispiel für alternative Repräsentation ist die Übermittlung des Namens "Andrè Müller" nach ICAO-Standard, in dem keine Umlaute erlaubt sind, und daher der Name als "ANDRE MUELLER" übertragen wird.</para></entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">fruehererVorname</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="codebf">AllgemeinerName</emphasis>
-               </entry>
-               <entry>
-                  <emphasis role="bold">0..n</emphasis>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.AllgemeinerName" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.AllgemeinerName" role="Seitenzahl"/>
-               </entry>
-            </row>
-            <row>
-               <entry namest="indent0" nameend="page"><para>Der frühere Vorname ist der Vorname, der vor einer Vornamensänderung geführt wurde.</para></entry>
             </row>
          </tbody>
       </tgroup>

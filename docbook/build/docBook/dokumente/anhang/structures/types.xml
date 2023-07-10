@@ -39,10 +39,6 @@
       <kosit:property name="alternativeRepraesentation/hinweis"/>
       <kosit:property name="name"/>
       <kosit:property name="namensart"/>
-      <kosit:property name="namensart/code"/>
-      <kosit:property name="namensart/name"/>
-      <kosit:property name="namensart/@listURI"/>
-      <kosit:property name="namensart/@listVersionID"/>
       <kosit:property name="nichtVorhanden"/>
    </kosit:type>
    <kosit:type name="AlternativeRepraesentation"
@@ -61,51 +57,18 @@
       <kosit:property name="postfach"/>
       <kosit:property name="postleitzahl"/>
       <kosit:property name="staat"/>
-      <kosit:property name="staat/staat"/>
-      <kosit:property name="staat/staat/code"/>
-      <kosit:property name="staat/staat/name"/>
-      <kosit:property name="staat/staat/@listURI"/>
-      <kosit:property name="staat/staat/@listVersionID"/>
       <kosit:property name="strasse"/>
       <kosit:property name="typ"/>
-      <kosit:property name="typ/code"/>
-      <kosit:property name="typ/name"/>
-      <kosit:property name="typ/@listURI"/>
-      <kosit:property name="typ/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung"/>
       <kosit:property name="verwaltungspolitischeKodierung/kreis"/>
-      <kosit:property name="verwaltungspolitischeKodierung/kreis/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/kreis/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/kreis/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/kreis/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung/bezirk"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bezirk/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bezirk/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bezirk/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bezirk/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung/bundesland"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bundesland/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bundesland/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bundesland/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/bundesland/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung/gemeindeschluessel"/>
-      <kosit:property name="verwaltungspolitischeKodierung/gemeindeschluessel/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/gemeindeschluessel/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/gemeindeschluessel/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/gemeindeschluessel/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung/regionalschluessel"/>
-      <kosit:property name="verwaltungspolitischeKodierung/regionalschluessel/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/regionalschluessel/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/regionalschluessel/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/regionalschluessel/@listVersionID"/>
       <kosit:property name="verwaltungspolitischeKodierung/nation"/>
-      <kosit:property name="verwaltungspolitischeKodierung/nation/staat"/>
-      <kosit:property name="verwaltungspolitischeKodierung/nation/staat/code"/>
-      <kosit:property name="verwaltungspolitischeKodierung/nation/staat/name"/>
-      <kosit:property name="verwaltungspolitischeKodierung/nation/staat/@listURI"/>
-      <kosit:property name="verwaltungspolitischeKodierung/nation/staat/@listVersionID"/>
       <kosit:property name="zusatz"/>
    </kosit:type>
+   <kosit:type name="Anschriftstyp-Codes" prefix=""/>
    <kosit:type name="BehoerdeType" prefix="bn-beh">
       <kosit:property name="erreichbarkeit"/>
       <kosit:property name="erreichbarkeit/kanal"/>
@@ -170,6 +133,12 @@
       <kosit:property name="code"/>
       <kosit:property name="name"/>
    </kosit:type>
+   <kosit:type name="Code.AmtlicherGemeindeschluessel"
+               id="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel"
+               prefix="xbd"/>
+   <kosit:type name="Code.Anschriftstyp"
+               id="XBildung.Baukasten.Codes.Code.Anschriftstyp"
+               prefix="xbd"/>
    <kosit:type name="Code.ArtDerPruefung"
                id="XBildung.Baukasten.Codes.Code.ArtDerPruefung"
                prefix="xbd"/>
@@ -185,12 +154,16 @@
    <kosit:type name="Code.Bewertungsschema"
                id="XBildung.Baukasten.Codes.Code.Bewertungsschema"
                prefix="xbd"/>
+   <kosit:type name="Code.Bezirk"
+               id="XBildung.Baukasten.Codes.Code.Bezirk"
+               prefix="xbd"/>
+   <kosit:type name="Code.Bundesland"
+               id="XBildung.Baukasten.Codes.Code.Bundesland"
+               prefix="xbd"/>
    <kosit:type name="Code.CEFR"
                id="XBildung.Baukasten.Codes.Code.CEFR"
                prefix="xbd"/>
-   <kosit:type name="Code.CountryCodes"
-               id="XBildung.Baukasten.Codes.Code.CountryCodes"
-               prefix="xbd"/>
+   <kosit:type name="Code.EQF" id="XBildung.Baukasten.Codes.Code.EQF" prefix="xbd"/>
    <kosit:type name="Code.Erreichbarkeit"
                id="XBildung.Baukasten.Codes.Code.Erreichbarkeit"
                prefix="xbd"/>
@@ -207,11 +180,26 @@
    <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-kom"/>
    <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-uq-g2g"/>
    <kosit:type name="Code.Kommunikation.KanalType" prefix="bn-uq-g2g"/>
+   <kosit:type name="Code.Kreis"
+               id="XBildung.Baukasten.Codes.Code.Kreis"
+               prefix="xbd"/>
    <kosit:type name="Code.Kursstatus"
                id="XBildung.Baukasten.Codes.Code.Kursstatus"
                prefix="xbd"/>
    <kosit:type name="Code.Language"
                id="XBildung.Baukasten.Codes.Code.Language"
+               prefix="xbd"/>
+   <kosit:type name="Code.Namensart"
+               id="XBildung.Baukasten.Codes.Code.Namensart"
+               prefix="xbd"/>
+   <kosit:type name="Code.Regionalschluessel"
+               id="XBildung.Baukasten.Codes.Code.Regionalschluessel"
+               prefix="xbd"/>
+   <kosit:type name="Code.Staat"
+               id="XBildung.Baukasten.Codes.Code.Staat"
+               prefix="xbd"/>
+   <kosit:type name="Code.Staatsangehoerigkeit"
+               id="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit"
                prefix="xbd"/>
    <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-beh"/>
    <kosit:type name="Code.VerzeichnisdienstType" prefix="bn-beh"/>
@@ -225,21 +213,15 @@
       <kosit:property name="gueltigkeitszeitraum/beginn"/>
       <kosit:property name="gueltigkeitszeitraum/ende"/>
       <kosit:property name="gueltigkeitszeitraum/zusatz"/>
-      <kosit:property name="identifikation"/>
-      <kosit:property name="identifikation/id"/>
-      <kosit:property name="identifikation/beschreibung"/>
-      <kosit:property name="identifikation/gueltigkeit"/>
-      <kosit:property name="identifikation/gueltigkeit/beginn"/>
-      <kosit:property name="identifikation/gueltigkeit/ende"/>
-      <kosit:property name="identifikation/gueltigkeit/zusatz"/>
       <kosit:property name="sprache"/>
-      <kosit:property name="sprache/sprache"/>
-      <kosit:property name="sprache/zusatz"/>
       <kosit:property name="titel"/>
       <kosit:property name="titel/@lang"/>
    </kosit:type>
    <kosit:type name="Geburt" id="XBildung.Baukasten.Geburt" prefix="xbd">
       <kosit:property name="datum"/>
+      <kosit:property name="datum/jahrMonatTag"/>
+      <kosit:property name="datum/jahrMonat"/>
+      <kosit:property name="datum/jahr"/>
       <kosit:property name="geburtsort"/>
       <kosit:property name="geburtsort/ort"/>
       <kosit:property name="geburtsort/staat"/>
@@ -619,10 +601,6 @@
       <kosit:property name="familienname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="familienname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="familienname/namensart"/>
-      <kosit:property name="familienname/namensart/code"/>
-      <kosit:property name="familienname/namensart/name"/>
-      <kosit:property name="familienname/namensart/@listURI"/>
-      <kosit:property name="familienname/namensart/@listVersionID"/>
       <kosit:property name="fruehererFamilienname"/>
       <kosit:property name="fruehererFamilienname/name"/>
       <kosit:property name="fruehererFamilienname/nichtVorhanden"/>
@@ -631,10 +609,6 @@
       <kosit:property name="fruehererFamilienname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="fruehererFamilienname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="fruehererFamilienname/namensart"/>
-      <kosit:property name="fruehererFamilienname/namensart/code"/>
-      <kosit:property name="fruehererFamilienname/namensart/name"/>
-      <kosit:property name="fruehererFamilienname/namensart/@listURI"/>
-      <kosit:property name="fruehererFamilienname/namensart/@listVersionID"/>
       <kosit:property name="fruehererVorname"/>
       <kosit:property name="fruehererVorname/name"/>
       <kosit:property name="fruehererVorname/nichtVorhanden"/>
@@ -643,10 +617,6 @@
       <kosit:property name="fruehererVorname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="fruehererVorname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="fruehererVorname/namensart"/>
-      <kosit:property name="fruehererVorname/namensart/code"/>
-      <kosit:property name="fruehererVorname/namensart/name"/>
-      <kosit:property name="fruehererVorname/namensart/@listURI"/>
-      <kosit:property name="fruehererVorname/namensart/@listVersionID"/>
       <kosit:property name="geburtsname"/>
       <kosit:property name="geburtsname/name"/>
       <kosit:property name="geburtsname/nichtVorhanden"/>
@@ -655,10 +625,6 @@
       <kosit:property name="geburtsname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="geburtsname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="geburtsname/namensart"/>
-      <kosit:property name="geburtsname/namensart/code"/>
-      <kosit:property name="geburtsname/namensart/name"/>
-      <kosit:property name="geburtsname/namensart/@listURI"/>
-      <kosit:property name="geburtsname/namensart/@listVersionID"/>
       <kosit:property name="namenssuffix"/>
       <kosit:property name="rufname"/>
       <kosit:property name="rufname/name"/>
@@ -668,10 +634,6 @@
       <kosit:property name="rufname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="rufname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="rufname/namensart"/>
-      <kosit:property name="rufname/namensart/code"/>
-      <kosit:property name="rufname/namensart/name"/>
-      <kosit:property name="rufname/namensart/@listURI"/>
-      <kosit:property name="rufname/namensart/@listVersionID"/>
       <kosit:property name="titel"/>
       <kosit:property name="vorname"/>
       <kosit:property name="vorname/name"/>
@@ -681,10 +643,6 @@
       <kosit:property name="vorname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="vorname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="vorname/namensart"/>
-      <kosit:property name="vorname/namensart/code"/>
-      <kosit:property name="vorname/namensart/name"/>
-      <kosit:property name="vorname/namensart/@listURI"/>
-      <kosit:property name="vorname/namensart/@listVersionID"/>
    </kosit:type>
    <kosit:type name="NameOrganisation"
                id="XBildung.Baukasten.NameOrganisation"
@@ -701,43 +659,13 @@
                prefix="xbd">
       <kosit:property name="anschrift"/>
       <kosit:property name="anschrift/staat"/>
-      <kosit:property name="anschrift/staat/staat"/>
-      <kosit:property name="anschrift/staat/staat/code"/>
-      <kosit:property name="anschrift/staat/staat/name"/>
-      <kosit:property name="anschrift/staat/staat/@listURI"/>
-      <kosit:property name="anschrift/staat/staat/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listVersionID"/>
       <kosit:property name="anschrift/id"/>
       <kosit:property name="anschrift/strasse"/>
       <kosit:property name="anschrift/hausnummer"/>
@@ -748,12 +676,11 @@
       <kosit:property name="anschrift/ortFruehererGemeindename"/>
       <kosit:property name="anschrift/zusatz"/>
       <kosit:property name="anschrift/typ"/>
-      <kosit:property name="anschrift/typ/code"/>
-      <kosit:property name="anschrift/typ/name"/>
-      <kosit:property name="anschrift/typ/@listURI"/>
-      <kosit:property name="anschrift/typ/@listVersionID"/>
       <kosit:property name="geburt"/>
       <kosit:property name="geburt/datum"/>
+      <kosit:property name="geburt/datum/jahrMonatTag"/>
+      <kosit:property name="geburt/datum/jahrMonat"/>
+      <kosit:property name="geburt/datum/jahr"/>
       <kosit:property name="geburt/geburtsort"/>
       <kosit:property name="geburt/geburtsort/ort"/>
       <kosit:property name="geburt/geburtsort/staat"/>
@@ -784,10 +711,6 @@
       <kosit:property name="nameNatuerlichePerson/familienname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/familienname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/familienname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/familienname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/familienname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/familienname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/familienname/namensart/@listVersionID"/>
       <kosit:property name="nameNatuerlichePerson/geburtsname"/>
       <kosit:property name="nameNatuerlichePerson/geburtsname/name"/>
       <kosit:property name="nameNatuerlichePerson/geburtsname/nichtVorhanden"/>
@@ -796,10 +719,6 @@
       <kosit:property name="nameNatuerlichePerson/geburtsname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/geburtsname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/geburtsname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/geburtsname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/geburtsname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/geburtsname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/geburtsname/namensart/@listVersionID"/>
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname"/>
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/name"/>
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/nichtVorhanden"/>
@@ -808,10 +727,6 @@
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererFamilienname/namensart/@listVersionID"/>
       <kosit:property name="nameNatuerlichePerson/vorname"/>
       <kosit:property name="nameNatuerlichePerson/vorname/name"/>
       <kosit:property name="nameNatuerlichePerson/vorname/nichtVorhanden"/>
@@ -820,10 +735,6 @@
       <kosit:property name="nameNatuerlichePerson/vorname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/vorname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/vorname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/vorname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/vorname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/vorname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/vorname/namensart/@listVersionID"/>
       <kosit:property name="nameNatuerlichePerson/titel"/>
       <kosit:property name="nameNatuerlichePerson/anrede"/>
       <kosit:property name="nameNatuerlichePerson/namenssuffix"/>
@@ -839,10 +750,6 @@
       <kosit:property name="nameNatuerlichePerson/rufname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/rufname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/rufname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/rufname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/rufname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/rufname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/rufname/namensart/@listVersionID"/>
       <kosit:property name="nameNatuerlichePerson/fruehererVorname"/>
       <kosit:property name="nameNatuerlichePerson/fruehererVorname/name"/>
       <kosit:property name="nameNatuerlichePerson/fruehererVorname/nichtVorhanden"/>
@@ -851,59 +758,20 @@
       <kosit:property name="nameNatuerlichePerson/fruehererVorname/alternativeRepraesentation/algorithmus"/>
       <kosit:property name="nameNatuerlichePerson/fruehererVorname/alternativeRepraesentation/hinweis"/>
       <kosit:property name="nameNatuerlichePerson/fruehererVorname/namensart"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererVorname/namensart/code"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererVorname/namensart/name"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererVorname/namensart/@listURI"/>
-      <kosit:property name="nameNatuerlichePerson/fruehererVorname/namensart/@listVersionID"/>
       <kosit:property name="staatsangehoerigkeit"/>
-      <kosit:property name="staatsangehoerigkeit/staat"/>
-      <kosit:property name="staatsangehoerigkeit/staat/code"/>
-      <kosit:property name="staatsangehoerigkeit/staat/name"/>
-      <kosit:property name="staatsangehoerigkeit/staat/@listURI"/>
-      <kosit:property name="staatsangehoerigkeit/staat/@listVersionID"/>
    </kosit:type>
    <kosit:type name="Organisation"
                id="XBildung.Baukasten.Organisation"
                prefix="xbd">
       <kosit:property name="anschrift"/>
       <kosit:property name="anschrift/staat"/>
-      <kosit:property name="anschrift/staat/staat"/>
-      <kosit:property name="anschrift/staat/staat/code"/>
-      <kosit:property name="anschrift/staat/staat/name"/>
-      <kosit:property name="anschrift/staat/staat/@listURI"/>
-      <kosit:property name="anschrift/staat/staat/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/kreis/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bezirk/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/bundesland/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/gemeindeschluessel/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/regionalschluessel/@listVersionID"/>
       <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/code"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/name"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listURI"/>
-      <kosit:property name="anschrift/verwaltungspolitischeKodierung/nation/staat/@listVersionID"/>
       <kosit:property name="anschrift/id"/>
       <kosit:property name="anschrift/strasse"/>
       <kosit:property name="anschrift/hausnummer"/>
@@ -914,10 +782,6 @@
       <kosit:property name="anschrift/ortFruehererGemeindename"/>
       <kosit:property name="anschrift/zusatz"/>
       <kosit:property name="anschrift/typ"/>
-      <kosit:property name="anschrift/typ/code"/>
-      <kosit:property name="anschrift/typ/name"/>
-      <kosit:property name="anschrift/typ/@listURI"/>
-      <kosit:property name="anschrift/typ/@listVersionID"/>
       <kosit:property name="existenzzeitraum"/>
       <kosit:property name="existenzzeitraum/beginn"/>
       <kosit:property name="existenzzeitraum/ende"/>
@@ -943,22 +807,26 @@
       <kosit:property name="name/gueltigkeit/zusatz"/>
       <kosit:property name="unterorganisation"/>
    </kosit:type>
-   <kosit:type name="Sprache" id="XBildung.Baukasten.Sprache" prefix="xbd">
-      <kosit:property name="sprache"/>
-      <kosit:property name="zusatz"/>
-   </kosit:type>
-   <kosit:type name="Staat" id="XBildung.Baukasten.Staat" prefix="xbd">
-      <kosit:property name="staat"/>
-      <kosit:property name="staat/code"/>
-      <kosit:property name="staat/name"/>
-      <kosit:property name="staat/@listURI"/>
-      <kosit:property name="staat/@listVersionID"/>
+   <kosit:type name="Praktikum" id="XBildung.Baukasten.Praktikum" prefix="xbd">
+      <kosit:property name="namePraktikumsstelle"/>
+      <kosit:property name="ort"/>
+      <kosit:property name="zeitraum"/>
+      <kosit:property name="zeitraum/beginn"/>
+      <kosit:property name="zeitraum/ende"/>
+      <kosit:property name="zeitraum/zusatz"/>
    </kosit:type>
    <kosit:type name="String.Latin" prefix="xoev-lc"/>
    <kosit:type name="String.Localized"
                id="XBildung.Basisdatentypen.String.Localized"
                prefix="xbd">
       <kosit:property name="@lang"/>
+   </kosit:type>
+   <kosit:type name="TeilbekanntesDatum"
+               id="XBildung.Baukasten.TeilbekanntesDatum"
+               prefix="xbd">
+      <kosit:property name="jahr"/>
+      <kosit:property name="jahrMonat"/>
+      <kosit:property name="jahrMonatTag"/>
    </kosit:type>
    <kosit:type name="UUID" prefix="bn-g2g"/>
    <kosit:type name="UUID" prefix="bn-g2g"/>
@@ -968,36 +836,11 @@
                id="XBildung.Baukasten.VerwaltungspolitischeKodierung"
                prefix="xbd">
       <kosit:property name="bezirk"/>
-      <kosit:property name="bezirk/code"/>
-      <kosit:property name="bezirk/name"/>
-      <kosit:property name="bezirk/@listURI"/>
-      <kosit:property name="bezirk/@listVersionID"/>
       <kosit:property name="bundesland"/>
-      <kosit:property name="bundesland/code"/>
-      <kosit:property name="bundesland/name"/>
-      <kosit:property name="bundesland/@listURI"/>
-      <kosit:property name="bundesland/@listVersionID"/>
       <kosit:property name="gemeindeschluessel"/>
-      <kosit:property name="gemeindeschluessel/code"/>
-      <kosit:property name="gemeindeschluessel/name"/>
-      <kosit:property name="gemeindeschluessel/@listURI"/>
-      <kosit:property name="gemeindeschluessel/@listVersionID"/>
       <kosit:property name="kreis"/>
-      <kosit:property name="kreis/code"/>
-      <kosit:property name="kreis/name"/>
-      <kosit:property name="kreis/@listURI"/>
-      <kosit:property name="kreis/@listVersionID"/>
       <kosit:property name="nation"/>
-      <kosit:property name="nation/staat"/>
-      <kosit:property name="nation/staat/code"/>
-      <kosit:property name="nation/staat/name"/>
-      <kosit:property name="nation/staat/@listURI"/>
-      <kosit:property name="nation/staat/@listVersionID"/>
       <kosit:property name="regionalschluessel"/>
-      <kosit:property name="regionalschluessel/code"/>
-      <kosit:property name="regionalschluessel/name"/>
-      <kosit:property name="regionalschluessel/@listURI"/>
-      <kosit:property name="regionalschluessel/@listVersionID"/>
    </kosit:type>
    <kosit:type name="Zeitraum" id="XBildung.Baukasten.Zeitraum" prefix="xbd">
       <kosit:property name="beginn"/>

@@ -52,22 +52,20 @@
                   <emphasis role="bold">kreis</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.Kreis</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Kreis" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Kreis" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>In Deutschland bezeichnet der Kreis eine bestimmt Region, einen Stadt- oder Landkreis.</para>
-
-<para>Die Bezeichnung eines Kreises erfolgt durch die Angabe eines Schlüssels zur Identifikation des Kreises innerhalb des Landes.</para>
 
 </entry>
             </row>
@@ -76,23 +74,20 @@
                   <emphasis role="bold">bezirk</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.Bezirk</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Bezirk" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Bezirk" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>In Deutschland wird mit Bezirk eine bestimmte Region bezeichnet, die einem Regierungsbezirk, einem ehemaligen Regierungsbezirk oder einer anderen statistischen Einheit entspricht, die zwar mehrere Kreise umfasst, jedoch kleiner als ein Bundesland ist.</para>
-
-<para>Die Bezeichnung eines Bezirks erfolgt durch die Angabe eines Schlüssels zur Identifikation des Bezirks innerhalb des Landes.</para>
-
 </entry>
             </row>
             <row>
@@ -100,22 +95,21 @@
                   <emphasis role="bold">bundesland</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.Bundesland</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Bundesland"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Bundesland" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>In Deutschland bezeichnet ein Bundesland eine bestimmte Region und umfasst mehrere Kreise und Bezirke (Ausnahme bilden die sogenannten Stadtstaaten).</para>
-
-<para>Die Bezeichnung eines Bundeslandes erfolgt durch die Angabe eines Schlüssels zur Identifikation des Bundeslandes innerhalb des Landes.</para>
 
 </entry>
             </row>
@@ -124,66 +118,65 @@
                   <emphasis role="bold">gemeindeschluessel</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.AmtlicherGemeindeschluessel</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel"
+                        role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>Ein Gemeindeschlüssel ist ein Schlüssel zur Identifikation einer Gemeinde oder sonstiger Gebietskörperschaften (Kreis, Bezirk, Bundesland).</para>
 
-<para>Anmerkung: In Deutschland ist der Amtliche Gemeindeschlüssel (AGS) als Gemeindeschlüssel 8-stellig und bundesweit gültig. Der AGS wird vom Statistischen Bundesamt herausgegeben. Empfohlene Codeliste(n): AGS (Amtllicher Gemeindeschlüssel - 8-stellig)</para>
-
-<para>Beispiel: 15352002 (Stadt Aschersleben)</para></entry>
+<para>Anmerkung: In Deutschland ist der Amtliche Gemeindeschlüssel (AGS) als Gemeindeschlüssel 8-stellig und bundesweit gültig. Der AGS wird vom Statistischen Bundesamt herausgegeben.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
                   <emphasis role="bold">regionalschluessel</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code</emphasis>
+                  <emphasis role="codebf">Code.Regionalschluessel</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel"
+                        role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry namest="indent0" nameend="page"><para>Ein Regionalschlüssel ist ein Schlüssel zur Identifikation einer Gemeinde oder sonstiger Gebietskörperschaften (Kreis, Bezirks, Bundesland).</para>
 
 <para>Anmerkung: In Deutschland ist der Regionalschlüssel (RS) 12-stellig und bundesweit gültig.
-Der RS wird im Statistischen Bundesamt gesammelt (Rückläufe aus den Ländern) und veröffentlicht. Der AGS kann aus dem RS abgeleitet werden (Stellen 1-5 und 10-12).Empfohlene Codeliste(n): Regionalschlüssel (RS) 12-stellig</para>
-
-<para>Beispiel: 153525201002 
-(Stadt Aschersleben)</para></entry>
+Der RS wird im Statistischen Bundesamt gesammelt (Rückläufe aus den Ländern) und veröffentlicht. Der AGS kann aus dem RS abgeleitet werden (Stellen 1-5 und 10-12).</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
                   <emphasis role="bold">nation</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Staat</emphasis>
+                  <emphasis role="codebf">Code.Staat</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Staat" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="Seitenzahl"/>
                </entry>
             </row>
             <row>

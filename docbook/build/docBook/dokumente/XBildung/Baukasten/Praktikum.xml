@@ -5,21 +5,22 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          version="5"
          xml:lang="de"
-         xml:id="XBildung.Baukasten.Sprache">
-   <title>Sprache</title>
-   <subtitle>Typ: <emphasis role="codebf">Sprache</emphasis>
-   </subtitle><para>Unter "Sprache" werden Informationen über Sprachen zusammengefasst.</para><figure xml:id="figure.XBildung.Baukasten.Sprache">
-      <title>Sprache</title>
+         xml:id="XBildung.Baukasten.Praktikum">
+   <title>Praktikum</title>
+   <subtitle>Typ: <emphasis role="codebf">Praktikum</emphasis>
+   </subtitle><para>Diese Klasse dient zur Angabe von Daten zu einem absolvierten Praktikum.</para>
+<figure xml:id="figure.XBildung.Baukasten.Praktikum">
+      <title>Praktikum</title>
       <mediaobject>
          <imageobject>
             <imagedata format="svg"
                        align="center"
                        scale="110"
-                       fileref="../../../zeichnungen/XBildung/Baukasten/Sprache.svg"/>
+                       fileref="../../../zeichnungen/XBildung/Baukasten/Praktikum.svg"/>
          </imageobject>
       </mediaobject>
    </figure>
-   <informaltable xml:id="table.XBildung.Baukasten.Sprache">
+   <informaltable xml:id="table.XBildung.Baukasten.Praktikum">
       <tgroup cols="11">
          <colspec colname="indent0" colnum="1" colwidth="5mm"/>
          <colspec colname="indent1" colnum="2" colwidth="5mm"/>
@@ -34,7 +35,7 @@
          <colspec colname="page" colnum="11" colwidth="12mm"/>
          <thead>
             <row>
-               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">Sprache</emphasis>
+               <entry namest="indent0" nameend="page" align="center">Kindelemente von <emphasis role="codebf">Praktikum</emphasis>
                </entry>
             </row>
             <row>
@@ -48,30 +49,30 @@
          <tbody>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">sprache</emphasis>
+                  <emphasis role="bold">zeitraum</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Code.Language</emphasis>
+                  <emphasis role="codebf">Zeitraum</emphasis>
                </entry>
                <entry>
-                  <emphasis role="bold">1</emphasis>
+                  <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Language" role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Zeitraum" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Codes.Code.Language" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Zeitraum" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Sprache bezeichnet die aus Wörtern bestehende, verbale Kommunikation im Unterschied zur nonverbalen Kommunikation.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zum Zeitraum eines absolvierten Praktikums.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">zusatz</emphasis>
+                  <emphasis role="bold">namePraktikumsstelle</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">datatypeC</emphasis>
+                  <emphasis role="codebf">datatypeE</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
@@ -84,9 +85,27 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Im "zusatz" können weitere detaillierte Informationen zu einer Sprache hinterlegt werden.</para>
-
-<para>Beispiel: nur Grundkenntnisse vorhanden</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zum offiziellen Namen einer Organisation, in der das Praktikum absolviert wurde.</para></entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">ort</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">datatypeB</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+               </entry>
+               <entry>
+                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Ort (im Sinne der Anschrift), an dem das Praktikum absolviert wurde.</para></entry>
             </row>
          </tbody>
       </tgroup>

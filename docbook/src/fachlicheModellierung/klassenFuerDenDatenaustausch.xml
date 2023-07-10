@@ -41,9 +41,9 @@
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/Organisation.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Sprache.xml"
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Praktikum.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Staat.xml"
+    <include href="../../build/docBook/dokumente/xbildung/Baukasten/TeilbekanntesDatum.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include
         href="../../build/docBook/dokumente/xbildung/Baukasten/VerwaltungspolitischeKodierung.xml"

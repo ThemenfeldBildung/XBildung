@@ -13,6 +13,12 @@
                     <!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
                     <!ENTITY datentyp.ref.link.benotung '<link linkend="XBildung.Baukasten.Benotung">Benotung</link>'>
                     <!ENTITY datentyp.ref.xref.benotung '<xref linkend="XBildung.Baukasten.Benotung" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.amtlichergemeindeschluessel '<emphasis role="codebf">Code.AmtlicherGemeindeschluessel</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.amtlichergemeindeschluessel '<link linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link>'>
+                    <!ENTITY datentyp.ref.xref.code.amtlichergemeindeschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.anschriftstyp '<emphasis role="codebf">Code.Anschriftstyp</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.anschriftstyp '<link linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>'>
+                    <!ENTITY datentyp.ref.xref.code.anschriftstyp '<xref linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.artderpruefung '<emphasis role="codebf">Code.ArtDerPruefung</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.artderpruefung '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>'>
                     <!ENTITY datentyp.ref.xref.code.artderpruefung '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung" role="AS"/>'>
@@ -28,12 +34,18 @@
                     <!ENTITY datentyp.ref.code.bewertungsschema '<emphasis role="codebf">Code.Bewertungsschema</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.bewertungsschema '<link linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema">Code.Bewertungsschema</link>'>
                     <!ENTITY datentyp.ref.xref.code.bewertungsschema '<xref linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.bezirk '<emphasis role="codebf">Code.Bezirk</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.bezirk '<link linkend="XBildung.Baukasten.Codes.Code.Bezirk">Code.Bezirk</link>'>
+                    <!ENTITY datentyp.ref.xref.code.bezirk '<xref linkend="XBildung.Baukasten.Codes.Code.Bezirk" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.bundesland '<emphasis role="codebf">Code.Bundesland</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.bundesland '<link linkend="XBildung.Baukasten.Codes.Code.Bundesland">Code.Bundesland</link>'>
+                    <!ENTITY datentyp.ref.xref.code.bundesland '<xref linkend="XBildung.Baukasten.Codes.Code.Bundesland" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.cefr '<emphasis role="codebf">Code.CEFR</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.cefr '<link linkend="XBildung.Baukasten.Codes.Code.CEFR">Code.CEFR</link>'>
                     <!ENTITY datentyp.ref.xref.code.cefr '<xref linkend="XBildung.Baukasten.Codes.Code.CEFR" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.countrycodes '<emphasis role="codebf">Code.CountryCodes</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.countrycodes '<link linkend="XBildung.Baukasten.Codes.Code.CountryCodes">Code.CountryCodes</link>'>
-                    <!ENTITY datentyp.ref.xref.code.countrycodes '<xref linkend="XBildung.Baukasten.Codes.Code.CountryCodes" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.eqf '<emphasis role="codebf">Code.EQF</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.eqf '<link linkend="XBildung.Baukasten.Codes.Code.EQF">Code.EQF</link>'>
+                    <!ENTITY datentyp.ref.xref.code.eqf '<xref linkend="XBildung.Baukasten.Codes.Code.EQF" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.erreichbarkeit '<emphasis role="codebf">Code.Erreichbarkeit</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.erreichbarkeit '<link linkend="XBildung.Baukasten.Codes.Code.Erreichbarkeit">Code.Erreichbarkeit</link>'>
                     <!ENTITY datentyp.ref.xref.code.erreichbarkeit '<xref linkend="XBildung.Baukasten.Codes.Code.Erreichbarkeit" role="AS"/>'>
@@ -46,12 +58,27 @@
                     <!ENTITY datentyp.ref.code.iscedf2013 '<emphasis role="codebf">Code.ISCEDF2013</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.iscedf2013 '<link linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013">Code.ISCEDF2013</link>'>
                     <!ENTITY datentyp.ref.xref.code.iscedf2013 '<xref linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.kreis '<emphasis role="codebf">Code.Kreis</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.kreis '<link linkend="XBildung.Baukasten.Codes.Code.Kreis">Code.Kreis</link>'>
+                    <!ENTITY datentyp.ref.xref.code.kreis '<xref linkend="XBildung.Baukasten.Codes.Code.Kreis" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.kursstatus '<emphasis role="codebf">Code.Kursstatus</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.kursstatus '<link linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>'>
                     <!ENTITY datentyp.ref.xref.code.kursstatus '<xref linkend="XBildung.Baukasten.Codes.Code.Kursstatus" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.language '<emphasis role="codebf">Code.Language</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.language '<link linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>'>
                     <!ENTITY datentyp.ref.xref.code.language '<xref linkend="XBildung.Baukasten.Codes.Code.Language" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.namensart '<emphasis role="codebf">Code.Namensart</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.namensart '<link linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>'>
+                    <!ENTITY datentyp.ref.xref.code.namensart '<xref linkend="XBildung.Baukasten.Codes.Code.Namensart" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.regionalschluessel '<emphasis role="codebf">Code.Regionalschluessel</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.regionalschluessel '<link linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>'>
+                    <!ENTITY datentyp.ref.xref.code.regionalschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.staat '<emphasis role="codebf">Code.Staat</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.staat '<link linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link>'>
+                    <!ENTITY datentyp.ref.xref.code.staat '<xref linkend="XBildung.Baukasten.Codes.Code.Staat" role="AS"/>'>
+                    <!ENTITY datentyp.ref.code.staatsangehoerigkeit '<emphasis role="codebf">Code.Staatsangehoerigkeit</emphasis>'>
+                    <!ENTITY datentyp.ref.link.code.staatsangehoerigkeit '<link linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link>'>
+                    <!ENTITY datentyp.ref.xref.code.staatsangehoerigkeit '<xref linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit" role="AS"/>'>
                     <!ENTITY datentyp.ref.dokument '<emphasis role="codebf">Dokument</emphasis>'>
                     <!ENTITY datentyp.ref.link.dokument '<link linkend="XBildung.Baukasten.Dokument">Dokument</link>'>
                     <!ENTITY datentyp.ref.xref.dokument '<xref linkend="XBildung.Baukasten.Dokument" role="AS"/>'>
@@ -85,15 +112,15 @@
                     <!ENTITY datentyp.ref.organisation '<emphasis role="codebf">Organisation</emphasis>'>
                     <!ENTITY datentyp.ref.link.organisation '<link linkend="XBildung.Baukasten.Organisation">Organisation</link>'>
                     <!ENTITY datentyp.ref.xref.organisation '<xref linkend="XBildung.Baukasten.Organisation" role="AS"/>'>
-                    <!ENTITY datentyp.ref.sprache '<emphasis role="codebf">Sprache</emphasis>'>
-                    <!ENTITY datentyp.ref.link.sprache '<link linkend="XBildung.Baukasten.Sprache">Sprache</link>'>
-                    <!ENTITY datentyp.ref.xref.sprache '<xref linkend="XBildung.Baukasten.Sprache" role="AS"/>'>
-                    <!ENTITY datentyp.ref.staat '<emphasis role="codebf">Staat</emphasis>'>
-                    <!ENTITY datentyp.ref.link.staat '<link linkend="XBildung.Baukasten.Staat">Staat</link>'>
-                    <!ENTITY datentyp.ref.xref.staat '<xref linkend="XBildung.Baukasten.Staat" role="AS"/>'>
+                    <!ENTITY datentyp.ref.praktikum '<emphasis role="codebf">Praktikum</emphasis>'>
+                    <!ENTITY datentyp.ref.link.praktikum '<link linkend="XBildung.Baukasten.Praktikum">Praktikum</link>'>
+                    <!ENTITY datentyp.ref.xref.praktikum '<xref linkend="XBildung.Baukasten.Praktikum" role="AS"/>'>
                     <!ENTITY datentyp.ref.string.localized '<emphasis role="codebf">String.Localized</emphasis>'>
                     <!ENTITY datentyp.ref.link.string.localized '<link linkend="XBildung.Basisdatentypen.String.Localized">String.Localized</link>'>
                     <!ENTITY datentyp.ref.xref.string.localized '<xref linkend="XBildung.Basisdatentypen.String.Localized" role="AS"/>'>
+                    <!ENTITY datentyp.ref.teilbekanntesdatum '<emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
+                    <!ENTITY datentyp.ref.link.teilbekanntesdatum '<link linkend="XBildung.Baukasten.TeilbekanntesDatum">TeilbekanntesDatum</link>'>
+                    <!ENTITY datentyp.ref.xref.teilbekanntesdatum '<xref linkend="XBildung.Baukasten.TeilbekanntesDatum" role="AS"/>'>
                     <!ENTITY datentyp.ref.verwaltungspolitischekodierung '<emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
                     <!ENTITY datentyp.ref.link.verwaltungspolitischekodierung '<link linkend="XBildung.Baukasten.VerwaltungspolitischeKodierung">VerwaltungspolitischeKodierung</link>'>
                     <!ENTITY datentyp.ref.xref.verwaltungspolitischekodierung '<xref linkend="XBildung.Baukasten.VerwaltungspolitischeKodierung" role="AS"/>'>

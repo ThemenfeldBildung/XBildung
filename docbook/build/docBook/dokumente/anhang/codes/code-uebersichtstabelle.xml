@@ -52,13 +52,36 @@
          <tbody>
             <row>
                <entry align="left">
+                  <link role="schwarz"
+                        linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.ags.AGS-Codes">AGS</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">Anschriftstyp</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                </entry>
                <entry align="left">
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                </entry>
-               <entry align="left">0.94</entry>
+               <entry align="left">0.95</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -69,7 +92,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>
                </entry>
-               <entry align="left">4.0</entry>
+               <entry align="left">3.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -81,7 +104,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                </entry>
-               <entry align="left">0.94</entry>
+               <entry align="left">0.95</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -93,7 +116,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                </entry>
-               <entry align="left">0.94</entry>
+               <entry align="left">0.95</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -104,8 +127,30 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                </entry>
-               <entry align="left">0.94</entry>
+               <entry align="left">0.95</entry>
                <entry align="left">1</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bezirk">Code.Bezirk</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bezirk.Bezirk-Codes">Bezirk</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bundesland">Code.Bundesland</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.bundesland.Bundesland-Codes">Bundesland</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -115,19 +160,19 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.coe-int.codeliste.languagereference.LanguageLevel-Codes">CEFR / GER</link>
                </entry>
-               <entry align="left">20230118-0</entry>
+               <entry align="left">20230628-0</entry>
                <entry align="left">2</entry>
             </row>
             <row>
                <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.CountryCodes">Code.CountryCodes</link>
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.EQF">Code.EQF</link>
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.xoev-de.kosit.codeliste.country-codes.Country-Codes">Country Codes</link>
+                        linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">EQF</link>
                </entry>
-               <entry align="left">--</entry>
-               <entry align="left">3</entry>
+               <entry align="left">20230118-0</entry>
+               <entry align="left">2</entry>
             </row>
             <row>
                <entry align="left">
@@ -138,7 +183,7 @@
                         linkend="tabelle.urn.de.xoev.codeliste.erreichbarkeit.Erreichbarkeit-Codes">Erreichbarkeit</link>
                </entry>
                <entry align="left">3</entry>
-               <entry align="left">1</entry>
+               <entry align="left">2</entry>
             </row>
             <row>
                <entry align="left">
@@ -146,9 +191,9 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.de.dsmeld.schluesseltabelle.geschlecht.Geschlecht-Codes">Geschlecht</link>
+                        linkend="tabelle.urn.xoev-de.xinneres.codeliste.geschlecht.Geschlecht-Codes">XInneres Geschlecht</link>
                </entry>
-               <entry align="left">3</entry>
+               <entry align="left">1</entry>
                <entry align="left">2</entry>
             </row>
             <row>
@@ -175,13 +220,24 @@
             </row>
             <row>
                <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kreis">Code.Kreis</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.kreis.Kreis-Codes">Kreis</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>
                </entry>
                <entry align="left">
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
                </entry>
-               <entry align="left">0.94</entry>
+               <entry align="left">0.95</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -190,10 +246,56 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language Authority Table</link>
+                        linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                </entry>
-               <entry align="left">20220928-0</entry>
+               <entry align="left">20230614-0</entry>
                <entry align="left">2</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">Namensart</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschüssel</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
+            </row>
+            <row>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link>
+               </entry>
+               <entry align="left">
+                  <link role="schwarz"
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
+               </entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
          </tbody>
       </tgroup>

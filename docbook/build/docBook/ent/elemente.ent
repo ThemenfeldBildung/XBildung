@@ -56,8 +56,6 @@
                         <!ENTITY element.datentyp.ref.dokument.ausstellung 'Element <emphasis role="codebf">ausstellung</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.gueltigkeitszeitraum '<emphasis role="codebf">gueltigkeitszeitraum</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.gueltigkeitszeitraum 'Element <emphasis role="codebf">gueltigkeitszeitraum</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
-                        <!ENTITY element.ref.dokument.identifikation '<emphasis role="codebf">identifikation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.dokument.identifikation 'Element <emphasis role="codebf">identifikation</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.sprache '<emphasis role="codebf">sprache</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.titel '<emphasis role="codebf">titel</emphasis>'>
@@ -154,12 +152,18 @@
                         <!ENTITY element.datentyp.ref.organisation.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
                         <!ENTITY element.ref.organisation.unterorganisation '<emphasis role="codebf">unterorganisation</emphasis>'>
                         <!ENTITY element.datentyp.ref.organisation.unterorganisation 'Element <emphasis role="codebf">unterorganisation</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.sprache.sprache '<emphasis role="codebf">sprache</emphasis>'>
-                        <!ENTITY element.datentyp.ref.sprache.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">Sprache</emphasis>'>
-                        <!ENTITY element.ref.sprache.zusatz '<emphasis role="codebf">zusatz</emphasis>'>
-                        <!ENTITY element.datentyp.ref.sprache.zusatz 'Element <emphasis role="codebf">zusatz</emphasis> in Datentyp <emphasis role="codebf">Sprache</emphasis>'>
-                        <!ENTITY element.ref.staat.staat '<emphasis role="codebf">staat</emphasis>'>
-                        <!ENTITY element.datentyp.ref.staat.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">Staat</emphasis>'>
+                        <!ENTITY element.ref.praktikum.namepraktikumsstelle '<emphasis role="codebf">namePraktikumsstelle</emphasis>'>
+                        <!ENTITY element.datentyp.ref.praktikum.namepraktikumsstelle 'Element <emphasis role="codebf">namePraktikumsstelle</emphasis> in Datentyp <emphasis role="codebf">Praktikum</emphasis>'>
+                        <!ENTITY element.ref.praktikum.ort '<emphasis role="codebf">ort</emphasis>'>
+                        <!ENTITY element.datentyp.ref.praktikum.ort 'Element <emphasis role="codebf">ort</emphasis> in Datentyp <emphasis role="codebf">Praktikum</emphasis>'>
+                        <!ENTITY element.ref.praktikum.zeitraum '<emphasis role="codebf">zeitraum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.praktikum.zeitraum 'Element <emphasis role="codebf">zeitraum</emphasis> in Datentyp <emphasis role="codebf">Praktikum</emphasis>'>
+                        <!ENTITY element.ref.teilbekanntesdatum.jahr '<emphasis role="codebf">jahr</emphasis>'>
+                        <!ENTITY element.datentyp.ref.teilbekanntesdatum.jahr 'Element <emphasis role="codebf">jahr</emphasis> in Datentyp <emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
+                        <!ENTITY element.ref.teilbekanntesdatum.jahrmonat '<emphasis role="codebf">jahrMonat</emphasis>'>
+                        <!ENTITY element.datentyp.ref.teilbekanntesdatum.jahrmonat 'Element <emphasis role="codebf">jahrMonat</emphasis> in Datentyp <emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
+                        <!ENTITY element.ref.teilbekanntesdatum.jahrmonattag '<emphasis role="codebf">jahrMonatTag</emphasis>'>
+                        <!ENTITY element.datentyp.ref.teilbekanntesdatum.jahrmonattag 'Element <emphasis role="codebf">jahrMonatTag</emphasis> in Datentyp <emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
                         <!ENTITY element.ref.verwaltungspolitischekodierung.bezirk '<emphasis role="codebf">bezirk</emphasis>'>
                         <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.bezirk 'Element <emphasis role="codebf">bezirk</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
                         <!ENTITY element.ref.verwaltungspolitischekodierung.bundesland '<emphasis role="codebf">bundesland</emphasis>'>

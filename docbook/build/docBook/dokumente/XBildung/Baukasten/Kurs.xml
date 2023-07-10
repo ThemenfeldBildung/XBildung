@@ -75,7 +75,7 @@
                   <emphasis role="codebf">String.Localized</emphasis>
                </entry>
                <entry>
-                  <emphasis role="bold">0..n</emphasis>
+                  <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
                   <xref linkend="XBildung.Basisdatentypen.String.Localized"
@@ -97,7 +97,7 @@
                   <emphasis role="codebf">String.Localized</emphasis>
                </entry>
                <entry>
-                  <emphasis role="bold">0..n</emphasis>
+                  <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
                   <xref linkend="XBildung.Basisdatentypen.String.Localized"
@@ -119,7 +119,7 @@
                   <emphasis role="codebf">String.Localized</emphasis>
                </entry>
                <entry>
-                  <emphasis role="bold">0..n</emphasis>
+                  <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
                   <xref linkend="XBildung.Basisdatentypen.String.Localized"

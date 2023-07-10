@@ -5,10 +5,10 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          version="5"
          xml:lang="de"
-         xml:id="XBildung.Baukasten.Codes.Code.ArtDerPruefung"
+         xml:id="XBildung.Baukasten.Codes.Code.Anschriftstyp"
          status="&specstatus;"
          revision="&xrecent;">
-   <title>Code.ArtDerPruefung</title>
+   <title>Code.Anschriftstyp</title>
    <informaltable>
       <tgroup cols="2">
          <colspec colnum="1" colname="des" colwidth="22mm"/>
@@ -22,26 +22,28 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>
-Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM).
+               <entry><para>Die Werteliste der Anschriftentypen.</para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Aktuelle Anschrift</emphasis> : 001</para></listitem>
+</itemizedlist>
 </para>
-<para>
-ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment">https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</link>
-</para></entry>
+</entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
-               <entry>urn:xbildung-de:xbildung:codeliste:artderpruefung</entry>
+               <entry>urn:xoev-de:xdomea:codeliste:anschriftstyp</entry>
             </row>
             <row>
                <entry>-version</entry>
-               <entry>0.95</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

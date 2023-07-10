@@ -6,18 +6,29 @@
          status="&specstatus;"
          revision="&xrecent;">
    <title xmlns:xlink="http://www.w3.org/1999/xlink">Übersicht über die Code-Datentypen</title>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.amtlichergemeindeschluessel.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.anschriftstyp.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderpruefung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artderschule.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.artdertraegerschaft.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="code.artdesschulabschlusses.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.bewertungsschema.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.bezirk.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.bundesland.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.cefr.xml"/>
-   <include xmlns="http://www.w3.org/2001/XInclude" href="code.countrycodes.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.eqf.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.erreichbarkeit.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.geschlecht.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.isced2011.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.iscedf2013.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.kreis.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.kursstatus.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude" href="code.language.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.namensart.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.regionalschluessel.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude" href="code.staat.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="code.staatsangehoerigkeit.xml"/>
 </section>

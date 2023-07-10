@@ -22,16 +22,16 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Siehe Blatt 0701 des DSMeld.</para>
+               <entry><para>Mit dieser Schlüsseltabelle wird das Geschlecht einer Person abgebildet. Verwendet werden die Codes für Geschlechtsangaben gemäß §§ 22 und 45 b PStG.</para>
 
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/​urn:de:​dsmeld:​schluesseltabelle:​geschlecht</link></para>
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:xinneres:codeliste:geschlecht" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xoev-de:xinneres:codeliste:geschlecht</link></para>
 
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
 <para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
 <itemizedlist spacing="compact" mark="-">
 <listitem><para><emphasis role="bold">männlich</emphasis> : m</para></listitem>
 <listitem><para><emphasis role="bold">weiblich</emphasis> : w</para></listitem>
-<listitem><para><emphasis role="bold">ohne Angabe</emphasis> : x</para></listitem>
+<listitem><para><emphasis role="bold">keine Angabe</emphasis> : x</para></listitem>
 <listitem><para><emphasis role="bold">divers</emphasis> : d</para></listitem>
 </itemizedlist>
 </para></entry>
@@ -42,11 +42,11 @@
             </row>
             <row>
                <entry>-kennung</entry>
-               <entry>urn:de:dsmeld:schluesseltabelle:geschlecht</entry>
+               <entry>urn:xoev-de:xinneres:codeliste:geschlecht</entry>
             </row>
             <row>
                <entry>-version</entry>
-               <entry>3</entry>
+               <entry>1</entry>
             </row>
          </tbody>
       </tgroup>

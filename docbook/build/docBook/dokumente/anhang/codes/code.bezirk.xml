@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><!DOCTYPE section [
+<!ENTITY % complete SYSTEM "../../../../../ent/complete.ent">
+%complete;]><section xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5"
+         xml:lang="de"
+         xml:id="XBildung.Baukasten.Codes.Code.Bezirk"
+         status="&specstatus;"
+         revision="&xrecent;">
+   <title>Code.Bezirk</title>
+   <informaltable>
+      <tgroup cols="2">
+         <colspec colnum="1" colname="des" colwidth="22mm"/>
+         <colspec colnum="2" colname="val" colwidth="138mm"/>
+         <thead>
+            <row>
+               <entry>Codelisten</entry>
+               <entry/>
+            </row>
+         </thead>
+         <tbody>
+            <row>
+               <entry>-beschreibung</entry>
+               <entry><para>Die Bundesrepublik Deutschland ist ein Zusammenschluss von Bundesländern. Die meisten Bundesländer umfassen mehrere Kreise und Bezirke bzw. Regierungsbezirke. Diese Codeliste stellt alle Bezirke nach dem Gemeindeverzeichnis des Statistischen Bundesamtes dar. Dieser Code ist auch Bestandteil des Amtlichen Gemeindeschlüssels (AGS).</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "SCHLUESSEL".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Bezirk Hamburg-Mitte</emphasis> : 021</para></listitem>
+<listitem><para><emphasis role="bold">Statistische Region Hannover</emphasis> : 032</para></listitem>
+<listitem><para><emphasis role="bold">Mittelfranken</emphasis> : 095</para></listitem>
+</itemizedlist>
+</para></entry>
+            </row>
+            <row>
+               <entry>-nutzung</entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
+            </row>
+            <row>
+               <entry>-kennung</entry>
+               <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:bezirk</entry>
+            </row>
+            <row>
+               <entry>-version</entry>
+               <entry>unbestimmt</entry>
+            </row>
+         </tbody>
+      </tgroup>
+   </informaltable>
+</section>
