@@ -10,11 +10,14 @@
     </info>
     <section>
         <title>Aufbau</title>
-        <para>Das Dokument ist in drei Teile gegliedert, einer Einleitung mit dem <link linkend="spezifikation.hintergrundZuXBildung">Hintergrund zu XBildung</link>
-            und der <link linkend="spezifikation.dieBildungsjourney">Bildungsjourney</link>, einem inhaltlichem Kapitel zur <link linkend="spezifikation.fachlicheModellierung"
-                >fachlichen Modellierung</link> mit Metadaten-Strukturen für das Ausstellen von digitalen Nachweisen im Hochschulwesen, sowie einem <link
-                linkend="spezifikation.anhaenge"
-            >Anhang</link>, welcher unter anderem konkrete Werte von aus der Hochschulstatistik übernommenen oder eigens geschaffenen Wertelisten führt.</para>
+        <para>Das Dokument ist in drei Teile gegliedert, bestehend aus einer Einleitung mit dem
+                <link linkend="spezifikation.hintergrundZuXBildung">Hintergrund zu XBildung</link>
+            und der <link linkend="spezifikation.dieBildungsjourney">Bildungsjourney</link>, einem
+            inhaltlichen Kapitel zur <link linkend="spezifikation.fachlicheModellierung">fachlichen
+                Modellierung</link> mit Metadaten-Strukturen für das Ausstellen von digitalen
+            Nachweisen im Hochschulwesen, sowie einem <link linkend="spezifikation.anhaenge"
+                >Anhang</link>, welcher unter anderem konkrete Werte aus der Hochschulstatistik
+            übernimmt oder eigens geschaffene Wertelisten führt.</para>
     </section>
     <section>
         <title>Bestandteile</title>

@@ -105,16 +105,16 @@
                   <emphasis role="bold">ort</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">datatypeB</emphasis>
+                  <emphasis role="codebf">Ortsangabe</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
@@ -123,23 +123,19 @@
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">gueltigkeitszeitraum</emphasis>
+                  <emphasis role="bold">gueltigkeitsdatum</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Zeitraum</emphasis>
+                  <emphasis role="codebf">xs:date</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="AbschnittNummer"/>
-               </entry>
-               <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="Seitenzahl"/>
-               </entry>
+               <entry/>
+               <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Gibt an, in welchem Zeitraum das Dokument gültig ist.</para></entry>
+               <entry namest="indent0" nameend="page"><para> Datum, ab dem das Dokument gültig ist.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">

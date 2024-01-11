@@ -10,20 +10,18 @@
 		<title>Hintergrund zu XBildung</title>
 	</info>
 	<para>Als XBildung wird ein übergreifender Datenaustauschstandard bezeichnet, der das gesamte
-		Bildungswesen in den Blick nimmt. Das Ziel des Vorhabens ist es, dass Akteur:innen im
+		Bildungswesen in den Blick nimmt. Das Ziel des Vorhabens ist es, dass Akteure im
 		Bildungswesen (z.B. Hochschulen, Schulen, Bildungsträger) elektronische Daten standardisiert
-		untereinander austauschen, um sowohl Bildungsteilnehmer:innen als auch die genannten
-		Akteur:innen zu entlasten (weniger analoge Nachweise, Fehlerreduktion, schnellere
-		(Prüf-)Verfahren etc.). XBildung mit seinem Basismodul bildet eine inhaltliche Klammer um
-		verschiedene Fachmodule bzw. -standards, wie zum Beispiel <link
-			xlink:href="https://xhochschule.de/web/">XHochschule</link> oder <link
-			xlink:href="https://xschule.digital/web/">XSchule</link>, und regelt diejenigen Aspekte,
-		die für mindestens zwei Fachmodule und damit übergreifend relevant sind. Konkret definiert
-		der Datenaustauschstandard semantische, fachlich übergreifende Bausteine zur
-		Wiederverwendung wie etwa <link linkend="XBildung.Baukasten.Organisation"
-			>Organisation</link> oder <link linkend="XBildung.Baukasten.Dokument">Dokument</link>.
-		XBildung zielt dabei auf Interoperabilität mit dem europäischen Interoperabilitätsframework
-		von <link
+		untereinander austauschen, um sowohl lernende Personen als auch die genannten Akteure zu
+		entlasten (weniger analoge Nachweise, Fehlerreduktion, schnellere (Prüf-)Verfahren etc.).
+		XBildung mit seinem Basismodul bildet eine inhaltliche Klammer um verschiedene Fachmodule
+		bzw. -standards, wie zum Beispiel <link xlink:href="https://xhochschule.de/web/"
+			>XHochschule</link> oder <link xlink:href="https://xschule.digital/web/">XSchule</link>,
+		und regelt diejenigen Aspekte, die für mindestens zwei Fachmodule und damit übergreifend
+		relevant sind. Konkret definiert der Datenaustauschstandard semantische und fachlich
+		übergreifende Bausteine zur Wiederverwendung wie <link
+			linkend="XBildung.Baukasten.Dokument">Dokument</link>. XBildung zielt dabei auf
+		Interoperabilität mit dem europäischen Interoperabilitätsframework von <link
 			xlink:href="https://europa.eu/europass/en/interoperability-european-digital-credentials-learning"
 			>Europass</link> ab, welches auf digitale Nachweise und die Beschreibung von
 		Bildungsstationen eines Bildungslebenslaufes spezialisiert ist. </para>
@@ -34,8 +32,9 @@
 		Arbeitskreisen abgestimmt. Die Bedarfsbeschreibung wurde zur <link
 			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2021-41">36. Sitzung des
 			IT-Planungsrates</link> am 29. Oktober 2021 eingereicht und beschreibt den Bedarf eines
-		möglichst verlustfreien Datenaustauschs im deutschen Bildungswesen. XHochschule, als ein
-		konkretes Fachmodul von XBildung, wurde in der <link
+		möglichst verlustfreien Datenaustauschs im deutschen Bildungswesen. XBildung, ebenso wie das
+		Fachmodul XSchule, wurden in Folge der 36. Sitzung des IT-Planungsrates als
+		Standardisierungsbedarfe aufgenommen. Das Fachmodul XHochschule wurde bereits in der <link
 			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2020-52">33. Sitzung des
 			IT-Planungsrates</link> als Standardisierungsbedarf aufgenommen. <mediaobject>
 			<imageobject>

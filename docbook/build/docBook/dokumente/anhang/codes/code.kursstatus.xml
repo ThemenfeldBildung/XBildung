@@ -22,7 +22,7 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt.</entry>
+               <entry><para>Diese Codeliste enthält mögliche Ausprägungen für den Status eines Kurses. Die Liste wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen der jeweiligen Anwendungsfälle erstellt. Der angegebene Wert gibt den Kursstatus aus der Sicht der lernenden Person an.</para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
@@ -36,7 +36,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>0.95</entry>
+               <entry>1.0</entry>
             </row>
          </tbody>
       </tgroup>

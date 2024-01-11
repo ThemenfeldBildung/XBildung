@@ -81,7 +81,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                </entry>
-               <entry align="left">0.95</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -92,7 +92,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>
                </entry>
-               <entry align="left">3.0</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -104,7 +104,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                </entry>
-               <entry align="left">0.95</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -116,7 +116,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                </entry>
-               <entry align="left">0.95</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -127,7 +127,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                </entry>
-               <entry align="left">0.95</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -215,7 +215,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.taxonomie.isced-f-2013.2013F-Codes">ISCED-F 2013</link>
                </entry>
-               <entry align="left">ISCED-F 2013</entry>
+               <entry align="left">20230628-0</entry>
                <entry align="left">2</entry>
             </row>
             <row>
@@ -237,7 +237,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
                </entry>
-               <entry align="left">0.95</entry>
+               <entry align="left">1.0</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -248,7 +248,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                </entry>
-               <entry align="left">20230614-0</entry>
+               <entry align="left">20231213-0</entry>
                <entry align="left">2</entry>
             </row>
             <row>

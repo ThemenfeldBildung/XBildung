@@ -4,44 +4,6 @@
                         <!ENTITY element.datentyp.ref.abschlussarbeit.titelderarbeit 'Element <emphasis role="codebf">titelDerArbeit</emphasis> in Datentyp <emphasis role="codebf">Abschlussarbeit</emphasis>'>
                         <!ENTITY element.ref.abschlussarbeit.urlderarbeit '<emphasis role="codebf">urlDerArbeit</emphasis>'>
                         <!ENTITY element.datentyp.ref.abschlussarbeit.urlderarbeit 'Element <emphasis role="codebf">urlDerArbeit</emphasis> in Datentyp <emphasis role="codebf">Abschlussarbeit</emphasis>'>
-                        <!ENTITY element.ref.allgemeinername.alternativerepraesentation '<emphasis role="codebf">alternativeRepraesentation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.allgemeinername.alternativerepraesentation 'Element <emphasis role="codebf">alternativeRepraesentation</emphasis> in Datentyp <emphasis role="codebf">AllgemeinerName</emphasis>'>
-                        <!ENTITY element.ref.allgemeinername.name '<emphasis role="codebf">name</emphasis>'>
-                        <!ENTITY element.datentyp.ref.allgemeinername.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">AllgemeinerName</emphasis>'>
-                        <!ENTITY element.ref.allgemeinername.namensart '<emphasis role="codebf">namensart</emphasis>'>
-                        <!ENTITY element.datentyp.ref.allgemeinername.namensart 'Element <emphasis role="codebf">namensart</emphasis> in Datentyp <emphasis role="codebf">AllgemeinerName</emphasis>'>
-                        <!ENTITY element.ref.allgemeinername.nichtvorhanden '<emphasis role="codebf">nichtVorhanden</emphasis>'>
-                        <!ENTITY element.datentyp.ref.allgemeinername.nichtvorhanden 'Element <emphasis role="codebf">nichtVorhanden</emphasis> in Datentyp <emphasis role="codebf">AllgemeinerName</emphasis>'>
-                        <!ENTITY element.ref.alternativerepraesentation.algorithmus '<emphasis role="codebf">algorithmus</emphasis>'>
-                        <!ENTITY element.datentyp.ref.alternativerepraesentation.algorithmus 'Element <emphasis role="codebf">algorithmus</emphasis> in Datentyp <emphasis role="codebf">AlternativeRepraesentation</emphasis>'>
-                        <!ENTITY element.ref.alternativerepraesentation.hinweis '<emphasis role="codebf">hinweis</emphasis>'>
-                        <!ENTITY element.datentyp.ref.alternativerepraesentation.hinweis 'Element <emphasis role="codebf">hinweis</emphasis> in Datentyp <emphasis role="codebf">AlternativeRepraesentation</emphasis>'>
-                        <!ENTITY element.ref.alternativerepraesentation.repraesentation '<emphasis role="codebf">repraesentation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.alternativerepraesentation.repraesentation 'Element <emphasis role="codebf">repraesentation</emphasis> in Datentyp <emphasis role="codebf">AlternativeRepraesentation</emphasis>'>
-                        <!ENTITY element.ref.anschrift.hausnummer '<emphasis role="codebf">hausnummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.hausnummer 'Element <emphasis role="codebf">hausnummer</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.id '<emphasis role="codebf">id</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.ort '<emphasis role="codebf">ort</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.ort 'Element <emphasis role="codebf">ort</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.ortfrueherergemeindename '<emphasis role="codebf">ortFruehererGemeindename</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.ortfrueherergemeindename 'Element <emphasis role="codebf">ortFruehererGemeindename</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.ortsteil '<emphasis role="codebf">ortsteil</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.ortsteil 'Element <emphasis role="codebf">ortsteil</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.postfach '<emphasis role="codebf">postfach</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.postfach 'Element <emphasis role="codebf">postfach</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.postleitzahl '<emphasis role="codebf">postleitzahl</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.postleitzahl 'Element <emphasis role="codebf">postleitzahl</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.staat '<emphasis role="codebf">staat</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.strasse '<emphasis role="codebf">strasse</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.strasse 'Element <emphasis role="codebf">strasse</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.typ '<emphasis role="codebf">typ</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.typ 'Element <emphasis role="codebf">typ</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.verwaltungspolitischekodierung '<emphasis role="codebf">verwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.verwaltungspolitischekodierung 'Element <emphasis role="codebf">verwaltungspolitischeKodierung</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
-                        <!ENTITY element.ref.anschrift.zusatz '<emphasis role="codebf">zusatz</emphasis>'>
-                        <!ENTITY element.datentyp.ref.anschrift.zusatz 'Element <emphasis role="codebf">zusatz</emphasis> in Datentyp <emphasis role="codebf">Anschrift</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemanote 'Element <emphasis role="codebf">bewertungsschemaNote</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemapunkte '<emphasis role="codebf">bewertungsschemaPunkte</emphasis>'>
@@ -54,104 +16,16 @@
                         <!ENTITY element.datentyp.ref.benotung.wortbezeichnung 'Element <emphasis role="codebf">wortbezeichnung</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
                         <!ENTITY element.ref.dokument.ausstellung '<emphasis role="codebf">ausstellung</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.ausstellung 'Element <emphasis role="codebf">ausstellung</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
-                        <!ENTITY element.ref.dokument.gueltigkeitszeitraum '<emphasis role="codebf">gueltigkeitszeitraum</emphasis>'>
-                        <!ENTITY element.datentyp.ref.dokument.gueltigkeitszeitraum 'Element <emphasis role="codebf">gueltigkeitszeitraum</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
+                        <!ENTITY element.ref.dokument.gueltigkeitsdatum '<emphasis role="codebf">gueltigkeitsdatum</emphasis>'>
+                        <!ENTITY element.datentyp.ref.dokument.gueltigkeitsdatum 'Element <emphasis role="codebf">gueltigkeitsdatum</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.sprache '<emphasis role="codebf">sprache</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.titel '<emphasis role="codebf">titel</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.titel 'Element <emphasis role="codebf">titel</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
-                        <!ENTITY element.ref.geburt.datum '<emphasis role="codebf">datum</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geburt.datum 'Element <emphasis role="codebf">datum</emphasis> in Datentyp <emphasis role="codebf">Geburt</emphasis>'>
-                        <!ENTITY element.ref.geburt.geburtsort '<emphasis role="codebf">geburtsort</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geburt.geburtsort 'Element <emphasis role="codebf">geburtsort</emphasis> in Datentyp <emphasis role="codebf">Geburt</emphasis>'>
-                        <!ENTITY element.ref.geburtsort.ort '<emphasis role="codebf">ort</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geburtsort.ort 'Element <emphasis role="codebf">ort</emphasis> in Datentyp <emphasis role="codebf">Geburtsort</emphasis>'>
-                        <!ENTITY element.ref.geburtsort.staat '<emphasis role="codebf">staat</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geburtsort.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">Geburtsort</emphasis>'>
-                        <!ENTITY element.ref.geschlecht.geschlecht '<emphasis role="codebf">geschlecht</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geschlecht.geschlecht 'Element <emphasis role="codebf">geschlecht</emphasis> in Datentyp <emphasis role="codebf">Geschlecht</emphasis>'>
-                        <!ENTITY element.ref.geschlecht.gueltigkeit '<emphasis role="codebf">gueltigkeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.geschlecht.gueltigkeit 'Element <emphasis role="codebf">gueltigkeit</emphasis> in Datentyp <emphasis role="codebf">Geschlecht</emphasis>'>
-                        <!ENTITY element.ref.identifikation.beschreibung '<emphasis role="codebf">beschreibung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.identifikation.beschreibung 'Element <emphasis role="codebf">beschreibung</emphasis> in Datentyp <emphasis role="codebf">Identifikation</emphasis>'>
-                        <!ENTITY element.ref.identifikation.gueltigkeit '<emphasis role="codebf">gueltigkeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.identifikation.gueltigkeit 'Element <emphasis role="codebf">gueltigkeit</emphasis> in Datentyp <emphasis role="codebf">Identifikation</emphasis>'>
-                        <!ENTITY element.ref.identifikation.id '<emphasis role="codebf">id</emphasis>'>
-                        <!ENTITY element.datentyp.ref.identifikation.id 'Element <emphasis role="codebf">id</emphasis> in Datentyp <emphasis role="codebf">Identifikation</emphasis>'>
-                        <!ENTITY element.ref.kommunikation.istdienstlich '<emphasis role="codebf">istDienstlich</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kommunikation.istdienstlich 'Element <emphasis role="codebf">istDienstlich</emphasis> in Datentyp <emphasis role="codebf">Kommunikation</emphasis>'>
-                        <!ENTITY element.ref.kommunikation.kanal '<emphasis role="codebf">kanal</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kommunikation.kanal 'Element <emphasis role="codebf">kanal</emphasis> in Datentyp <emphasis role="codebf">Kommunikation</emphasis>'>
-                        <!ENTITY element.ref.kommunikation.kennung '<emphasis role="codebf">kennung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kommunikation.kennung 'Element <emphasis role="codebf">kennung</emphasis> in Datentyp <emphasis role="codebf">Kommunikation</emphasis>'>
-                        <!ENTITY element.ref.kommunikation.zusatz '<emphasis role="codebf">zusatz</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kommunikation.zusatz 'Element <emphasis role="codebf">zusatz</emphasis> in Datentyp <emphasis role="codebf">Kommunikation</emphasis>'>
-                        <!ENTITY element.ref.kurs.beschreibung '<emphasis role="codebf">beschreibung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.beschreibung 'Element <emphasis role="codebf">beschreibung</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.bezeichnung '<emphasis role="codebf">bezeichnung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.bezeichnung 'Element <emphasis role="codebf">bezeichnung</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.identifikation '<emphasis role="codebf">identifikation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.identifikation 'Element <emphasis role="codebf">identifikation</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.note '<emphasis role="codebf">note</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.note 'Element <emphasis role="codebf">note</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.schluesseliscedf2013 '<emphasis role="codebf">schluesselISCEDF2013</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.schluesseliscedf2013 'Element <emphasis role="codebf">schluesselISCEDF2013</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.schwerpunkt '<emphasis role="codebf">schwerpunkt</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.schwerpunkt 'Element <emphasis role="codebf">schwerpunkt</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.kurs.status '<emphasis role="codebf">status</emphasis>'>
-                        <!ENTITY element.datentyp.ref.kurs.status 'Element <emphasis role="codebf">status</emphasis> in Datentyp <emphasis role="codebf">Kurs</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.alternativerepraesentation '<emphasis role="codebf">alternativeRepraesentation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.alternativerepraesentation 'Element <emphasis role="codebf">alternativeRepraesentation</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.anrede '<emphasis role="codebf">anrede</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.anrede 'Element <emphasis role="codebf">anrede</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.familienname '<emphasis role="codebf">familienname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.familienname 'Element <emphasis role="codebf">familienname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.fruehererfamilienname '<emphasis role="codebf">fruehererFamilienname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.fruehererfamilienname 'Element <emphasis role="codebf">fruehererFamilienname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.frueherervorname '<emphasis role="codebf">fruehererVorname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.frueherervorname 'Element <emphasis role="codebf">fruehererVorname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.geburtsname '<emphasis role="codebf">geburtsname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.geburtsname 'Element <emphasis role="codebf">geburtsname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.namenssuffix '<emphasis role="codebf">namenssuffix</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.namenssuffix 'Element <emphasis role="codebf">namenssuffix</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.rufname '<emphasis role="codebf">rufname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.rufname 'Element <emphasis role="codebf">rufname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.titel '<emphasis role="codebf">titel</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.titel 'Element <emphasis role="codebf">titel</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.namenatuerlicheperson.vorname '<emphasis role="codebf">vorname</emphasis>'>
-                        <!ENTITY element.datentyp.ref.namenatuerlicheperson.vorname 'Element <emphasis role="codebf">vorname</emphasis> in Datentyp <emphasis role="codebf">NameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.nameorganisation.gueltigkeit '<emphasis role="codebf">gueltigkeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.nameorganisation.gueltigkeit 'Element <emphasis role="codebf">gueltigkeit</emphasis> in Datentyp <emphasis role="codebf">NameOrganisation</emphasis>'>
-                        <!ENTITY element.ref.nameorganisation.kurzbezeichnung '<emphasis role="codebf">kurzbezeichnung</emphasis>'>
-                        <!ENTITY element.datentyp.ref.nameorganisation.kurzbezeichnung 'Element <emphasis role="codebf">kurzbezeichnung</emphasis> in Datentyp <emphasis role="codebf">NameOrganisation</emphasis>'>
-                        <!ENTITY element.ref.nameorganisation.name '<emphasis role="codebf">name</emphasis>'>
-                        <!ENTITY element.datentyp.ref.nameorganisation.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">NameOrganisation</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.anschrift '<emphasis role="codebf">anschrift</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.anschrift 'Element <emphasis role="codebf">anschrift</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.geburt '<emphasis role="codebf">geburt</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.geburt 'Element <emphasis role="codebf">geburt</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.geschlecht '<emphasis role="codebf">geschlecht</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.geschlecht 'Element <emphasis role="codebf">geschlecht</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.identifikationsnummer '<emphasis role="codebf">identifikationsnummer</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.identifikationsnummer 'Element <emphasis role="codebf">identifikationsnummer</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.kommunikation '<emphasis role="codebf">kommunikation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.kommunikation 'Element <emphasis role="codebf">kommunikation</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.namenatuerlicheperson '<emphasis role="codebf">nameNatuerlichePerson</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.namenatuerlicheperson 'Element <emphasis role="codebf">nameNatuerlichePerson</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.natuerlicheperson.staatsangehoerigkeit '<emphasis role="codebf">staatsangehoerigkeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.natuerlicheperson.staatsangehoerigkeit 'Element <emphasis role="codebf">staatsangehoerigkeit</emphasis> in Datentyp <emphasis role="codebf">NatuerlichePerson</emphasis>'>
-                        <!ENTITY element.ref.organisation.anschrift '<emphasis role="codebf">anschrift</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.anschrift 'Element <emphasis role="codebf">anschrift</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.organisation.existenzzeitraum '<emphasis role="codebf">existenzzeitraum</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.existenzzeitraum 'Element <emphasis role="codebf">existenzzeitraum</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.organisation.identifikation '<emphasis role="codebf">identifikation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.identifikation 'Element <emphasis role="codebf">identifikation</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.organisation.kommunikation '<emphasis role="codebf">kommunikation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.kommunikation 'Element <emphasis role="codebf">kommunikation</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.organisation.name '<emphasis role="codebf">name</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.name 'Element <emphasis role="codebf">name</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
-                        <!ENTITY element.ref.organisation.unterorganisation '<emphasis role="codebf">unterorganisation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.organisation.unterorganisation 'Element <emphasis role="codebf">unterorganisation</emphasis> in Datentyp <emphasis role="codebf">Organisation</emphasis>'>
+                        <!ENTITY element.ref.ortsangabe.ort '<emphasis role="codebf">ort</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ortsangabe.ort 'Element <emphasis role="codebf">ort</emphasis> in Datentyp <emphasis role="codebf">Ortsangabe</emphasis>'>
+                        <!ENTITY element.ref.ortsangabe.staat '<emphasis role="codebf">staat</emphasis>'>
+                        <!ENTITY element.datentyp.ref.ortsangabe.staat 'Element <emphasis role="codebf">staat</emphasis> in Datentyp <emphasis role="codebf">Ortsangabe</emphasis>'>
                         <!ENTITY element.ref.praktikum.namepraktikumsstelle '<emphasis role="codebf">namePraktikumsstelle</emphasis>'>
                         <!ENTITY element.datentyp.ref.praktikum.namepraktikumsstelle 'Element <emphasis role="codebf">namePraktikumsstelle</emphasis> in Datentyp <emphasis role="codebf">Praktikum</emphasis>'>
                         <!ENTITY element.ref.praktikum.ort '<emphasis role="codebf">ort</emphasis>'>
@@ -164,18 +38,6 @@
                         <!ENTITY element.datentyp.ref.teilbekanntesdatum.jahrmonat 'Element <emphasis role="codebf">jahrMonat</emphasis> in Datentyp <emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
                         <!ENTITY element.ref.teilbekanntesdatum.jahrmonattag '<emphasis role="codebf">jahrMonatTag</emphasis>'>
                         <!ENTITY element.datentyp.ref.teilbekanntesdatum.jahrmonattag 'Element <emphasis role="codebf">jahrMonatTag</emphasis> in Datentyp <emphasis role="codebf">TeilbekanntesDatum</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.bezirk '<emphasis role="codebf">bezirk</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.bezirk 'Element <emphasis role="codebf">bezirk</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.bundesland '<emphasis role="codebf">bundesland</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.bundesland 'Element <emphasis role="codebf">bundesland</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.gemeindeschluessel '<emphasis role="codebf">gemeindeschluessel</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.gemeindeschluessel 'Element <emphasis role="codebf">gemeindeschluessel</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.kreis '<emphasis role="codebf">kreis</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.kreis 'Element <emphasis role="codebf">kreis</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.nation '<emphasis role="codebf">nation</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.nation 'Element <emphasis role="codebf">nation</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
-                        <!ENTITY element.ref.verwaltungspolitischekodierung.regionalschluessel '<emphasis role="codebf">regionalschluessel</emphasis>'>
-                        <!ENTITY element.datentyp.ref.verwaltungspolitischekodierung.regionalschluessel 'Element <emphasis role="codebf">regionalschluessel</emphasis> in Datentyp <emphasis role="codebf">VerwaltungspolitischeKodierung</emphasis>'>
                         <!ENTITY element.ref.zeitraum.beginn '<emphasis role="codebf">beginn</emphasis>'>
                         <!ENTITY element.datentyp.ref.zeitraum.beginn 'Element <emphasis role="codebf">beginn</emphasis> in Datentyp <emphasis role="codebf">Zeitraum</emphasis>'>
                         <!ENTITY element.ref.zeitraum.ende '<emphasis role="codebf">ende</emphasis>'>

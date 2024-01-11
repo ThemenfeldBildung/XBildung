@@ -23,15 +23,6 @@
             <para>Abschlussarbeit</para>
          </listitem>
          <listitem>
-            <para>AllgemeinerName</para>
-         </listitem>
-         <listitem>
-            <para>AlternativeRepraesentation</para>
-         </listitem>
-         <listitem>
-            <para>Anschrift</para>
-         </listitem>
-         <listitem>
             <para>Benotung</para>
          </listitem>
          <listitem>
@@ -104,34 +95,7 @@
             <para>Dokument</para>
          </listitem>
          <listitem>
-            <para>Geburt</para>
-         </listitem>
-         <listitem>
-            <para>Geburtsort</para>
-         </listitem>
-         <listitem>
-            <para>Geschlecht</para>
-         </listitem>
-         <listitem>
-            <para>Identifikation</para>
-         </listitem>
-         <listitem>
-            <para>Kommunikation</para>
-         </listitem>
-         <listitem>
-            <para>Kurs</para>
-         </listitem>
-         <listitem>
-            <para>NameNatuerlichePerson</para>
-         </listitem>
-         <listitem>
-            <para>NameOrganisation</para>
-         </listitem>
-         <listitem>
-            <para>NatuerlichePerson</para>
-         </listitem>
-         <listitem>
-            <para>Organisation</para>
+            <para>Ortsangabe</para>
          </listitem>
          <listitem>
             <para>Praktikum</para>
@@ -141,9 +105,6 @@
          </listitem>
          <listitem>
             <para>TeilbekanntesDatum</para>
-         </listitem>
-         <listitem>
-            <para>VerwaltungspolitischeKodierung</para>
          </listitem>
          <listitem>
             <para>Zeitraum</para>

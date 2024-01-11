@@ -24,11 +24,11 @@
          </row>
          <row>
             <entry>Version</entry>
-            <entry>0.95</entry>
+            <entry>1.0</entry>
          </row>
          <row>
             <entry>Namensraum</entry>
-            <entry>http://xbildung.de/def/xbildung/0.95/xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/1.0/xsd</entry>
          </row>
          <row>
             <entry>Präfix</entry>
@@ -36,7 +36,7 @@
          </row>
          <row>
             <entry>SchemaLocation</entry>
-            <entry>http://xbildung.de/def/xbildung/0.95/xsd/xbildung-baukasten.xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/1.0/xsd/xbildung-baukasten.xsd</entry>
          </row>
          <row>
             <entry>Inkludierte XSDs</entry>

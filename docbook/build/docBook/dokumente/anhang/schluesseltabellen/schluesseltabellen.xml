@@ -79,7 +79,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                   </entry>
-                  <entry align="left">0.95</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                   </entry>
@@ -89,7 +89,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>
                   </entry>
-                  <entry align="left">3.0</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerSchule">Code.ArtDerSchule</link>
                   </entry>
@@ -99,7 +99,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                   </entry>
-                  <entry align="left">0.95</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.ArtDerTraegerschaft">Code.ArtDerTraegerschaft</link>
@@ -110,7 +110,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                   </entry>
-                  <entry align="left">0.95</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses">Code.ArtDesSchulabschlusses</link>
@@ -121,7 +121,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                   </entry>
-                  <entry align="left">0.95</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema">Code.Bewertungsschema</link>
                   </entry>
@@ -191,7 +191,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.taxonomie.isced-f-2013.2013F-Codes">ISCED-F 2013</link>
                   </entry>
-                  <entry align="left">ISCED-F 2013</entry>
+                  <entry align="left">20230628-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013">Code.ISCEDF2013</link>
                   </entry>
@@ -211,7 +211,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
                   </entry>
-                  <entry align="left">0.95</entry>
+                  <entry align="left">1.0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>
                   </entry>
@@ -221,7 +221,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                   </entry>
-                  <entry align="left">20230614-0</entry>
+                  <entry align="left">20231213-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>
                   </entry>
@@ -413,7 +413,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.95</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -421,7 +421,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="4">
                   <colspec colnum="1" colname="col1"/>
                   <colspec colnum="2" colname="col2"/>
@@ -438,7 +438,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/besondere_lernleistung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​b​e​s​o​n​d​e​r​e​_​l​e​r​n​l​e​i​s​t​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/besondere_lernleistung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​b​e​s​o​n​d​e​r​e​_​l​e​r​n​l​e​i​s​t​u​n​g</link>
                         </entry>
                         <entry align="left">besondere Lernleistung</entry>
                         <entry align="left"/>
@@ -446,7 +446,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/fortlaufende_bewertung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​f​o​r​t​l​a​u​f​e​n​d​e​_​b​e​w​e​r​t​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/fortlaufende_bewertung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​f​o​r​t​l​a​u​f​e​n​d​e​_​b​e​w​e​r​t​u​n​g</link>
                         </entry>
                         <entry align="left">fortlaufende Bewertung</entry>
                         <entry align="left">continuous evaluation</entry>
@@ -456,7 +456,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/kuenstlerische_eignungspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​k​u​e​n​s​t​l​e​r​i​s​c​h​e​_​e​i​g​n​u​n​g​s​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/kuenstlerische_eignungspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​k​u​e​n​s​t​l​e​r​i​s​c​h​e​_​e​i​g​n​u​n​g​s​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">künstlerische Eignungsprüfung</entry>
                         <entry align="left"/>
@@ -464,7 +464,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/muendliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​m​u​e​n​d​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/muendliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​m​u​e​n​d​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">mündliche Prüfung</entry>
                         <entry align="left">oral examination</entry>
@@ -474,7 +474,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/praesentationspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​e​s​e​n​t​a​t​i​o​n​s​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/praesentationspruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​e​s​e​n​t​a​t​i​o​n​s​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">Präsentationsprüfung</entry>
                         <entry align="left"/>
@@ -482,7 +482,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/praktische_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​k​t​i​s​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/praktische_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​p​r​a​k​t​i​s​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">praktische Prüfung</entry>
                         <entry align="left">practical assessment</entry>
@@ -492,7 +492,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/schriftliche_hausarbeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​h​a​u​s​a​r​b​e​i​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/schriftliche_hausarbeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​h​a​u​s​a​r​b​e​i​t</link>
                         </entry>
                         <entry align="left">schriftliche Hausarbeit</entry>
                         <entry align="left"/>
@@ -500,7 +500,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/schriftliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/schriftliche_pruefung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​s​c​h​r​i​f​t​l​i​c​h​e​_​p​r​u​e​f​u​n​g</link>
                         </entry>
                         <entry align="left">schriftliche Prüfung</entry>
                         <entry align="left">written examination</entry>
@@ -510,7 +510,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                         <entry align="left">value not known</entry>
@@ -518,7 +518,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artderpruefung/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderpruefung/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​p​r​u​e​f​u​n​g​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
                         </entry>
                         <entry align="left">Wert nicht in Liste</entry>
                         <entry align="left">value not in list</entry>
@@ -532,9 +532,10 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
       </section>
       <section xml:id="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">
          <title>Art der Schule</title><para>
-Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung" nach dem Kerndatensatz (KDS) der Kultusministerkonferenz (KMK).
+Die Codeliste basiert auf dem Kerndatensatz (KDS) der Länder für schulstatistische Individualdaten in der Version 4.0.
 </para>
-<para><emphasis role="bold">Grundlage: </emphasis><link xlink:href="https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf">https://www.kmk.org/fileadmin/pdf/Statistik/FAQ_KDS.pdf</link>
+<para>
+Sie enthält die mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung", wie sie in der laufende Nummer 1.4 (Schulart) spezifiziert wurden, ergänzt um "Wert nicht bekannt" und "Wert nicht in Liste".
 </para><section>
             <title>Metadaten</title>
             <informaltable>
@@ -566,7 +567,7 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>3.0</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -574,7 +575,7 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="2">
                   <colspec colnum="1" colname="key"/>
                   <colspec colnum="2" colname="val"/>
@@ -587,181 +588,181 @@ Diese Codeliste enthält mögliche Ausprägungen des Merkmals "Schulart/-typ im 
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/010">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​1​0</link>
-                        </entry>
-                        <entry align="left">Vorklasse</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/020">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​2​0</link>
-                        </entry>
-                        <entry align="left">Vorklasse an Förderschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/030">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​3​0</link>
-                        </entry>
-                        <entry align="left">Schulkindergarten</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/040">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​4​0</link>
-                        </entry>
-                        <entry align="left">Schulkindergarten an Förderschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/050">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​5​0</link>
-                        </entry>
-                        <entry align="left">Grundschule (1 - 4)</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/060">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​6​0</link>
-                        </entry>
-                        <entry align="left">Schulartunabhängige Orientierungsstufe</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/070">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​7​0</link>
-                        </entry>
-                        <entry align="left">Hauptschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/080">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​8​0</link>
-                        </entry>
-                        <entry align="left">Schule mit mehreren Bildungsgängen</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/090">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​0​9​0</link>
-                        </entry>
-                        <entry align="left">Realschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/100">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​0​0</link>
-                        </entry>
-                        <entry align="left">Gymnasium</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/110">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​1​0</link>
-                        </entry>
-                        <entry align="left">Integrierte Gesamtschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/120">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​2​0</link>
-                        </entry>
-                        <entry align="left">Freie Waldorfschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/130">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​3​0</link>
-                        </entry>
-                        <entry align="left">Förderschule (Sonderschule)</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/140">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​4​0</link>
-                        </entry>
-                        <entry align="left">Abendhauptschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/150">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​5​0</link>
-                        </entry>
-                        <entry align="left">Abendrealschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/160">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​6​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/abendgymnasium">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​a​b​e​n​d​g​y​m​n​a​s​i​u​m</link>
                         </entry>
                         <entry align="left">Abendgymnasium</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/170">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​7​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/abendhauptschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​a​b​e​n​d​h​a​u​p​t​s​c​h​u​l​e</link>
                         </entry>
-                        <entry align="left">Kolleg</entry>
+                        <entry align="left">Abendhauptschule</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/180">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​8​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/abendrealschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​a​b​e​n​d​r​e​a​l​s​c​h​u​l​e</link>
                         </entry>
-                        <entry align="left">Teilzeit-Berufsschule</entry>
+                        <entry align="left">Abendrealschule</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/190">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​1​9​0</link>
-                        </entry>
-                        <entry align="left">Berufsvorbereitungsjahr</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/200">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​0​0</link>
-                        </entry>
-                        <entry align="left">Berufsgrundbildungsjahr in Vollzeitform</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/210">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​1​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/berufsaufbauschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​b​e​r​u​f​s​a​u​f​b​a​u​s​c​h​u​l​e</link>
                         </entry>
                         <entry align="left">Berufsaufbauschule</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/220">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​2​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/berufsfachschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​b​e​r​u​f​s​f​a​c​h​s​c​h​u​l​e</link>
                         </entry>
                         <entry align="left">Berufsfachschule</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/230">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​3​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/berufsgrundbildungsjahr_in_vollzeitform">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​b​e​r​u​f​s​g​r​u​n​d​b​i​l​d​u​n​g​s​j​a​h​r​_​i​n​_​v​o​l​l​z​e​i​t​f​o​r​m</link>
+                        </entry>
+                        <entry align="left">Berufsgrundbildungsjahr in Vollzeitform</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/berufsoberschule_technische_oberschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​b​e​r​u​f​s​o​b​e​r​s​c​h​u​l​e​_​t​e​c​h​n​i​s​c​h​e​_​o​b​e​r​s​c​h​u​l​e</link>
                         </entry>
                         <entry align="left">Berufsoberschule/Technische Oberschule</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/240">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​4​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/berufsvorbereitungsjahr">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​b​e​r​u​f​s​v​o​r​b​e​r​e​i​t​u​n​g​s​j​a​h​r</link>
                         </entry>
-                        <entry align="left">Fachgymnasium</entry>
+                        <entry align="left">Berufsvorbereitungsjahr</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/250">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​5​0</link>
-                        </entry>
-                        <entry align="left">Fachoberschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/260">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​6​0</link>
-                        </entry>
-                        <entry align="left">Fachschule</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/270">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​7​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/fachakademie_berufsakademie">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​a​c​h​a​k​a​d​e​m​i​e​_​b​e​r​u​f​s​a​k​a​d​e​m​i​e</link>
                         </entry>
                         <entry align="left">Fachakademie/Berufsakademie</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/280">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​2​8​0</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/fachgymnasium">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​a​c​h​g​y​m​n​a​s​i​u​m</link>
+                        </entry>
+                        <entry align="left">Fachgymnasium</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/fachoberschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​a​c​h​o​b​e​r​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Fachoberschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/fachschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​a​c​h​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Fachschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/foerderschule_sonderschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​o​e​r​d​e​r​s​c​h​u​l​e​_​s​o​n​d​e​r​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Förderschule (Sonderschule)</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/freie_waldorfschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​f​r​e​i​e​_​w​a​l​d​o​r​f​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Freie Waldorfschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/grundschule_1_4">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​g​r​u​n​d​s​c​h​u​l​e​_​1​_​4</link>
+                        </entry>
+                        <entry align="left">Grundschule (1 - 4)</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/gymnasium">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​g​y​m​n​a​s​i​u​m</link>
+                        </entry>
+                        <entry align="left">Gymnasium</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/hauptschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​h​a​u​p​t​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Hauptschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/integrierte_gesamtschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​i​n​t​e​g​r​i​e​r​t​e​_​g​e​s​a​m​t​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Integrierte Gesamtschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/kolleg">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​k​o​l​l​e​g</link>
+                        </entry>
+                        <entry align="left">Kolleg</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/realschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​r​e​a​l​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Realschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/schulartunabhaengige_orientierungsstufe">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​s​c​h​u​l​a​r​t​u​n​a​b​h​a​e​n​g​i​g​e​_​o​r​i​e​n​t​i​e​r​u​n​g​s​s​t​u​f​e</link>
+                        </entry>
+                        <entry align="left">Schulartunabhängige Orientierungsstufe</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/schule_des_gesundheitswesens">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​s​c​h​u​l​e​_​d​e​s​_​g​e​s​u​n​d​h​e​i​t​s​w​e​s​e​n​s</link>
                         </entry>
                         <entry align="left">Schule des Gesundheitswesens</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/schule_mit_mehreren_bildungsgaengen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​s​c​h​u​l​e​_​m​i​t​_​m​e​h​r​e​r​e​n​_​b​i​l​d​u​n​g​s​g​a​e​n​g​e​n</link>
+                        </entry>
+                        <entry align="left">Schule mit mehreren Bildungsgängen</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/schulkindergarten">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​s​c​h​u​l​k​i​n​d​e​r​g​a​r​t​e​n</link>
+                        </entry>
+                        <entry align="left">Schulkindergarten</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/schulkindergarten_an_der_foerderschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​s​c​h​u​l​k​i​n​d​e​r​g​a​r​t​e​n​_​a​n​_​d​e​r​_​f​o​e​r​d​e​r​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Schulkindergarten an Förderschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/teilzeit_berufsschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​t​e​i​l​z​e​i​t​_​b​e​r​u​f​s​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Teilzeit-Berufsschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/vorklasse">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​v​o​r​k​l​a​s​s​e</link>
+                        </entry>
+                        <entry align="left">Vorklasse</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/vorklasse_an_der_foerderschule">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​v​o​r​k​l​a​s​s​e​_​a​n​_​d​e​r​_​f​o​e​r​d​e​r​s​c​h​u​l​e</link>
+                        </entry>
+                        <entry align="left">Vorklasse an Förderschule</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/kmk/kds/4.0/code/artderschule/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​k​d​s​/​4​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                           <link xlink:href="http://xbildung.de/def/kmk/1.0/code/artderschule/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​k​m​k​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​s​c​h​u​l​e​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
                         </entry>
                         <entry align="left">Wert nicht in Liste</entry>
                      </row>
@@ -805,7 +806,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.95</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -813,7 +814,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="2">
                   <colspec colnum="1" colname="key"/>
                   <colspec colnum="2" colname="val"/>
@@ -826,49 +827,49 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/10">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​1​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/bund">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​b​u​n​d</link>
                         </entry>
                         <entry align="left">Bund</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/20">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​2​0</link>
-                        </entry>
-                        <entry align="left">Land</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/30">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​3​0</link>
-                        </entry>
-                        <entry align="left">Kreis</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/40">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​4​0</link>
-                        </entry>
-                        <entry align="left">Kommune</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/50">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​5​0</link>
-                        </entry>
-                        <entry align="left">Privat</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/60">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​6​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/kirchlich">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​k​i​r​c​h​l​i​c​h</link>
                         </entry>
                         <entry align="left">Kirchlich</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/70">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​7​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/kommune">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​k​o​m​m​u​n​e</link>
+                        </entry>
+                        <entry align="left">Kommune</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/kreis">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​k​r​e​i​s</link>
+                        </entry>
+                        <entry align="left">Kreis</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/land">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​l​a​n​d</link>
+                        </entry>
+                        <entry align="left">Land</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/privat">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​p​r​i​v​a​t</link>
+                        </entry>
+                        <entry align="left">Privat</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/sonstige">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​s​o​n​s​t​i​g​e</link>
                         </entry>
                         <entry align="left">Sonstige</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdertraegerschaft/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artdertraegerschaft/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​t​r​a​e​g​e​r​s​c​h​a​f​t​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                      </row>
@@ -911,7 +912,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.95</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -919,14 +920,14 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="3">
                   <colspec colnum="1" colname="key"/>
                   <colspec colnum="2" colname="val"/>
                   <colspec colnum="3" colname="desc"/>
                   <thead>
                      <row>
-                        <entry align="left">code (Code Name)</entry>
+                        <entry align="left">code</entry>
                         <entry align="left">description-de-DE (Abschluss)</entry>
                         <entry align="left">mapping-ISCED2011L (UNESCO ISCED 2011-L)</entry>
                      </row>
@@ -934,49 +935,49 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
                         <entry align="left">allgemeine Hochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
                         <entry align="left">Fachhochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">Hauptschulabschluss bzw. entsprechendem Abschluss</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/ohne_hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/ohne_hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">ohne Hauptschulabschluss; einschl. Abschluss der Förderschule mit Förderschwerpunkt Lernen und Abschluss der Förderschule mit Förderschwerpunkt geistige Entwicklunng</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/realschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​r​e​a​l​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/realschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​r​e​a​l​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
                         <entry align="left">Realschulabschluss (Mittlerer Abschluss)</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                         <entry align="left"/>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/artdesschulabschlusses/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
                         </entry>
                         <entry align="left">Wert nicht in Liste</entry>
                         <entry align="left"/>
@@ -1020,7 +1021,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.95</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1028,14 +1029,14 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="3">
                   <colspec colnum="1" colname="key"/>
                   <colspec colnum="2" colname="val"/>
                   <colspec colnum="3" colname="desc"/>
                   <thead>
                      <row>
-                        <entry align="left">code (URI des Bewertungsschemas)</entry>
+                        <entry align="left">code</entry>
                         <entry align="left">description-de-DE (Beschreibung)</entry>
                         <entry align="left">seeAlso (Weitere Informationen (Webseite))</entry>
                      </row>
@@ -1043,7 +1044,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​b​m​j​_​j​u​r​i​s​t​i​s​c​h​e​p​r​u​e​f​u​n​g​_​0​0​_​0​4​_​1​8</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​b​m​j​_​j​u​r​i​s​t​i​s​c​h​e​p​r​u​e​f​u​n​g​_​0​0​_​0​4​_​1​8</link>
                         </entry>
                         <entry align="left">Verordnung über eine Noten- und Punkteskala für die erste und zweite juristische Prüfung vom 3. Dezember 1981 (BGBl. I S. 1243), die durch Artikel 209 Absatz 4 des Gesetzes vom 19. April 2006 (BGBl. I S. 866) geändert worden ist. Es werden mindestens 4 Punkte zum Bestehen benötigt. Maximal möglich sind 18 Punkte.</entry>
                         <entry align="left">
@@ -1052,7 +1053,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_100_300">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​1​0​0​_​3​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_100_300">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​1​0​0​_​3​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet im Block II des Abiturzeugnisses. Es werden mindestens 100 Punkte zum Bestehen benötigt. Maximal möglich sind 300 Punkte.</entry>
                         <entry align="left">
@@ -1061,7 +1062,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_200_600">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​0​0​_​6​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_200_600">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​0​0​_​6​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet im Block I des Abiturzeugnisses. Es werden mindestens 200 Punkte zum Bestehen benötigt. Maximal möglich sind 600 Punkte.</entry>
                         <entry align="left">
@@ -1070,14 +1071,14 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_280_840">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​8​0​_​8​4​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_280_840">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​2​8​0​_​8​4​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 280 Punkte zum Bestehen benötigt. Maximal möglich sind 840 Punkte.</entry>
                         <entry align="left"/>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_000_300_900">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​3​0​0​_​9​0​0</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_300_900">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​0​_​3​0​0​_​9​0​0</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 300 Punkte zum Bestehen benötigt. Maximal möglich sind 900 Punkte.</entry>
                         <entry align="left">
@@ -1086,7 +1087,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_abitur_00_05_15">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​_​0​5​_​1​5</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_00_05_15">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​a​b​i​t​u​r​_​0​0​_​0​5​_​1​5</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 1972, verwendet für Leistungen aus der Qualifkationsphase. Es werden in einem Kurs mindestens 5 Punkte zum Bestehen benötigt. Maximal möglich sind 15 Punkte.</entry>
                         <entry align="left">
@@ -1095,7 +1096,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​h​o​c​h​s​c​h​u​l​n​o​t​e​_​5​_​4​_​1</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​h​o​c​h​s​c​h​u​l​n​o​t​e​_​5​_​4​_​1</link>
                         </entry>
                         <entry align="left">Notensystem der KMK aus dem Jahre 2003, verwendet für die Bewertung von Leistungen erbracht im Verlauf des Hochschulstudiums. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</entry>
                         <entry align="left">
@@ -1104,7 +1105,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/bewertungsschema/de_kmk_schulnote_6_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​s​c​h​u​l​n​o​t​e​_​6​_​4​_​1</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_schulnote_6_4_1">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​b​e​w​e​r​t​u​n​g​s​s​c​h​e​m​a​/​d​e​_​k​m​k​_​s​c​h​u​l​n​o​t​e​_​6​_​4​_​1</link>
                         </entry>
                         <entry align="left">Notensystem der KMK für die Bewertung von Leistungen erbracht im Verlauf der Primar- und Sekundarstufe. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</entry>
                         <entry align="left">
@@ -1492,7 +1493,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>ISCED-F 2013</entry>
+                        <entry>20230628-0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1553,9 +1554,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          <?KoSIT-FO hard-pagebreak?>
       </section>
       <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">
-         <title>Kursstatus</title>
-         <para>Diese Codeliste enthält mögliche Ausprägungen des Status eines Kurses. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt.</para>
-         <section>
+         <title>Kursstatus</title><para>Diese Codeliste enthält mögliche Ausprägungen für den Status eines Kurses. Die Liste wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen der jeweiligen Anwendungsfälle erstellt. Der angegebene Wert gibt den Kursstatus aus der Sicht der lernenden Person an.</para><section>
             <title>Metadaten</title>
             <informaltable>
                <tgroup cols="2">
@@ -1586,7 +1585,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>0.95</entry>
+                        <entry>1.0</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1594,7 +1593,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <section>
             <title>Daten</title>
-            <informaltable pgwide="1">
+            <informaltable>
                <tgroup cols="3">
                   <colspec colnum="1" colname="key"/>
                   <colspec colnum="2" colname="val"/>
@@ -1609,35 +1608,35 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/befreit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​f​r​e​i​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/befreit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​f​r​e​i​t</link>
                         </entry>
                         <entry align="left">befreit</entry>
                         <entry align="left">exempted</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​s​t​a​n​d​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​s​t​a​n​d​e​n</link>
                         </entry>
                         <entry align="left">bestanden</entry>
                         <entry align="left">passed</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/erfolgreich_teilgenommen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​e​r​f​o​l​g​r​e​i​c​h​_​t​e​i​l​g​e​n​o​m​m​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/erfolgreich_teilgenommen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​e​r​f​o​l​g​r​e​i​c​h​_​t​e​i​l​g​e​n​o​m​m​e​n</link>
                         </entry>
                         <entry align="left">erfolgreich teilgenommen</entry>
                         <entry align="left">participation successful</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/nicht_bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​n​i​c​h​t​_​b​e​s​t​a​n​d​e​n</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/nicht_bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​n​i​c​h​t​_​b​e​s​t​a​n​d​e​n</link>
                         </entry>
                         <entry align="left">nicht bestanden</entry>
                         <entry align="left">failed</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/0.95/code/kursstatus/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​0​.​9​5​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                         <entry align="left">value not known</entry>
@@ -1705,11 +1704,11 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>20230614-0</entry>
+                        <entry>20231213-0</entry>
                      </row>
                      <row>
                         <entry>Gültigkeit ab</entry>
-                        <entry>2023-06-14</entry>
+                        <entry>2023-12-13</entry>
                      </row>
                   </tbody>
                </tgroup>

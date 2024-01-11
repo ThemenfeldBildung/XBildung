@@ -32,6 +32,7 @@
             noch angepasst werden muss, um die Modelle richtig anzuzeigen:
             <include href="../build/docBook/dokumente/anhang/externeModelle/externeModelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
         -->                
+        <include href="fachlicheModellierung/wichtigeHinweiseZurImplementierung.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/externeModelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/code-Datentypen.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/basisdatentypen.xml" xmlns="http://www.w3.org/2001/XInclude" />
