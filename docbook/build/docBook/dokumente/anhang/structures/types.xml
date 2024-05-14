@@ -2,35 +2,6 @@
 <kosit:types xmlns:kosit="http://www.xoev.de/de/kosit-zubehoer/3_0_0"
              xmlns="http://docbook.org/ns/docbook"
              xmlns:xlink="http://www.w3.org/1999/xlink">
-   <kosit:type name="Abschlussarbeit"
-               id="XBildung.Baukasten.Abschlussarbeit"
-               prefix="xbd">
-      <kosit:property name="noteDerArbeit"/>
-      <kosit:property name="noteDerArbeit/note"/>
-      <kosit:property name="noteDerArbeit/wortbezeichnung"/>
-      <kosit:property name="noteDerArbeit/wortbezeichnung/@lang"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/schemaURI"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/beschreibung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/beschreibung/@lang"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/schlechtesteBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/bestandenAbBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/besteBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaNote/weitereInformationen"/>
-      <kosit:property name="noteDerArbeit/punkte"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/schemaURI"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/beschreibung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/beschreibung/@lang"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/schlechtesteBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/bestandenAbBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/besteBewertung"/>
-      <kosit:property name="noteDerArbeit/bewertungsschemaPunkte/weitereInformationen"/>
-      <kosit:property name="titelDerArbeit"/>
-      <kosit:property name="titelDerArbeit/@lang"/>
-      <kosit:property name="urlDerArbeit"/>
-   </kosit:type>
-   <kosit:type name="Anschriftstyp-Codes" prefix=""/>
    <kosit:type name="BehoerdeType" prefix="bn-beh">
       <kosit:property name="erreichbarkeit"/>
       <kosit:property name="erreichbarkeit/kanal"/>
@@ -98,9 +69,6 @@
    <kosit:type name="Code.AmtlicherGemeindeschluessel"
                id="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel"
                prefix="xbd"/>
-   <kosit:type name="Code.Anschriftstyp"
-               id="XBildung.Baukasten.Codes.Code.Anschriftstyp"
-               prefix="xbd"/>
    <kosit:type name="Code.ArtDerPruefung"
                id="XBildung.Baukasten.Codes.Code.ArtDerPruefung"
                prefix="xbd"/>
@@ -145,14 +113,8 @@
    <kosit:type name="Code.Kreis"
                id="XBildung.Baukasten.Codes.Code.Kreis"
                prefix="xbd"/>
-   <kosit:type name="Code.Kursstatus"
-               id="XBildung.Baukasten.Codes.Code.Kursstatus"
-               prefix="xbd"/>
    <kosit:type name="Code.Language"
                id="XBildung.Baukasten.Codes.Code.Language"
-               prefix="xbd"/>
-   <kosit:type name="Code.Namensart"
-               id="XBildung.Baukasten.Codes.Code.Namensart"
                prefix="xbd"/>
    <kosit:type name="Code.Regionalschluessel"
                id="XBildung.Baukasten.Codes.Code.Regionalschluessel"

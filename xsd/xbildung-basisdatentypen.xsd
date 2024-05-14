@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xbd="http://xbildung.de/def/xbildung/1.0/xsd"
-           xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
            targetNamespace="http://xbildung.de/def/xbildung/1.0/xsd"
            version="1.0"
            elementFormDefault="qualified"
@@ -25,8 +24,6 @@
          </versionStandard>
       </xs:appinfo>
    </xs:annotation>
-   <xs:import schemaLocation="http://xoev.de/DIN-SPEC-91379/2019-03/datatypes/din-91379-datatypes.xsd"
-              namespace="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"/>
    <xs:import schemaLocation="https://www.w3.org/2009/01/xml.xsd"
               namespace="http://www.w3.org/XML/1998/namespace"/>
    <xs:complexType name="String.Localized">

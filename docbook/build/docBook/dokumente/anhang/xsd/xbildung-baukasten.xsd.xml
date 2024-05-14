@@ -53,9 +53,6 @@
             <entry>
                <itemizedlist>
                   <listitem>
-                     <para>din-91379-datatypes.xsd (dinspec91379 : urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03)</para>
-                  </listitem>
-                  <listitem>
                      <para>din-norm-91379-datatypes.xsd (din91379 : urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08)</para>
                   </listitem>
                   <listitem>

@@ -47,9 +47,6 @@
             <entry>
                <itemizedlist>
                   <listitem>
-                     <para>din-91379-datatypes.xsd (dinspec91379 : urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03)</para>
-                  </listitem>
-                  <listitem>
                      <para>xml.xsd (xml : http://www.w3.org/XML/1998/namespace)</para>
                   </listitem>
                </itemizedlist>

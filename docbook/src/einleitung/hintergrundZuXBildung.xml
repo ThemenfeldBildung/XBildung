@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" standalone="yes" ?>
+<?xml version="1.0" standalone="yes" ?>
 <?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE preface [
     <!ENTITY % complete SYSTEM "../../ent/complete.ent">
@@ -14,10 +14,10 @@
 		Bildungswesen (z.B. Hochschulen, Schulen, Bildungsträger) elektronische Daten standardisiert
 		untereinander austauschen, um sowohl lernende Personen als auch die genannten Akteure zu
 		entlasten (weniger analoge Nachweise, Fehlerreduktion, schnellere (Prüf-)Verfahren etc.).
-		XBildung mit seinem Basismodul bildet eine inhaltliche Klammer um verschiedene Fachmodule
-		bzw. -standards, wie zum Beispiel <link xlink:href="https://xhochschule.de/web/"
-			>XHochschule</link> oder <link xlink:href="https://xschule.digital/web/">XSchule</link>,
-		und regelt diejenigen Aspekte, die für mindestens zwei Fachmodule und damit übergreifend
+		XBildung mit seinem Basismodul bildet eine inhaltliche Klammer um Fachmodule
+		bzw. -standards, wie <link xlink:href="https://xhochschule.de/web/"
+			>XHochschule</link>, <link xlink:href="https://xschule.digital/web/">XSchule</link> und <link xlink:href="https://www.xberufsbildung.de/web/">XBerufsbildung</link>
+		und regelt diejenigen Aspekte, die für die Fachmodule übergreifend
 		relevant sind. Konkret definiert der Datenaustauschstandard semantische und fachlich
 		übergreifende Bausteine zur Wiederverwendung wie <link
 			linkend="XBildung.Baukasten.Dokument">Dokument</link>. XBildung zielt dabei auf
@@ -36,7 +36,9 @@
 		Fachmodul XSchule, wurden in Folge der 36. Sitzung des IT-Planungsrates als
 		Standardisierungsbedarfe aufgenommen. Das Fachmodul XHochschule wurde bereits in der <link
 			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2020-52">33. Sitzung des
-			IT-Planungsrates</link> als Standardisierungsbedarf aufgenommen. <mediaobject>
+			IT-Planungsrates</link> als Standardisierungsbedarf aufgenommen. Das Fachmodul
+		XBerufsbildung wurde in der <link
+			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2024-12">43. Sitzung des IT-Planungsrates </link> als Standardisierungsbedarf aufgenommen<mediaobject>
 			<imageobject>
 				<imagedata align="center" fileref="../abbildungen/Logo_und_Federfuehrer.png"
 					format="PNG" scale="70"/>

@@ -9,10 +9,10 @@
   <title>Grundlegende Designentscheidungen</title>
   <para>OZG, SDG, DSGVO und eIDAS sind rechtliche Vorgaben im Bildungswesen, die es einzuhalten bzw.
     umzusetzen gilt. Im Jahr 2019 kam eine <link
-      xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2020-52">Studie</link> im
-    Kontext der OZG-Umsetzung zu dem Ergebnis, dass es neben fachlich konkreten Spezifikationen wie
-    XHochschule und weiteren auch eines organisatorischen, semantischen und technischen Rahmens
-    bedarf, der <link
+      xlink:href="https://www.it-planungsrat.de/fileadmin/beschluesse/2020/Beschluss2020-52_Datenaustausch_im_Hochschulwesen_Standardisierungsstrategie.pdf"
+      >Studie</link> im Kontext der OZG-Umsetzung zu dem Ergebnis, dass es neben fachlich konkreten
+    Spezifikationen wie XHochschule und weiteren auch eines organisatorischen, semantischen und
+    technischen Rahmens bedarf, der <link
       xlink:href="https://verwaltung.bund.de/portal/DE/Lebenslagen/Schule_Ausbildung_Studium"
       >Lebenslagen-übergreifend</link> für Interoperabilität im Bildungswesen sorgt. Dieser Rahmen
     soll Themen abbilden, die nicht direkt schul- oder hochschulspezifisch sind. Genau das ist die

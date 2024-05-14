@@ -80,12 +80,4 @@
       <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">Notensystem der KMK aus dem Jahre 2003, verwendet für die Bewertung von Leistungen erbracht im Verlauf des Hochschulstudiums. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</kosit:entry>
       <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_schulnote_6_4_1">Notensystem der KMK für die Bewertung von Leistungen erbracht im Verlauf der Primar- und Sekundarstufe. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</kosit:entry>
    </kosit:codelist>
-   <kosit:codelist urn="urn:xbildung-de:xbildung:codeliste:kursstatus"
-                   id="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">
-      <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/kursstatus/befreit">befreit</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/kursstatus/bestanden">bestanden</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/kursstatus/erfolgreich_teilgenommen">erfolgreich teilgenommen</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/kursstatus/nicht_bestanden">nicht bestanden</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/xbildung/1.0/code/kursstatus/~wert_nicht_bekannt">Wert nicht bekannt</kosit:entry>
-   </kosit:codelist>
 </kosit:codelists>

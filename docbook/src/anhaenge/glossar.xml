@@ -19,26 +19,24 @@
             </thead>
             <tbody>
                 <row>
-                    <entry>Anerkennung</entry>
-                    <entry>In Anerkennungsverfahren werden erbrachte Leistungen (etwa aus dem
-                        Auslandsstudium) oder Vorleistungen (etwa bei einem Studienplatzwechsel)
-                        bewertet. Oftmals schließen Einstufungsverfahren an Anerkennungsverfahren
-                        an. </entry>
-                </row>
-                <row>
-                    <entry>Bewerbung</entry>
-                    <entry>Studierende müssen sich für einen Studienplatz bei der Hochschule oder
-                        der SfH bei zulassungsbeschränkten Studiengängen bewerben. Erfolgreiche
-                        Bewerbungen haben Zulassungsverfahren zur Folge.</entry>
-                </row>
-                <row>
-                    <entry>CEFR</entry>
+                    <entry>Common European Framework of Reference for Languages (CEFR)</entry>
                     <entry>Das Common European Framework of Reference for Languages verfolgt das
                         Ziel die verschiedenen europäischen Sprachzertifikate untereinander
                         vergleichbar zu machen. Das CEFR befasst sich somit mit der Beurteilung von
                         Lernfortschritten in Bezug auf eine Fremdsprache (bzw. der Sprachkompetenz)
                         nach festgelegten Kriterien. Die deutsche Bezeichnung für den CEFR lautet
                         Gemeinsamer Europäischer Referenzrahmen für Sprachen (GER). </entry>
+                </row>
+                <row>
+                    <entry>Controlled Vocabularies</entry>
+                    <entry>Ein kontrolliertes Vokabular ist eine Sammlung von Bezeichnungen, die
+                        eindeutig Begriffen zugeordnet sind, so dass keine Homonyme auftreten. Diese
+                        sind in  der Praxis üblicherweise mit Auswahllisten (statt Freitext)
+                        verbunden.</entry>
+                </row>
+                <row>
+                    <entry>Deutscher Qualifikationsrahmen (DQR)</entry>
+                    <entry>Siehe Europäischer Qualifikationsrahmen (EQF/EQR). </entry>
                 </row>
                 <!--  
                 <row><entry>Bildungsausländer</entry><entry>Der Begriff bezeichnet ausländische Studierende an deutschen Hochschulen, die ihre HZB nicht an einer Schule in Deutschland oder einer deutschen Schule im Ausland erworben haben. In der Regel kommt es bei Bewerbungen von Bildungsausländern somit zu einem Anerkennungsverfahren (der HZB).</entry></row>
@@ -47,9 +45,19 @@
                 <row><entry>ECTS</entry><entry>Das European Credit Transfer and Accumulation System stellt einen einheitlichen Rahmen dar, um Schwerpunkte eines Studiengangs transparent zu machen. In der Regel bildet ein Leistungspunkt nach ECTS einen gewissen zeitlichen Aufwand ab, den Studierende erbracht haben. Festlegungen hierzu werden zumeist in Modulhandbüchern getroffen.</entry></row>
                 -->
                 <row>
-                    <entry>DoSV</entry>
-                    <entry>Dialogorientiertes Serviceverfahrens (DoSV) für die Bewerbungen für
-                        Studiengänge</entry>
+                    <entry>Dialogorientiertes Serviceverfahren (DoSV)</entry>
+                    <entry>Dialogorientiertes Serviceverfahren (DoSV) für die Bewerbungen für
+                        Studiengänge.</entry>
+                </row>
+                <row>
+                    <entry>DIN 91379</entry>
+                    <entry>Im März 2019 wurde von IT-Planungsrat die DIN SPEC 91379:2019-03
+                        verabschiedet zur Definition von "Unicode für die elektronische Verarbeitung
+                        von Namen und den Datenaustausch in Europa", womit der zu verwendende
+                        Zeichensatz definiert wurde. Diese Spezifikation ist ab November 2024
+                        verbindlich für alle IT-Verfahren, die dem Bund-Länder-übergreifenden
+                        Datenaustausch oder dem Datenaustausch mit Bürgern und Wirtschaft
+                        dienen.</entry>
                 </row>
                 <row>
                     <entry>EDCI</entry>
@@ -68,13 +76,6 @@
                         elektronische Identifizierung geregelt.</entry>
                 </row>
                 <row>
-                    <entry>Einstufung</entry>
-                    <entry>In Anerkennungsverfahren, z.B. im Kontext eines Studienplatzwechsels,
-                        werden nachgewiesene Vorkenntnisse anhand eines festen Bewertungsrasters
-                        dazu genutzt, um Bewerber in ein bestimmtes Fachsemester
-                        einzustufen.</entry>
-                </row>
-                <row>
                     <entry>ELMO</entry>
                     <entry>ELMO ist ein XML-Format mit maschinenlesbaren Daten, das zusätzlich
                         PDF-Anhänge erlaubt und welches im Rahmen der von der EU kofinanzierten und
@@ -88,7 +89,13 @@
                         das ELMO-Format für den Austausch der Ergebnisse.</entry>
                 </row>
                 <row>
-                    <entry>EQR, EQF / DQR</entry>
+                    <entry>Erasmus+</entry>
+                    <entry>Das Erasmus-Programm bzw. Erasmus-Stipendium der Europäischen Kommission
+                        ist eine bekannte und bedeutende Initiative zur Förderung internationaler
+                        Studierendenmobilität.</entry>
+                </row>
+                <row>
+                    <entry>Europäischer Qualifikationsrahmen (EQF/EQR)</entry>
                     <entry>Der Europäische Qualifikationsrahmen (EQR, European Qualifications
                         Framework/EQF) ist das Übersetzungsinstrument, das nationale Qualifikationen
                         europaweit verständlich macht und so die Mobilität von Beschäftigten und
@@ -98,41 +105,47 @@
                         des Europäischen Qualifikationsrahmens.</entry>
                 </row>
                 <row>
-                    <entry>Erasmus</entry>
-                    <entry>Das Erasmus-Programm bzw. Erasmus-Stipendium der Europäischen Kommission
-                        ist eine bekannte und bedeutende Initiative zur Förderung internationaler
-                        Studierendenmobilität.</entry>
-                </row>
-                <row>
                     <entry>Hochschulzugangsberechtigung</entry>
                     <entry>Die Hochschulzugangsberechtigung kann auf verschiedene Arten erworben
                         werden. Zu einer Hochschulzugangsberechtigung zählen die Allgemeine
                         Hochschulreife, die fachgebundene Hochschulreife, die Fachhochschulreife
                         oder eine gleichwertige, anerkannte Zugangsberechtigung.</entry>
                 </row>
-                <row>
-                    <entry>Immatrikulation</entry>
-                    <entry>Mit der Immatrikulation erfolgt die Einschreibung in einen Studiengang an
-                        einer Hochschule während der dafür vorgesehen Immatrikulationsfrist. Die
-                        Immatrikulation unterscheidet sich zwischen zulassungsbeschränkten,
-                        zulassungsfreien oder weiterbildenden Studiengängen. Für
-                        zulassungsbeschränkte Studiengänge/Fachsemester erhalten erfolgreiche
-                        Bewerber einen Zulassungsbescheid, in dem dazu aufgefordert wird, die
-                        Immatrikulation innerhalb der angegebenen Frist vorzunehmen. Dies erfolgt in
-                        der Regel durch Zahlung des Semesterbeitrags.</entry>
-                </row>
                 <!--
                 <row><entry>Modul</entry><entry>Der Begriff bezeichnet eine abgeschlossene Lehr- und Lerneinheit, die verschiedene Lehrveranstaltungen zu einem eigenen Teilgebiet im Studium verbindet. Ein Modul umfasst auch die zu erbringenden Prüfungs- und ggf. Studienleistungen, die für eine erfolgreiche Absolvierung erforderlich sind. In Regel erstellen die Hochschulen für jedes Modul ein eigenes Handbuch und legen hierin auch fest, welche persönliche (quantitative) Leistung für einen ECTS-Leistungspunkt im Modul zu erbringen ist.</entry></row>
                 <row><entry>Nutzerkonto</entry><entry>Bürger/innen und Unternehmen / Organisationen können eine Identität im Nutzerkonto erstellen und diese bei der Beantragung von Verwaltungsleistungen zur Authentisierung nutzen. Die Schnittstelle für den Nachrichtenversand an das Postfach im Nutzerkonto bietet externen Online Leistungen und Fachverfahren die Möglichkeit, Nachrichten in das Postfach einer bestimmten Identität abzulegen. Im Nutzerkonto werden folgende personenbezogene Stammdaten geführt: Vorname(n), Nachname, E-Mail-Adresse, Straße, PLZ, Wohnort, Akad. Titel, Anrede, Geburtsdatum, Geburtsort. Diese personenbezogenen Daten sollen in Antragsverfahren, die im Rahmen der OZG-Umsetzung digitalisiert werden, genutzt werden können.</entry></row>
                 -->
                 <row>
-                    <entry>ISCED</entry>
+                    <entry>International Standard Classification of Education (ISCED)</entry>
                     <entry>Die International Standard Classification of Education (ISCED) der UNESCO
-                        klassifiziert Elemente des Bildungswesens, wodurch internationalie
-                        Vergleiche möglich werden.</entry>
+                        klassifiziert Elemente des Bildungswesens, wodurch internationale Vergleiche
+                        möglich werden.</entry>
                 </row>
                 <row>
-                    <entry>SDG-VO</entry>
+                    <entry>Mapping</entry>
+                    <entry>Unter (Daten-)Mapping wird das Verknüpfen oder die Zuordnung von Feldern
+                        verschiedener Datenbanken verstanden.</entry>
+                </row>
+                <row>
+                    <entry>Payload</entry>
+                    <entry>Die tatsächlichen Nutzdaten eines Datenpakets neben den Steuer- und
+                        Kontrollinformationen.</entry>
+                </row>
+                <row>
+                    <entry>Persistente Identifier</entry>
+                    <entry>Ein Persistent Identifier ist ein Code, der die eindeutige Benennung
+                        einer digitalen Ressource ermöglicht. Der zugehörige Code ist – insbesondere
+                        im Internet – dauerhaft wiedererkennbar und macht dadurch ein Objekt
+                        permanent identifizier- und auffindbar.</entry>
+                </row>
+                <row>
+                    <entry>Semantic Web</entry>
+                    <entry>Weiterentwicklung des World Wide Web, bei dem nicht nur Informationen
+                        verknüpft werden, sondern diese semantisch miteinander verbunden sind.
+                    </entry>
+                </row>
+                <row>
+                    <entry>Single-Digital-Gateway-Verordnung (SDG)</entry>
                     <entry>Die Single Digital Gateway-Verordnung der EU legt Verwaltungsverfahren
                         fest, die bis 12.12.2023 für alle Bürger der EU digital umzusetzen sind.
                         Dabei soll ein einheitlicher Zugang zu diesen Verfahren geboten werden.
@@ -145,41 +158,32 @@
                 <row><entry>Semesterbeiträge</entry><entry>Semesterbeiträge werden von Hochschulen erhoben und müssen durch Studierende im Rahmen der Immatrikulation oder Rückmeldung beglichen werden, um sich ordentlich einschreiben zu können.</entry></row>
                 -->
                 <row>
-                    <entry>Studienplatzwechsel</entry>
-                    <entry>Ein Studienplatzwechsel kann viele Ausformungen haben, von denen die
-                        geläufigsten der Studienortwechsel und / oder der Studienfachwechsel sind.
-                        Der Begriff Studienplatzwechsel wird im Rahmen der Bedarfsbeschreibung daher
-                        als Überbegriff für diverse (potentielle) Anwendungsszenarien der
-                        Spezifikation genutzt.</entry>
+                    <entry>Thesaurus</entry>
+                    <entry>Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen und ihren
+                        Beziehungen, um die grundlegende semantische Struktur eines bestimmten
+                        Wissensgebietes oder einer Fachdomäne darzustellen.</entry>
                 </row>
                 <row>
-                    <entry>Zulassung</entry>
-                    <entry>Eine Zulassung zu einem Studium folgt auf Bewerbungs- und ggf.
-                        Anerkennungs- und Einstufungsverfahren durch die jeweilige Hochschule oder
-                        die SfH. Zur Zulassung zum Studium sind Voraussetzungen zu erfüllen.
-                        Grundlegende Zulassungsvoraussetzung für das Studium ist der Besitz der HZB.
-                        Grundsätzlich ist auch ein Studium ohne Hochschulreife unter bestimmten
-                        Voraussetzungen möglich. Zum Teil genügen eine Ausbildung sowie mehrjährige
-                        Berufserfahrung oder eine anderweitige Prüfung für die Zulassung zu einem
-                        fachspezifischen Studiengang. Für zulassungsbeschränkte Studiengänge sind
-                        ggf. weitere Auswahlverfahren (Vorabverfahren, Nachrückverfahren) relevant,
-                        in denen Studienplätze in Studiengängen mit Numerus Clausus vergeben
-                        werden.</entry>
+                    <entry>UNICODE</entry>
+                    <entry>Unicode ist ein internationaler Standard zur Darstellung und Kodierung
+                        von Textzeichen aus den verschiedenen Schriftsystemen der Welt. Es ist ein
+                        gemeinsamer Kodierungsstandard, der es ermöglicht, Zeichen aus verschiedenen
+                        Schriften, einschließlich lateinischer, kyrillischer, arabischer,
+                        chinesischer, japanischer und vieler anderer, in einem einzigen universellen
+                        Zeichensatz zu repräsentieren.</entry>
                 </row>
                 <row>
-                    <entry>zulassungs-beschränkter Studiengang</entry>
-                    <entry>Für einen zulassungsbeschränkten Studiengang steht nur eine begrenzte
-                        Anzahl von Studienplätzen zur Verfügung. Die Studienfächer Medizin,
-                        Zahnmedizin und Tiermedizin sind in der Regel zulassungsbeschränkt und
-                        Studienplätze werden über die SfH vergeben. </entry>
-                </row>
-                <row>
-                    <entry>Zweitstudium</entry>
-                    <entry>Ein Zweitstudium ist kein konsekutiver Studiengang (wie im Fall eines
-                        Masterstudiums nach Bachelorabschluss) sondern ein grundsätzlich
-                        eigenständiges (neues) Studium. Bei Aufnahme eines Zweitstudiums lassen sich
-                        ggf. Leistungen aus dem Erststudium anerkennen und eine Einstufung in ein
-                        bestimmtes Fachsemester erreichen.</entry>
+                    <entry>XÖV</entry>
+                    <entry>XÖV steht für „XML in der öffentlichen Verwaltung“. Es bezeichnet die
+                        fachlichen Standards für die elektronische Übertragung von Informationen
+                        zwischen Behörden in Deutschland. Mit Hilfe von XÖV-Standards können
+                        Fachverfahren über Ländergrenzen hinweg bundesweit eingesetzt werden. Die
+                        Betreuung liegt bei der Koordinationsstelle für IT-Standards (KoSIT), die
+                        Standards werden im XRepository veröffentlicht. Die KoSIT stellt
+                        XÖV-Kernkomponenten als fachübergreifende Datenstrukturen bereit, die die
+                        Grundlage für die Ausprägung standardspezifischer Datenstrukturen darstellen
+                        können. Typische Beispiele von Kernkomponenten sind  Datenstrukturen zur
+                        Abbildung von Anschriften oder Namen natürlicher Personen.</entry>
                 </row>
             </tbody>
         </tgroup>

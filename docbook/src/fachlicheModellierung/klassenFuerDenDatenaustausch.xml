@@ -9,8 +9,6 @@
     <info>
         <title>Klassen für den Datenaustausch</title>
     </info>
-    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Abschlussarbeit.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/Benotung.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/Dokument.xml"

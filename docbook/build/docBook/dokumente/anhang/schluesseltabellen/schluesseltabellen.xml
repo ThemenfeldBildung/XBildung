@@ -67,16 +67,6 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
-                           linkend="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">Anschriftstyp</link>
-                  </entry>
-                  <entry align="left">--</entry>
-                  <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                   </entry>
                   <entry align="left">1.0</entry>
@@ -209,31 +199,11 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
-                           linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
-                  </entry>
-                  <entry align="left">1.0</entry>
-                  <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                   </entry>
                   <entry align="left">20231213-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
-                           linkend="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">Namensart</link>
-                  </entry>
-                  <entry align="left">--</entry>
-                  <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>
                   </entry>
                </row>
                <row>
@@ -316,55 +286,6 @@
                      <row>
                         <entry>Herausgeber</entry>
                         <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>unbestimmt</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
-      <section xml:id="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">
-         <title>Anschriftstyp</title><para>Die Werteliste der Anschriftentypen.</para>
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp</link></para>
-
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code".</para>
-<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
-<itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">Aktuelle Anschrift</emphasis> : 001</para></listitem>
-</itemizedlist>
-</para>
-<section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>Anschriftstyp</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Anschriftstyp</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:xoev-de:xdomea:codeliste:anschriftstyp</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>AG xdomea des IT-Planungsrates (ag-xdomea)</entry>
                      </row>
                      <row>
                         <entry>Version</entry>
@@ -1553,100 +1474,6 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <?KoSIT-FO hard-pagebreak?>
       </section>
-      <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">
-         <title>Kursstatus</title><para>Diese Codeliste enthält mögliche Ausprägungen für den Status eines Kurses. Die Liste wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen der jeweiligen Anwendungsfälle erstellt. Der angegebene Wert gibt den Kursstatus aus der Sicht der lernenden Person an.</para><section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>Kursstatus</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Kursstatus</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:xbildung-de:xbildung:codeliste:kursstatus</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>XBildung (XBildung.de)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>1.0</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <section>
-            <title>Daten</title>
-            <informaltable>
-               <tgroup cols="3">
-                  <colspec colnum="1" colname="key"/>
-                  <colspec colnum="2" colname="val"/>
-                  <colspec colnum="3" colname="desc"/>
-                  <thead>
-                     <row>
-                        <entry align="left">code</entry>
-                        <entry align="left">description-de-DE (Status)</entry>
-                        <entry align="left">description-en-GB (Status)</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/befreit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​f​r​e​i​t</link>
-                        </entry>
-                        <entry align="left">befreit</entry>
-                        <entry align="left">exempted</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​b​e​s​t​a​n​d​e​n</link>
-                        </entry>
-                        <entry align="left">bestanden</entry>
-                        <entry align="left">passed</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/erfolgreich_teilgenommen">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​e​r​f​o​l​g​r​e​i​c​h​_​t​e​i​l​g​e​n​o​m​m​e​n</link>
-                        </entry>
-                        <entry align="left">erfolgreich teilgenommen</entry>
-                        <entry align="left">participation successful</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/nicht_bestanden">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​n​i​c​h​t​_​b​e​s​t​a​n​d​e​n</link>
-                        </entry>
-                        <entry align="left">nicht bestanden</entry>
-                        <entry align="left">failed</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/kursstatus/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​k​u​r​s​s​t​a​t​u​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
-                        </entry>
-                        <entry align="left">Wert nicht bekannt</entry>
-                        <entry align="left">value not known</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
       <section xml:id="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">
          <title>Language</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
 <para>
@@ -1709,57 +1536,6 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      <row>
                         <entry>Gültigkeit ab</entry>
                         <entry>2023-12-13</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
-      <section xml:id="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">
-         <title>Namensart</title><para>Mit dieser Codeliste wird ein Name näher charakterisiert.</para>
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart</link></para>
-
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
-<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
-<itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">Eigenname</emphasis> : e</para></listitem>
-<listitem><para><emphasis role="bold">Eigennamen</emphasis> : en</para></listitem>
-<listitem><para><emphasis role="bold">Eigenname und Namenszusatz</emphasis> : ez</para></listitem>
-</itemizedlist>
-</para>
-<section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>Namensart</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Namensart</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:xpersonenstand:schluesseltabelle:namensart</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>Bundesministerium des Innern (Bundesministerium des Innern)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>unbestimmt</entry>
                      </row>
                   </tbody>
                </tgroup>

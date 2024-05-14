@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" standalone="yes" ?>
+<?xml version="1.0" standalone="yes" ?>
 <?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!DOCTYPE preface [
     <!ENTITY % complete SYSTEM "../../ent/complete.ent">
@@ -12,7 +12,7 @@
         <title>Aufbau</title>
         <para>Das Dokument ist in drei Teile gegliedert, bestehend aus einer Einleitung mit dem
                 <link linkend="spezifikation.hintergrundZuXBildung">Hintergrund zu XBildung</link>
-            und der <link linkend="spezifikation.dieBildungsjourney">Bildungsjourney</link>, einem
+            und der <link linkend="spezifikation.einleitung.XBildung-Journey">Bildungsjourney</link>, einem
             inhaltlichen Kapitel zur <link linkend="spezifikation.fachlicheModellierung">fachlichen
                 Modellierung</link> mit Metadaten-Strukturen für das Ausstellen von digitalen
             Nachweisen im Hochschulwesen, sowie einem <link linkend="spezifikation.anhaenge"

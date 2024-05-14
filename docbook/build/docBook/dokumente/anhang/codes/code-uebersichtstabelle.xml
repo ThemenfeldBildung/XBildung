@@ -64,17 +64,6 @@
             </row>
             <row>
                <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xoev-de.xdomea.codeliste.anschriftstyp.Anschriftstyp-Codes">Anschriftstyp</link>
-               </entry>
-               <entry align="left">--</entry>
-               <entry align="left">3</entry>
-            </row>
-            <row>
-               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                </entry>
                <entry align="left">
@@ -231,17 +220,6 @@
             </row>
             <row>
                <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xbildung-de.xbildung.codeliste.kursstatus.Kursstatus-Codes">Kursstatus</link>
-               </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
-            </row>
-            <row>
-               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>
                </entry>
                <entry align="left">
@@ -250,17 +228,6 @@
                </entry>
                <entry align="left">20231213-0</entry>
                <entry align="left">2</entry>
-            </row>
-            <row>
-               <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xpersonenstand.schluesseltabelle.namensart.Namensart-Codes">Namensart</link>
-               </entry>
-               <entry align="left">--</entry>
-               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">

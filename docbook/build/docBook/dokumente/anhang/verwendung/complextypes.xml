@@ -20,16 +20,10 @@
       <title>Nicht in Nachrichten verwendete Datentypen</title>
       <itemizedlist>
          <listitem>
-            <para>Abschlussarbeit</para>
-         </listitem>
-         <listitem>
             <para>Benotung</para>
          </listitem>
          <listitem>
             <para>Code.AmtlicherGemeindeschluessel</para>
-         </listitem>
-         <listitem>
-            <para>Code.Anschriftstyp</para>
          </listitem>
          <listitem>
             <para>Code.ArtDerPruefung</para>
@@ -74,13 +68,7 @@
             <para>Code.Kreis</para>
          </listitem>
          <listitem>
-            <para>Code.Kursstatus</para>
-         </listitem>
-         <listitem>
             <para>Code.Language</para>
-         </listitem>
-         <listitem>
-            <para>Code.Namensart</para>
          </listitem>
          <listitem>
             <para>Code.Regionalschluessel</para>

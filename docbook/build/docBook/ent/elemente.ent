@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!ENTITY element.ref.abschlussarbeit.notederarbeit '<emphasis role="codebf">noteDerArbeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.abschlussarbeit.notederarbeit 'Element <emphasis role="codebf">noteDerArbeit</emphasis> in Datentyp <emphasis role="codebf">Abschlussarbeit</emphasis>'>
-                        <!ENTITY element.ref.abschlussarbeit.titelderarbeit '<emphasis role="codebf">titelDerArbeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.abschlussarbeit.titelderarbeit 'Element <emphasis role="codebf">titelDerArbeit</emphasis> in Datentyp <emphasis role="codebf">Abschlussarbeit</emphasis>'>
-                        <!ENTITY element.ref.abschlussarbeit.urlderarbeit '<emphasis role="codebf">urlDerArbeit</emphasis>'>
-                        <!ENTITY element.datentyp.ref.abschlussarbeit.urlderarbeit 'Element <emphasis role="codebf">urlDerArbeit</emphasis> in Datentyp <emphasis role="codebf">Abschlussarbeit</emphasis>'>
-                        <!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemanote 'Element <emphasis role="codebf">bewertungsschemaNote</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemapunkte '<emphasis role="codebf">bewertungsschemaPunkte</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemapunkte 'Element <emphasis role="codebf">bewertungsschemaPunkte</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>

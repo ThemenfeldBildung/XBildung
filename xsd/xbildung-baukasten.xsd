@@ -2,7 +2,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:xbd="http://xbildung.de/def/xbildung/1.0/xsd"
            xmlns:din91379="urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08"
-           xmlns:dinspec91379="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"
            xmlns:xoev-code="http://xoev.de/schemata/code/1_0"
            targetNamespace="http://xbildung.de/def/xbildung/1.0/xsd"
            version="1.0"
@@ -28,46 +27,13 @@
       </xs:appinfo>
    </xs:annotation>
    <xs:include schemaLocation="xbildung-basisdatentypen.xsd"/>
-   <xs:import schemaLocation="http://xoev.de/DIN-SPEC-91379/2019-03/datatypes/din-91379-datatypes.xsd"
-              namespace="urn:xoev-de:kosit:xoev:datentyp:din-spec-91379_2019-03"/>
    <xs:import schemaLocation="http://xoev.de/schemata/code/1_0/xoev-code.xsd"
               namespace="http://xoev.de/schemata/code/1_0"/>
    <xs:import schemaLocation="https://xoev.de/schemata/din/91379/2022-08/din-norm-91379-datatypes.xsd"
               namespace="urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08"/>
-   <xs:complexType name="Abschlussarbeit">
-      <xs:annotation>
-         <xs:documentation>Allgemeine Eigenschaften einer Abschlussarbeit, die zu einem Bildungsabschluss führte.</xs:documentation>
-      </xs:annotation>
-      <xs:sequence>
-         <xs:element name="titelDerArbeit"
-                     minOccurs="0"
-                     type="xbd:String.Localized"
-                     form="unqualified">
-            <xs:annotation>
-               <xs:documentation>Angabe zum Titel der zum Bildungsnachweis führenden Arbeit, falls z.B. bei schriftlichen Ausarbeitungen wie Master Thesis vorhanden</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="noteDerArbeit"
-                     minOccurs="0"
-                     type="xbd:Benotung"
-                     form="unqualified">
-            <xs:annotation>
-               <xs:documentation>Angabe der Benotung der Abschlussarbeit, wie sie etwa in einem Hochschulabschlusszeugnis aufgedruckt ist.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="urlDerArbeit"
-                     minOccurs="0"
-                     type="xs:anyURI"
-                     form="unqualified">
-            <xs:annotation>
-               <xs:documentation>Angabe zum im Internet befindlichen Bezugsort einer Abschlussarbeit (Webadresse).</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
    <xs:complexType name="Benotung">
       <xs:annotation>
-         <xs:documentation>Der Datentyp Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, etc.</xs:documentation>
+         <xs:documentation>Die Klasse Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, Prüfungsleistungen und Prüfungsteile in der beruflichen Bildung, etc.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
          <xs:element name="note" minOccurs="0" type="xs:string" form="unqualified">
@@ -200,33 +166,6 @@
                           type="xs:anyURI"
                           use="optional"
                           fixed="urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:ags"/>
-            <xs:attribute name="listVersionID" type="xs:normalizedString" use="required"/>
-         </xs:restriction>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="Code.Anschriftstyp">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Anschriftstyp</nameLang>
-               <nameKurz>Anschriftstyp</nameKurz>
-               <nameTechnisch>anschriftstyp</nameTechnisch>
-               <kennung>urn:xoev-de:xdomea:codeliste:anschriftstyp</kennung>
-               <beschreibung>Die Werteliste der Anschriftentypen. Link zur Webseite: https://www.xrepository.de/details/urn:xoev-de:xdomea:codeliste:anschriftstyp Code: Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "code". Beispiele: (Element : Code) Aktuelle Anschrift : 001</beschreibung>
-               <herausgebernameLang>AG xdomea des IT-Planungsrates</herausgebernameLang>
-               <herausgebernameKurz>ag-xdomea</herausgebernameKurz>
-            </codeliste>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:complexContent>
-         <xs:restriction base="xoev-code:Code">
-            <xs:sequence>
-               <xs:element name="code" type="xs:token"/>
-            </xs:sequence>
-            <xs:attribute name="listURI"
-                          type="xs:anyURI"
-                          use="optional"
-                          fixed="urn:xoev-de:xdomea:codeliste:anschriftstyp"/>
             <xs:attribute name="listVersionID" type="xs:normalizedString" use="required"/>
          </xs:restriction>
       </xs:complexContent>
@@ -811,64 +750,6 @@
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
-   <xs:complexType name="Code.Kursstatus">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Kursstatus</nameLang>
-               <nameKurz>Kursstatus</nameKurz>
-               <nameTechnisch>Kursstatus-Codes</nameTechnisch>
-               <kennung>urn:xbildung-de:xbildung:codeliste:kursstatus</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen für den Status eines Kurses. Die Liste wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen der jeweiligen Anwendungsfälle erstellt. Der angegebene Wert gibt den Kursstatus aus der Sicht der lernenden Person an.</beschreibung>
-               <herausgebernameLang>XBildung</herausgebernameLang>
-               <herausgebernameKurz>XBildung.de</herausgebernameKurz>
-            </codeliste>
-            <versionCodeliste>
-               <version>1.0</version>
-               <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
-            </versionCodeliste>
-            <codelistenspalten>
-               <code>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>true</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>true</empfohleneCodeSpalte>
-               </code>
-               <description-de-DE>
-                  <spaltennameLang>Status</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>optional</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-de-DE>
-               <description-en-GB>
-                  <spaltennameLang>Status</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <sprache>en-GB</sprache>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>optional</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-en-GB>
-            </codelistenspalten>
-            <genutzteCodeSpalte>code</genutzteCodeSpalte>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:complexContent>
-         <xs:restriction base="xoev-code:Code">
-            <xs:sequence>
-               <xs:element name="code" type="xbd:Kursstatus-Codes"/>
-            </xs:sequence>
-            <xs:attribute name="listURI"
-                          type="xs:anyURI"
-                          use="optional"
-                          fixed="urn:xbildung-de:xbildung:codeliste:kursstatus"/>
-            <xs:attribute name="listVersionID"
-                          type="xs:normalizedString"
-                          use="optional"
-                          fixed="1.0"/>
-         </xs:restriction>
-      </xs:complexContent>
-   </xs:complexType>
    <xs:complexType name="Code.Language">
       <xs:annotation>
          <xs:appinfo>
@@ -903,33 +784,6 @@
                           type="xs:normalizedString"
                           use="optional"
                           fixed="20231213-0"/>
-         </xs:restriction>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="Code.Namensart">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Namensart</nameLang>
-               <nameKurz>Namensart</nameKurz>
-               <nameTechnisch>namensart</nameTechnisch>
-               <kennung>urn:xpersonenstand:schluesseltabelle:namensart</kennung>
-               <beschreibung>Mit dieser Codeliste wird ein Name näher charakterisiert. Link zur Webseite: https://www.xrepository.de/details/urn:xpersonenstand:schluesseltabelle:namensart Code: Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key". Beispiele: (Element : Code) Eigenname : e Eigennamen : en Eigenname und Namenszusatz : ez</beschreibung>
-               <herausgebernameLang>Bundesministerium des Innern</herausgebernameLang>
-               <herausgebernameKurz>Bundesministerium des Innern</herausgebernameKurz>
-            </codeliste>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:complexContent>
-         <xs:restriction base="xoev-code:Code">
-            <xs:sequence>
-               <xs:element name="code" type="xs:token"/>
-            </xs:sequence>
-            <xs:attribute name="listURI"
-                          type="xs:anyURI"
-                          use="optional"
-                          fixed="urn:xpersonenstand:schluesseltabelle:namensart"/>
-            <xs:attribute name="listVersionID" type="xs:normalizedString" use="required"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -1075,7 +929,7 @@
          <xs:documentation>Hier werden Angaben zum Ort und dem Staat gemacht.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
-         <xs:element name="ort" type="din91379:datatypeB" form="unqualified">
+         <xs:element name="ort" type="din91379:datatypeC" form="unqualified">
             <xs:annotation>
                <xs:documentation>Hier werden Angaben zum Ort gemacht.</xs:documentation>
             </xs:annotation>
@@ -1835,90 +1689,6 @@
                <xs:appinfo>
                   <seeAlso>https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2020/2020_10_15-Laendervereinbarung-gemeinsame-Grundstruktur.pdf</seeAlso>
                   <description-de-DE>Notensystem der KMK für die Bewertung von Leistungen erbracht im Verlauf der Primar- und Sekundarstufe. Es wird mindestens eine 4 zum Bestehen benötigt. Maximal möglich ist eine 1.</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-      </xs:restriction>
-   </xs:simpleType>
-   <xs:simpleType name="Kursstatus-Codes">
-      <xs:annotation>
-         <xs:appinfo>
-            <codeliste>
-               <nameLang>Kursstatus</nameLang>
-               <nameKurz>Kursstatus</nameKurz>
-               <nameTechnisch>Kursstatus-Codes</nameTechnisch>
-               <kennung>urn:xbildung-de:xbildung:codeliste:kursstatus</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen für den Status eines Kurses. Die Liste wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen der jeweiligen Anwendungsfälle erstellt. Der angegebene Wert gibt den Kursstatus aus der Sicht der lernenden Person an.</beschreibung>
-               <herausgebernameLang>XBildung</herausgebernameLang>
-               <herausgebernameKurz>XBildung.de</herausgebernameKurz>
-            </codeliste>
-            <versionCodeliste>
-               <version>1.0</version>
-               <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
-            </versionCodeliste>
-            <codelistenspalten>
-               <code>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>true</codeSpalte>
-                  <verwendung>required</verwendung>
-                  <empfohleneCodeSpalte>true</empfohleneCodeSpalte>
-               </code>
-               <description-de-DE>
-                  <spaltennameLang>Status</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>optional</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-de-DE>
-               <description-en-GB>
-                  <spaltennameLang>Status</spaltennameLang>
-                  <datentyp>string</datentyp>
-                  <sprache>en-GB</sprache>
-                  <codeSpalte>false</codeSpalte>
-                  <verwendung>optional</verwendung>
-                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
-               </description-en-GB>
-            </codelistenspalten>
-         </xs:appinfo>
-      </xs:annotation>
-      <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/kursstatus/befreit">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>befreit</description-de-DE>
-                  <description-en-GB>exempted</description-en-GB>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/kursstatus/bestanden">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>bestanden</description-de-DE>
-                  <description-en-GB>passed</description-en-GB>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/kursstatus/erfolgreich_teilgenommen">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>erfolgreich teilgenommen</description-de-DE>
-                  <description-en-GB>participation successful</description-en-GB>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/kursstatus/nicht_bestanden">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>nicht bestanden</description-de-DE>
-                  <description-en-GB>failed</description-en-GB>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/kursstatus/~wert_nicht_bekannt">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>Wert nicht bekannt</description-de-DE>
-                  <description-en-GB>value not known</description-en-GB>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>

@@ -1,0 +1,428 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE preface [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" version="5" xml:lang="de"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="spezifikation.einleitung.XBildung-Journey">
+    
+    <info>
+        <title>XBildung-Journey</title>
+    </info>
+        <para>Die XBildung-Journey illustriert idealtypische Wege von Individuen durch das deutsche
+        Bildungssystem und berücksichtigt dabei drei Lebenslagen, die den Anwendungsbereichen der
+        Standards entsprechen: Schule, Berufsausbildung und Hochschule. Die Journey vereint die
+        Perspektiven von drei Fachvorhaben bzw. IT-Standards, die unter dem Dach des umfassenden
+        Standardisierungsvorhabens XBildung gesammelt sind: XSchule, XBerufsbildung und XHochschule. </para>
+    <para>Die dargestellten Journeys zielen darauf ab, Potenziale für Standardisierung in den
+        jeweiligen Bereichen zu identifizieren. Nicht alle Schritte werden zwingend im Rahmen einer
+        Bildungsvita durchlaufen. Die Journeys bieten Orientierung und zeigen mögliche Pfade
+        auf.</para>
+    <para>Die XBildung-Journey bietet einen umfassenden und detaillierten Überblick über typische
+        Stationen im Bildungswesen. Jede Station, an der eine standardisierte Datenübermittlung
+        möglich ist, wird mit einem speziellen Symbol <inlinemediaobject>
+            <imageobject>
+                <imagedata fileref="../abbildungen/datenuebermittlung.png"/>
+            </imageobject>
+        </inlinemediaobject> gekennzeichnet. Dies erleichtert die Identifikation und das Verständnis
+        der verschiedenen Stationen und ihrer Rolle im Gesamtkontext des Bildungssystems. Die
+        XBildung-Journey ist ein Werkzeug, um Potenziale für Standardisierung aufzuzeigen.</para>
+    
+    <mediaobject>
+        <imageobject>
+            <imagedata align="center" fileref="../abbildungen/xbd-journey.svg" format="SVG"
+                width="100%"/>
+        </imageobject>
+    </mediaobject>
+    
+    <section>
+        <info>
+            <title>XSchule-Journey</title>
+        </info>
+        <para>Die XSchule-Journey beschreibt die Reise von jungen Menschen entlang der Lebenslage
+            Schule durch das Schulverwaltungswesen. Diese ist in Primarstufe, Sekundarstufe I und
+            Sekundarstufe II untergliedert. Jeder Änderung in der Lebenslage des jungen Menschen in
+            der Schule ist eine Station zugeordnet:</para>
+        
+        <orderedlist>
+            <listitem>
+                <para><emphasis role="bold">Vorbereitung der Schulaufnahme</emphasis></para>
+                <para>Bei dieser Station finden vorbereitende Maßnahmen zur Schulaufnahme wie die
+                    Auswahl der Grundschule, die Schuleingangsuntersuchung oder die Feststellung
+                    eines sonderpädagogischen Förderbedarfs statt. Außerdem kann eine Anerkennung
+                    schulischer Bildung bei ausländischen Zeugnissen oder anderweitig erbrachten
+                    Leistungen stattfinden.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Anmeldung zur Schulaufnahme</emphasis></para>
+                <para>Der junge Mensch wird in der aufnehmenden Schule angemeldet. Dabei werden von
+                    der Schule die notwendigen Informationen über ihn und seine Erziehungsberechtigten
+                    erfasst.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Vorschulischer Sprachförderkurs</emphasis></para>
+                <para>Falls während der Schuleingangsuntersuchung ein Bedarf festgestellt wird, kann
+                    der junge Mensch einen vorschulischen Sprachförderkurs besuchen, damit er
+                    gleichberechtigt mit anderen Kindern am Unterricht teilnehmen kann.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Aufnahme in eine Primarschule</emphasis></para>
+                <para>Der junge Mensch wird in die Schule
+                    aufgenommen. Mit der Einschulung werden die Anmeldedaten, die die
+                    Erziehungsberechtigten angegeben haben, in die Schulakte überführt.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Primarschulwechsel unterjährig</emphasis></para>
+                <para>Die abgebende Schule übermittelt neben den notwendigen Daten eine
+                    Notenübersicht als aktuellen Zwischenstand bei einem unterjährigen Wechsel, der
+                    z.B. durch einen kurzfristigen Umzug der Familie in ein anderes Bundesland
+                    bedingt werden kann.</para>
+                <para>Falls ein Förderbedarf bei dem jungen Menschen festgestellt wird, werden
+                    entsprechende Fördermaßnahmen erarbeitet.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Primarschulzeugnis</emphasis></para>
+                <para>Ab einem bestimmten Zeitpunkt erhält der junge Mensch Schulnoten in der
+                    Grundschule. Mit Ausstellung des Zeugnisses für den Abschluss der Grundschule
+                    erhält er zudem eine Laufbahnempfehlung für die weitere Schulbildung.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Schulwechsel zu Sek I</emphasis></para>
+                <para>Die Erziehungsberechtigten melden den jungen Menschen an einer weiterführenden
+                    Schule der Sekundarstufe I an.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Wechsel zu anderer Schulform</emphasis></para>
+                <para>Der junge Mensch und seine Erziehungsberechtigten können sich gemeinsam für
+                    einen erneuten Schulwechsel zu einer anderen Schulform entscheiden, zum Beispiel
+                    von einer Realschule in ein Gymnasium.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Wahl der Fächer und Kurse</emphasis></para>
+                <para>Ein wichtiger Entscheidungspunkt in der Sekundarstufe I ist die Wahl der
+                    zweiten Fremdsprache und der Wahlpflichtfächer.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Wiederholung einer Klassenstufe</emphasis></para>
+                <para>Aufgrund von Förderbedarf und des kürzlichen Wechsels zur neuen Schule kann
+                    bei der Schulaufnahme empfohlen werden, die aktuelle Klassenstufe zu
+                    wiederholen.</para>
+            </listitem><listitem>
+                <para><emphasis role="bold">Halbjahreszeugnis</emphasis></para>
+                <para>Dieses Zeugnis gibt einen Überblick über die Leistungen im ersten
+                    Schulhalbjahr.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Schulbescheinigung</emphasis></para>
+                <para>Eine Schulbescheinigung ist ein Dokument zum Nachweis des Schulbesuchs, das
+                    z.B. bei der Beantragung von Sozialleistungen oder bei Verkehrsunternehmen
+                    vorgelegt werden muss.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Schulzeugnis Sek I</emphasis></para>
+                <para>Am Ende der Sekundarstufe I kann ein allgemeinbildender Schulabschluss
+                    erworben werden. Dieser bescheinigt die in der Schule erworbenen Fähigkeiten und
+                    Fertigkeiten in einem Zeugnis und berechtigt – je nach Abschluss – zum Besuch
+                    unterschiedlicher weiterführender Bildungseinrichtungen.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Schulwechsel zu Sek II</emphasis></para>
+                <para>Der junge Mensch entscheidet sich nach reiflicher Überlegung für den Besuch
+                    einer weiterführenden Schule der Sekundarstufe II.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Wahl der Fächer und Kurse</emphasis></para>
+                <para>Eine wichtige Entscheidung in der Sekundarstufe II ist die Wahl der Leistungs-
+                    und Grundkurse.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Wechsel zu anderer Trägerschaft</emphasis></para>
+                <para>Ein Schulwechsel zu einer anderen Trägerschaft beinhaltet in der Regel einen
+                    Wechsel von einer öffentlichen Schule zu einer privaten Schule oder
+                    umgekehrt.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Schulzeugnis Sek II</emphasis></para>
+                <para>Die Zeugnisse der Sekundarstufe II haben Einfluss auf die Gesamtwertung des
+                    Abiturs.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Abiturprüfung</emphasis></para>
+                <para>Die Sekundarstufe II umfasst die Einführungsphase und die Qualifikationsphase
+                    und schließt mit der Abiturprüfung ab.</para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">Abiturzeugnis</emphasis></para>
+                <para>Das Abiturzeugnis enthält die in den Kursen der Qualifikationsphase und in den
+                    Abiturprüfungen erzielten Noten. Es beinhaltet auch eine Gesamtnote, die auf der
+                    Grundlage aller Noten berechnet wird. Mit dem Abiturzeugnis erhält der junge
+                    Mensch die Bescheinigung der Allgemeinen Hochschulreife.</para>
+                <para>Damit stehen dem jungen Menschen die Wege in die Hochschule, in eine
+                    Ausbildung oder direkt in das Berufsleben offen.</para>
+            </listitem>
+        </orderedlist>
+    </section>
+
+<section><info>
+        <title>XBerufsbildung-Journey</title>
+    </info>
+        <para>Die XBerufsbildung-Journey kann anhand der folgenden Abbildung nachvollzogen werden
+            und stellt einen exemplarischen Weg durch das Berufsbildungswesen dar. Diese ist in
+            Erstausbildung und Aufstiegsfortbildung untergliedert. Jeder Änderung in der Lebenslage
+            einer Person im Berufsbildungswesen ist eine Station untergeordnet:</para>
+    <orderedlist><listitem>
+        <para><emphasis role="bold">Suchen und Informieren</emphasis></para>
+                <para>Für Ausbildungsinteressierte, die eine allgemeinbildende Schule ohne Abschluss
+                    verlassen, besteht die Möglichkeit, sich von einer Jugendberufsagentur beraten
+                    zu lassen. Diese kann die ausbildungsinteressierte Person und ggf. deren
+                    Erziehungsberechtigte informieren und in eine entsprechende Maßnahme
+                    vermitteln.</para></listitem>
+        <listitem><para><emphasis role="bold">Für Berufsvorbereitungsjahr (BVJ) bewerben</emphasis></para>
+                <para>Die ausbildungsinteressierte Person bewirbt sich mit ihren Unterlagen
+                    (darunter Abgangszeugnis, Lebenslauf, Anmeldebogen uvm.) auf postalischem Weg
+                    bei einem Ausbildungsbetrieb, der ihr in der Beratung empfohlen wurde.</para>
+        </listitem><listitem><para><emphasis role="bold">An BVJ teilnehmen</emphasis></para>
+                <para>Die ausbildungsinteressierte Person wird für das Berufsvorbereitungsjahr (BVJ)
+                    angenommen. Sie kann dort ein Jahr lang am schulischen Unterricht teilnehmen, in
+                    dem neben allgemeinbildenden Teilen auch berufsvorbereitende Anteile vermittelt
+                    werden. Die Schwerpunkte werden auf ihre Voraussetzungen ausgerichtet, sodass
+                    sie gute Chancen hat, auch ihren Schulabschluss nachzuholen.</para>
+            </listitem><listitem><para><emphasis role="bold">Praktikum im BVJ</emphasis></para>
+                <para>Während des BVJ absolviert die auszubildende Person, neben dem schulischen
+                    Teil, ein bis zwei Praktika in einem Betrieb, in dem die Vermittlung von
+                    berufsspezifischen Kenntnissen und die Orientierung für die spätere
+                    Ausbildungswahl erfolgen. Dafür bewirbt sie sich mit Unterstützung ihrer
+                    Lehrkräfte beim Betrieb, der regelmäßig Praktikanten aufnimmt. Insgesamt
+                    verbringt die auszubildende Person dort zwei Wochen und arbeitet in der
+                    Werkstatt mit.</para>
+                </listitem><listitem><para><emphasis role="bold">BVJ erfolgreich beenden</emphasis></para>
+                <para>Nach erfolgreicher Teilnahme an dem BVJ und dem Praktikum nimmt die
+                    auszubildende Person an den gemeinsamen Prüfungen für den Erwerb der erweiterten
+                    Berufsbildungsreife (eBBR) teil, die sie für eine Ausbildung benötigt. Sie lernt
+                    in den folgenden Wochen intensiv und besteht erfolgreich alle Prüfungen. Die
+                    Berufsschule stellt im Anschluss das Zeugnis der eBBR aus.</para>
+                    </listitem><listitem><para><emphasis role="bold">Für duale Ausbildung bewerben</emphasis></para>
+                <para>Die Bewerbung für den Ausbildungsberuf richtet die auszubildende Person wegen
+                    der guten Erfahrungen wieder an den Betrieb, bei dem sie bereits das Praktikum
+                    absolviert hat. Hierfür sendet sie eine Bewerbung inkl. des Abschlusszeugnisses
+                    und weiteren Unterlagen an den Betrieb.</para>
+                        </listitem><listitem><para><emphasis role="bold">Vertragsabschluss beim Betrieb</emphasis></para>
+                <para>Zwischen dem Ausbildungsbetrieb und der auszubildenden Person wird ein
+                    Ausbildungsvertrag geschlossen, den ggf. die erziehungsberechtigte Person
+                    unterzeichnen muss. Dieser Vertrag enthält gesetzlich geregelte Mindestanteile.
+                    Der Betrieb macht von der Möglichkeit Gebrauch, den vorgefertigten Vertrag der
+                    Handwerkskammer online auszufüllen. Beim Anmelden im Portal mit entsprechenden
+                    Zugangsdaten werden zahlreiche Daten automatisch in das Dokument übertragen.
+                    Daher müssen lediglich die Informationen der auszubildenden Person sowie andere
+                    Details zur Ausbildung angepasst oder ergänzt werden. Das Dokument kann
+                    anschließend digital an die Handwerkskammer übermittelt werden.</para>
+                            </listitem><listitem><para><emphasis role="bold">Eintragung in die Lehrlingsrolle</emphasis></para>
+                <para>Der Ausbildungsbetrieb ist verpflichtet, den Ausbildungsvertrag zusammen mit
+                    dem Antrag auf Eintragung in das Berufsausbildungsverzeichnis unverzüglich nach
+                    dessen Abschluss, spätestens jedoch innerhalb von 4 Wochen nach Beginn der
+                    Ausbildung, bei der Handwerkskammer zur Eintragung in die Lehrlingsrolle
+                    einzureichen. Die Kammer prüft den Vertrag auf seine Rechts- und
+                    Gesetzmäßigkeit, bevor er in die Lehrlingsrolle eingetragen wird. Verträge, die
+                    nicht den gesetzlichen Voraussetzungen entsprechen, können nicht in die
+                    Lehrlingsrolle aufgenommen werden. Für die Eintragung wird eine Gebühr
+                    erhoben.</para>
+                                </listitem><listitem>
+                <para><emphasis role="bold">Anmeldung bei der Berufsschule</emphasis></para>
+                <para>Der Betrieb meldet die lernende Person an der Berufsschule an, an der sie
+                    bereits das BVJ absolviert hat. Dies geschieht i.d.R. mit einem schriftlichen
+                    Antrag. Für den Antrag sind die Einreichung des Ausbildungsvertrages und/oder
+                    die Bestätigung der Eintragung in die Lehrlingsrolle sowie die Zeugnisse
+                    notwendig.</para>
+            </listitem><listitem>
+                <para><emphasis role="bold">Berufsausbildung absolvieren</emphasis></para>
+                <para>Die lernende Person durchläuft eine 3,5-jährige Ausbildung, bei der etwa 30%
+                    auf den schulischen Teil und 70% auf den praktischen Teil im Betrieb entfallen.
+                    Der Betrieb meldet die lernende Person schriftlich per Antrag für die Zulassung
+                    zur Gesellenprüfung I beim zuständigen Prüfungsausschuss oder der
+                    Handwerkskammer an. Die lernende Person legt nach etwa der Hälfte ihrer
+                    Ausbildung den ersten Teil der sogenannten gestreckten Gesellenprüfung ab, die
+                    aus einem schriftlichen Teil besteht. Der schriftliche Teil wird als Teil I
+                    bezeichnet. Dieser Prüfungsteil umfasst theoretische Fragen und Aufgaben, die
+                    das in der Ausbildung erworbene Fachwissen testen. In anderen Berufen kann dies
+                    jedoch auch eine Zwischenprüfung sein.</para>
+            </listitem><listitem><para><emphasis role="bold">Überbetriebliche Unterweisung</emphasis></para>
+                <para>Während der Ausbildung können Teile der Berufsausbildung auch in Innungen oder
+                    anderen Einrichtungen erfolgen, die zusätzliche Kenntnisse und Fertigkeiten
+                    vermitteln sollen. Dort werden regelmäßige Überprüfungen des Ausbildungsstandes
+                    der lernenden Person durchgeführt.</para>
+                                            </listitem><listitem><para><emphasis role="bold">Anmeldung und Teilnahme an Prüfung</emphasis></para>
+                <para>Zum Ende der dualen Berufsausbildung wird die lernende Person fristgerecht und
+                    per Antrag zur Gesellenprüfung Teil II angemeldet. Hierzu muss das Berichtsheft
+                    als Nachweis bereitgestellt werden. Die lernende Person führt ihr Berichtsheft
+                    bereits digital, sodass die abgezeichneten Nachweise durch die Kammer digital
+                    zur Verfügung gestellt werden können. Die Abschlussprüfung selbst besteht aus
+                    zwei Teilen – einem schriftlichen und einem mündlich/praktischen Teil. Diese
+                    Prüfungen legt die lernende Person sowohl in der Berufsschule als auch in der
+                    Innung ab.</para>
+                                                </listitem><listitem><para><emphasis role="bold">Berufsausbildungsabschluss und MSA</emphasis></para>
+                <para>Nach erfolgreich absolvierten Prüfungen erhält die lernende Person von ihrer
+                    Berufsschule ein Abschlusszeugnis. Die Handwerkskammer stellt ihr zusätzlich ein
+                    Prüfungszeugnis aus. Da die lernende Person während ihrer Berufsschulzeit sehr
+                    gute Noten hatte, erhält sie von seiner Berufsschule auf Antrag den Nachweis
+                    über den Erwerb des mittleren Schulabschlusses (MSA).</para>
+                                                    </listitem><listitem><para><emphasis role="bold">Übergang in Beschäftigung</emphasis></para>
+    <para>Nach erfolgreichem Abschluss der Berufsausbildung bewirbt sich die ausgebildete Person als
+                    Geselle in einem Betrieb ihrer Wahl. Die Bewerbung mit den entsprechenden
+                    Nachweisen konnte sie bereits auf digitalem Weg über die Bewerbungsplattform der
+                    Firma einreichen.</para>
+                                                        </listitem><listitem><para><emphasis role="bold">Anmeldung zur Fortbildung</emphasis></para>
+                <para>Die ausgebildete Person arbeitet in den folgenden Jahren bei der Firma und
+                    kann viele Fertigkeiten dazulernen. Bald entscheidet sie sich für eine
+                    Aufstiegsfortbildung zum Meister. Hierzu meldet sie sich beim Bildungs- und
+                    Technologiezentrum (BTZ) einer Handwerkskammer zu einem Vorbereitungslehrgang
+                    an. Hierzu muss sie bei der Handwerkskammer erst den Antrag auf Zulassung zur
+                    Meisterprüfung stellen, bevor sie sich anmelden kann.</para>
+                                                            </listitem><listitem><para><emphasis role="bold">Beantragung Förderung</emphasis></para>
+                <para>Da die ausgebildete Person diese Ausbildung neben dem Beruf absolvieren
+                    möchte, reduziert sie ihre Arbeitszeit um 20%. Dank des
+                    Aufstiegsfortbildungsförderungsgesetzes kann sie finanzielle Mitteln für die
+                    Aufstiegsfortbildung online beantragen.</para>
+                                                                </listitem><listitem><para><emphasis role="bold">Absolvieren der Fortbildung </emphasis></para>
+                <para>Während der etwa zweijährigen Fortbildung besucht die lernende Person
+                    verschiedene Kurse des Bildungs- und Technologiezentrum (BTZ) und arbeitet in
+                    Teilzeit in ihrem Betrieb.</para>
+                                                                    </listitem><listitem><para><emphasis role="bold">Abschlussprüfung</emphasis></para>
+                <para>Nach erfolgreicher Teilnahme an den Kursen, kann die lernende Person sich zur
+                    Meisterprüfung anmelden. Die Prüfung besteht aus vier einzelnen Teilen, die
+                    erfolgreich absolviert werden.</para>
+                                                                        </listitem><listitem>
+                <para><emphasis role="bold">Ausstellung Fortbildungszeugnis</emphasis></para>
+                <para>Am Ende der Fortbildung wird ein Fortbildungszeugnis ausgestellt.</para>
+                <para>Damit stehen der ausgebildeten Person die Wege in die Hochschule oder ins
+                    Berufsleben offen.</para>
+            </listitem></orderedlist>
+</section>
+    
+    
+    <section>
+    <info>
+    <title>XHochschule-Journey</title>
+  </info>
+        <para>Die XHochschule-Journey beschreibt einen Weg durch den Lebensabschnitt
+            Hochschulbildung mit den möglichen Stationen, die eine Person in ihrem Studium erleben
+            kann. Dieses ist in Bachelorstudium und Masterstudium untergliedert. Jeder Änderung in
+            der Lebenslage einer Person im Studium ist eine Station zugeordnet:</para>
+  <orderedlist>
+    <listitem>
+      <para><emphasis role="bold">Suchen und informieren</emphasis></para>
+      <para>Erster Schritt in der Hochschulbildung ist die Recherche. Studieninteressierte können sich über strukturierte Angebote (z. B. Hochschulkompass der HRK, My Guide, Digitaler Campus,
+      StudyInEurope) sowie Suchmaschinen über das Studienangebot und konkrete Studienfächer in Deutschland informieren.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Studium vorbereiten</emphasis></para>
+      <para>Nach einem Vergleich des Studienangebots entscheiden sich Studieninteressierte in der Regel für ein bis zwei konkrete Studienfächer.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Zulassungsvoraussetzungen prüfen lassen</emphasis></para>
+      <para>Für einige Studienfächer müssen Studieninteressierte bestimmte
+        Zulassungsvoraussetzungen erfüllen und vor bzw. im Zuge einer Bewerbung prüfen lassen:
+        Zum einen gibt es Studienfächer, für die eine bestimmte Eignung im Rahmen einer Prüfung
+        nachgewiesen werden müssen (künstlerische und sportliche Eignungsprüfung, Test für
+        medizinische Studienfächer (TMS)). Zum anderen müssen Studieninteressierte vor einer
+        Bewerbung teilweise auch Kompetenznachweise z.B. bei Dienstleistern wie uni-assist zur
+        Prüfung der Zulassungsvoraussetzungen für ein konkretes Studienfach (ggf. mit
+        Zweitwunsch) einreichen.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Für Studienfach bewerben</emphasis></para>
+      <para>Die Bewerbung für ein konkretes Studienfach mit Nachweisen etc. erfolgt in der Regel
+        über die digitalen Bewerbungsplattformen der Hochschulen. Insbesondere bei den
+        bundesweit zulassungsbeschränkten Studienfächern (Medizin, Pharmazie, Tiermedizin und
+        Zahnmedizin) erfolgt die Bewerbung hingegen zentral über die sog.
+        DoSV-Bewerbungsplattform der Stiftung für Hochschulzulassung (SfH).</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Kompetenzen anerkennen lassen</emphasis></para>
+      <para>Das Prüfungsamt und/oder einzelne Fakultäten einer Hochschule erkennen (ausländische) Kompetenznachweise gegebenenfalls studienfachsspezifisch an.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">An Hochschule einschreiben</emphasis></para>
+      <para>Bei Vorliegen aller Zulassungsvoraussetzungen erhalten Studieninteressierte ein
+                    Studienplatzangebot, welches sie mit einer Zusage annehmen können. Nach der
+                    Bezahlung einer Gebühr werden sie an der Hochschule immatrikuliert und erhalten
+                    eine Immatrikulationsbescheinigung.</para>
+    </listitem>
+    <listitem>
+                <para><emphasis role="bold">Studienfinanzierung beantragen</emphasis></para>
+                <para>Zur Finanzierung eines Studiums können (angehende) Studierende verschiedene
+                    Fördermöglichkeiten beantragen (z. B. Stipendien), wobei die Möglichkeiten und
+                    eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängen; etwa
+                    persönliche Lebenslage, bisherige Leistungen, Hochschule und das konkrete
+                    Studienfach.</para>
+            </listitem>
+    <listitem>
+      <para><emphasis role="bold">Im Bachelor studieren</emphasis></para>
+      <para>In Deutschland ist das grundständige Studium zumeist ein Bachelorstudium. </para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Auslandsstudium vorbereiten</emphasis></para>
+      <para>Studierende können sich mit strukturierten Informationsangeboten oder beim akademischen
+                    Auslandsamt ihrer Hochschule über die Möglichkeit eines Auslandsaufenthalts bzw.
+                    Auslandssemesters (z.B. im Rahmen des EU-Programms Erasmus+) informieren und
+                    sich nach einer Prüfung der Zulassungsvoraussetzungen im Ausland für einen
+                    Studienplatz bewerben. Im Zuge von Erasmus+ kann außerdem ein sogenanntes
+                    Learning Agreement zwischen der studierenden Person, der heimischen Hochschule
+                    sowie der ausgewählten ausländischen Hochschule über die im Rahmen des
+                    Auslandsaufenthalts angestrebten Leistungen geschlossen werden. Gegebenenfalls
+                    ist die Ausstellung eines Transcript of Records (ToR) notwendig.</para>
+    </listitem>
+    <listitem>
+                <para><emphasis role="bold">Auslandsstudium antreten</emphasis></para>
+                <para>Nach erfolgreicher Prüfung der (deutschen) Kompetenznachweise durch die
+                    ausländische Hochschule können die Studierenden ihr Studium im Ausland
+                    antreten.</para>
+            </listitem>
+    <listitem>
+      <para><emphasis role="bold">Im Ausland studieren</emphasis></para>
+      <para>Im Ausland absolvieren die Studierenden ein Studiensemester, wobei sie in der Regel Veranstaltungen in ihrem Studienfach und auf ihrem Niveau besuchen.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Auslandsstudium beenden</emphasis></para>
+      <para>Nach Abschluss des Auslandssemesters können die Studierenden ihre im Rahmen des Auslandsaufenthalts erbrachten Leistungen durch die heimische Hochschule für ihr 
+      Studium anerkennen und anrechnen lassen.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Hochschulabschlusszeugnis erhalten</emphasis></para>
+      <para>Zum erfolgreichen Abschluss des grundständigen Studiums wird den Studierenden ein
+                    (digitales) Hochschulabschlusszeugnis mit weiteren Dokumenenten wie Transcript
+                    of Records (ToR) oder Diploma Supplements ausgestellt.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Studienfach wechseln</emphasis></para>
+      <para>Studierende können nach erfolgreichem Abschluss ihres Bachelorstudiums ein Masterstudium aufnehmen,
+      falls ihr Bachelorstudium durch die entsprechende Hochschule anerkannt wird und sie alle weiteren Zulassungsvoraussetzungen erfüllen.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Im Master studieren</emphasis></para>
+      <para>Nach dem grundständigen Studium (Bachelor) absolvieren Studierende in Deutschland häufig ein weiterführendes Studium (Master).</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Hochschulabschlusszeugnis erhalten</emphasis></para>
+      <para>Zum erfolgreichen Abschluss des konsekutiven Studiums wird den Studierenden ein
+                    (digitales)  Hochschulabschlusszeugnis mit weiteren Dokumenenten wie Transcript
+                    of Records (ToR) oder Diploma Supplements ausgestellt.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Suchen und informieren</emphasis></para>
+      <para>Zu Beginn der Stellensuche informieren sich Arbeitssuchende mit strukturierten
+                    Informationsangeboten (z.B. Jobbörse der Bundesagentur für Arbeit, Indeed),
+                    Suchmaschinen (z.B. Google) oder bei Beratungsstellen (z. B. bei
+                    Vermittlungsfachkräften der Bundesagentur für Arbeit) zum deutschen Arbeitsmarkt
+                    und geeigneten Beschäftigungsmöglichkeiten.</para>
+    </listitem>
+    <listitem>
+      <para><emphasis role="bold">Für Job bewerben</emphasis></para>
+      <para>Die Bewerbung auf eine konkrete Stelle mit Nachweisen wie z. B. Zeugnissen, erfolgt
+                    beispielsweise über digitale Bewerbungsplattformen der Arbeitgeber oder
+                    zunehmend auch über die digitalen Onlineprofile der Bewerber:innen.</para>
+    </listitem>
+  </orderedlist>
+  
+    </section>
+</chapter>

@@ -8,7 +8,7 @@
          xml:id="XBildung.Baukasten.Benotung">
    <title>Benotung</title>
    <subtitle>Typ: <emphasis role="codebf">Benotung</emphasis>
-   </subtitle><para>Der Datentyp Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, etc.</para>
+   </subtitle><para>Die Klasse Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, Prüfungsleistungen und Prüfungsteile in der beruflichen Bildung, etc.</para>
 
 
 <figure xml:id="figure.XBildung.Baukasten.Benotung">

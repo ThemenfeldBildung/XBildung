@@ -43,8 +43,16 @@
                     linkend="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses"
                     >Code.ArtDesSchulabschlusses</link> die URIs der Codelistenwerte angepasst.
                 Außerdem erfolgte für <link linkend="XBildung.Baukasten.Codes.Code.ArtDerSchule"
-                    >Code.ArtDerSchule</link> eine Anpassung der Beschreibung mit Verweis auf die Verwendung von
-                Version 4.0 des KDS (Kerndatensatzes).</para>
+                    >Code.ArtDerSchule</link> eine Anpassung der Beschreibung mit Verweis auf die
+                Verwendung von Version 4.0 des KDS (Kerndatensatzes).</para>
+        </section>
+
+        <section>
+            <title>Ergänzung der Klasse Benotung um XBBD-spezifische Informationen</title>
+            <para> Die Klasse <link linkend="XBildung.Baukasten.Benotung">Benotung</link> wurde um
+                Elemente erweitert, um spezifische Prüfungsleistungen aus dem Kontext der
+                Berufsbildung abbilden zu können. Die Beschreibung wurde entsprechend angepasst.
+            </para>
         </section>
 
         <section>
@@ -53,22 +61,24 @@
                 wurde der Spezifikation ein neues Kapitel <link
                     xlink:href="#modellierung.wichtigeHinweiseZurImplementierung">Wichtige Hinweise
                     zur Implementierung</link> hinzugefügt. Das Kapitel enthält einen Link zu
-                Anweisungen für die Validierung mit Schematron. Die Abkürzung EQF / EQR wurde ins
-                    <link xlink:href="#spezifikation.anhaenge.glossar">Glossar</link> aufgenommen.
-            </para>
+                Anweisungen für die Validierung mit Schematron. Die XBildung-Journey sowie <link
+                    xlink:href="#spezifikation.anhaenge.glossar">Glossar</link> und <link
+                    xlink:href="#spezifikation.anhaenge.abkuerzungen">Abkürzungsverzeichnis</link>
+                wurden überarbeitet.</para>
         </section>
 
         <section>
             <title>Sonstige Änderungen</title>
-            <para> Die Eigenschaften der Klassen <link linkend="XBildung.Baukasten.Abschlussarbeit"
-                    >Abschlussarbeit</link>, <link linkend="XBildung.Baukasten.Benotung"
+            <para> Die Eigenschaften der Klassen <link linkend="XBildung.Baukasten.Benotung"
                     >Benotung</link>, <link linkend="XBildung.Baukasten.Dokument">Dokument</link>,
                     <link linkend="XBildung.Baukasten.Ortsangabe">Ortsangabe</link>, <link
                     linkend="XBildung.Baukasten.Praktikum">Praktikum</link> und <link
                     linkend="XBildung.Baukasten.TeilbekanntesDatum">TeilbekanntesDatum</link> wurden
                 als "Unqualified" ausgezeichnet, was es Fachmodulen ermöglicht, eingeschränkte
-                Versionen dieser Klassen zu verwenden. Die Klasse Kurs wurde aus XBildung entfernt,
-                da sie von den einzelnen Teilvorhaben direkt umgesetzt wird. </para>
+                Versionen dieser Klassen zu verwenden. </para>
+            <para>Die Klasse Kurs wurde aus XBildung entfernt, da sie von den einzelnen Teilvorhaben
+                direkt umgesetzt wird. Die Klasse Abschlussarbeit wurde gelöscht, da sie in keinem
+                Vorhaben verwendet wurde.</para>
             <para> In der Klasse <link linkend="XBildung.Baukasten.Dokument">Dokument</link> wurde
                 die Eigenschaft gueltigkeitszeitraum vom Typ <link
                     linkend="XBildung.Baukasten.Zeitraum">xbd:zeitraum</link> ersetzt durch neue
@@ -80,6 +90,12 @@
                     xlink:href="https://xbildung.de/def/xbildung/current/"
                     >https://xbildung.de/def/xbildung/current/</link>
             </para>
+            <para> Die Menge der zulässigen Schriftzeichen für das Freitext-Element Ort im komplexen
+                Datentyp <link linkend="XBildung.Baukasten.Ortsangabe">Ortsangabe</link> wurde von
+                DIN 91379 Datentyp B auf Datentyp C erweitert. Der technische Datentyp C wurde für
+                alle normativen Schriftzeichen der DIN 91379 entworfen. Griechische oder kyrillische
+                Buchstaben sowie erweiterte (nicht-normative) Nicht-Buchstaben sind unzulässig.
+            </para>
         </section>
 
         <section>
@@ -87,20 +103,50 @@
             <para>Folgende (intern dokumentierte) Tickets wurden umgesetzt:</para>
             <itemizedlist>
                 <listitem>
-                    <para>XBD-365: Kernkomponenten entfernen</para>
+                    <para>XBD-397: Seite zur XML-Validierung in allen Teilvorhaben harmonisieren</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-395: Ortsangabe Typ von datatypeB auf datatypeC ändern</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-394: Dokumentation der Klasse Benotung ergänzen </para>
+                </listitem>
+                <listitem>
+                    <para>XBD-386: Beziehungen zu 2019-03 entfernen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-381: Codelisten mit Status Vorentwurf im XRepository prüfen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-380: Klasse Abschlussarbeit löschen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-378: Nachlaufende Tasks aus neuem Kapitel "Hinweise zur Implementierung" dokumentieren</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-376: Codelisten aus Kernkomponenten ggf. löschen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-374: Journey - Tabelle und Graphik überarbeiten</para>
                 </listitem>
                 <listitem>
                     <para>XBD-371: Codeliste ArtDerTraegerschaft auf sprechende Werte
                         umstellen</para>
                 </listitem>
                 <listitem>
+                    <para>XBD-365: Kernkomponenten entfernen</para>
+                </listitem>
+                <listitem>
                     <para>XBD-360: Kennung der Codeliste ArtDesSchulabschlusses prüfen</para>
                 </listitem>
                 <listitem>
-                    <para>XBD-358: Gültigkeitszeitraum-Ende entfernen aus Klasse Dokument</para>
+                    <para>XBD-358: Gültigkeitszeitraum-Ende aus Klasse Dokument entfernen</para>
                 </listitem>
                 <listitem>
                     <para>XBD-357: Kursstatus Beschreibung konkretisieren</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-355: Neues Kapitel "Ausstellen und Einlesen von XML-Instanzen" erstellen </para>
                 </listitem>
                 <listitem>
                     <para>XBD-353: Versionierung von Codelisten prüfen und ggf. anpassen</para>
@@ -117,7 +163,10 @@
                     <para>XBD-290: EQF in das Glossar aufnehmen</para>
                 </listitem>
                 <listitem>
-                    <para>XBD-287: Prüfen: Notwendigkeit von XÖV-Codeliste Verzeichnisdienste</para>
+                    <para>XBD-288: Im src-Ordner aufräumen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-287: Notwendigkeit von XÖV-Codeliste Verzeichnisdienste prüfen</para>
                 </listitem>
                 <listitem>
                     <para>XBD-282: Codeliste ArtDerSchule auf sprechende Werte umstellen</para>
@@ -127,7 +176,13 @@
                         zu ermöglichen</para>
                 </listitem>
                 <listitem>
+                    <para>XBD-231: Leere Mapping-Werte nicht als preflabel kennzeichnen </para>
+                </listitem>
+                <listitem>
                     <para>XBD-218: Spezifikation inhaltlich schärfen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-55: RDF-Ausspielung bei Codelisten optimieren</para>
                 </listitem>
             </itemizedlist>
         </section>

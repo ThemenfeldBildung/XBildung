@@ -4,13 +4,9 @@
          xml:id="datentypen.aggregiert.XBildung.Baukasten">
    <title>Datentypen</title>
    <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Abschlussarbeit.xml"/>
-   <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Benotung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.AmtlicherGemeindeschluessel.xml"/>
-   <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Codes/Code.Anschriftstyp.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.ArtDerPruefung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
@@ -40,11 +36,7 @@
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Kreis.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Codes/Code.Kursstatus.xml"/>
-   <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Language.xml"/>
-   <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Codes/Code.Namensart.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Regionalschluessel.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"

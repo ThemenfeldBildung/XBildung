@@ -20,7 +20,7 @@
             <title>Einleitung</title>
         </info>
         <include href="einleitung/hintergrundZuXBildung.xml" xmlns="http://www.w3.org/2001/XInclude" />
-        <include href="einleitung/dieBildungsjourney.xml" xmlns="http://www.w3.org/2001/XInclude" />
+        <include href="einleitung/XBildung-Journey.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="einleitung/spezifikationXBildung.xml" xmlns="http://www.w3.org/2001/XInclude" />
     </part>
     <part version="5" xml:id="spezifikation.fachlicheModellierung" xml:lang="de" xmlns="http://docbook.org/ns/docbook">

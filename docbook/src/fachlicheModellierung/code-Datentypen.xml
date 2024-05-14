@@ -4,33 +4,53 @@
     <!ENTITY % complete SYSTEM "../../ent/complete.ent">
     %complete;
 ]>
-<chapter version="5" xml:id="modellierung.code-Datentypen" xml:lang="de" xmlns="http://docbook.org/ns/docbook">
+<chapter version="5" xml:id="modellierung.code-Datentypen" xml:lang="de"
+    xmlns="http://docbook.org/ns/docbook">
     <info>
         <title>Code-Datentypen</title>
     </info>
-    <para>Im Basismodul XBildung werden Code-Datentypen spezifiziert, die in mindestens zwei verschiedenen Fachmodulen (z.B. XHochschule und XSchule) verwendet werden. Code-Datentypen, die nur in einem einzigen Fachmodul zur Anwendung kommen, werden in dem entsprechenden Fachmodul spezifiziert.</para>
-    
-    <include href="../../build/docBook/dokumente/anhang/codes/code-uebersichtstabelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.amtlichergemeindeschluessel.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.anschriftstyp.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artderpruefung.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artderschule.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artdesschulabschlusses.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artdertraegerschaft.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.bezirk.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.bewertungsschema.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.bundesland.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.cefr.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.erreichbarkeit.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.eqf.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.geschlecht.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.ISCED2011.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.ISCEDF2013.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.kreis.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.kursstatus.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.language.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.namensart.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.regionalschluessel.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.staat.xml" xmlns="http://www.w3.org/2001/XInclude" />
-    <include href="../../build/docBook/dokumente/anhang/codes/code.staatsangehoerigkeit.xml" xmlns="http://www.w3.org/2001/XInclude" />
+    <para>Im Basismodul XBildung werden Code-Datentypen spezifiziert, die in mindestens zwei
+        verschiedenen Fachmodulen (z.B. XHochschule und XSchule) verwendet werden. Code-Datentypen,
+        die nur in einem einzigen Fachmodul zur Anwendung kommen, werden in dem entsprechenden
+        Fachmodul spezifiziert.</para>
+    <include href="../../build/docBook/dokumente/anhang/codes/code-uebersichtstabelle.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.amtlichergemeindeschluessel.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.artderpruefung.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.artderschule.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.artdesschulabschlusses.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.artdertraegerschaft.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.bezirk.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.bewertungsschema.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.bundesland.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.cefr.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.erreichbarkeit.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.eqf.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.geschlecht.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.ISCED2011.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.ISCEDF2013.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.kreis.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.language.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.regionalschluessel.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.staat.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
+    <include href="../../build/docBook/dokumente/anhang/codes/code.staatsangehoerigkeit.xml"
+        xmlns="http://www.w3.org/2001/XInclude"/>
 </chapter>

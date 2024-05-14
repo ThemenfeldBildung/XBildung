@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!ENTITY datentyp.ref.abschlussarbeit '<emphasis role="codebf">Abschlussarbeit</emphasis>'>
-                    <!ENTITY datentyp.ref.link.abschlussarbeit '<link linkend="XBildung.Baukasten.Abschlussarbeit">Abschlussarbeit</link>'>
-                    <!ENTITY datentyp.ref.xref.abschlussarbeit '<xref linkend="XBildung.Baukasten.Abschlussarbeit" role="AS"/>'>
-                    <!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
                     <!ENTITY datentyp.ref.link.benotung '<link linkend="XBildung.Baukasten.Benotung">Benotung</link>'>
                     <!ENTITY datentyp.ref.xref.benotung '<xref linkend="XBildung.Baukasten.Benotung" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.amtlichergemeindeschluessel '<emphasis role="codebf">Code.AmtlicherGemeindeschluessel</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.amtlichergemeindeschluessel '<link linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link>'>
                     <!ENTITY datentyp.ref.xref.code.amtlichergemeindeschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.anschriftstyp '<emphasis role="codebf">Code.Anschriftstyp</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.anschriftstyp '<link linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp">Code.Anschriftstyp</link>'>
-                    <!ENTITY datentyp.ref.xref.code.anschriftstyp '<xref linkend="XBildung.Baukasten.Codes.Code.Anschriftstyp" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.artderpruefung '<emphasis role="codebf">Code.ArtDerPruefung</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.artderpruefung '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>'>
                     <!ENTITY datentyp.ref.xref.code.artderpruefung '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung" role="AS"/>'>
@@ -52,15 +46,9 @@
                     <!ENTITY datentyp.ref.code.kreis '<emphasis role="codebf">Code.Kreis</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.kreis '<link linkend="XBildung.Baukasten.Codes.Code.Kreis">Code.Kreis</link>'>
                     <!ENTITY datentyp.ref.xref.code.kreis '<xref linkend="XBildung.Baukasten.Codes.Code.Kreis" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.kursstatus '<emphasis role="codebf">Code.Kursstatus</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.kursstatus '<link linkend="XBildung.Baukasten.Codes.Code.Kursstatus">Code.Kursstatus</link>'>
-                    <!ENTITY datentyp.ref.xref.code.kursstatus '<xref linkend="XBildung.Baukasten.Codes.Code.Kursstatus" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.language '<emphasis role="codebf">Code.Language</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.language '<link linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>'>
                     <!ENTITY datentyp.ref.xref.code.language '<xref linkend="XBildung.Baukasten.Codes.Code.Language" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.namensart '<emphasis role="codebf">Code.Namensart</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.namensart '<link linkend="XBildung.Baukasten.Codes.Code.Namensart">Code.Namensart</link>'>
-                    <!ENTITY datentyp.ref.xref.code.namensart '<xref linkend="XBildung.Baukasten.Codes.Code.Namensart" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.regionalschluessel '<emphasis role="codebf">Code.Regionalschluessel</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.regionalschluessel '<link linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>'>
                     <!ENTITY datentyp.ref.xref.code.regionalschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel" role="AS"/>'>
