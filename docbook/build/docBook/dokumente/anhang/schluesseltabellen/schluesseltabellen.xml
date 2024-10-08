@@ -67,6 +67,16 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes">Art der Bemerkung</link>
+                  </entry>
+                  <entry align="left">1.0</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Code.ArtDerBemerkung</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                   </entry>
                   <entry align="left">1.0</entry>
@@ -169,6 +179,17 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">Gesetzlicher Vertreter</link>
+                  </entry>
+                  <entry align="left">3</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter">Code.GesetzlicherVertreter</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.unesco.codeliste.isced2011.2011Level-Codes">ISCED Level</link>
                   </entry>
                   <entry align="left">ISCED-2011</entry>
@@ -181,7 +202,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.taxonomie.isced-f-2013.2013F-Codes">ISCED-F 2013</link>
                   </entry>
-                  <entry align="left">20230628-0</entry>
+                  <entry align="left">20240110-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013">Code.ISCEDF2013</link>
                   </entry>
@@ -201,9 +222,19 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                   </entry>
-                  <entry align="left">20231213-0</entry>
+                  <entry align="left">20240925-0</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes">Lernzeitmodell</link>
+                  </entry>
+                  <entry align="left">1.0</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell">Code.Lernzeitmodell</link>
                   </entry>
                </row>
                <row>
@@ -290,6 +321,117 @@
                      <row>
                         <entry>Version</entry>
                         <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes">
+         <title>Art der Bemerkung</title><para>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können.</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Art der Bemerkung</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Art der Bemerkung</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xbildung-de:xbildung:codeliste:artderbemerkung</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>XBildung (XBildung.de)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>1.0</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key"/>
+                  <colspec colnum="2" colname="val"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code</entry>
+                        <entry align="left">description-de-DE (Beschreibung)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/aequivalenzbemerkung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​a​e​q​u​i​v​a​l​e​n​z​b​e​m​e​r​k​u​n​g</link>
+                        </entry>
+                        <entry align="left">Äquivalenzbemerkung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/allgemeine_beurteilung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​a​l​l​g​e​m​e​i​n​e​_​b​e​u​r​t​e​i​l​u​n​g</link>
+                        </entry>
+                        <entry align="left">allgemeine Beurteilung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/arbeitsgemeinschaft">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​a​r​b​e​i​t​s​g​e​m​e​i​n​s​c​h​a​f​t</link>
+                        </entry>
+                        <entry align="left">Arbeitsgemeinschaft</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/befreiung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​b​e​f​r​e​i​u​n​g</link>
+                        </entry>
+                        <entry align="left">Befreiung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/engagement_ausserschulisch">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​e​n​g​a​g​e​m​e​n​t​_​a​u​s​s​e​r​s​c​h​u​l​i​s​c​h</link>
+                        </entry>
+                        <entry align="left">außerschulisches Engagement</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/engagement_schulisch">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​e​n​g​a​g​e​m​e​n​t​_​s​c​h​u​l​i​s​c​h</link>
+                        </entry>
+                        <entry align="left">schulisches Engagement</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/freie_formulierung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​f​r​e​i​e​_​f​o​r​m​u​l​i​e​r​u​n​g</link>
+                        </entry>
+                        <entry align="left">freie Formulierung</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/rechtsgrundlage">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​r​e​c​h​t​s​g​r​u​n​d​l​a​g​e</link>
+                        </entry>
+                        <entry align="left">Rechtsgrundlage</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/sonstige_standardisierte_bemerkung">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​r​b​e​m​e​r​k​u​n​g​/​s​o​n​s​t​i​g​e​_​s​t​a​n​d​a​r​d​i​s​i​e​r​t​e​_​b​e​m​e​r​k​u​n​g</link>
+                        </entry>
+                        <entry align="left">sonstige standardisierte Bemerkung</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1250,10 +1392,6 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                         <entry>Version</entry>
                         <entry>20230118-0</entry>
                      </row>
-                     <row>
-                        <entry>Gültigkeit ab</entry>
-                        <entry>2023-01-18</entry>
-                     </row>
                   </tbody>
                </tgroup>
             </informaltable>
@@ -1308,6 +1446,58 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      <row>
                         <entry>Gültigkeit ab</entry>
                         <entry>2018-05-03</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">
+         <title>Gesetzlicher Vertreter</title><para>Mit dieser Schlüsseltabelle wird die Art der gesetzlichen Vertretung abgebildet. Siehe Blatt 0001 des DSMeld.</para>
+
+<para><emphasis role="bold">Codeliste DSMeld Gesetzlicher Vertreter im XRepository:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter">https://www.xrepository.de/details/​urn​:de​:dsmeld​:schluesseltabelle​:gesetzlicher​.vertreter</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Vater, Elternteil</emphasis> : 1</para></listitem>
+<listitem><para><emphasis role="bold">Mutter, Elternteil</emphasis> : 2</para></listitem>
+<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (natürliche Person)</emphasis> : 3</para></listitem>
+<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (juristische Person)</emphasis> : 4</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Gesetzlicher Vertreter</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Koordindierungsstelle für IT-Standards (KoSIT)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>3</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1414,7 +1604,11 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>20230628-0</entry>
+                        <entry>20240110-0</entry>
+                     </row>
+                     <row>
+                        <entry>Gültigkeit ab</entry>
+                        <entry>2024-01-10</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1475,9 +1669,8 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          <?KoSIT-FO hard-pagebreak?>
       </section>
       <section xml:id="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">
-         <title>Language</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
-<para>
-    The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts:
+         <title>Language</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+<para>Language is a controlled vocabulary that lists world languages and language varieties, including sign languages. Its main purpose is to support activities associated with the publication process. The full set of languages contains more than 8000 language varieties, each identified by a code equivalent to the ISO 639-3 code. Concepts are aligned with the ISO 639 international standard, which is issued in several parts:
 </para>
 <para>
     <itemizedlist spacing="compact" mark="-">
@@ -1531,11 +1724,106 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>20231213-0</entry>
+                        <entry>20240925-0</entry>
                      </row>
                      <row>
                         <entry>Gültigkeit ab</entry>
-                        <entry>2023-12-13</entry>
+                        <entry>2024-09-25</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes">
+         <title>Lernzeitmodell</title><para>
+Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen.
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Lernzeitmodell</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>Lernzeitmodell</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:xbildung-de:xbildung:codeliste:lernzeitmodell</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>XBildung (XBildung.de)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>1.0</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <section>
+            <title>Daten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="key"/>
+                  <colspec colnum="2" colname="val"/>
+                  <thead>
+                     <row>
+                        <entry align="left">code</entry>
+                        <entry align="left">description-de-DE (Lernzeitmodell)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/dual-ausbildungsintegriert">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​d​u​a​l​-​a​u​s​b​i​l​d​u​n​g​s​i​n​t​e​g​r​i​e​r​t</link>
+                        </entry>
+                        <entry align="left">Dual (ausbildungsintegriert)</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/dual-praxisintegriert">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​d​u​a​l​-​p​r​a​x​i​s​i​n​t​e​g​r​i​e​r​t</link>
+                        </entry>
+                        <entry align="left">Dual (praxisintegriert)</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/teilzeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​t​e​i​l​z​e​i​t</link>
+                        </entry>
+                        <entry align="left">Teilzeit</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/vollzeit">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​v​o​l​l​z​e​i​t</link>
+                        </entry>
+                        <entry align="left">Vollzeit</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                        </entry>
+                        <entry align="left">Wert nicht bekannt</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​x​b​i​l​d​u​n​g​/​1​.​0​/​c​o​d​e​/​l​e​r​n​z​e​i​t​m​o​d​e​l​l​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                        </entry>
+                        <entry align="left">Wert nicht in Liste</entry>
                      </row>
                   </tbody>
                </tgroup>

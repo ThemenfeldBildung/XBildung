@@ -8,6 +8,8 @@
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.AmtlicherGemeindeschluessel.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Codes/Code.ArtDerBemerkung.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.ArtDerPruefung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.ArtDerSchule.xml"/>
@@ -30,6 +32,8 @@
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Geschlecht.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Codes/Code.GesetzlicherVertreter.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.ISCED2011.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.ISCEDF2013.xml"/>
@@ -37,6 +41,8 @@
             href="../../XBildung/Baukasten/Codes/Code.Kreis.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Language.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Codes/Code.Lernzeitmodell.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.Regionalschluessel.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
