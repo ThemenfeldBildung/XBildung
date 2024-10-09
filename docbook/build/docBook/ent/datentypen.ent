@@ -4,9 +4,6 @@
                     <!ENTITY datentyp.ref.code.amtlichergemeindeschluessel '<emphasis role="codebf">Code.AmtlicherGemeindeschluessel</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.amtlichergemeindeschluessel '<link linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel">Code.AmtlicherGemeindeschluessel</link>'>
                     <!ENTITY datentyp.ref.xref.code.amtlichergemeindeschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.artderbemerkung '<emphasis role="codebf">Code.ArtDerBemerkung</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.artderbemerkung '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Code.ArtDerBemerkung</link>'>
-                    <!ENTITY datentyp.ref.xref.code.artderbemerkung '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.artderpruefung '<emphasis role="codebf">Code.ArtDerPruefung</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.artderpruefung '<link linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>'>
                     <!ENTITY datentyp.ref.xref.code.artderpruefung '<xref linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung" role="AS"/>'>
@@ -40,9 +37,6 @@
                     <!ENTITY datentyp.ref.code.geschlecht '<emphasis role="codebf">Code.Geschlecht</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.geschlecht '<link linkend="XBildung.Baukasten.Codes.Code.Geschlecht">Code.Geschlecht</link>'>
                     <!ENTITY datentyp.ref.xref.code.geschlecht '<xref linkend="XBildung.Baukasten.Codes.Code.Geschlecht" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.gesetzlichervertreter '<emphasis role="codebf">Code.GesetzlicherVertreter</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.gesetzlichervertreter '<link linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter">Code.GesetzlicherVertreter</link>'>
-                    <!ENTITY datentyp.ref.xref.code.gesetzlichervertreter '<xref linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.isced2011 '<emphasis role="codebf">Code.ISCED2011</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.isced2011 '<link linkend="XBildung.Baukasten.Codes.Code.ISCED2011">Code.ISCED2011</link>'>
                     <!ENTITY datentyp.ref.xref.code.isced2011 '<xref linkend="XBildung.Baukasten.Codes.Code.ISCED2011" role="AS"/>'>
@@ -55,9 +49,6 @@
                     <!ENTITY datentyp.ref.code.language '<emphasis role="codebf">Code.Language</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.language '<link linkend="XBildung.Baukasten.Codes.Code.Language">Code.Language</link>'>
                     <!ENTITY datentyp.ref.xref.code.language '<xref linkend="XBildung.Baukasten.Codes.Code.Language" role="AS"/>'>
-                    <!ENTITY datentyp.ref.code.lernzeitmodell '<emphasis role="codebf">Code.Lernzeitmodell</emphasis>'>
-                    <!ENTITY datentyp.ref.link.code.lernzeitmodell '<link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell">Code.Lernzeitmodell</link>'>
-                    <!ENTITY datentyp.ref.xref.code.lernzeitmodell '<xref linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.regionalschluessel '<emphasis role="codebf">Code.Regionalschluessel</emphasis>'>
                     <!ENTITY datentyp.ref.link.code.regionalschluessel '<link linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>'>
                     <!ENTITY datentyp.ref.xref.code.regionalschluessel '<xref linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel" role="AS"/>'>

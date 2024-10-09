@@ -64,17 +64,6 @@
             </row>
             <row>
                <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Code.ArtDerBemerkung</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes">Art der Bemerkung</link>
-               </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
-            </row>
-            <row>
-               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ArtDerPruefung">Code.ArtDerPruefung</link>
                </entry>
                <entry align="left">
@@ -198,18 +187,6 @@
             </row>
             <row>
                <entry align="left">
-                  <link role="schwarz"
-                        linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter">Code.GesetzlicherVertreter</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">Gesetzlicher Vertreter</link>
-               </entry>
-               <entry align="left">3</entry>
-               <entry align="left">2</entry>
-            </row>
-            <row>
-               <entry align="left">
                   <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.ISCED2011">Code.ISCED2011</link>
                </entry>
                <entry align="left">
@@ -227,7 +204,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.taxonomie.isced-f-2013.2013F-Codes">ISCED-F 2013</link>
                </entry>
-               <entry align="left">20240110-0</entry>
+               <entry align="left">20230628-0</entry>
                <entry align="left">2</entry>
             </row>
             <row>
@@ -249,19 +226,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.language.Language-Codes">Language</link>
                </entry>
-               <entry align="left">20240925-0</entry>
+               <entry align="left">20231213-0</entry>
                <entry align="left">2</entry>
-            </row>
-            <row>
-               <entry align="left">
-                  <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell">Code.Lernzeitmodell</link>
-               </entry>
-               <entry align="left">
-                  <link role="schwarz"
-                        linkend="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes">Lernzeitmodell</link>
-               </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
             </row>
             <row>
                <entry align="left">

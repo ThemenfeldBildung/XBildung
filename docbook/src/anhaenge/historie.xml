@@ -13,65 +13,11 @@
         Spezifikation dargestellt. Es werden die Änderungen der letzten zwei Versionen
         aufgeführt.</para>
 
-    <section xml:id="spezifikation.anhang.versionshistorie11">
-        <info>
-            <title>Version &version;&version_title;</title>
-        </info>
-        <para>Veröffentlichungsdatum: &fassung;</para>
-        <section>
-            <title>Änderungen an Codelisten </title>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
-                >Lernzeitmodell</link>, die bisher in XHochschule verwendet wurde, 
-                ist aufgrund übergreifender Relevanz nun in XBildung eingebunden und kann durch alle Teilvorhaben nachgenutzt werden.  </para>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung"
-                >Art der Bemerkung</link>, die zuvor sowohl in XSchule wie auch in XBerufsbildung mit unterschiedlichen Werten Verwendung fand,
-                ist nun unter Vereinigung der Werte aus beiden Teilvorhaben in XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.</para>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter"
-                >Gesetzlicher Vertreter</link>, die bisher in XSchule wie auch in XBerufsbildung unter Rückgriff auf die Listenwerte des DSMeld verwendet wurde, 
-                ist nun zentral in XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.</para>
-            <para> Die Codelisten <link linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013"
-                >ISCED-F-2013</link> und <link linkend="XBildung.Baukasten.Codes.Code.Language"
-                    >Language</link> wurden auf die aktuelle Fassung gebracht.</para>
-            <para> Der Bezugsort der vom EU Publications Office herausgegebenen Codelisten wurde im Modell vereinheitlicht.</para>
-        </section>
-        <section>
-            <title>Bereitstellung einer Nonce in Klasse Dokument</title>
-            <para>Entsprechend einer Stakeholder-Anforderung wurde für die Klasse <link
-                linkend="XBildung.Baukasten.Dokument">Dokument</link>, und damit für alle in den Teilvorhaben bereitgestellten Nachweise, 
-                die Möglichkeit zur Angabe einer Nonce für den sicheren Datentransport bereitgestellt.</para>       
-        </section>
-        <section>
-            <title>Sonstige Änderungen</title>
-            <para>Elemente aus XBildung werden mit dem zugehörigen Namespace verwendet.</para>  
-            <para>In <link linkend="modellierung.wichtigeHinweiseZurImplementierung">Wichtige Hinweise zur Implementierung</link>         
-                wurde der Abschnitt zur Relevanz von Schematron überarbeitet. </para>
-        </section>
-        <section>
-            <title>Liste der umgesetzten Tickets</title>
-            <para> Folgende (intern dokumentierte) Tickets wurden umgesetzt:</para>
-            <itemizedlist>
-                <listitem><para>XBD-390: XBD Präfixe einbinden</para></listitem>
-                <listitem><para>XBD-392: Abgrenzung der Pre-Releases und Releases im Wording festlegen</para></listitem>
-                <listitem><para>XBD-393: Codeliste "Gesetzlicher Vertreter" über XBD einbinden</para></listitem>
-                <listitem><para>XBD-396: Lizenzangaben in GitHub ergänzen</para></listitem>
-                <listitem><para>XBD-399: Pre-Release-Tag in GitHub einführen</para></listitem>
-                <listitem><para>XBD-401: Codelisten-Kennungen überprüfen und anpassen</para></listitem>
-                <listitem><para>XBD-403: XBildung als Standard-Eigentümer im XRepository angeben</para></listitem>
-                <listitem><para>XBD-405: Codeliste "Art der Bemerkung" zusammenführen und in XBD einbinden</para></listitem>
-                <listitem><para>XBD-406: Codelisten "ISCED-F-2013", "Language" auf neue Version updaten</para></listitem>
-                <listitem><para>XBD-419: Anpassung des Abschnitts zu "Schematron" in Spezifikation</para></listitem>
-                <listitem><para>XBD-421: Feld auf Ebene "Dokument" / Nonce bereitstellen</para></listitem>
-                <listitem><para>XBD-422: Codeliste "Lernzeitmodell" von XHS auf XBD umziehen</para></listitem>
-                <listitem><para>XBD-424: Vereinheitlichung von Listen des EU Publications Office</para></listitem>
-            </itemizedlist>
-        </section>
-        </section>
-
     <section xml:id="spezifikation.anhang.versionshistorie10">
         <info>
-            <title>Version 1.0</title>
+            <title>Version &version;</title>
         </info>
-        <para>Veröffentlichungsdatum: 14. Mai 2024</para>
+        <para>Veröffentlichungsdatum: &fassung;</para>
         <section>
             <title>Neues Konzept zur Einbindung von Kernkomponenten</title>
             <para> Die XÖV-Kernkomponenten wurden aus XBildung entfernt, da sie zukünftig von den

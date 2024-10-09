@@ -22,8 +22,9 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
-<para>Language is a controlled vocabulary that lists world languages and language varieties, including sign languages. Its main purpose is to support activities associated with the publication process. The full set of languages contains more than 8000 language varieties, each identified by a code equivalent to the ISO 639-3 code. Concepts are aligned with the ISO 639 international standard, which is issued in several parts:
+               <entry><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/language" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
+<para>
+    The Language authority table is a controlled vocabulary that lists concepts associated with languages. Its main scope is to support activities associated with publication process. The concepts included are correlated with the ISO 639 international standard. This standard is issued in several parts:
 </para>
 <para>
     <itemizedlist spacing="compact" mark="-">
@@ -58,7 +59,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>20240925-0</entry>
+               <entry>20231213-0</entry>
             </row>
          </tbody>
       </tgroup>

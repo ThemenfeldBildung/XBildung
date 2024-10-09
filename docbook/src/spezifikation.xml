@@ -7,7 +7,7 @@
 <book status="&specstatus;" version="5" xml:lang="de" xmlns="http://docbook.org/ns/docbook">
     <info revision="1.0">
         <title>Spezifikation XBildung</title>
-        <subtitle>Version &version;&version_title;</subtitle>
+        <subtitle>Version &version;</subtitle>
         <abstract>
             <para>Fassung: &fassung;</para>
             <para>Herausgeber: BMBF, Land Sachsen-Anhalt</para>
@@ -27,12 +27,12 @@
         <info>
             <title>Fachliche Modellierung</title>
         </info>
-        <include href="fachlicheModellierung/grundlegendeDesignentscheidungen.xml" xmlns="http://www.w3.org/2001/XInclude" />                               
-        <include href="fachlicheModellierung/wichtigeHinweiseZurImplementierung.xml" xmlns="http://www.w3.org/2001/XInclude" />
+        <include href="fachlicheModellierung/grundlegendeDesignentscheidungen.xml" xmlns="http://www.w3.org/2001/XInclude" />               
         <!-- Kapitel Externe Modelle wird zur Zeit nicht über Template eingebunden, sondern direkt als XML-Datei, da das Template 
             noch angepasst werden muss, um die Modelle richtig anzuzeigen:
             <include href="../build/docBook/dokumente/anhang/externeModelle/externeModelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
-        -->
+        -->                
+        <include href="fachlicheModellierung/wichtigeHinweiseZurImplementierung.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/externeModelle.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/code-Datentypen.xml" xmlns="http://www.w3.org/2001/XInclude" />
         <include href="fachlicheModellierung/basisdatentypen.xml" xmlns="http://www.w3.org/2001/XInclude" />

@@ -17,8 +17,6 @@
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.amtlichergemeindeschluessel.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/anhang/codes/code.artderbemerkung.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.artderpruefung.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.artderschule.xml"
@@ -41,8 +39,6 @@
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.geschlecht.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/anhang/codes/code.gesetzlichervertreter.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.ISCED2011.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.ISCEDF2013.xml"
@@ -50,8 +46,6 @@
     <include href="../../build/docBook/dokumente/anhang/codes/code.kreis.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.language.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/anhang/codes/code.lernzeitmodell.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/anhang/codes/code.regionalschluessel.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
