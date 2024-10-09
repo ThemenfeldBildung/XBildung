@@ -12,6 +12,8 @@
                         <!ENTITY element.datentyp.ref.dokument.ausstellung 'Element <emphasis role="codebf">ausstellung</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.gueltigkeitsdatum '<emphasis role="codebf">gueltigkeitsdatum</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.gueltigkeitsdatum 'Element <emphasis role="codebf">gueltigkeitsdatum</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
+                        <!ENTITY element.ref.dokument.nonce '<emphasis role="codebf">nonce</emphasis>'>
+                        <!ENTITY element.datentyp.ref.dokument.nonce 'Element <emphasis role="codebf">nonce</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.sprache '<emphasis role="codebf">sprache</emphasis>'>
                         <!ENTITY element.datentyp.ref.dokument.sprache 'Element <emphasis role="codebf">sprache</emphasis> in Datentyp <emphasis role="codebf">Dokument</emphasis>'>
                         <!ENTITY element.ref.dokument.titel '<emphasis role="codebf">titel</emphasis>'>

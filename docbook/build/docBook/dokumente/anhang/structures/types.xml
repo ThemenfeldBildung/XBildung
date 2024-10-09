@@ -69,6 +69,9 @@
    <kosit:type name="Code.AmtlicherGemeindeschluessel"
                id="XBildung.Baukasten.Codes.Code.AmtlicherGemeindeschluessel"
                prefix="xbd"/>
+   <kosit:type name="Code.ArtDerBemerkung"
+               id="XBildung.Baukasten.Codes.Code.ArtDerBemerkung"
+               prefix="xbd"/>
    <kosit:type name="Code.ArtDerPruefung"
                id="XBildung.Baukasten.Codes.Code.ArtDerPruefung"
                prefix="xbd"/>
@@ -100,6 +103,9 @@
    <kosit:type name="Code.Geschlecht"
                id="XBildung.Baukasten.Codes.Code.Geschlecht"
                prefix="xbd"/>
+   <kosit:type name="Code.GesetzlicherVertreter"
+               id="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter"
+               prefix="xbd"/>
    <kosit:type name="Code.ISCED2011"
                id="XBildung.Baukasten.Codes.Code.ISCED2011"
                prefix="xbd"/>
@@ -115,6 +121,9 @@
                prefix="xbd"/>
    <kosit:type name="Code.Language"
                id="XBildung.Baukasten.Codes.Code.Language"
+               prefix="xbd"/>
+   <kosit:type name="Code.Lernzeitmodell"
+               id="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
                prefix="xbd"/>
    <kosit:type name="Code.Regionalschluessel"
                id="XBildung.Baukasten.Codes.Code.Regionalschluessel"
@@ -136,6 +145,7 @@
       <kosit:property name="ausstellung/ort/ort"/>
       <kosit:property name="ausstellung/ort/staat"/>
       <kosit:property name="gueltigkeitsdatum"/>
+      <kosit:property name="nonce"/>
       <kosit:property name="sprache"/>
       <kosit:property name="titel"/>
       <kosit:property name="titel/@lang"/>
