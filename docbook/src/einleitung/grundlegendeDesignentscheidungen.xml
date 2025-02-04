@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE chapter [
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter version="5" xml:id="modellierung.grundlegendeDesignentscheidungen" xml:lang="de"
+  xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Grundlegende Designentscheidungen</title>
+  <para>Das <link xlink:href="https://www.recht.bund.de/bgbl/1/2024/245/VO.html"
+      >Onlinezugangsgesetz</link> (OZG) und das <link
+      xlink:href="https://www.gesetze-im-internet.de/regmog/RegMoG.pdf"
+      >Registermodernisierungsgesetz</link> (RegMo) auf nationaler Ebene sowie die <link
+      xlink:href="https://eur-lex.europa.eu/eli/reg/2016/679/2016-05-04"
+      >Datenschutzgrundverordnung</link> (DSGVO), die <link
+      xlink:href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02018R1724-20240629"
+      >Single Digital Gateway Verordnung</link> (SDG), die <link
+      xlink:href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02014R0910-20241018"
+      >Verordnung über elektronische Identifizierung und Vertrauensdienste</link> (eIDAS) sowie der
+      <link xlink:href="https://eur-lex.europa.eu/eli/reg/2024/903/oj">Interoperable Europe
+      Act</link> auf EU-Ebene bilden den rechtlichen Rahmen für die Standardisierung im
+    Bildungswesen. Im Jahr 2019 kam eine <link
+      xlink:href="https://www.it-planungsrat.de/fileadmin/beschluesse/2020/Beschluss2020-52_Datenaustausch_im_Hochschulwesen_Standardisierungsstrategie.pdf"
+      >Studie</link> im Kontext der OZG-Umsetzung zu dem Ergebnis, dass es neben eines
+    organisatorischen und technischen auch eines semantischen Rahmens bedarf, der <link
+      xlink:href="https://verwaltung.bund.de/portal/DE/Lebenslagen/Schule_Ausbildung_Studium"
+      >Lebenslagen</link>-übergreifend für Interoperabilität im Bildungswesen sorgt. Dieser Rahmen
+    soll Themen abbilden, die nicht direkt schul-, berufsbildungs- oder hochschulspezifisch sind.
+    Diesen Bedarf erfüllt &fachmodul;. Mit &fachmodul; können Entwicklungsaufwände gebündelt werden
+    um die parallele Entwicklung digitaler Verwaltungsdienstleistungen im Bildungswesen zu
+    berücksichtigen.</para>
+  <para>Übergeordnetes Ziel ist die Förderung der Interoperabilität im Bildungswesen durch die
+    Digitalisierung von ehemals analogen Nachweisen. Dazu zählen beispielsweise der digitale
+    Sekundarschulabschluss, das Hochschulabschlusszeugnis oder das Prüfungszeugnis einer dualen
+    Ausbildung. Hier dient die Spezifikation &fachmodul; als Basismodul. Die darin definierten
+    semantischen Bausteine werden eingebunden von den Teilmodulen XHochschule für das
+    Hochschulwesen, XSchule für das Schulwesen und XBerufsbildung für das
+    Berufsbildungswesen.</para>
+  <para>Die folgenden Designentscheidungen sind für die Erstellung dieser Spezifikationen besonders
+    relevant: </para>
+  <orderedlist>
+    <listitem>
+      <para>Nachnutzung von <link xlink:href="https://www.xoev.de/xoev-4987">XÖV</link>-Methodik,
+          XÖV-<link xlink:href="https://www.xrepository.de/interopmatrix.html"
+          >Kernkomponentenbibliothek</link> sowie den Datentypen der <link
+          xlink:href="https://www.xoev.de/string-latin-4813">DIN 91379</link> (seit November 2024
+          <link xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2019-53"
+          >verbindlich</link> für den Bund-Länder übergreifenden Datenaustausch oder den
+        Datenaustausch mit Bürgern und Wirtschaft).</para>
+    </listitem>
+    <listitem>
+      <para>Wahrung von Anschlussfähigkeit <emphasis role="bold">begrenzt auf Belange der
+          semantischen Ebene, also auf den fachlichen Payload,</emphasis> an bestehende Register und
+        OZG-Komponenten, wie Nutzerkonten des Bundes oder der Länder, die relevanten
+        Architekturkomponenten bei der Umsetzung des <link
+          xlink:href="https://www.bva.bund.de/DE/Services/Behoerden/Verwaltungsdienstleistungen/Registermodernisierung/registermodernisierung_node.html"
+          >Registermodernisierungsgesetzes</link> in Deutschland sowie an die geplante technische
+        Vernetzungsinfrastruktur im Rahmen von <link xlink:href="https://www.meinbildungsraum.de/"
+          >Mein Bildungsraum</link>.</para>
+    </listitem>
+    <listitem>
+      <para>Nähe zu europäischen Datenmodellen: zum für die SDG-Umsetzung relevanten <link
+          xlink:href="https://www.digitale-verwaltung.de/SharedDocs/downloads/Webs/DV/DE/sdg-factsheet-evidence-survey.pdf"
+          >EU OOTS Exchange Data Model</link>, zum <link
+          xlink:href="https://europass.europa.eu/en/node/2128">European Learning Model</link> (ELM)
+        sowie zu fachspezifischen, grenzübergreifender Vorhaben wie <link
+          xlink:href="https://emrex.eu/">EMREX/ELMO</link>. Dies ermöglicht einerseits die
+        Berücksichtigung europäischer Anforderungen, die im Rahmen von XBildung relevant sind und
+        die Möglichkeit eines Mappings von Wertelisten, wo Interoperabilität zu den europäischen
+        Datenmodellen bereits besteht. Andererseits sollen fachliche Anforderungen aus XBildung in
+        die europäischen Vorhaben eingebracht werden, um von vornherein eine möglichst hohe
+        Interoperabilität zwischen XBildung und den europäischen Datenmodellen
+        sicherzustellen.</para>
+    </listitem>
+    <listitem>
+      <para>Berücksichtigung von <link xlink:href="https://www.w3.org/2001/sw/wiki/Main_Page"
+          >Semantic-Web</link>-Ansätzen und <link xlink:href="https://www.w3.org/"
+        >W3C</link>-Technologie wie etwa der Einsatz von Controlled Vocabularies, Thesauri und
+        persistenten Identifiern.</para>
+    </listitem>
+  </orderedlist>
+
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+
+  <para>Die nachfolgende Grafik fasst die wesentlichen Rahmenbedingungen für die Interoperabilität
+    im Kontext von &fachmodul; exemplarisch zusammen:</para>
+  <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata align="center" fileref="../abbildungen/grundlegendeDesignentscheidungen_02.png"
+          format="PNG" scale="48"/>
+      </imageobject>
+    </inlinemediaobject>
+  </para>
+</chapter>

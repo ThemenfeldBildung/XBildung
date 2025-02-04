@@ -8,7 +8,7 @@
          xml:id="XBildung.Baukasten.Dokument">
    <title>Dokument</title>
    <subtitle>Typ: <emphasis role="codebf">Dokument</emphasis>
-   </subtitle><para>Allgemeine Eigenschaften von Dokumenten, die zum Zwecke generischerer Verarbeitung übergreifend modelliert wurden. Die Klasse Dokument bildet damit die Grundlage für z.B. Bildungsnachweise oder Bescheinigungen die in den Fachmodulen XSchule und XHochschule als XML-Dateien für den Datenaustausch erstellt werden. </para><figure xml:id="figure.XBildung.Baukasten.Dokument">
+   </subtitle><para>Allgemeine Eigenschaften von Dokumenten, die zum Zwecke generischerer Verarbeitung übergreifend modelliert wurden. Die Klasse Dokument bildet damit die Grundlage für z.B. Bildungsnachweise oder Bescheinigungen die in den Teilmodulen als XML-Dateien für den Datenaustausch erstellt werden. </para><figure xml:id="figure.XBildung.Baukasten.Dokument">
       <title>Dokument</title>
       <mediaobject>
          <imageobject>

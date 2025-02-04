@@ -180,7 +180,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -214,7 +214,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="1.0"/>
+                          fixed="2025-02-04"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -226,7 +226,7 @@
                <nameKurz>Art der Prüfung</nameKurz>
                <nameTechnisch>ArtderPruefung-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artderpruefung</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
@@ -457,7 +457,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -498,7 +498,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="1.0"/>
+                          fixed="2025-02-04"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -883,12 +883,12 @@
                <nameKurz>Lernzeitmodell</nameKurz>
                <nameTechnisch>Lernzeitmodell-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:lernzeitmodell</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Liste der Lernzeitmodelle des European Learning Model (ELM). ELM Liste der Lernzeitmodelle: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -906,6 +906,14 @@
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
                </description-de-DE>
+               <mapping-ELMLearningScheduleType>
+                  <spaltennameLang>ELM Lernzeitmodell</spaltennameLang>
+                  <datentyp>string</datentyp>
+                  <sprache>de-DE</sprache>
+                  <codeSpalte>false</codeSpalte>
+                  <verwendung>optional</verwendung>
+                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
+               </mapping-ELMLearningScheduleType>
             </codelistenspalten>
             <genutzteCodeSpalte>code</genutzteCodeSpalte>
          </xs:appinfo>
@@ -922,7 +930,7 @@
             <xs:attribute name="listVersionID"
                           type="xs:normalizedString"
                           use="optional"
-                          fixed="1.0"/>
+                          fixed="2025-02-04"/>
          </xs:restriction>
       </xs:complexContent>
    </xs:complexType>
@@ -1015,7 +1023,7 @@
    </xs:complexType>
    <xs:complexType name="Dokument">
       <xs:annotation>
-         <xs:documentation>Allgemeine Eigenschaften von Dokumenten, die zum Zwecke generischerer Verarbeitung übergreifend modelliert wurden. Die Klasse Dokument bildet damit die Grundlage für z.B. Bildungsnachweise oder Bescheinigungen die in den Fachmodulen XSchule und XHochschule als XML-Dateien für den Datenaustausch erstellt werden.</xs:documentation>
+         <xs:documentation>Allgemeine Eigenschaften von Dokumenten, die zum Zwecke generischerer Verarbeitung übergreifend modelliert wurden. Die Klasse Dokument bildet damit die Grundlage für z.B. Bildungsnachweise oder Bescheinigungen die in den Teilmodulen als XML-Dateien für den Datenaustausch erstellt werden.</xs:documentation>
       </xs:annotation>
       <xs:sequence>
          <xs:element name="titel"
@@ -1173,7 +1181,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -1195,63 +1203,84 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/aequivalenzbemerkung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/aequivalenzbemerkung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Äquivalenzbemerkung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/allgemeine_beurteilung">
-            <xs:annotation>
-               <xs:appinfo>
-                  <description-de-DE>allgemeine Beurteilung</description-de-DE>
-               </xs:appinfo>
-            </xs:annotation>
-         </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/arbeitsgemeinschaft">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/arbeitsgemeinschaft">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Arbeitsgemeinschaft</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/befreiung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/befreiung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Befreiung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/engagement_ausserschulisch">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_allgemein">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>allgemeine Beurteilung</description-de-DE>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_arbeitsverhalten">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>Beurteilung Arbeitsverhalten</description-de-DE>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_sozialverhalten">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>Beurteilung Sozialverhalten</description-de-DE>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/engagement_ausserschulisch">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>außerschulisches Engagement</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/engagement_schulisch">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/engagement_schulisch">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>schulisches Engagement</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/freie_formulierung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/freie_formulierung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>freie Formulierung</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/rechtsgrundlage">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/laengerfristige_befreiung">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>längerfristige Befreiung</description-de-DE>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/rechtsgrundlage">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Rechtsgrundlage</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/artderbemerkung/sonstige_standardisierte_bemerkung">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/sonstige_standardisierte_bemerkung">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>sonstige standardisierte Bemerkung</description-de-DE>
@@ -1613,7 +1642,7 @@
                <nameKurz>Art der Prüfung</nameKurz>
                <nameTechnisch>ArtderPruefung-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:artderpruefung</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Fachmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM). ELM List Of Assessment Types: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
@@ -1841,7 +1870,7 @@
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -1870,7 +1899,7 @@
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_bmj_juristischepruefung_00_04_18">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Verordnung über eine Noten- und Punkteskala für die erste und zweite juristische Prüfung vom 3. Dezember 1981 (BGBl. I S. 1243), die durch Artikel 209 Absatz 4 des Gesetzes vom 19. April 2006 (BGBl. I S. 866) geändert worden ist. Es werden mindestens 4 Punkte zum Bestehen benötigt. Maximal möglich sind 18 Punkte.</description-de-DE>
@@ -1878,7 +1907,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_100_300">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_abitur_000_100_300">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block II des Abiturzeugnisses. Es werden mindestens 100 Punkte zum Bestehen benötigt. Maximal möglich sind 300 Punkte.</description-de-DE>
@@ -1886,7 +1915,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_200_600">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_abitur_000_200_600">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet im Block I des Abiturzeugnisses. Es werden mindestens 200 Punkte zum Bestehen benötigt. Maximal möglich sind 600 Punkte.</description-de-DE>
@@ -1894,14 +1923,14 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_280_840">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_abitur_000_280_840">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 280 Punkte zum Bestehen benötigt. Maximal möglich sind 840 Punkte.</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_000_300_900">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_abitur_000_300_900">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für die Gesamtqualifikation des Abiturzeugnisses. Es werden mindestens 300 Punkte zum Bestehen benötigt. Maximal möglich sind 900 Punkte.</description-de-DE>
@@ -1909,7 +1938,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_abitur_00_05_15">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_abitur_00_05_15">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Notensystem der KMK aus dem Jahre 1972, verwendet für Leistungen aus der Qualifkationsphase. Es werden in einem Kurs mindestens 5 Punkte zum Bestehen benötigt. Maximal möglich sind 15 Punkte.</description-de-DE>
@@ -1917,7 +1946,15 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_alternativehochschulnote_F_D_A">
+            <xs:annotation>
+               <xs:appinfo>
+                  <description-de-DE>Alternative Ausprägung der Hochschulnote, welche zusätzlich bzw. anstatt der in Deutschland gängigen Note angegeben werden kann. Es wird davon ausgegangen, dass die Noten hierbei als A, B, C, D, E und F ausgewiesen werden und ggf. bei einem Datenaustausch zwischen Hochschulen nach der modifizierten bayerischen Formel umgerechnet werden müsste.</description-de-DE>
+                  <seeAlso>https://www.kmk.org/fileadmin/pdf/ZAB/Hochschulzugang_Beschluesse_der_KMK/GesNot05.pdf</seeAlso>
+               </xs:appinfo>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_hochschulnote_5_4_1">
             <xs:annotation>
                <xs:appinfo>
                   <seeAlso>https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2003/2003_10_10-Laendergemeinsame-Strukturvorgaben.pdf</seeAlso>
@@ -1925,7 +1962,7 @@
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/bewertungsschema/de_kmk_schulnote_6_4_1">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/bewertungsschema/de_kmk_schulnote_6_4_1">
             <xs:annotation>
                <xs:appinfo>
                   <seeAlso>https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2020/2020_10_15-Laendervereinbarung-gemeinsame-Grundstruktur.pdf</seeAlso>
@@ -1943,12 +1980,12 @@
                <nameKurz>Lernzeitmodell</nameKurz>
                <nameTechnisch>Lernzeitmodell-Codes</nameTechnisch>
                <kennung>urn:xbildung-de:xbildung:codeliste:lernzeitmodell</kennung>
-               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen.</beschreibung>
+               <beschreibung>Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Liste der Lernzeitmodelle des European Learning Model (ELM). ELM Liste der Lernzeitmodelle: https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule</beschreibung>
                <herausgebernameLang>XBildung</herausgebernameLang>
                <herausgebernameKurz>XBildung.de</herausgebernameKurz>
             </codeliste>
             <versionCodeliste>
-               <version>1.0</version>
+               <version>2025-02-04</version>
                <versionCodelistenHandbuch>1.2</versionCodelistenHandbuch>
             </versionCodeliste>
             <codelistenspalten>
@@ -1966,46 +2003,56 @@
                   <verwendung>optional</verwendung>
                   <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
                </description-de-DE>
+               <mapping-ELMLearningScheduleType>
+                  <spaltennameLang>ELM Lernzeitmodell</spaltennameLang>
+                  <datentyp>string</datentyp>
+                  <sprache>de-DE</sprache>
+                  <codeSpalte>false</codeSpalte>
+                  <verwendung>optional</verwendung>
+                  <empfohleneCodeSpalte>false</empfohleneCodeSpalte>
+               </mapping-ELMLearningScheduleType>
             </codelistenspalten>
          </xs:appinfo>
       </xs:annotation>
       <xs:restriction base="xs:token">
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/dual-ausbildungsintegriert">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/dual-ausbildungsintegriert">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Dual (ausbildungsintegriert)</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/dual-praxisintegriert">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/dual-praxisintegriert">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Dual (praxisintegriert)</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/teilzeit">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/teilzeit">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Teilzeit</description-de-DE>
+                  <mapping-ELMLearningScheduleType>https://publications.europa.eu/resource/authority/snb/learning-schedule/f230bae523</mapping-ELMLearningScheduleType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/vollzeit">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/vollzeit">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Vollzeit</description-de-DE>
+                  <mapping-ELMLearningScheduleType>https://publications.europa.eu/resource/authority/snb/learning-schedule/72a0ab92fa</mapping-ELMLearningScheduleType>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/~wert_nicht_bekannt">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/~wert_nicht_bekannt">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Wert nicht bekannt</description-de-DE>
                </xs:appinfo>
             </xs:annotation>
          </xs:enumeration>
-         <xs:enumeration value="http://xbildung.de/def/xbildung/1.0/code/lernzeitmodell/~wert_nicht_in_liste">
+         <xs:enumeration value="http://xbildung.de/def/xbildung/2025-02-04/code/lernzeitmodell/~wert_nicht_in_liste">
             <xs:annotation>
                <xs:appinfo>
                   <description-de-DE>Wert nicht in Liste</description-de-DE>

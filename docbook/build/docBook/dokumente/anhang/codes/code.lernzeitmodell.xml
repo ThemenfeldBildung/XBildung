@@ -23,7 +23,10 @@
             <row>
                <entry>-beschreibung</entry>
                <entry><para>
-Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen.
+Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Liste der Lernzeitmodelle des European Learning Model (ELM).
+</para>
+<para>
+ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule">https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule</link>
 </para></entry>
             </row>
             <row>
@@ -38,7 +41,7 @@ Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen.
             </row>
             <row>
                <entry>-version</entry>
-               <entry>1.0</entry>
+               <entry>2025-02-04</entry>
             </row>
          </tbody>
       </tgroup>

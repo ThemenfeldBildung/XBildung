@@ -20,19 +20,26 @@
         <para>Veröffentlichungsdatum: &fassung;</para>
         <section>
             <title>Änderungen an Codelisten </title>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
                 >Lernzeitmodell</link>, die bisher in XHochschule verwendet wurde, 
-                ist aufgrund übergreifender Relevanz nun in XBildung eingebunden und kann durch alle Teilvorhaben nachgenutzt werden.  </para>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung"
+                ist aufgrund übergreifender Relevanz nun in XBildung eingebunden und kann durch alle Teilvorhaben nachgenutzt werden.
+                Das Mapping auf die europäischen ELM-Werte für Teilzeit und Vollzeit wurde wieder aufgenommen und die Beschreibung überarbeitet.</para>
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung"
                 >Art der Bemerkung</link>, die zuvor sowohl in XSchule wie auch in XBerufsbildung mit unterschiedlichen Werten Verwendung fand,
-                ist nun unter Vereinigung der Werte aus beiden Teilvorhaben in XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.</para>
-            <para> Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter"
+                ist nun unter Vereinigung der Werte aus beiden Teilvorhaben in XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.
+                Sie wurde um die Werte "Beurteilung Sozialverhalten", "Beurteilung Arbeitsverhalten" und "längerfristige Befreiung" erweitert.
+                Der bestehende Eintrag "Allgemeine Beurteilung" wurde in "Beurteilung Allgemein" umbenannt.</para>
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter"
                 >Gesetzlicher Vertreter</link>, die bisher in XSchule wie auch in XBerufsbildung unter Rückgriff auf die Listenwerte des DSMeld verwendet wurde, 
                 ist nun zentral in XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.</para>
-            <para> Die Codelisten <link linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013"
+            <para>Die Codelisten <link linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013"
                 >ISCED-F-2013</link> und <link linkend="XBildung.Baukasten.Codes.Code.Language"
                     >Language</link> wurden auf die aktuelle Fassung gebracht.</para>
-            <para> Der Bezugsort der vom EU Publications Office herausgegebenen Codelisten wurde im Modell vereinheitlicht.</para>
+            <para>Die Versionierung der Codelisten <link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Art der Bemerkung</link>
+                und <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell">Lernzeitmodell</link>
+                wurde auf "2025-02-04" geändert und das Vorgehen für die Versionsbezeichnung im Kapitel II.3 <link linkend="modellierung.code-Datentypen">Code-Datentypen</link> erklärt.</para>
+            <para>Der Bezugsort der vom EU Publications Office herausgegebenen Codelisten wurde im Modell vereinheitlicht.</para>
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema">Bewertungsschema</link> wurde um einen Eintrag ergänzt, der die alternative Repräsentation von Hochschulnoten nach dem Schema A-F umfasst.</para> 
         </section>
         <section>
             <title>Bereitstellung einer Nonce in Klasse Dokument</title>
@@ -45,6 +52,10 @@
             <para>Elemente aus XBildung werden mit dem zugehörigen Namespace verwendet.</para>  
             <para>In <link linkend="modellierung.wichtigeHinweiseZurImplementierung">Wichtige Hinweise zur Implementierung</link>         
                 wurde der Abschnitt zur Relevanz von Schematron überarbeitet. </para>
+            <para>Das Kapitel <link linkend="modellierung.grundlegendeDesignentscheidungen">Grundlegende Designentscheidungen</link> wurde in die Einleitung verschoben und
+                mit neuen Verweisen auf die Registermodernisierung (RegMo) und die Single Digital
+                Gateway Verordnung (SDG) überarbeitet. Zusätzlich wurde die dazugehörige Grafik
+                überarbeitet.</para>
         </section>
         <section>
             <title>Liste der umgesetzten Tickets</title>
@@ -63,6 +74,12 @@
                 <listitem><para>XBD-421: Feld auf Ebene "Dokument" / Nonce bereitstellen</para></listitem>
                 <listitem><para>XBD-422: Codeliste "Lernzeitmodell" von XHS auf XBD umziehen</para></listitem>
                 <listitem><para>XBD-424: Vereinheitlichung von Listen des EU Publications Office</para></listitem>
+                <listitem><para>XBD-426: Codeliste ArtDerBemerkung: neue Werte aufnehmen</para></listitem>
+                <listitem><para>XBD-427: Codeliste Lernzeitmodell: Mapping auf PO aufnehmen</para></listitem>
+                <listitem><para>XBD-429: Codeliste "ArtDerBemerkung" um "längerfristige Befreiung" erweitern</para></listitem>
+                <listitem><para>XBD-437: Alternative Repräsentation von "note"</para></listitem>
+                <listitem><para>XBD-438: Kapitel "Grundlegende Designentscheidungen" überarbeiten</para></listitem>
+                <listitem><para>XBD-443: Versionierung von Codelisten an neue Systematik anpassen</para></listitem>
             </itemizedlist>
         </section>
         </section>
@@ -128,7 +145,7 @@
                     <link linkend="XBildung.Baukasten.Ortsangabe">Ortsangabe</link>, <link
                     linkend="XBildung.Baukasten.Praktikum">Praktikum</link> und <link
                     linkend="XBildung.Baukasten.TeilbekanntesDatum">TeilbekanntesDatum</link> wurden
-                als "Unqualified" ausgezeichnet, was es Fachmodulen ermöglicht, eingeschränkte
+                als "Unqualified" ausgezeichnet, was es Teilmodulen ermöglicht, eingeschränkte
                 Versionen dieser Klassen zu verwenden. </para>
             <para>Die Klasse Kurs wurde aus XBildung entfernt, da sie von den einzelnen Teilvorhaben
                 direkt umgesetzt wird. Die Klasse Abschlussarbeit wurde gelöscht, da sie in keinem

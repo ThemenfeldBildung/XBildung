@@ -70,7 +70,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes">Art der Bemerkung</link>
                </entry>
-               <entry align="left">1.0</entry>
+               <entry align="left">2025-02-04</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -127,7 +127,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                </entry>
-               <entry align="left">1.0</entry>
+               <entry align="left">2025-02-04</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -260,7 +260,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes">Lernzeitmodell</link>
                </entry>
-               <entry align="left">1.0</entry>
+               <entry align="left">2025-02-04</entry>
                <entry align="left">1</entry>
             </row>
             <row>

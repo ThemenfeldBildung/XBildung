@@ -14,17 +14,13 @@
 		Bildungswesen (z.B. Hochschulen, Schulen, Bildungsträger) elektronische Daten standardisiert
 		untereinander austauschen, um sowohl lernende Personen als auch die genannten Akteure zu
 		entlasten (weniger analoge Nachweise, Fehlerreduktion, schnellere (Prüf-)Verfahren etc.).
-		XBildung mit seinem Basismodul bildet eine inhaltliche Klammer um Fachmodule
-		bzw. -standards, wie <link xlink:href="https://xhochschule.de/web/"
-			>XHochschule</link>, <link xlink:href="https://xschule.digital/web/">XSchule</link> und <link xlink:href="https://www.xberufsbildung.de/web/">XBerufsbildung</link>
-		und regelt diejenigen Aspekte, die für die Fachmodule übergreifend
-		relevant sind. Konkret definiert der Datenaustauschstandard semantische und fachlich
-		übergreifende Bausteine zur Wiederverwendung wie <link
-			linkend="XBildung.Baukasten.Dokument">Dokument</link>. XBildung zielt dabei auf
-		Interoperabilität mit dem europäischen Interoperabilitätsframework von <link
-			xlink:href="https://europass.europa.eu/en/europass-tools/european-digital-credentials"
-			>Europass</link> ab, welches auf digitale Nachweise und die Beschreibung von
-		Bildungsstationen eines Bildungslebenslaufes spezialisiert ist. </para>
+		XBildung als IT-Standard bildet eine inhaltliche Klammer um die Teilmodule <link
+			xlink:href="https://xhochschule.de/web/">XHochschule</link>, <link
+			xlink:href="https://xschule.digital/web/">XSchule</link> und <link
+			xlink:href="https://www.xberufsbildung.de/web/">XBerufsbildung</link> und regelt
+		diejenigen Aspekte, die für die Teilmodule übergreifend relevant sind. Konkret definiert der
+		Datenaustauschstandard semantische und fachlich übergreifende Bausteine zur Wiederverwendung
+		wie <link linkend="XBildung.Baukasten.Dokument">Dokument</link>. </para>
 	<para>Als Vorhaben der Federführer im Themenfeld Bildung, des Landes Sachsen-Anhalt und des
 		Bundesministeriums für Bildung und Forschung, wurde der <link
 			xlink:href="https://xbildung.de/def/req/1.0/Bedarfsbeschreibung_XBildung.pdf"
@@ -33,12 +29,13 @@
 			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2021-41">36. Sitzung des
 			IT-Planungsrates</link> am 29. Oktober 2021 eingereicht und beschreibt den Bedarf eines
 		möglichst verlustfreien Datenaustauschs im deutschen Bildungswesen. XBildung, ebenso wie das
-		Fachmodul XSchule, wurden in Folge der 36. Sitzung des IT-Planungsrates als
-		Standardisierungsbedarfe aufgenommen. Das Fachmodul XHochschule wurde bereits in der <link
+		Teilmodul XSchule, wurden in Folge der 36. Sitzung des IT-Planungsrates als
+		Standardisierungsbedarfe aufgenommen. Das Teilmodul XHochschule wurde bereits in der <link
 			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2020-52">33. Sitzung des
-			IT-Planungsrates</link> als Standardisierungsbedarf aufgenommen. Das Fachmodul
+			IT-Planungsrates</link> als Standardisierungsbedarf aufgenommen. Das Teilmodul
 		XBerufsbildung wurde in der <link
-			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2024-12">43. Sitzung des IT-Planungsrates </link> als Standardisierungsbedarf aufgenommen<mediaobject>
+			xlink:href="https://www.it-planungsrat.de/beschluss/beschluss-2024-12">43. Sitzung des
+			IT-Planungsrates </link> als Standardisierungsbedarf aufgenommen<mediaobject>
 			<imageobject>
 				<imagedata align="center" fileref="../abbildungen/Logo_und_Federfuehrer.png"
 					format="PNG" scale="70"/>
