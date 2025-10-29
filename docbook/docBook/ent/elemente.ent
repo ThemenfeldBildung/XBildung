@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY element.ref.benotung.beschreibung '<emphasis role="codebf">beschreibung</emphasis>'>
+                        <!ENTITY element.datentyp.ref.benotung.beschreibung 'Element <emphasis role="codebf">beschreibung</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
+                        <!ENTITY element.ref.benotung.bewertungsschemanote '<emphasis role="codebf">bewertungsschemaNote</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemanote 'Element <emphasis role="codebf">bewertungsschemaNote</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>
                         <!ENTITY element.ref.benotung.bewertungsschemapunkte '<emphasis role="codebf">bewertungsschemaPunkte</emphasis>'>
                         <!ENTITY element.datentyp.ref.benotung.bewertungsschemapunkte 'Element <emphasis role="codebf">bewertungsschemaPunkte</emphasis> in Datentyp <emphasis role="codebf">Benotung</emphasis>'>

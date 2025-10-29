@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xbd="http://xbildung.de/def/xbildung/1.1/xsd"
-           targetNamespace="http://xbildung.de/def/xbildung/1.1/xsd"
-           version="1.1"
+           xmlns:xbd="http://xbildung.de/def/xbildung/1.2/xsd"
+           targetNamespace="http://xbildung.de/def/xbildung/1.2/xsd"
+           version="1.2"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
    <xs:annotation>
@@ -12,14 +12,15 @@
             <nameKurz>XBildung</nameKurz>
             <nameTechnisch>xbildung</nameTechnisch>
             <kennung>urn:xoev-de:xbildung-de:def:standard:xbildung</kennung>
-            <beschreibung>XBildung</beschreibung>
+            <beschreibung>XBildung ist ein föderaler IT-Standard, der für die Erstellung von elektronischen Bildungsnachweisen sowie den Datenaustausch im Bildungswesen entwickelt wird. XBildung bildet eine inhaltliche Klammer um die Teilmodule XSchule, XHochschule und XBerufsbildung und regelt diejenigen Aspekte, die für die Teilmodule übergreifend relevant sind. Konkret definiert er semantische und fachlich übergreifende Bausteine zur Wiederverwendung.</beschreibung>
          </standard>
          <versionStandard>
-            <version>1.1</version>
-            <versionXOEVProfil>3.0.1</versionXOEVProfil>
-            <versionXOEVHandbuch>3.0.0</versionXOEVHandbuch>
+            <version>1.2</version>
+            <beschreibung>Diese Version 1.2 des Standards XBildung beinhaltet die zur XÖV-Zertifizierung notwendigen Anpassungen am Modell und an weiteren standardbezogenen Artefakten.</beschreibung>
+            <versionXOEVProfil>3.0.3</versionXOEVProfil>
+            <versionXOEVHandbuch>3.0.2</versionXOEVHandbuch>
             <versionXGenerator>3.1.1</versionXGenerator>
-            <versionModellierungswerkzeug>19.0 SP 3</versionModellierungswerkzeug>
+            <versionModellierungswerkzeug>19.0 SP 4</versionModellierungswerkzeug>
             <nameModellierungswerkzeug>MagicDraw</nameModellierungswerkzeug>
          </versionStandard>
       </xs:appinfo>

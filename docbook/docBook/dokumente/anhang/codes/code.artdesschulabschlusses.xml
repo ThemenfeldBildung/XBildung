@@ -23,7 +23,9 @@
             <row>
                <entry>-beschreibung</entry>
                <entry><para>Diese Liste beinhaltet die Arten der Bildungsabschlüsse aus dem Schulwesen in Deutschland.</para>
-<para>Sie basiert auf der <link xlink:href="https://www.statistischebibliothek.de/mir/receive/DEHeft_mods_00005582" xmlns:xlink="http://www.w3.org/1999/xlink">Fachserie 11, Reihe 1, 2009/10</link>.</para></entry>
+<para>Sie basiert auf dem Merkmal <link xlink:href="https://www-genesis.destatis.de/datenbank/online/variable/BILAG1/details/values" xmlns:xlink="http://www.w3.org/1999/xlink">Schulabschlüsse (BILAG1) des Statistischen Bundesamtes (Destatis)</link>, abgerufen am 28.10.2025.</para>
+<para>Die Liste wurde um die Werte "Wert nicht bekannt" und "Wert nicht in Liste" erweitert.</para>
+</entry>
             </row>
             <row>
                <entry>-nutzung</entry>
@@ -37,7 +39,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>1.0</entry>
+               <entry>2025-10-28</entry>
             </row>
          </tbody>
       </tgroup>

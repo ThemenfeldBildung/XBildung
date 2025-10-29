@@ -364,6 +364,27 @@
                <entry rowsep="1" colsep="1"/>
                <entry namest="indent1" nameend="page"><para>Hier wird angegeben, welche Bewertung (Note, Punktzahl, ....) in diesem Bewertungsschema (Grading Scheme) die theoretisch schlechteste Bewertung ist.</para></entry>
             </row>
+            <row>
+               <entry namest="indent0" nameend="child">
+                  <emphasis role="bold">beschreibung</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="codebf">String.Localized</emphasis>
+               </entry>
+               <entry>
+                  <emphasis role="bold">0..1</emphasis>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Basisdatentypen.String.Localized"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Basisdatentypen.String.Localized" role="Seitenzahl"/>
+               </entry>
+            </row>
+            <row>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld soll genutzt werden, um unstrukturierte Informationen über die Note zu übermitteln.</para></entry>
+            </row>
          </tbody>
       </tgroup>
    </informaltable>

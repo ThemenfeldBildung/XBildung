@@ -5,7 +5,7 @@
    <Annotation>
       <Description>
          <xoev-cl-4:shortName>Art des Schulabschlusses</xoev-cl-4:shortName>
-         <xoev-cl-4:codelistDescription>Diese Liste beinhaltet die Arten der Bildungsabschlüsse aus dem Schulwesen in Deutschland. Sie basiert auf der Fachserie 11, Reihe 1, 2009/10.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:codelistDescription>Diese Liste beinhaltet die Arten der Bildungsabschlüsse aus dem Schulwesen in Deutschland. Sie basiert auf dem Merkmal Schulabschlüsse (BILAG1) des Statistischen Bundesamtes (Destatis), abgerufen am 28.10.2025. Die Liste wurde um die Werte "Wert nicht bekannt" und "Wert nicht in Liste" erweitert.</xoev-cl-4:codelistDescription>
          <xoev-cl-4:agencyShortName>DESTATIS</xoev-cl-4:agencyShortName>
          <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
       </Description>
@@ -13,9 +13,9 @@
    <Identification>
       <ShortName>ArtDesSchulabschlusses-Codes</ShortName>
       <LongName>Art des Schulabschlusses</LongName>
-      <Version>1.0</Version>
+      <Version>2025-10-28</Version>
       <CanonicalUri>urn:xbildung-de:destatis:codeliste:artdesschulabschlusses</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:destatis:codeliste:artdesschulabschlusses_1.0</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:destatis:codeliste:artdesschulabschlusses_2025-10-28</CanonicalVersionUri>
       <Agency>
          <LongName>Statistisches Bundesamt, Wiesbaden</LongName>
       </Agency>
@@ -48,10 +48,10 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/allgemeine_hochschulreife</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/allgemeine_hochschulreife</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>allgemeine Hochschulreife</SimpleValue>
+            <SimpleValue>Allgemeine Hochschulreife</SimpleValue>
          </Value>
          <Value ColumnRef="mapping-ISCED2011L">
             <SimpleValue>3</SimpleValue>
@@ -59,7 +59,18 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/fachhochschulreife</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/erster_schulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Erster Schulabschluss</SimpleValue>
+         </Value>
+         <Value ColumnRef="mapping-ISCED2011L">
+            <SimpleValue>2</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/fachhochschulreife</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Fachhochschulreife</SimpleValue>
@@ -70,10 +81,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/hauptschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/mittlerer_schulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>Hauptschulabschluss bzw. entsprechendem Abschluss</SimpleValue>
+            <SimpleValue>Mittlerer Schulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="mapping-ISCED2011L">
             <SimpleValue>2</SimpleValue>
@@ -81,10 +92,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/ohne_hauptschulabschluss</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/ohne_ersten_schulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
-            <SimpleValue>ohne Hauptschulabschluss; einschl. Abschluss der Förderschule mit Förderschwerpunkt Lernen und Abschluss der Förderschule mit Förderschwerpunkt geistige Entwicklunng</SimpleValue>
+            <SimpleValue>Ohne Ersten Schulabschluss</SimpleValue>
          </Value>
          <Value ColumnRef="mapping-ISCED2011L">
             <SimpleValue>2</SimpleValue>
@@ -92,18 +103,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/realschulabschluss</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>Realschulabschluss (Mittlerer Abschluss)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mapping-ISCED2011L">
-            <SimpleValue>2</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_bekannt</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_bekannt</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Wert nicht bekannt</SimpleValue>
@@ -112,7 +112,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_in_liste</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_in_liste</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Wert nicht in Liste</SimpleValue>

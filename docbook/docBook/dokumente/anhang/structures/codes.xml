@@ -4,13 +4,13 @@
                  xmlns:xlink="http://www.w3.org/1999/xlink">
    <kosit:codelist urn="urn:xbildung-de:destatis:codeliste:artdesschulabschlusses"
                    id="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/allgemeine_hochschulreife">allgemeine Hochschulreife</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/fachhochschulreife">Fachhochschulreife</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/hauptschulabschluss">Hauptschulabschluss bzw. entsprechendem Abschluss</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/ohne_hauptschulabschluss">ohne Hauptschulabschluss; einschl. Abschluss der Förderschule mit Förderschwerpunkt Lernen und Abschluss der Förderschule mit Förderschwerpunkt geistige Entwicklunng</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/realschulabschluss">Realschulabschluss (Mittlerer Abschluss)</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_bekannt">Wert nicht bekannt</kosit:entry>
-      <kosit:entry code="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_in_liste">Wert nicht in Liste</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/allgemeine_hochschulreife">Allgemeine Hochschulreife</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/erster_schulabschluss">Erster Schulabschluss</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/fachhochschulreife">Fachhochschulreife</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/mittlerer_schulabschluss">Mittlerer Schulabschluss</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/ohne_ersten_schulabschluss">Ohne Ersten Schulabschluss</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_bekannt">Wert nicht bekannt</kosit:entry>
+      <kosit:entry code="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_in_liste">Wert nicht in Liste</kosit:entry>
    </kosit:codelist>
    <kosit:codelist urn="urn:xbildung-de:kmk:codeliste:artderschule"
                    id="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">

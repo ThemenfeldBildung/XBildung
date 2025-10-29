@@ -110,7 +110,7 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                   </entry>
-                  <entry align="left">1.0</entry>
+                  <entry align="left">2025-10-28</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses">Code.ArtDesSchulabschlusses</link>
@@ -159,6 +159,29 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">DESTATIS Staatsangehörigkeit</link>
+                  </entry>
+                  <entry align="left">--</entry>
+                  <entry align="left">
+                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link>
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</link>
+                  </entry>
+                  <entry align="left">3</entry>
+                  <entry align="left">
+                     <link role="schwarz"
+                           linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter">Code.GesetzlicherVertreter</link>
+                  </entry>
+               </row>
+               <row>
+                  <entry align="left">
+                     <link role="schwarz"
                            linkend="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">EQF</link>
                   </entry>
                   <entry align="left">20230118-0</entry>
@@ -171,20 +194,9 @@
                      <link role="schwarz"
                            linkend="tabelle.urn.de.xoev.codeliste.erreichbarkeit.Erreichbarkeit-Codes">Erreichbarkeit</link>
                   </entry>
-                  <entry align="left">3</entry>
+                  <entry align="left">4.1</entry>
                   <entry align="left">
                      <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Erreichbarkeit">Code.Erreichbarkeit</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
-                           linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">Gesetzlicher Vertreter</link>
-                  </entry>
-                  <entry align="left">3</entry>
-                  <entry align="left">
-                     <link role="schwarz"
-                           linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter">Code.GesetzlicherVertreter</link>
                   </entry>
                </row>
                <row>
@@ -240,24 +252,12 @@
                <row>
                   <entry align="left">
                      <link role="schwarz"
-                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschüssel</link>
+                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschlüssel</link>
                   </entry>
                   <entry align="left">--</entry>
                   <entry align="left">
                      <link role="schwarz"
                            linkend="XBildung.Baukasten.Codes.Code.Regionalschluessel">Code.Regionalschluessel</link>
-                  </entry>
-               </row>
-               <row>
-                  <entry align="left">
-                     <link role="schwarz"
-                           linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
-                  </entry>
-                  <entry align="left">--</entry>
-                  <entry align="left">
-                     <link role="schwarz" linkend="XBildung.Baukasten.Codes.Code.Staat">Code.Staat</link>
-                     <link role="schwarz"
-                           linkend="XBildung.Baukasten.Codes.Code.Staatsangehoerigkeit">Code.Staatsangehoerigkeit</link>
                   </entry>
                </row>
                <row>
@@ -962,7 +962,9 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
       </section>
       <section xml:id="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">
          <title>Art des Schulabschlusses</title><para>Diese Liste beinhaltet die Arten der Bildungsabschlüsse aus dem Schulwesen in Deutschland.</para>
-<para>Sie basiert auf der <link xlink:href="https://www.statistischebibliothek.de/mir/receive/DEHeft_mods_00005582" xmlns:xlink="http://www.w3.org/1999/xlink">Fachserie 11, Reihe 1, 2009/10</link>.</para><section>
+<para>Sie basiert auf dem Merkmal <link xlink:href="https://www-genesis.destatis.de/datenbank/online/variable/BILAG1/details/values" xmlns:xlink="http://www.w3.org/1999/xlink">Schulabschlüsse (BILAG1) des Statistischen Bundesamtes (Destatis)</link>, abgerufen am 28.10.2025.</para>
+<para>Die Liste wurde um die Werte "Wert nicht bekannt" und "Wert nicht in Liste" erweitert.</para>
+<section>
             <title>Metadaten</title>
             <informaltable>
                <tgroup cols="2">
@@ -993,7 +995,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>1.0</entry>
+                        <entry>2025-10-28</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1016,49 +1018,49 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/allgemeine_hochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​a​l​l​g​e​m​e​i​n​e​_​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
-                        <entry align="left">allgemeine Hochschulreife</entry>
+                        <entry align="left">Allgemeine Hochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/erster_schulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​e​r​s​t​e​r​_​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                        </entry>
+                        <entry align="left">Erster Schulabschluss</entry>
+                        <entry align="left">2</entry>
+                     </row>
+                     <row>
+                        <entry align="left">
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/fachhochschulreife">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​f​a​c​h​h​o​c​h​s​c​h​u​l​r​e​i​f​e</link>
                         </entry>
                         <entry align="left">Fachhochschulreife</entry>
                         <entry align="left">3</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/mittlerer_schulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​m​i​t​t​l​e​r​e​r​_​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
-                        <entry align="left">Hauptschulabschluss bzw. entsprechendem Abschluss</entry>
+                        <entry align="left">Mittlerer Schulabschluss</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/ohne_hauptschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​h​a​u​p​t​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/ohne_ersten_schulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​o​h​n​e​_​e​r​s​t​e​n​_​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
                         </entry>
-                        <entry align="left">ohne Hauptschulabschluss; einschl. Abschluss der Förderschule mit Förderschwerpunkt Lernen und Abschluss der Förderschule mit Förderschwerpunkt geistige Entwicklunng</entry>
+                        <entry align="left">Ohne Ersten Schulabschluss</entry>
                         <entry align="left">2</entry>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/realschulabschluss">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​r​e​a​l​s​c​h​u​l​a​b​s​c​h​l​u​s​s</link>
-                        </entry>
-                        <entry align="left">Realschulabschluss (Mittlerer Abschluss)</entry>
-                        <entry align="left">2</entry>
-                     </row>
-                     <row>
-                        <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_bekannt">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​b​e​k​a​n​n​t</link>
                         </entry>
                         <entry align="left">Wert nicht bekannt</entry>
                         <entry align="left"/>
                      </row>
                      <row>
                         <entry align="left">
-                           <link xlink:href="http://xbildung.de/def/destatis/1.0/code/artdesschulabschlusses/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​1​.​0​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
+                           <link xlink:href="http://xbildung.de/def/destatis/2025-10-28/code/artdesschulabschlusses/~wert_nicht_in_liste">h​t​t​p​:​/​/​x​b​i​l​d​u​n​g​.​d​e​/​d​e​f​/​d​e​s​t​a​t​i​s​/​2​0​2​5​-​1​0​-​2​8​/​c​o​d​e​/​a​r​t​d​e​s​s​c​h​u​l​a​b​s​c​h​l​u​s​s​e​s​/​~​w​e​r​t​_​n​i​c​h​t​_​i​n​_​l​i​s​t​e</link>
                         </entry>
                         <entry align="left">Wert nicht in Liste</entry>
                         <entry align="left"/>
@@ -1369,6 +1371,100 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
          </section>
          <?KoSIT-FO hard-pagebreak?>
       </section>
+      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">
+         <title>DESTATIS Staatsangehörigkeit</title><para>Tabelle von Staaten und Staatsangehörigkeiten. Enthält alle Einträge der Codeliste Staat (eigenständige, von Deutschland diplomatisch anerkannte derzeitige Staaten) und zusätzlich Einträge für ehemalige Staaten sowie Ersatzwerte.</para>
+
+<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</link></para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>Codeliste Staatsangehörigkeit aus der Staats- und Gebietssystematik des Statistischen Bundesamtes</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>DESTATIS Staatsangehörigkeit</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Statistisches Bundesamt, Wiesbaden (DESTATIS)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>unbestimmt</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
+      <section xml:id="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">
+         <title>DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</title><para>Mit dieser Schlüsseltabelle wird die Art der gesetzlichen Vertretung abgebildet. Siehe Blatt 0001 des DSMeld.</para>
+
+<para><emphasis role="bold">Codeliste DSMeld Gesetzlicher Vertreter im XRepository:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter">https://www.xrepository.de/details/​urn​:de​:dsmeld​:schluesseltabelle​:gesetzlicher​.vertreter</link></para>
+
+<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
+<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
+<itemizedlist spacing="compact" mark="-">
+<listitem><para><emphasis role="bold">Vater, Elternteil</emphasis> : 1</para></listitem>
+<listitem><para><emphasis role="bold">Mutter, Elternteil</emphasis> : 2</para></listitem>
+<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (natürliche Person)</emphasis> : 3</para></listitem>
+<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (juristische Person)</emphasis> : 4</para></listitem>
+</itemizedlist>
+</para><section>
+            <title>Metadaten</title>
+            <informaltable>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
+                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
+                  <thead>
+                     <row>
+                        <entry>Metadatenelement</entry>
+                        <entry>Wert</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry>Name (lang)</entry>
+                        <entry>DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</entry>
+                     </row>
+                     <row>
+                        <entry>Name (kurz)</entry>
+                        <entry>DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</entry>
+                     </row>
+                     <row>
+                        <entry>Kennung</entry>
+                        <entry>urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter</entry>
+                     </row>
+                     <row>
+                        <entry>Herausgeber</entry>
+                        <entry>Koordindierungsstelle für IT-Standards (KoSIT)</entry>
+                     </row>
+                     <row>
+                        <entry>Version</entry>
+                        <entry>3</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </informaltable>
+         </section>
+         <?KoSIT-FO hard-pagebreak?>
+      </section>
       <section xml:id="tabelle.urn.xbildung-de.publicationsoffice-eu.codeliste.eqf.EQF-Codes">
          <title>EQF</title><para>Folgende Beschreibung wurde vom <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/european-qualification-framework" xmlns:xlink="http://www.w3.org/1999/xlink">Publications Office</link> der EU übernommen:</para>
 <para>
@@ -1452,7 +1548,7 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                   <tbody>
                      <row>
                         <entry>Name (lang)</entry>
-                        <entry>Erreichbarkeit</entry>
+                        <entry>Kommunikationskanal / Erreichbarkeit</entry>
                      </row>
                      <row>
                         <entry>Name (kurz)</entry>
@@ -1468,63 +1564,11 @@ Diese Codeliste enthält mögliche Ausprägungen der Art einer Trägerschaft ein
                      </row>
                      <row>
                         <entry>Version</entry>
-                        <entry>3</entry>
+                        <entry>4.1</entry>
                      </row>
                      <row>
                         <entry>Gültigkeit ab</entry>
-                        <entry>2018-05-03</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
-      <section xml:id="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">
-         <title>Gesetzlicher Vertreter</title><para>Mit dieser Schlüsseltabelle wird die Art der gesetzlichen Vertretung abgebildet. Siehe Blatt 0001 des DSMeld.</para>
-
-<para><emphasis role="bold">Codeliste DSMeld Gesetzlicher Vertreter im XRepository:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter">https://www.xrepository.de/details/​urn​:de​:dsmeld​:schluesseltabelle​:gesetzlicher​.vertreter</link></para>
-
-<para><emphasis role="bold">Code:</emphasis> Der zu verwendende Schlüssel ist der Eintrag in der empfohlenen Codespalte "key".</para>
-<para><emphasis role="bold">Beispiele:</emphasis> (Element : Code)
-<itemizedlist spacing="compact" mark="-">
-<listitem><para><emphasis role="bold">Vater, Elternteil</emphasis> : 1</para></listitem>
-<listitem><para><emphasis role="bold">Mutter, Elternteil</emphasis> : 2</para></listitem>
-<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (natürliche Person)</emphasis> : 3</para></listitem>
-<listitem><para><emphasis role="bold">anderer gesetzlicher Vertreter (juristische Person)</emphasis> : 4</para></listitem>
-</itemizedlist>
-</para><section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Gesetzlicher Vertreter</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:de:dsmeld:schluesseltabelle:gesetzlicher.vertreter</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>Koordindierungsstelle für IT-Standards (KoSIT)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>3</entry>
+                        <entry>2025-02-03</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1874,7 +1918,7 @@ ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-
          <?KoSIT-FO hard-pagebreak?>
       </section>
       <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">
-         <title>Regionalschüssel</title><para>Diese Codeliste stellt alle Gemeinden Deutschlands durch den Amtlichen Regionalschlüssel (ARS) dar, wie im Gemeindeverzeichnis des Statistischen Bundesamtes enthalten. Darüber hinaus enthält die Codeliste für die Stadtstaaten Hamburg, Bremen und Berlin Einträge für Stadt-/Ortsteile bzw. Stadtbezirke. Diese Einträge sind mit einem entsprechenden Hinweis versehen.</para>
+         <title>Regionalschlüssel</title><para>Diese Codeliste stellt alle Gemeinden Deutschlands durch den Amtlichen Regionalschlüssel (ARS) dar, wie im Gemeindeverzeichnis des Statistischen Bundesamtes enthalten. Darüber hinaus enthält die Codeliste für die Stadtstaaten Hamburg, Bremen und Berlin Einträge für Stadt-/Ortsteile bzw. Stadtbezirke. Diese Einträge sind mit einem entsprechenden Hinweis versehen.</para>
 
 <para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:rs</link></para>
 
@@ -1905,7 +1949,7 @@ ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-
                      </row>
                      <row>
                         <entry>Name (kurz)</entry>
-                        <entry>Regionalschüssel</entry>
+                        <entry>Regionalschlüssel</entry>
                      </row>
                      <row>
                         <entry>Kennung</entry>
@@ -1914,48 +1958,6 @@ ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-
                      <row>
                         <entry>Herausgeber</entry>
                         <entry>Statistisches Bundesamt, Wiesbaden (Destatis)</entry>
-                     </row>
-                     <row>
-                        <entry>Version</entry>
-                        <entry>unbestimmt</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </informaltable>
-         </section>
-         <?KoSIT-FO hard-pagebreak?>
-      </section>
-      <section xml:id="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">
-         <title>Staatsangehörigkeit</title><para>Tabelle von Staaten und Staatsangehörigkeiten. Enthält alle Einträge der Codeliste Staat (eigenständige, von Deutschland diplomatisch anerkannte derzeitige Staaten) und zusätzlich Einträge für ehemalige Staaten sowie Ersatzwerte.</para>
-
-<para><emphasis role="bold">Link zur Webseite:</emphasis> <link xlink:href="https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.xrepository.de/details/urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</link></para><section>
-            <title>Metadaten</title>
-            <informaltable>
-               <tgroup cols="2">
-                  <colspec colnum="1" colname="meta" colwidth="30mm"/>
-                  <colspec colnum="2" colname="wert" colwidth="130mm"/>
-                  <thead>
-                     <row>
-                        <entry>Metadatenelement</entry>
-                        <entry>Wert</entry>
-                     </row>
-                  </thead>
-                  <tbody>
-                     <row>
-                        <entry>Name (lang)</entry>
-                        <entry>Codeliste Staatsangehörigkeit aus der Staats- und Gebietssystematik des Statistischen Bundesamtes</entry>
-                     </row>
-                     <row>
-                        <entry>Name (kurz)</entry>
-                        <entry>Staatsangehörigkeit</entry>
-                     </row>
-                     <row>
-                        <entry>Kennung</entry>
-                        <entry>urn:de:bund:destatis:bevoelkerungsstatistik:schluessel:staatsangehoerigkeit</entry>
-                     </row>
-                     <row>
-                        <entry>Herausgeber</entry>
-                        <entry>Statistisches Bundesamt, Wiesbaden (DESTATIS)</entry>
                      </row>
                      <row>
                         <entry>Version</entry>

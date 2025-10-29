@@ -9,7 +9,7 @@
       <thead>
          <row>
             <entry align="left" namest="c1" nameend="c2">
-               <emphasis role="bold">XML Schema-Definition: xbildung-basisdatentypen.xsd</emphasis>
+               <emphasis role="bold">XML Schema-Definition: xbildung-baukasten.xsd</emphasis>
             </entry>
          </row>
       </thead>
@@ -24,11 +24,11 @@
          </row>
          <row>
             <entry>Version</entry>
-            <entry>1.1</entry>
+            <entry>1.2</entry>
          </row>
          <row>
             <entry>Namensraum</entry>
-            <entry>http://xbildung.de/def/xbildung/1.1/xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/1.2/xsd</entry>
          </row>
          <row>
             <entry>Präfix</entry>
@@ -36,18 +36,27 @@
          </row>
          <row>
             <entry>SchemaLocation</entry>
-            <entry>http://xbildung.de/def/xbildung/1.1/xsd/xbildung-basisdatentypen.xsd</entry>
+            <entry>http://xbildung.de/def/xbildung/1.2/xsd/xbildung-baukasten.xsd</entry>
          </row>
          <row>
             <entry>Inkludierte XSDs</entry>
-            <entry/>
+            <entry>
+               <itemizedlist>
+                  <listitem>
+                     <para>xbildung-basisdatentypen.xsd</para>
+                  </listitem>
+               </itemizedlist>
+            </entry>
          </row>
          <row>
             <entry>Importierte XSDs</entry>
             <entry>
                <itemizedlist>
                   <listitem>
-                     <para>xml.xsd (xml : http://www.w3.org/XML/1998/namespace)</para>
+                     <para>din-norm-91379-datatypes.xsd (din91379 : urn:xoev-de:kosit:xoev:datentyp:din-91379_2022-08)</para>
+                  </listitem>
+                  <listitem>
+                     <para>xoev-code.xsd (xoev-code : http://xoev.de/schemata/code/1_0)</para>
                   </listitem>
                </itemizedlist>
             </entry>

@@ -116,7 +116,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                </entry>
-               <entry align="left">1.0</entry>
+               <entry align="left">2025-10-28</entry>
                <entry align="left">1</entry>
             </row>
             <row>
@@ -182,7 +182,7 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.de.xoev.codeliste.erreichbarkeit.Erreichbarkeit-Codes">Erreichbarkeit</link>
                </entry>
-               <entry align="left">3</entry>
+               <entry align="left">4.1</entry>
                <entry align="left">2</entry>
             </row>
             <row>
@@ -203,7 +203,7 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">Gesetzlicher Vertreter</link>
+                        linkend="tabelle.urn.de.dsmeld.schluesseltabelle.gesetzlicher.vertreter.DSMeld-Gesetzlicher-Vertreter">DSMeld Gesetzlicher Vertreter (DSMeld-Blatt 0001)</link>
                </entry>
                <entry align="left">3</entry>
                <entry align="left">2</entry>
@@ -270,7 +270,7 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschüssel</link>
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.rs.RS-Codes">Regionalschlüssel</link>
                </entry>
                <entry align="left">--</entry>
                <entry align="left">3</entry>
@@ -281,7 +281,7 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">DESTATIS Staatsangehörigkeit</link>
                </entry>
                <entry align="left">--</entry>
                <entry align="left">3</entry>
@@ -293,7 +293,7 @@
                </entry>
                <entry align="left">
                   <link role="schwarz"
-                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">Staatsangehörigkeit</link>
+                        linkend="tabelle.urn.de.bund.destatis.bevoelkerungsstatistik.schluessel.staatsangehoerigkeit.Staatsangehoerigkeit-Codes">DESTATIS Staatsangehörigkeit</link>
                </entry>
                <entry align="left">--</entry>
                <entry align="left">3</entry>

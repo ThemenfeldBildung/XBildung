@@ -39,6 +39,8 @@
       <kosit:property name="verzeichnisdienst"/>
    </kosit:type>
    <kosit:type name="Benotung" id="XBildung.Baukasten.Benotung" prefix="xbd">
+      <kosit:property name="beschreibung"/>
+      <kosit:property name="beschreibung/@lang"/>
       <kosit:property name="bewertungsschemaNote"/>
       <kosit:property name="bewertungsschemaNote/schemaURI"/>
       <kosit:property name="bewertungsschemaNote/beschreibung"/>
