@@ -2,11 +2,44 @@
 
 <!-- TOC start -->
 
+- [Version 1.2](#version-12)
 - [Version 1.1](#version-11)
 - [Version 1.0](#version-10)
 - [Version 0.95](#version-095)
 
 <!-- TOC end -->
+
+<!-- TOC --><a name="version-12"></a>
+# Version 1.2
+
+**Veröffentlichungsdatum:** 28.10.2025
+
+## Änderungen im Kontext der XÖV-Zertifizierung
+
+Im Kontext des Antrags zur XÖV-Zertifizierung wurden einige Änderungen vorgenommen um Konformität zu den Kriterien des XÖV-Handbuchs und des XÖV-Codelisten-Handbuchs herzustellen.
+
+## Änderungen an Codelisten
+
+Die Codeliste Art des Schulabschlusses wurde aktualisiert, wodurch die Beschreibung und die Werte der Codeliste angepasst wurden. Grundlage ist nun das Merkmal Schulabschlüsse (BILAG1) des Statistischen Bundesamtes (Destatis). Die bisherige Referenz auf die Fachserie 11, Reihe 1, 2009/10 wurde ersetzt.
+
+## Erweiterung der Klasse Benotung
+
+Die Klasse Benotung wurde um die Eigenschaft beschreibung erweitert. Das Feld soll genutzt werden, um unstrukturierte Informationen über die Note zu übermitteln. Die Angabe einer Beschreibung zur Note ist optional.
+
+## Liste der umgesetzten Tickets
+
+Folgende (intern dokumentierte) Tickets wurden umgesetzt:
+
+- XBD-436: Codeliste 'Art des Schulabschlusses' aktualisieren
+- XBD-455: Lizenzangabe und Copyright Claim anpassen
+- XBD-468: Codeliste 'Erreichbarkeit' aktualisieren
+- XBD-470: Codelisten: fehlende Language-Metadaten hinzufügen (NDR-33/K-11)
+- XBD-471: Codelisten-Metadaten unverändert übernehmen (NDR-22)
+- XBD-475: Metadaten des Standards anpassen (K7, Beschreibung)
+- XBD-478: bereitgestellte Artefakte autonom validieren
+- XBD-479: Abweichungen von Kernkomponenten im Modell dokumentieren
+- XBD-483: Klasse 'Benotung' um Eigenschaft 'beschreibung' erweitern
+- XBD-488: Modell auf gültige XÖV-Konfiguration aktualisieren, XÖV-Profil auf 3.0.3 umstellen
 
 <!-- TOC --><a name="version-11"></a>
 # Version 1.1
