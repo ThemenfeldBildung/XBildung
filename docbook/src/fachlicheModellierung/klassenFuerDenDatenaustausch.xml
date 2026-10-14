@@ -13,12 +13,8 @@
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/Dokument.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Ortsangabe.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/Praktikum.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
     <include href="../../build/docBook/dokumente/xbildung/Baukasten/TeilbekanntesDatum.xml"
-        xmlns="http://www.w3.org/2001/XInclude"/>
-    <include href="../../build/docBook/dokumente/xbildung/Baukasten/Zeitraum.xml"
         xmlns="http://www.w3.org/2001/XInclude"/>
 </chapter>

@@ -8,7 +8,7 @@
          xml:id="XBildung.Baukasten.Benotung">
    <title>Benotung</title>
    <subtitle>Typ: <emphasis role="codebf">Benotung</emphasis>
-   </subtitle><para>Die Klasse Note dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, Prüfungsleistungen und Prüfungsteile in der beruflichen Bildung, etc.</para>
+   </subtitle><para>Die Klasse Benotung dient zur Angabe von Bewertungen aller Art, z.B. Schulnoten auf dem Schulzeugnis, Punktzahlen für ein Modul an der Hochschule, Durchschnittsnoten, Abschlussnoten, Zensuren für Abschlussarbeiten, Prüfungsleistungen und Prüfungsteile in der beruflichen Bildung, etc.</para>
 
 
 <figure xml:id="figure.XBildung.Baukasten.Benotung">
@@ -63,7 +63,7 @@
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Dieses Feld enhält die Bewertung für eine bestimmte Leistung.</para>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld enthält die Bewertung für eine bestimmte Leistung.</para>
 
 
 </entry>
@@ -87,7 +87,7 @@
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Dieses Feld enhält die textuelle Bezeichnung für eine bestimmte Note, z.B. "sehr gut" für den Wert 1</para></entry>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld enthält die textuelle Bezeichnung für eine bestimmte Note, z.B. "sehr gut" für den Wert 1</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -103,7 +103,7 @@
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Dieses Feld enhält die Punkte für eine bestimmte Leistung.</para>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld enthält die Punkte für eine bestimmte Leistung.</para>
 
 
 </entry>
@@ -120,7 +120,7 @@
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Dieses Feld enhält Angaben zum Schema, nach dem eine Note gegeben wird oder wurde</para></entry>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld enthält Angaben zum Schema, nach dem eine Note gegeben wird oder wurde.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -138,7 +138,7 @@
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
+               <entry namest="indent1" nameend="page"><para>Dieses Feld enthält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
 <para>XBildung stellt in der Codeliste <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link> (Seite <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes" role="Seitenzahl"/>) eine Reihe von schemaURIs zur Verfügung.</para></entry>
             </row>
             <row>
@@ -216,7 +216,7 @@
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, ab welcher Bewertung (Note, Punktzahl, ....) in diesem Bewertungsschema (Grading Scheme) eine Leistung als bestanden gilt.</para></entry>
+               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, ab welcher Bewertung (Note, Punktzahl, ...) in diesem Bewertungsschema (Grading Scheme) eine Leistung als bestanden gilt.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -234,7 +234,7 @@
             </row>
             <row>
                <entry rowsep="1" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, welche Bewertung (Note, Punktzahl, ....) in diesem Bewertungsschema (Grading Scheme) die theoretisch schlechteste Bewertung ist.</para></entry>
+               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, welche Bewertung (Note, Punktzahl, ...) in diesem Bewertungsschema (Grading Scheme) die theoretisch schlechteste Bewertung ist.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -248,7 +248,7 @@
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Dieses Feld enhält Angaben zum Schema, nach dem Punkte vergegeben werden oder wurden</para></entry>
+               <entry namest="indent0" nameend="page"><para>Dieses Feld enthält Angaben zum Schema, nach dem Punkte vergegeben werden oder wurden.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -266,7 +266,7 @@
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Dieses Feld enhält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
+               <entry namest="indent1" nameend="page"><para>Dieses Feld enthält einen URI-Verweis auf das zugrundeliegende Bewertungsschema (Grading Scheme).</para>
 <para>XBildung stellt in der Codeliste <link linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link> (Seite <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes" role="Seitenzahl"/>) eine Reihe von schemaURIs zur Verfügung.</para></entry>
             </row>
             <row>
@@ -344,7 +344,7 @@
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, ab welcher Bewertung (Note, Punktzahl, ....) in diesem Bewertungsschema (Grading Scheme) eine Leistung als bestanden gilt.</para></entry>
+               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, ab welcher Bewertung (Note, Punktzahl, ...) in diesem Bewertungsschema (Grading Scheme) eine Leistung als bestanden gilt.</para></entry>
             </row>
             <row>
                <entry rowsep="0" colsep="1"/>
@@ -362,7 +362,7 @@
             </row>
             <row>
                <entry rowsep="1" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, welche Bewertung (Note, Punktzahl, ....) in diesem Bewertungsschema (Grading Scheme) die theoretisch schlechteste Bewertung ist.</para></entry>
+               <entry namest="indent1" nameend="page"><para>Hier wird angegeben, welche Bewertung (Note, Punktzahl, ...) in diesem Bewertungsschema (Grading Scheme) die theoretisch schlechteste Bewertung ist.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">

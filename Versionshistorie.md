@@ -2,12 +2,56 @@
 
 <!-- TOC start -->
 
+- [Version 1.3 Pre-Release](#version-13)
 - [Version 1.2](#version-12)
 - [Version 1.1](#version-11)
 - [Version 1.0](#version-10)
 - [Version 0.95](#version-095)
 
 <!-- TOC end -->
+
+<!-- TOC --><a name="version-13"></a>
+# Version 1.3 Pre-Release
+
+**Veröffentlichungsdatum:** 14.10.2026
+
+## Änderungen an Codelisten
+Mit der Version 1.3 wurden alle Typ 1-Codelisten auf Typ 3-Codelisten umgestellt, sodass diese nun
+unabhängig von Releases angepasst werden können. Mit dieser Änderung wurde zudem das URI-Konzept der Code-URI dahingehend angepasst, dass die Version aus der URI entfernt wurde und die Reihenfolge zunächst den Artefakttyp (code) und danach den Herausgeber nennt.
+
+Die Codeliste Art des Schulabschlusses wurde um den Wert "Fachgebundene Hochschulreife" erweitert.
+
+Die Codeliste Lernzeitmodell wurde um die Werte der Hochschulstatistik erweitert und enthält nun die
+neuen Werte "Berufsintegrierendes Duales Studium", "Praxisintegrierendes Duales Studium (angestrebter erster akademischer Abschluss)" und "Praxisintegrierendes Duales Studium (weiterer Abschluss)".
+Darüberhinaus wurden die URIs der einzelnen Werte vereinheitlicht.
+
+## Aufnahme neuer Klassen
+Es wurde die neue Klasse Praktikum aufgenommen. Die Klasse dient dazu, Angaben zu einem absolvierten Praktikum abzubilden. Sie enthält einen Zeitraum, den Ausbildungsbetrieb sowie eine Beschreibung.
+
+Die Klasse Ausbildungsbetrieb wurde neu in die Kernkomponenten aufgenommen. Die Klasse orientiert
+sich an den Angaben der Organisation und enthält den Namen, die Identifikaion sowie die Anschrift.
+Zudem besteht die Möglichkeit, eine abweichende Ausbildungsstätte anzugeben.
+
+## Sonstige Änderungen
+Innerhalb der Klasse Dokument wurde innerhalb der Angaben zur Ausstellung der Ort in Ortsangabe
+umbenannt.
+
+Innerhalb der Kernkomponenten wurde die Reihenfolge der Eigenschaften an die der XÖV-Bibliothek
+angepasst. Die Kernkomponenten in XBildung sind außerdem nun in einem eigenen Kapitel II.5, Kernkomponenten aufgelistet und beschrieben.
+
+Das Gültigkeitsdatum des Dokuments wurde zu Gültigkeit verändert. Die Gültigkeit kann nun über einen
+Zeitraum abgebildet werden.
+
+## Liste der umgesetzten Tickets
+Folgende (intern dokumentierte) Tickets wurden umgesetzt:
+- XBD-526: Codeliste 'Art des Schulabschlusses' erweitern
+- XBD-525: Codeliste 'Lernzeitmodell' um Werte der Bundesstatistik erweitern
+- XBD-524: Neues Kapitel 'Kernkomponenten' in der Spezifikation erstellen
+- XBD-520: Neue Klassen 'Praktikum' und 'Ausbildungsbetrieb' aufnehmen
+- XBD-513: Codelisten von Typ 1 auf Typ 3 umstellen
+- XBD-510: Gültigkeitsdatum in 'Zeitraum' ändern
+- XBD-505: Elemente der Ortsangabe umbenennen
+- XBD-503: Reihenfolge der Eigenschaften in den Kernkomponenten anpassen
 
 <!-- TOC --><a name="version-12"></a>
 # Version 1.2

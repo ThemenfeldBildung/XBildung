@@ -25,15 +25,11 @@
                <entry><para>
 Die Codeliste basiert auf dem Kerndatensatz (KDS) der Länder für schulstatistische Individualdaten in der Version 4.0.
 </para>
-<para>
-Sie enthält die mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne der schulartspezifischen Einrichtung", wie sie in der laufende Nummer 1.4 (Schulart) spezifiziert wurden, ergänzt um "Wert nicht bekannt" und "Wert nicht in Liste".
-</para></entry>
+<para><link xlink:href="https://www.xrepository.de/details/urn:xbildung-de:kmk:codeliste:artderschule">https://www.xrepository.de/details/urn:xbildung-de:kmk:codeliste:artderschule</link></para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
@@ -41,7 +37,7 @@ Sie enthält die mögliche Ausprägungen des Merkmals "Schulart/-typ im Sinne de
             </row>
             <row>
                <entry>-version</entry>
-               <entry>1.0</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

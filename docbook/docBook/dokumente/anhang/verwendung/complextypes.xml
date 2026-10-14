@@ -20,6 +20,12 @@
       <title>Nicht in Nachrichten verwendete Datentypen</title>
       <itemizedlist>
          <listitem>
+            <para>Anschrift</para>
+         </listitem>
+         <listitem>
+            <para>Ausbildungsbetrieb</para>
+         </listitem>
+         <listitem>
             <para>Benotung</para>
          </listitem>
          <listitem>
@@ -90,6 +96,12 @@
          </listitem>
          <listitem>
             <para>Dokument</para>
+         </listitem>
+         <listitem>
+            <para>Identifikation</para>
+         </listitem>
+         <listitem>
+            <para>NameOrganisation</para>
          </listitem>
          <listitem>
             <para>Ortsangabe</para>

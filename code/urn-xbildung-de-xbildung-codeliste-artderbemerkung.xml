@@ -5,17 +5,19 @@
    <Annotation>
       <Description>
          <xoev-cl-4:shortName>Art der Bemerkung</xoev-cl-4:shortName>
-         <xoev-cl-4:codelistDescription>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:codelistDescription>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können. Link zur Website: https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:artderbemerkung</xoev-cl-4:codelistDescription>
          <xoev-cl-4:agencyShortName>XBildung.de</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:versionDescription>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können.</xoev-cl-4:versionDescription>
          <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+         <xoev-cl-4:changes>&lt;para&gt;Mit der Veränderung vom Codelistentyp 1 auf Codelistentyp 3 wurde das URI-Konzept der Code-URI dahingehend angepasst, dass die Version aus der URI entfernt wurde und die Reihenfolge zunächst den Artefakttyp (code) und danach den Herausgeber nennt.&lt;/para&gt;</xoev-cl-4:changes>
       </Description>
    </Annotation>
    <Identification>
       <ShortName>ArtDerBemerkung-Codes</ShortName>
       <LongName>Art der Bemerkung</LongName>
-      <Version>2025-02-04</Version>
+      <Version>2027-01-01</Version>
       <CanonicalUri>urn:xbildung-de:xbildung:codeliste:artderbemerkung</CanonicalUri>
-      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderbemerkung_2025-02-04</CanonicalVersionUri>
+      <CanonicalVersionUri>urn:xbildung-de:xbildung:codeliste:artderbemerkung_2027-01-01</CanonicalVersionUri>
       <Agency>
          <LongName>XBildung</LongName>
       </Agency>
@@ -43,7 +45,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/aequivalenzbemerkung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/aequivalenzbemerkung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Äquivalenzbemerkung</SimpleValue>
@@ -51,7 +53,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/arbeitsgemeinschaft</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/arbeitsgemeinschaft</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Arbeitsgemeinschaft</SimpleValue>
@@ -59,7 +61,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/befreiung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/befreiung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Befreiung</SimpleValue>
@@ -67,55 +69,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_allgemein</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>allgemeine Beurteilung</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_arbeitsverhalten</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>Beurteilung Arbeitsverhalten</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/beurteilung_sozialverhalten</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>Beurteilung Sozialverhalten</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/engagement_ausserschulisch</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>außerschulisches Engagement</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/engagement_schulisch</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>schulisches Engagement</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/freie_formulierung</SimpleValue>
-         </Value>
-         <Value ColumnRef="description-de-DE">
-            <SimpleValue>freie Formulierung</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/laengerfristige_befreiung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/befreiung_laengerfristig</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>längerfristige Befreiung</SimpleValue>
@@ -123,7 +77,55 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/rechtsgrundlage</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/beurteilung_allgemein</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>allgemeine Beurteilung</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/beurteilung_arbeitsverhalten</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Beurteilung Arbeitsverhalten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/beurteilung_sozialverhalten</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>Beurteilung Sozialverhalten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/engagement_ausserschulisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>außerschulisches Engagement</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/engagement_schulisch</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>schulisches Engagement</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/freie_formulierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="description-de-DE">
+            <SimpleValue>freie Formulierung</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/rechtsgrundlage</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>Rechtsgrundlage</SimpleValue>
@@ -131,7 +133,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>http://xbildung.de/def/xbildung/2025-02-04/code/artderbemerkung/sonstige_standardisierte_bemerkung</SimpleValue>
+            <SimpleValue>http://xbildung.de/def/code/xbildung/artderbemerkung/sonstige_standardisierte_bemerkung</SimpleValue>
          </Value>
          <Value ColumnRef="description-de-DE">
             <SimpleValue>sonstige standardisierte Bemerkung</SimpleValue>

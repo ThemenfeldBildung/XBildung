@@ -13,7 +13,7 @@
         <para>Die XBildung-Journey illustriert idealtypische Wege von Individuen durch das deutsche
         Bildungssystem und berücksichtigt dabei drei Lebenslagen, die den Anwendungsbereichen der
         Standards entsprechen: Schule, Berufsausbildung und Hochschule. Die Journey vereint die
-        Perspektiven der drei Teilodule unter dem Dach des IT-Standards XBildung: XSchule,
+        Perspektiven der drei Teilmodule unter dem Dach des IT-Standards XBildung: XSchule,
         XBerufsbildung und XHochschule. </para>
     <para>Die dargestellten Journeys zielen darauf ab, Potenziale für Standardisierung in den
         jeweiligen Bereichen zu identifizieren. Nicht alle Schritte werden zwingend im Rahmen einer
@@ -170,7 +170,7 @@
         <para>Die XBerufsbildung-Journey kann anhand der folgenden Abbildung nachvollzogen werden
             und stellt einen exemplarischen Weg durch das Berufsbildungswesen dar. Diese ist in
             Erstausbildung und Aufstiegsfortbildung untergliedert. Jeder Änderung in der Lebenslage
-            einer Person im Berufsbildungswesen ist eine Station untergeordnet:</para>
+            einer Person im Berufsbildungswesen ist eine Station zugeordnet:</para>
     <orderedlist><listitem>
         <para><emphasis role="bold">Suchen und Informieren</emphasis></para>
                 <para>Für Ausbildungsinteressierte, die eine allgemeinbildende Schule ohne Abschluss
@@ -206,7 +206,7 @@
                 <para>Die Bewerbung für den Ausbildungsberuf richtet die auszubildende Person wegen
                     der guten Erfahrungen wieder an den Betrieb, bei dem sie bereits das Praktikum
                     absolviert hat. Hierfür sendet sie eine Bewerbung inkl. des Abschlusszeugnisses
-                    und weiteren Unterlagen an den Betrieb.</para>
+                    und weiterer Unterlagen an den Betrieb.</para>
                         </listitem><listitem><para><emphasis role="bold">Vertragsabschluss beim Betrieb</emphasis></para>
                 <para>Zwischen dem Ausbildungsbetrieb und der auszubildenden Person wird ein
                     Ausbildungsvertrag geschlossen, den ggf. die erziehungsberechtigte Person
@@ -264,7 +264,7 @@
                 <para>Nach erfolgreich absolvierten Prüfungen erhält die lernende Person von ihrer
                     Berufsschule ein Abschlusszeugnis. Die Handwerkskammer stellt ihr zusätzlich ein
                     Prüfungszeugnis aus. Da die lernende Person während ihrer Berufsschulzeit sehr
-                    gute Noten hatte, erhält sie von seiner Berufsschule auf Antrag den Nachweis
+                    gute Noten hatte, erhält sie von ihrer Berufsschule auf Antrag den Nachweis
                     über den Erwerb des mittleren Schulabschlusses (MSA).</para>
                                                     </listitem><listitem><para><emphasis role="bold">Übergang in Beschäftigung</emphasis></para>
     <para>Nach erfolgreichem Abschluss der Berufsausbildung bewirbt sich die ausgebildete Person als
@@ -279,16 +279,16 @@
                     an. Hierzu muss sie bei der Handwerkskammer erst den Antrag auf Zulassung zur
                     Meisterprüfung stellen, bevor sie sich anmelden kann.</para>
                                                             </listitem><listitem><para><emphasis role="bold">Beantragung Förderung</emphasis></para>
-                <para>Da die ausgebildete Person diese Ausbildung neben dem Beruf absolvieren
+                <para>Da die ausgebildete Person diese Aufstiegsfortbildung neben dem Beruf absolvieren
                     möchte, reduziert sie ihre Arbeitszeit um 20%. Dank des
-                    Aufstiegsfortbildungsförderungsgesetzes kann sie finanzielle Mitteln für die
+                    Aufstiegsfortbildungsförderungsgesetzes kann sie finanzielle Mittel für die
                     Aufstiegsfortbildung online beantragen.</para>
                                                                 </listitem><listitem><para><emphasis role="bold">Absolvieren der Fortbildung </emphasis></para>
                 <para>Während der etwa zweijährigen Fortbildung besucht die lernende Person
-                    verschiedene Kurse des Bildungs- und Technologiezentrum (BTZ) und arbeitet in
+                    verschiedene Kurse des Bildungs- und Technologiezentrums (BTZ) und arbeitet in
                     Teilzeit in ihrem Betrieb.</para>
                                                                     </listitem><listitem><para><emphasis role="bold">Abschlussprüfung</emphasis></para>
-                <para>Nach erfolgreicher Teilnahme an den Kursen, kann die lernende Person sich zur
+                <para>Nach erfolgreicher Teilnahme an den Kursen kann die lernende Person sich zur
                     Meisterprüfung anmelden. Die Prüfung besteht aus vier einzelnen Teilen, die
                     erfolgreich absolviert werden.</para>
                                                                         </listitem><listitem>
@@ -311,7 +311,7 @@
   <orderedlist>
     <listitem>
       <para><emphasis role="bold">Suchen und informieren</emphasis></para>
-      <para>Erster Schritt in der Hochschulbildung ist die Recherche. Studieninteressierte können sich über strukturierte Angebote (z. B. Hochschulkompass der HRK, My Guide, Digitaler Campus,
+      <para>Erster Schritt in der Hochschulbildung ist die Recherche. Studieninteressierte können sich über strukturierte Angebote (z.B. Hochschulkompass der HRK, My Guide, Digitaler Campus,
       StudyInEurope) sowie Suchmaschinen über das Studienangebot und konkrete Studienfächer in Deutschland informieren.</para>
     </listitem>
     <listitem>
@@ -323,7 +323,7 @@
       <para>Für einige Studienfächer müssen Studieninteressierte bestimmte
         Zulassungsvoraussetzungen erfüllen und vor bzw. im Zuge einer Bewerbung prüfen lassen:
         Zum einen gibt es Studienfächer, für die eine bestimmte Eignung im Rahmen einer Prüfung
-        nachgewiesen werden müssen (künstlerische und sportliche Eignungsprüfung, Test für
+        nachgewiesen werden muss (künstlerische und sportliche Eignungsprüfung, Test für
         medizinische Studienfächer (TMS)). Zum anderen müssen Studieninteressierte vor einer
         Bewerbung teilweise auch Kompetenznachweise z.B. bei Dienstleistern wie uni-assist zur
         Prüfung der Zulassungsvoraussetzungen für ein konkretes Studienfach (ggf. mit
@@ -339,7 +339,7 @@
     </listitem>
     <listitem>
       <para><emphasis role="bold">Kompetenzen anerkennen lassen</emphasis></para>
-      <para>Das Prüfungsamt und/oder einzelne Fakultäten einer Hochschule erkennen (ausländische) Kompetenznachweise gegebenenfalls studienfachsspezifisch an.</para>
+      <para>Das Prüfungsamt und/oder einzelne Fakultäten einer Hochschule erkennen (ausländische) Kompetenznachweise gegebenenfalls studienfachspezifisch an.</para>
     </listitem>
     <listitem>
       <para><emphasis role="bold">An Hochschule einschreiben</emphasis></para>
@@ -351,7 +351,7 @@
     <listitem>
                 <para><emphasis role="bold">Studienfinanzierung beantragen</emphasis></para>
                 <para>Zur Finanzierung eines Studiums können (angehende) Studierende verschiedene
-                    Fördermöglichkeiten beantragen (z. B. Stipendien), wobei die Möglichkeiten und
+                    Fördermöglichkeiten beantragen (z.B. Stipendien), wobei die Möglichkeiten und
                     eine konkrete finanzielle Förderung von zahlreichen Faktoren abhängen; etwa
                     persönliche Lebenslage, bisherige Leistungen, Hochschule und das konkrete
                     Studienfach.</para>
@@ -390,7 +390,7 @@
     <listitem>
       <para><emphasis role="bold">Hochschulabschlusszeugnis erhalten</emphasis></para>
       <para>Zum erfolgreichen Abschluss des grundständigen Studiums wird den Studierenden ein
-                    (digitales) Hochschulabschlusszeugnis mit weiteren Dokumenenten wie Transcript
+                    (digitales) Hochschulabschlusszeugnis mit weiteren Dokumenten wie Transcript
                     of Records (ToR) oder Diploma Supplements ausgestellt.</para>
     </listitem>
     <listitem>
@@ -405,20 +405,20 @@
     <listitem>
       <para><emphasis role="bold">Hochschulabschlusszeugnis erhalten</emphasis></para>
       <para>Zum erfolgreichen Abschluss des konsekutiven Studiums wird den Studierenden ein
-                    (digitales)  Hochschulabschlusszeugnis mit weiteren Dokumenenten wie Transcript
+                    (digitales)  Hochschulabschlusszeugnis mit weiteren Dokumenten wie Transcript
                     of Records (ToR) oder Diploma Supplements ausgestellt.</para>
     </listitem>
     <listitem>
       <para><emphasis role="bold">Suchen und informieren</emphasis></para>
       <para>Zu Beginn der Stellensuche informieren sich Arbeitssuchende mit strukturierten
                     Informationsangeboten (z.B. Jobbörse der Bundesagentur für Arbeit, Indeed),
-                    Suchmaschinen (z.B. Google) oder bei Beratungsstellen (z. B. bei
+                    Suchmaschinen (z.B. Google) oder bei Beratungsstellen (z.B. bei
                     Vermittlungsfachkräften der Bundesagentur für Arbeit) zum deutschen Arbeitsmarkt
                     und geeigneten Beschäftigungsmöglichkeiten.</para>
     </listitem>
     <listitem>
       <para><emphasis role="bold">Für Job bewerben</emphasis></para>
-      <para>Die Bewerbung auf eine konkrete Stelle mit Nachweisen wie z. B. Zeugnissen, erfolgt
+      <para>Die Bewerbung auf eine konkrete Stelle mit Nachweisen wie z.B. Zeugnissen, erfolgt
                     beispielsweise über digitale Bewerbungsplattformen der Arbeitgeber oder
                     zunehmend auch über die digitalen Onlineprofile der Bewerber:innen.</para>
     </listitem>

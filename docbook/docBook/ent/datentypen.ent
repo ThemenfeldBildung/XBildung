@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
+<?xml version="1.0" encoding="UTF-8"?><!ENTITY datentyp.ref.anschrift '<emphasis role="codebf">Anschrift</emphasis>'>
+                    <!ENTITY datentyp.ref.link.anschrift '<link linkend="XBildung.Baukasten.Kernkomponenten.Anschrift">Anschrift</link>'>
+                    <!ENTITY datentyp.ref.xref.anschrift '<xref linkend="XBildung.Baukasten.Kernkomponenten.Anschrift" role="AS"/>'>
+                    <!ENTITY datentyp.ref.ausbildungsbetrieb '<emphasis role="codebf">Ausbildungsbetrieb</emphasis>'>
+                    <!ENTITY datentyp.ref.link.ausbildungsbetrieb '<link linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb">Ausbildungsbetrieb</link>'>
+                    <!ENTITY datentyp.ref.xref.ausbildungsbetrieb '<xref linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb" role="AS"/>'>
+                    <!ENTITY datentyp.ref.benotung '<emphasis role="codebf">Benotung</emphasis>'>
                     <!ENTITY datentyp.ref.link.benotung '<link linkend="XBildung.Baukasten.Benotung">Benotung</link>'>
                     <!ENTITY datentyp.ref.xref.benotung '<xref linkend="XBildung.Baukasten.Benotung" role="AS"/>'>
                     <!ENTITY datentyp.ref.code.amtlichergemeindeschluessel '<emphasis role="codebf">Code.AmtlicherGemeindeschluessel</emphasis>'>
@@ -70,9 +76,15 @@
                     <!ENTITY datentyp.ref.dokument '<emphasis role="codebf">Dokument</emphasis>'>
                     <!ENTITY datentyp.ref.link.dokument '<link linkend="XBildung.Baukasten.Dokument">Dokument</link>'>
                     <!ENTITY datentyp.ref.xref.dokument '<xref linkend="XBildung.Baukasten.Dokument" role="AS"/>'>
+                    <!ENTITY datentyp.ref.identifikation '<emphasis role="codebf">Identifikation</emphasis>'>
+                    <!ENTITY datentyp.ref.link.identifikation '<link linkend="XBildung.Baukasten.Kernkomponenten.Identifikation">Identifikation</link>'>
+                    <!ENTITY datentyp.ref.xref.identifikation '<xref linkend="XBildung.Baukasten.Kernkomponenten.Identifikation" role="AS"/>'>
+                    <!ENTITY datentyp.ref.nameorganisation '<emphasis role="codebf">NameOrganisation</emphasis>'>
+                    <!ENTITY datentyp.ref.link.nameorganisation '<link linkend="XBildung.Baukasten.Kernkomponenten.NameOrganisation">NameOrganisation</link>'>
+                    <!ENTITY datentyp.ref.xref.nameorganisation '<xref linkend="XBildung.Baukasten.Kernkomponenten.NameOrganisation" role="AS"/>'>
                     <!ENTITY datentyp.ref.ortsangabe '<emphasis role="codebf">Ortsangabe</emphasis>'>
-                    <!ENTITY datentyp.ref.link.ortsangabe '<link linkend="XBildung.Baukasten.Ortsangabe">Ortsangabe</link>'>
-                    <!ENTITY datentyp.ref.xref.ortsangabe '<xref linkend="XBildung.Baukasten.Ortsangabe" role="AS"/>'>
+                    <!ENTITY datentyp.ref.link.ortsangabe '<link linkend="XBildung.Baukasten.Kernkomponenten.Ortsangabe">Ortsangabe</link>'>
+                    <!ENTITY datentyp.ref.xref.ortsangabe '<xref linkend="XBildung.Baukasten.Kernkomponenten.Ortsangabe" role="AS"/>'>
                     <!ENTITY datentyp.ref.praktikum '<emphasis role="codebf">Praktikum</emphasis>'>
                     <!ENTITY datentyp.ref.link.praktikum '<link linkend="XBildung.Baukasten.Praktikum">Praktikum</link>'>
                     <!ENTITY datentyp.ref.xref.praktikum '<xref linkend="XBildung.Baukasten.Praktikum" role="AS"/>'>
@@ -83,6 +95,6 @@
                     <!ENTITY datentyp.ref.link.teilbekanntesdatum '<link linkend="XBildung.Baukasten.TeilbekanntesDatum">TeilbekanntesDatum</link>'>
                     <!ENTITY datentyp.ref.xref.teilbekanntesdatum '<xref linkend="XBildung.Baukasten.TeilbekanntesDatum" role="AS"/>'>
                     <!ENTITY datentyp.ref.zeitraum '<emphasis role="codebf">Zeitraum</emphasis>'>
-                    <!ENTITY datentyp.ref.link.zeitraum '<link linkend="XBildung.Baukasten.Zeitraum">Zeitraum</link>'>
-                    <!ENTITY datentyp.ref.xref.zeitraum '<xref linkend="XBildung.Baukasten.Zeitraum" role="AS"/>'>
+                    <!ENTITY datentyp.ref.link.zeitraum '<link linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum">Zeitraum</link>'>
+                    <!ENTITY datentyp.ref.xref.zeitraum '<xref linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum" role="AS"/>'>
                     

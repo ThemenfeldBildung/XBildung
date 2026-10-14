@@ -22,13 +22,12 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können.</para></entry>
+               <entry><para>Die Liste "Art der Bemerkung" bildet häufige Bemerkungen ab, damit sie trotz ihres unstrukturierten Charakters besser strukturiert erfasst werden können.</para>
+<para>Link zur Website: <link xlink:href="https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:artderbemerkung">https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:artderbemerkung</link></para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
@@ -36,7 +35,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>2025-02-04</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

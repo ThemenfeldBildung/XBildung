@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-model href="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE section[
+    <!ENTITY % complete SYSTEM "../../ent/complete.ent">
+    %complete;
+]>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5" xml:lang="de" xml:id="spezifikation.kernkomponenten">
+    <info>
+        <title>Kernkomponenten</title>
+    </info>
+    <para>Die in XBildung definierten Kernkomponenten basieren auf den Kernkomponenten der <link xlink:href="https://docs.xoev.de/downloads/downloads#_bibliothek"> XÖV-Bibliothek
+        </link>, angepasst an den fachlichen Kontext. Sie sind nicht dafür gedacht, direkt von den
+        Teilmodulen XSchule, XBerufsbildung oder XHochschule nachgenutzt zu werden. Benötigt ein
+        Teilmodul eine dieser Kernkomponenten, legt es sie selbst an. Die in XBildung vorhandenen
+        Kernkomponenten werden in den Klassen für den Datenaustausch verwendet, die für die Nutzung
+        durch die Teilmodule bestimmt sind.</para>
+    <para>Der <link linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb">Ausbildungsbetrieb</link> basiert auf der Kernkomponente Organisation, die <link linkend="XBildung.Baukasten.Kernkomponenten.Ortsangabe">Ortsangabe</link> auf der
+        Anschrift. Bei den anderen Kernkomponenten wurde der Name nicht verändert.</para>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/Anschrift.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/Ausbildungsbetrieb.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/Identifikation.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/NameOrganisation.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/Ortsangabe.xml"/>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="../../build/docBook/dokumente/XBildung/Baukasten/Kernkomponenten/Zeitraum.xml"/>
+</chapter>

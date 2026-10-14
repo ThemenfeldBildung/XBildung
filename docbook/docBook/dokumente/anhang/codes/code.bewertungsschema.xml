@@ -22,14 +22,12 @@
          <tbody>
             <row>
                <entry>-beschreibung</entry>
-               <entry><para>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata. Die Aufbauvorschrift lautet:</para>
-<para>http://xbildung.de/def/xbildung/{Version}/code/bewertungsschema/{ISO3166-Alpha2}_{Hrsg}_{Kontext}_{schlechtesteBewertung}_{bestandenAbBewertung}_{besteBewertung}</para></entry>
+               <entry><para>Codeliste für die bekannten und im XBildungs-Kontext verwendeten Bewertungsschemata.</para>
+<para>Link zur Website: <link xlink:href="https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:bewertungsschema">https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:bewertungsschema</link></para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
@@ -37,7 +35,7 @@
             </row>
             <row>
                <entry>-version</entry>
-               <entry>2025-02-04</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

@@ -2,6 +2,51 @@
 <kosit:types xmlns:kosit="http://www.xoev.de/de/kosit-zubehoer/3_0_0"
              xmlns="http://docbook.org/ns/docbook"
              xmlns:xlink="http://www.w3.org/1999/xlink">
+   <kosit:type name="Anschrift"
+               id="XBildung.Baukasten.Kernkomponenten.Anschrift"
+               prefix="xbd">
+      <kosit:property name="hausnummer"/>
+      <kosit:property name="ort"/>
+      <kosit:property name="postfach"/>
+      <kosit:property name="postleitzahl"/>
+      <kosit:property name="staat"/>
+      <kosit:property name="strasse"/>
+      <kosit:property name="zusatz"/>
+   </kosit:type>
+   <kosit:type name="Ausbildungsbetrieb"
+               id="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb"
+               prefix="xbd">
+      <kosit:property name="anschrift"/>
+      <kosit:property name="anschrift/strasse"/>
+      <kosit:property name="anschrift/hausnummer"/>
+      <kosit:property name="anschrift/postfach"/>
+      <kosit:property name="anschrift/postleitzahl"/>
+      <kosit:property name="anschrift/ort"/>
+      <kosit:property name="anschrift/zusatz"/>
+      <kosit:property name="anschrift/staat"/>
+      <kosit:property name="ausbildungsstaette"/>
+      <kosit:property name="ausbildungsstaette/name"/>
+      <kosit:property name="ausbildungsstaette/name/name"/>
+      <kosit:property name="ausbildungsstaette/name/kurzbezeichnung"/>
+      <kosit:property name="ausbildungsstaette/anschrift"/>
+      <kosit:property name="ausbildungsstaette/anschrift/strasse"/>
+      <kosit:property name="ausbildungsstaette/anschrift/hausnummer"/>
+      <kosit:property name="ausbildungsstaette/anschrift/postfach"/>
+      <kosit:property name="ausbildungsstaette/anschrift/postleitzahl"/>
+      <kosit:property name="ausbildungsstaette/anschrift/ort"/>
+      <kosit:property name="ausbildungsstaette/anschrift/zusatz"/>
+      <kosit:property name="ausbildungsstaette/anschrift/staat"/>
+      <kosit:property name="identifikation"/>
+      <kosit:property name="identifikation/id"/>
+      <kosit:property name="identifikation/beschreibung"/>
+      <kosit:property name="identifikation/gueltigkeit"/>
+      <kosit:property name="identifikation/gueltigkeit/beginn"/>
+      <kosit:property name="identifikation/gueltigkeit/ende"/>
+      <kosit:property name="identifikation/gueltigkeit/zusatz"/>
+      <kosit:property name="name"/>
+      <kosit:property name="name/name"/>
+      <kosit:property name="name/kurzbezeichnung"/>
+   </kosit:type>
    <kosit:type name="BehoerdeType" prefix="bn-beh">
       <kosit:property name="erreichbarkeit"/>
       <kosit:property name="erreichbarkeit/kanal"/>
@@ -143,15 +188,28 @@
    <kosit:type name="Dokument" id="XBildung.Baukasten.Dokument" prefix="xbd">
       <kosit:property name="ausstellung"/>
       <kosit:property name="ausstellung/datum"/>
-      <kosit:property name="ausstellung/ort"/>
-      <kosit:property name="ausstellung/ort/ort"/>
-      <kosit:property name="ausstellung/ort/staat"/>
-      <kosit:property name="gueltigkeitsdatum"/>
+      <kosit:property name="ausstellung/ortsangabe"/>
+      <kosit:property name="ausstellung/ortsangabe/ort"/>
+      <kosit:property name="ausstellung/ortsangabe/staat"/>
+      <kosit:property name="gueltigkeit"/>
+      <kosit:property name="gueltigkeit/beginn"/>
+      <kosit:property name="gueltigkeit/ende"/>
+      <kosit:property name="gueltigkeit/zusatz"/>
       <kosit:property name="nonce"/>
       <kosit:property name="sprache"/>
       <kosit:property name="titel"/>
       <kosit:property name="titel/@lang"/>
    </kosit:type>
+   <kosit:type name="Identifikation"
+               id="XBildung.Baukasten.Kernkomponenten.Identifikation"
+               prefix="xbd">
+      <kosit:property name="beschreibung"/>
+      <kosit:property name="gueltigkeit"/>
+      <kosit:property name="gueltigkeit/beginn"/>
+      <kosit:property name="gueltigkeit/ende"/>
+      <kosit:property name="gueltigkeit/zusatz"/>
+      <kosit:property name="id"/>
+   </kosit:type>
    <kosit:type name="Identifikation.NachrichtType" prefix="bn-g2g">
       <kosit:property name="erstellungszeitpunkt"/>
       <kosit:property name="nachrichtenUUID"/>
@@ -444,15 +502,52 @@
       <kosit:property name="leser/erreichbarkeit/kennung"/>
       <kosit:property name="leser/erreichbarkeit/zusatz"/>
    </kosit:type>
-   <kosit:type name="Ortsangabe" id="XBildung.Baukasten.Ortsangabe" prefix="xbd">
+   <kosit:type name="NameOrganisation"
+               id="XBildung.Baukasten.Kernkomponenten.NameOrganisation"
+               prefix="xbd">
+      <kosit:property name="kurzbezeichnung"/>
+      <kosit:property name="name"/>
+   </kosit:type>
+   <kosit:type name="Ortsangabe"
+               id="XBildung.Baukasten.Kernkomponenten.Ortsangabe"
+               prefix="xbd">
       <kosit:property name="ort"/>
       <kosit:property name="staat"/>
    </kosit:type>
    <kosit:type name="Praktikum" id="XBildung.Baukasten.Praktikum" prefix="xbd">
-      <kosit:property name="namePraktikumsstelle"/>
-      <kosit:property name="ort"/>
-      <kosit:property name="ort/ort"/>
-      <kosit:property name="ort/staat"/>
+      <kosit:property name="ausbildungsbetrieb"/>
+      <kosit:property name="ausbildungsbetrieb/name"/>
+      <kosit:property name="ausbildungsbetrieb/name/name"/>
+      <kosit:property name="ausbildungsbetrieb/name/kurzbezeichnung"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/name"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/name/name"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/name/kurzbezeichnung"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/strasse"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/hausnummer"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/postfach"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/postleitzahl"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/ort"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/zusatz"/>
+      <kosit:property name="ausbildungsbetrieb/ausbildungsstaette/anschrift/staat"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/id"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/beschreibung"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/gueltigkeit"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/gueltigkeit/beginn"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/gueltigkeit/ende"/>
+      <kosit:property name="ausbildungsbetrieb/identifikation/gueltigkeit/zusatz"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/strasse"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/hausnummer"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/postfach"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/postleitzahl"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/ort"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/zusatz"/>
+      <kosit:property name="ausbildungsbetrieb/anschrift/staat"/>
+      <kosit:property name="beschreibung"/>
+      <kosit:property name="beschreibung/@lang"/>
       <kosit:property name="zeitraum"/>
       <kosit:property name="zeitraum/beginn"/>
       <kosit:property name="zeitraum/ende"/>
@@ -475,7 +570,9 @@
    <kosit:type name="UUID" prefix="bn-g2g"/>
    <kosit:type name="UUID" prefix="bn-uq-g2g"/>
    <kosit:type name="UUID" prefix="bn-uq-g2g"/>
-   <kosit:type name="Zeitraum" id="XBildung.Baukasten.Zeitraum" prefix="xbd">
+   <kosit:type name="Zeitraum"
+               id="XBildung.Baukasten.Kernkomponenten.Zeitraum"
+               prefix="xbd">
       <kosit:property name="beginn"/>
       <kosit:property name="ende"/>
       <kosit:property name="zusatz"/>

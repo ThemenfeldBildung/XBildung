@@ -23,17 +23,12 @@
             <row>
                <entry>-beschreibung</entry>
                <entry><para>
-Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Liste der Lernzeitmodelle des European Learning Model (ELM).
-</para>
-<para>
-ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule">https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/learning-schedule</link>
-</para></entry>
+Diese Codeliste enthält mögliche Ausprägungen von Lernzeitmodellen. </para>
+<para>Link zur Website: <link xlink:href="https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:lernzeitmodell">https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:lernzeitmodell</link></para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
@@ -41,7 +36,7 @@ ELM Liste der Lernzeitmodelle: <link xlink:href="https://op.europa.eu/de/web/eu-
             </row>
             <row>
                <entry>-version</entry>
-               <entry>2025-02-04</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

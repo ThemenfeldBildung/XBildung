@@ -12,6 +12,88 @@
     <para>In der Versionshistorie werden die Änderungen der aktuellen Version zur Vorversion der
         Spezifikation dargestellt. Es werden die Änderungen der letzten zwei Versionen
         aufgeführt.</para>
+    <section xml:id="spezifikation.anhang.versionshistorie13">
+        <info>
+            <title>Version 1.3</title>
+        </info>
+        <para>Veröffentlichungsdatum: 14.10.2026</para>
+        <section>
+            <title>Änderungen an Codelisten</title>
+            <para>Mit der Version 1.3 wurden alle Typ 1-Codelisten auf Typ 3-Codelisten umgestellt,
+                sodass diese nun unabhängig von Releases angepasst werden können. Mit dieser
+                Änderung wurde zudem das URI-Konzept der Code-URI dahingehend angepasst, dass die
+                Version aus der URI entfernt wurde und die Reihenfolge zunächst den Artefakttyp
+                (code) und danach den Herausgeber nennt.</para>
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.ArtDesSchulabschlusses"
+                    >Art des Schulabschlusses</link> wurde um den Wert "Fachgebundene
+                Hochschulreife" erweitert.</para>
+            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
+                    >Lernzeitmodell</link> wurde um die Werte der Hochschulstatistik erweitert und
+                enthält nun die neuen Werte "Berufsintegrierendes Duales Studium",
+                "Praxisintegrierendes Duales Studium (angestrebter erster akademischer Abschluss)"
+                und "Praxisintegrierendes Duales Studium (weiterer Abschluss)". Darüberhinaus wurden
+                die URIs der einzelnen Werte vereinheitlicht.</para>
+        </section>
+        <section>
+            <title>Aufnahme neuer Klassen</title>
+            <para>Es wurde die neue Klasse <link linkend="XBildung.Baukasten.Praktikum"
+                    >Praktikum</link> aufgenommen. Die Klasse dient dazu, Angaben zu einem
+                absolvierten Praktikum abzubilden. Sie enthält einen Zeitraum, den
+                Ausbildungsbetrieb sowie eine Beschreibung.</para>
+            <para>Die Klasse <link linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb"
+                    >Ausbildungsbetrieb</link> wurde neu in die Kernkomponenten aufgenommen. Die
+                Klasse orientiert sich an den Angaben der Organisation und enthält den Namen, die
+                Identifikaion sowie die Anschrift. Zudem besteht die Möglichkeit, eine abweichende
+                Ausbildungsstätte anzugeben.</para>
+        </section>
+        <section>
+            <title>Sonstige Änderungen</title>
+            <para>Innerhalb der Klasse <link linkend="XBildung.Baukasten.Dokument">Dokument</link>
+                wurde innerhalb der Angaben zur Ausstellung der Ort in Ortsangabe umbenannt.</para>
+            <para>Innerhalb der Kernkomponenten wurde die Reihenfolge der Eigenschaften an die der
+                XÖV-Bibliothek angepasst. Die Kernkomponenten in XBildung sind außerdem nun in einem
+                eigenen <xref linkend="spezifikation.kernkomponenten" role="Titel"/> aufgelistet und
+                beschrieben.</para>
+            <para>Das Gültigkeitsdatum des <link linkend="XBildung.Baukasten.Dokument"
+                    >Dokuments</link> wurde zu Gültigkeit verändert. Die Gültigkeit kann nun über
+                einen <link linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum">Zeitraum</link>
+                abgebildet werden.</para>
+        </section>
+        <section>
+            <title>Liste der umgesetzten Tickets</title>
+            <para> Folgende (intern dokumentierte) Tickets wurden umgesetzt:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>XBD-526: Codeliste 'Art des Schulabschlusses' erweitern</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-525: Codeliste 'Lernzeitmodell' um Werte der Bundesstatistik
+                        erweitern</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-524: Neues Kapitel 'Kernkomponenten' in der Spezifikation
+                        erstellen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-520: Neue Klassen 'Praktikum' und 'Ausbildungsbetrieb'
+                        aufnehmen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-513: Codelisten von Typ 1 auf Typ 3 umstellen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-510: Gültigkeitsdatum in 'Zeitraum' ändern</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-505: Elemente der Ortsangabe umbenennen</para>
+                </listitem>
+                <listitem>
+                    <para>XBD-503: Reihenfolge der Eigenschaften in den Kernkomponenten
+                        anpassen</para>
+                </listitem>
+            </itemizedlist>
+        </section>
+    </section>
     <section xml:id="spezifikation.anhang.versionshistorie12">
         <info>
             <title>Version 1.2</title>
@@ -81,130 +163,5 @@
             </itemizedlist>
         </section>
     </section>
-    <section xml:id="spezifikation.anhang.versionshistorie11">
-        <info>
-            <title>Version 1.1</title>
-        </info>
-        <para>Veröffentlichungsdatum: 04.02.2025</para>
-        <section>
-            <title>Änderungen an Codelisten </title>
-            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
-                    >Lernzeitmodell</link>, die bisher in XHochschule verwendet wurde, ist aufgrund
-                übergreifender Relevanz nun in XBildung eingebunden und kann durch alle Teilvorhaben
-                nachgenutzt werden. Das Mapping auf die europäischen ELM-Werte für Teilzeit und
-                Vollzeit wurde wieder aufgenommen und die Beschreibung überarbeitet.</para>
-            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Art
-                    der Bemerkung</link>, die zuvor sowohl in XSchule wie auch in XBerufsbildung mit
-                unterschiedlichen Werten Verwendung fand, ist nun unter Vereinigung der Werte aus
-                beiden Teilvorhaben in XBildung eingebunden und kann durch die Teilvorhaben
-                nachgenutzt werden. Sie wurde um die Werte "Beurteilung Sozialverhalten",
-                "Beurteilung Arbeitsverhalten" und "längerfristige Befreiung" erweitert. Der
-                bestehende Eintrag "Allgemeine Beurteilung" wurde in "Beurteilung Allgemein"
-                umbenannt.</para>
-            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.GesetzlicherVertreter"
-                    >Gesetzlicher Vertreter</link>, die bisher in XSchule wie auch in XBerufsbildung
-                unter Rückgriff auf die Listenwerte des DSMeld verwendet wurde, ist nun zentral in
-                XBildung eingebunden und kann durch die Teilvorhaben nachgenutzt werden.</para>
-            <para>Die Codelisten <link linkend="XBildung.Baukasten.Codes.Code.ISCEDF2013"
-                    >ISCED-F-2013</link> und <link linkend="XBildung.Baukasten.Codes.Code.Language"
-                    >Language</link> wurden auf die aktuelle Fassung gebracht.</para>
-            <para>Die Versionierung der Codelisten <link
-                    linkend="XBildung.Baukasten.Codes.Code.ArtDerBemerkung">Art der Bemerkung</link>
-                und <link linkend="XBildung.Baukasten.Codes.Code.Lernzeitmodell"
-                    >Lernzeitmodell</link> wurde auf "2025-02-04" geändert und das Vorgehen für die
-                Versionsbezeichnung im Kapitel II.3 <link linkend="modellierung.code-Datentypen"
-                    >Code-Datentypen</link> erklärt.</para>
-            <para>Der Bezugsort der vom EU Publications Office herausgegebenen Codelisten wurde im
-                Modell vereinheitlicht.</para>
-            <para>Die Codeliste <link linkend="XBildung.Baukasten.Codes.Code.Bewertungsschema"
-                    >Bewertungsschema</link> wurde um einen Eintrag ergänzt, der die alternative
-                Repräsentation von Hochschulnoten nach dem Schema A-F umfasst.</para>
-        </section>
-        <section>
-            <title>Bereitstellung einer Nonce in Klasse Dokument</title>
-            <para>Entsprechend einer Stakeholder-Anforderung wurde für die Klasse <link
-                    linkend="XBildung.Baukasten.Dokument">Dokument</link>, und damit für alle in den
-                Teilvorhaben bereitgestellten Nachweise, die Möglichkeit zur Angabe einer Nonce für
-                den sicheren Datentransport bereitgestellt.</para>
-        </section>
-        <section>
-            <title>Sonstige Änderungen</title>
-            <para>Elemente aus XBildung werden mit dem zugehörigen Namespace verwendet.</para>
-            <para>In <link linkend="modellierung.wichtigeHinweiseZurImplementierung">Wichtige
-                    Hinweise zur Implementierung</link> wurde der Abschnitt zur Relevanz von
-                Schematron überarbeitet. </para>
-            <para>Das Kapitel <link linkend="modellierung.grundlegendeDesignentscheidungen"
-                    >Grundlegende Designentscheidungen</link> wurde in die Einleitung verschoben und
-                mit neuen Verweisen auf die Registermodernisierung (RegMo) und die Single Digital
-                Gateway Verordnung (SDG) überarbeitet. Zusätzlich wurde die dazugehörige Grafik
-                überarbeitet.</para>
-        </section>
-        <section>
-            <title>Liste der umgesetzten Tickets</title>
-            <para> Folgende (intern dokumentierte) Tickets wurden umgesetzt:</para>
-            <itemizedlist>
-                <listitem>
-                    <para>XBD-390: XBD Präfixe einbinden</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-392: Abgrenzung der Pre-Releases und Releases im Wording
-                        festlegen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-393: Codeliste "Gesetzlicher Vertreter" über XBD einbinden</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-396: Lizenzangaben in GitHub ergänzen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-399: Pre-Release-Tag in GitHub einführen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-401: Codelisten-Kennungen überprüfen und anpassen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-403: XBildung als Standard-Eigentümer im XRepository angeben</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-405: Codeliste "Art der Bemerkung" zusammenführen und in XBD
-                        einbinden</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-406: Codelisten "ISCED-F-2013", "Language" auf neue Version
-                        updaten</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-419: Anpassung des Abschnitts zu "Schematron" in Spezifikation</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-421: Feld auf Ebene "Dokument" / Nonce bereitstellen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-422: Codeliste "Lernzeitmodell" von XHS auf XBD umziehen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-424: Vereinheitlichung von Listen des EU Publications Office</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-426: Codeliste ArtDerBemerkung: neue Werte aufnehmen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-427: Codeliste Lernzeitmodell: Mapping auf PO aufnehmen</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-429: Codeliste "ArtDerBemerkung" um "längerfristige Befreiung"
-                        erweitern</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-437: Alternative Repräsentation von "note"</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-438: Kapitel "Grundlegende Designentscheidungen" überarbeiten</para>
-                </listitem>
-                <listitem>
-                    <para>XBD-443: Versionierung von Codelisten an neue Systematik anpassen</para>
-                </listitem>
-            </itemizedlist>
-        </section>
-    </section>
+
 </appendix>

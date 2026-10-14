@@ -70,8 +70,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderbemerkung.ArtDerBemerkung-Codes">Art der Bemerkung</link>
                </entry>
-               <entry align="left">2025-02-04</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -81,8 +81,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes">Art der Prüfung</link>
                </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -92,8 +92,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.kmk.codeliste.artderschule.ArtDerSchule-Codes">Art der Schule</link>
                </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -104,8 +104,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artdertraegerschaft.ArtDerTraegerschaft-Codes">Art der Trägerschaft</link>
                </entry>
-               <entry align="left">1.0</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -116,8 +116,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.destatis.codeliste.artdesschulabschlusses.ArtDesSchulabschlusses-Codes">Art des Schulabschlusses</link>
                </entry>
-               <entry align="left">2025-10-28</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -127,8 +127,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.bewertungsschema.Bewertungsschema-Codes">Bewertungsschema</link>
                </entry>
-               <entry align="left">2025-02-04</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">
@@ -260,8 +260,8 @@
                   <link role="schwarz"
                         linkend="tabelle.urn.xbildung-de.xbildung.codeliste.lernzeitmodell.Lernzeitmodell-Codes">Lernzeitmodell</link>
                </entry>
-               <entry align="left">2025-02-04</entry>
-               <entry align="left">1</entry>
+               <entry align="left">--</entry>
+               <entry align="left">3</entry>
             </row>
             <row>
                <entry align="left">

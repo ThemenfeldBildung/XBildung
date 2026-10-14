@@ -58,10 +58,11 @@
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Zeitraum" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
@@ -69,43 +70,46 @@
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">namePraktikumsstelle</emphasis>
+                  <emphasis role="bold">ausbildungsbetrieb</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">datatypeE</emphasis>
+                  <emphasis role="codebf">Ausbildungsbetrieb</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Quelle"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="externe.modelle.XOEV_Bibliothek" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Ausbildungsbetrieb"
+                        role="Seitenzahl"/>
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Angaben zum offiziellen Namen einer Organisation, in der das Praktikum absolviert wurde.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zum Ausbildungsbetrieb bzw. zur Praktikumsstelle, bei der das Praktikum absolviert wurde.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">ort</emphasis>
+                  <emphasis role="bold">beschreibung</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">Ortsangabe</emphasis>
+                  <emphasis role="codebf">String.Localized</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Basisdatentypen.String.Localized"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Basisdatentypen.String.Localized" role="Seitenzahl"/>
                </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Ort (im Sinne der Anschrift), an dem das Praktikum absolviert wurde.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zur näheren Beschreibung des Praktikums.</para></entry>
             </row>
          </tbody>
       </tgroup>

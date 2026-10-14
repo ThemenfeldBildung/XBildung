@@ -26,7 +26,7 @@
       xlink:href="https://verwaltung.bund.de/portal/DE/Lebenslagen/Schule_Ausbildung_Studium"
       >Lebenslagen</link>-übergreifend für Interoperabilität im Bildungswesen sorgt. Dieser Rahmen
     soll Themen abbilden, die nicht direkt schul-, berufsbildungs- oder hochschulspezifisch sind.
-    Diesen Bedarf erfüllt &fachmodul;. Mit &fachmodul; können Entwicklungsaufwände gebündelt werden
+    Diesen Bedarf erfüllt &fachmodul;. Mit &fachmodul; können Entwicklungsaufwände gebündelt werden,
     um die parallele Entwicklung digitaler Verwaltungsdienstleistungen im Bildungswesen zu
     berücksichtigen.</para>
   <para>Übergeordnetes Ziel ist die Förderung der Interoperabilität im Bildungswesen durch die
@@ -63,7 +63,7 @@
           xlink:href="https://www.digitale-verwaltung.de/SharedDocs/downloads/Webs/DV/DE/sdg-factsheet-evidence-survey.pdf"
           >EU OOTS Exchange Data Model</link>, zum <link
           xlink:href="https://europass.europa.eu/en/node/2128">European Learning Model</link> (ELM)
-        sowie zu fachspezifischen, grenzübergreifender Vorhaben wie <link
+        sowie zu fachspezifischen, grenzübergreifenden Vorhaben wie <link
           xlink:href="https://emrex.eu/">EMREX/ELMO</link>. Dies ermöglicht einerseits die
         Berücksichtigung europäischer Anforderungen, die im Rahmen von XBildung relevant sind und
         die Möglichkeit eines Mappings von Wertelisten, wo Interoperabilität zu den europäischen

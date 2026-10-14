@@ -23,17 +23,12 @@
             <row>
                <entry>-beschreibung</entry>
                <entry><para>
-Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung. Sie wurde mit den Stakeholdern von XBildung und seinen Teilmodulen gemäß den Bedarfen für die jeweiligen Anwendungsfälle erstellt und deckt sich in Teilen mit Einträgen der Assessment Types des European Learning Model (ELM).
-</para>
-<para>
-ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment">https://op.europa.eu/de/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/assessment</link>
-</para></entry>
+Diese Codeliste enthält mögliche Ausprägungen der Art einer Prüfung.</para>
+<para>Link zur Website: <link xlink:href="https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:artderpruefung">https://www.xrepository.de/details/urn:xbildung-de:xbildung:codeliste:artderpruefung</link></para></entry>
             </row>
             <row>
                <entry>-nutzung</entry>
-               <entry>Typ: 1, Inhalte der Codeliste siehe <xref linkend="tabelle.urn.xbildung-de.xbildung.codeliste.artderpruefung.ArtDerPruefung-Codes"
-                        role="Seite"/>
-               </entry>
+               <entry>Typ: 3, siehe Beschreibung</entry>
             </row>
             <row>
                <entry>-kennung</entry>
@@ -41,7 +36,7 @@ ELM List Of Assessment Types: <link xlink:href="https://op.europa.eu/de/web/eu-v
             </row>
             <row>
                <entry>-version</entry>
-               <entry>1.0</entry>
+               <entry>unbestimmt</entry>
             </row>
          </tbody>
       </tgroup>

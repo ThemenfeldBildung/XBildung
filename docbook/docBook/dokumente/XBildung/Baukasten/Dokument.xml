@@ -102,7 +102,7 @@
             <row>
                <entry rowsep="0" colsep="1"/>
                <entry namest="indent1" nameend="child">
-                  <emphasis role="bold">ort</emphasis>
+                  <emphasis role="bold">ortsangabe</emphasis>
                </entry>
                <entry>
                   <emphasis role="codebf">Ortsangabe</emphasis>
@@ -111,31 +111,38 @@
                   <emphasis role="bold">0..1</emphasis>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="AbschnittNummer"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Ortsangabe"
+                        role="AbschnittNummer"/>
                </entry>
                <entry>
-                  <xref linkend="XBildung.Baukasten.Ortsangabe" role="Seitenzahl"/>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Ortsangabe"
+                        role="Seitenzahl"/>
                </entry>
             </row>
             <row>
                <entry rowsep="1" colsep="1"/>
-               <entry namest="indent1" nameend="page"><para>Ort der Ausstellung des Dokuments</para></entry>
+               <entry namest="indent1" nameend="page"><para>Angaben zum Ort der Ausstellung des Dokuments</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
-                  <emphasis role="bold">gueltigkeitsdatum</emphasis>
+                  <emphasis role="bold">gueltigkeit</emphasis>
                </entry>
                <entry>
-                  <emphasis role="codebf">xs:date</emphasis>
+                  <emphasis role="codebf">Zeitraum</emphasis>
                </entry>
                <entry>
                   <emphasis role="bold">0..1</emphasis>
                </entry>
-               <entry/>
-               <entry/>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum"
+                        role="AbschnittNummer"/>
+               </entry>
+               <entry>
+                  <xref linkend="XBildung.Baukasten.Kernkomponenten.Zeitraum" role="Seitenzahl"/>
+               </entry>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Datum, ab dem das Dokument gültig ist.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Angaben zur Gültigkeit des Dokuments. Dabei kann es sich um einen begrenzten Zeitraum (Beginn und Ende angegeben) oder ein offenes Intervall (nur Beginn oder Ende angegeben) handeln.</para></entry>
             </row>
             <row>
                <entry namest="indent0" nameend="child">
@@ -171,7 +178,7 @@
                <entry/>
             </row>
             <row>
-               <entry namest="indent0" nameend="page"><para>Erlaubt die Angabe einer Nonce, die in einer technischen Implementierung aus verschiedenen Gründen relevant sein kann. Zum Beispiel um die Entropie der Daten zu erhöhen.</para></entry>
+               <entry namest="indent0" nameend="page"><para>Erlaubt die Angabe einer Nonce, die in einer technischen Implementierung aus verschiedenen Gründen relevant sein kann. Zum Beispiel, um die Entropie der Daten zu erhöhen.</para></entry>
             </row>
          </tbody>
       </tgroup>

@@ -4,6 +4,10 @@
          xml:id="datentypen.aggregiert.XBildung.Baukasten">
    <title>Datentypen</title>
    <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Kernkomponenten/Anschrift.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Kernkomponenten/Ausbildungsbetrieb.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Benotung.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Codes/Code.AmtlicherGemeindeschluessel.xml"/>
@@ -52,11 +56,15 @@
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Dokument.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Ortsangabe.xml"/>
+            href="../../XBildung/Baukasten/Kernkomponenten/Identifikation.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Kernkomponenten/NameOrganisation.xml"/>
+   <include xmlns="http://www.w3.org/2001/XInclude"
+            href="../../XBildung/Baukasten/Kernkomponenten/Ortsangabe.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/Praktikum.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
             href="../../XBildung/Baukasten/TeilbekanntesDatum.xml"/>
    <include xmlns="http://www.w3.org/2001/XInclude"
-            href="../../XBildung/Baukasten/Zeitraum.xml"/>
+            href="../../XBildung/Baukasten/Kernkomponenten/Zeitraum.xml"/>
 </section>
